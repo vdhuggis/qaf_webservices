@@ -1,0 +1,25 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "WebServiceTesting Scenario",
+        "groups": [
+          "SMOKE"
+        ],
+        "lineNo": 1,
+        "name": "WebServiceTesting",
+        "referece": "scenarios/suite1.bdd",
+        "resultFileName": "WebServiceTesting",
+        "sign": "scenarios.suite1.bdd.WebServiceTesting()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]"
+      },
+      "dependsOn": [],
+      "startTime": 1589780023142,
+      "duration": 1402,
+      "result": "fail",
+      "passPer": 0.0
+    }
+  ]
+}

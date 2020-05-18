@@ -1,0 +1,2141 @@
+21:46:13 scenario.file.loc[Ljava.lang.String;@10dba097
+21:46:13 loading feature file: C:\Users\vaidh\eclipse-workspace\foodautomationadv\.\scenarios\metadata.feature
+21:46:13 loading feature file: C:\Users\vaidh\eclipse-workspace\foodautomationadv\.\scenarios\metadataexample.feature
+21:46:13 total test found: 0
+21:47:22 scenario.file.loc[Ljava.lang.String;@10dba097
+21:47:22 loading feature file: C:\Users\vaidh\eclipse-workspace\foodautomationadv\.\scenarios\metadata.feature
+21:47:22 loading feature file: C:\Users\vaidh\eclipse-workspace\foodautomationadv\.\scenarios\metadataexample.feature
+21:47:22 total test found: 0
+21:48:14 scenario.file.loc[Ljava.lang.String;@10dba097
+21:48:14 loading feature file: C:\Users\vaidh\eclipse-workspace\foodautomationadv\.\scenarios\metadata.feature
+21:48:14 loading feature file: C:\Users\vaidh\eclipse-workspace\foodautomationadv\.\scenarios\metadataexample.feature
+21:48:14 total test found: 3
+21:48:14 
+
+Executing scenario: verify Test Food Receipe Title - 
+21:48:14 Test Data{searchtext=breakfast pizza, Reviewcomment=Good, searchRecipe=Biriyani, Invalidsearch=Iphone, recipeTittle=RECIPES, username=vdhuggis@gmail.com, password=Arjun@17, __index=1}
+21:48:14 pkg: com.qmetry.qaf.automation.step
+21:48:14 pkg: com.qmetry.qaf.example
+21:48:14 Found duplicate step to load [] with [lower] prority then []
+21:48:14 Invoking Teststep: Given get '/' with arguments: [/]
+21:48:24 Completed Teststep: Given get '/' with arguments: [/]
+21:48:24 Invoking Teststep: When navigate to recipe page
+21:48:24 Invoking Teststep: click on {loc} with arguments: [recipeLink.click]
+21:48:24 Completed Teststep: click on {loc} with arguments: [recipeLink.click]
+21:48:24 Completed Teststep: When navigate to recipe page
+21:48:24 Invoking Teststep: Then verify text is RECIPES '${recipeTittle}' with arguments: [${recipeTittle}]
+21:48:31 Completed Teststep: Then verify text is RECIPES 'RECIPES' with arguments: [${recipeTittle}]
+21:48:31 Competed scenario: verify Test Food Receipe Title with status SUCCESS
+21:48:31 
+
+Executing scenario: verify Save Recipe Action for Guest User - 
+21:48:31 Test Data{searchtext=breakfast pizza, Reviewcomment=Good, searchRecipe=Biriyani, Invalidsearch=Iphone, recipeTittle=RECIPES, username=vdhuggis@gmail.com, password=Arjun@17, __index=1}
+21:48:31 Invoking Teststep: Given get '/' with arguments: [/]
+21:48:32 Completed Teststep: Given get '/' with arguments: [/]
+21:48:32 Invoking Teststep: When navigate to recipe page
+21:48:33 Invoking Teststep: click on {loc} with arguments: [recipeLink.click]
+21:48:34 Completed Teststep: click on {loc} with arguments: [recipeLink.click]
+21:48:34 Completed Teststep: When navigate to recipe page
+21:48:34 Invoking Teststep: When navigate to search page
+21:48:44 Invoking Teststep: click on {loc} with arguments: [recipe.search]
+21:48:45 Completed Teststep: click on {loc} with arguments: [recipe.search]
+21:48:45 Invoking Teststep: wait until {loc} to be visible with arguments: [recipetype.search]
+21:48:46 Completed Teststep: wait until {loc} to be visible with arguments: [recipetype.search]
+21:48:46 Completed Teststep: When navigate to search page
+21:48:46 Invoking Teststep: Then search recipe '${searchtext}' with arguments: [${searchtext}]
+21:48:46 Invoking Teststep: click on {loc} with arguments: [recipetype.search]
+21:48:47 Completed Teststep: click on {loc} with arguments: [recipetype.search]
+21:48:47 Invoking Teststep: sendKeys {text} into {loc} with arguments: [breakfast pizza?, recipetype.search]
+21:48:47 Completed Teststep: sendKeys {text} into {loc} with arguments: [breakfast pizza?, recipetype.search]
+21:48:57 Completed Teststep: Then search recipe 'breakfast pizza' with arguments: [${searchtext}]
+21:48:57 Invoking Teststep: Then select a recipe
+21:49:07 Invoking Teststep: click on {loc} with arguments: [pizzaRecipeImg.click]
+21:49:11 Completed Teststep: click on {loc} with arguments: [pizzaRecipeImg.click]
+21:49:21 Completed Teststep: Then select a recipe
+21:49:21 Invoking Teststep: Then save a recipe
+21:49:21 Invoking Teststep: click on {loc} with arguments: [saveReceipeBtn.click]
+21:49:21 Completed Teststep: click on {loc} with arguments: [saveReceipeBtn.click]
+21:49:31 Completed Teststep: Then save a recipe
+21:49:31 Invoking Teststep: Then verify login message for unregistered user while save/review
+21:49:41 Invoking Teststep: assert {loc} is visible with arguments: [saveMessageText.verify]
+21:49:41 Completed Teststep: assert {loc} is visible with arguments: [saveMessageText.verify]
+21:49:41 Completed Teststep: Then verify login message for unregistered user while save/review
+21:49:41 Competed scenario: verify Save Recipe Action for Guest User with status SUCCESS
+21:49:42 
+
+Executing scenario: verify Invalid Search - 
+21:49:42 Test Data{searchtext=breakfast pizza, Reviewcomment=Good, searchRecipe=Biriyani, Invalidsearch=Iphone, recipeTittle=RECIPES, username=vdhuggis@gmail.com, password=Arjun@17, __index=1}
+21:49:42 Invoking Teststep: Given get '/' with arguments: [/]
+21:49:42 Completed Teststep: Given get '/' with arguments: [/]
+21:49:42 Invoking Teststep: When navigate to recipe page
+21:49:43 Invoking Teststep: click on {loc} with arguments: [recipeLink.click]
+21:49:44 Completed Teststep: click on {loc} with arguments: [recipeLink.click]
+21:49:44 Completed Teststep: When navigate to recipe page
+21:49:44 Invoking Teststep: When navigate to search page
+21:49:54 Invoking Teststep: click on {loc} with arguments: [recipe.search]
+21:49:55 Completed Teststep: click on {loc} with arguments: [recipe.search]
+21:49:55 Invoking Teststep: wait until {loc} to be visible with arguments: [recipetype.search]
+21:49:55 Completed Teststep: wait until {loc} to be visible with arguments: [recipetype.search]
+21:49:55 Completed Teststep: When navigate to search page
+21:49:55 Invoking Teststep: Then search recipe '${Invalidsearch}' with arguments: [${Invalidsearch}]
+21:49:56 Invoking Teststep: click on {loc} with arguments: [recipetype.search]
+21:49:56 Completed Teststep: click on {loc} with arguments: [recipetype.search]
+21:49:56 Invoking Teststep: sendKeys {text} into {loc} with arguments: [Iphone?, recipetype.search]
+21:49:56 Completed Teststep: sendKeys {text} into {loc} with arguments: [Iphone?, recipetype.search]
+21:50:06 Completed Teststep: Then search recipe 'Iphone' with arguments: [${Invalidsearch}]
+21:50:06 Invoking Teststep: Then verify no match message
+21:50:06 Invoking Teststep: assert {loc} is visible with arguments: [noMatchRecipeMsg.verify]
+21:50:07 Completed Teststep: assert {loc} is visible with arguments: [noMatchRecipeMsg.verify]
+21:50:07 Completed Teststep: Then verify no match message
+21:50:07 Competed scenario: verify Invalid Search with status SUCCESS
+21:51:34 scenario.file.loc[Ljava.lang.String;@10dba097
+21:51:34 loading feature file: C:\Users\vaidh\eclipse-workspace\foodautomationadv\.\scenarios\metadata.feature
+21:51:34 loading feature file: C:\Users\vaidh\eclipse-workspace\foodautomationadv\.\scenarios\metadataexample.feature
+21:51:34 total test found: 6
+21:51:35 
+
+Executing scenario: verify Test Food Receipe Title - 
+21:51:35 Test Data{searchtext=breakfast pizza, Reviewcomment=Good, searchRecipe=Biriyani, Invalidsearch=Iphone, recipeTittle=RECIPES, username=vdhuggis@gmail.com, password=Arjun@17, __index=1}
+21:51:35 pkg: com.qmetry.qaf.automation.step
+21:51:35 pkg: com.qmetry.qaf.example
+21:51:35 Found duplicate step to load [] with [lower] prority then []
+21:51:35 Invoking Teststep: Given get '/' with arguments: [/]
+21:51:45 Completed Teststep: Given get '/' with arguments: [/]
+21:51:45 Invoking Teststep: When navigate to recipe page
+21:51:45 Invoking Teststep: click on {loc} with arguments: [recipeLink.click]
+21:51:45 Completed Teststep: click on {loc} with arguments: [recipeLink.click]
+21:51:45 Completed Teststep: When navigate to recipe page
+21:51:45 Invoking Teststep: Then verify text is RECIPES '${recipeTittle}' with arguments: [${recipeTittle}]
+21:51:48 Completed Teststep: Then verify text is RECIPES 'RECIPES' with arguments: [${recipeTittle}]
+21:51:48 Competed scenario: verify Test Food Receipe Title with status SUCCESS
+21:51:48 
+
+Executing scenario: verify Search Results - 
+21:51:48 Test Data{searchtext=breakfast pizza, Reviewcomment=Good, searchRecipe=Biriyani, Invalidsearch=Iphone, recipeTittle=RECIPES, username=vdhuggis@gmail.com, password=Arjun@17, __index=1}
+21:51:48 Invoking Teststep: Given get '/' with arguments: [/]
+21:51:49 Completed Teststep: Given get '/' with arguments: [/]
+21:51:49 Invoking Teststep: When navigate to recipe page
+21:51:50 Invoking Teststep: click on {loc} with arguments: [recipeLink.click]
+21:51:50 Completed Teststep: click on {loc} with arguments: [recipeLink.click]
+21:51:50 Completed Teststep: When navigate to recipe page
+21:51:50 Invoking Teststep: When navigate to search page
+21:52:00 Invoking Teststep: click on {loc} with arguments: [recipe.search]
+21:52:02 Completed Teststep: click on {loc} with arguments: [recipe.search]
+21:52:02 Invoking Teststep: wait until {loc} to be visible with arguments: [recipetype.search]
+21:52:03 Completed Teststep: wait until {loc} to be visible with arguments: [recipetype.search]
+21:52:03 Completed Teststep: When navigate to search page
+21:52:03 Invoking Teststep: Then search recipe '${searchRecipe}' with arguments: [${searchRecipe}]
+21:52:03 Invoking Teststep: click on {loc} with arguments: [recipetype.search]
+21:52:03 Completed Teststep: click on {loc} with arguments: [recipetype.search]
+21:52:03 Invoking Teststep: sendKeys {text} into {loc} with arguments: [Biriyani?, recipetype.search]
+21:52:03 Completed Teststep: sendKeys {text} into {loc} with arguments: [Biriyani?, recipetype.search]
+21:52:13 Completed Teststep: Then search recipe 'Biriyani' with arguments: [${searchRecipe}]
+21:52:13 Invoking Teststep: Then verify result count
+21:52:14 Invoking Teststep: assert {loc} text is {text} with arguments: [resultCountText.verify, 10 RESULTS]
+21:52:14 Completed Teststep: assert {loc} text is {text} with arguments: [resultCountText.verify, 10 RESULTS]
+21:52:14 Completed Teststep: Then verify result count
+21:52:14 Competed scenario: verify Search Results with status SUCCESS
+21:52:14 
+
+Executing scenario: verify Save Recipe Action for Guest User - 
+21:52:14 Test Data{searchtext=breakfast pizza, Reviewcomment=Good, searchRecipe=Biriyani, Invalidsearch=Iphone, recipeTittle=RECIPES, username=vdhuggis@gmail.com, password=Arjun@17, __index=1}
+21:52:14 Invoking Teststep: Given get '/' with arguments: [/]
+21:52:15 Completed Teststep: Given get '/' with arguments: [/]
+21:52:15 Invoking Teststep: When navigate to recipe page
+21:52:17 Invoking Teststep: click on {loc} with arguments: [recipeLink.click]
+21:52:19 Completed Teststep: click on {loc} with arguments: [recipeLink.click]
+21:52:19 Completed Teststep: When navigate to recipe page
+21:52:19 Invoking Teststep: When navigate to search page
+21:52:29 Invoking Teststep: click on {loc} with arguments: [recipe.search]
+21:52:30 Completed Teststep: click on {loc} with arguments: [recipe.search]
+21:52:30 Invoking Teststep: wait until {loc} to be visible with arguments: [recipetype.search]
+21:52:30 Completed Teststep: wait until {loc} to be visible with arguments: [recipetype.search]
+21:52:30 Completed Teststep: When navigate to search page
+21:52:30 Invoking Teststep: Then search recipe '${searchtext}' with arguments: [${searchtext}]
+21:52:30 Invoking Teststep: click on {loc} with arguments: [recipetype.search]
+21:52:31 Completed Teststep: click on {loc} with arguments: [recipetype.search]
+21:52:31 Invoking Teststep: sendKeys {text} into {loc} with arguments: [breakfast pizza?, recipetype.search]
+21:52:32 Completed Teststep: sendKeys {text} into {loc} with arguments: [breakfast pizza?, recipetype.search]
+21:52:42 Completed Teststep: Then search recipe 'breakfast pizza' with arguments: [${searchtext}]
+21:52:42 Invoking Teststep: Then select a recipe
+21:52:52 Invoking Teststep: click on {loc} with arguments: [pizzaRecipeImg.click]
+21:52:52 Completed Teststep: click on {loc} with arguments: [pizzaRecipeImg.click]
+21:53:02 Completed Teststep: Then select a recipe
+21:53:02 Invoking Teststep: Then save a recipe
+21:53:02 Invoking Teststep: click on {loc} with arguments: [saveReceipeBtn.click]
+21:53:02 Completed Teststep: click on {loc} with arguments: [saveReceipeBtn.click]
+21:53:12 Completed Teststep: Then save a recipe
+21:53:12 Invoking Teststep: Then verify login message for unregistered user while save/review
+21:53:22 Invoking Teststep: assert {loc} is visible with arguments: [saveMessageText.verify]
+21:53:23 Completed Teststep: assert {loc} is visible with arguments: [saveMessageText.verify]
+21:53:23 Completed Teststep: Then verify login message for unregistered user while save/review
+21:53:23 Competed scenario: verify Save Recipe Action for Guest User with status SUCCESS
+21:53:23 
+
+Executing scenario: verify Review Recipe Action for Guest User - 
+21:53:23 Test Data{searchtext=breakfast pizza, Reviewcomment=Good, searchRecipe=Biriyani, Invalidsearch=Iphone, recipeTittle=RECIPES, username=vdhuggis@gmail.com, password=Arjun@17, __index=1}
+21:53:23 Invoking Teststep: Given get '/' with arguments: [/]
+21:53:24 Completed Teststep: Given get '/' with arguments: [/]
+21:53:24 Invoking Teststep: When navigate to recipe page
+21:53:25 Invoking Teststep: click on {loc} with arguments: [recipeLink.click]
+21:53:26 Completed Teststep: click on {loc} with arguments: [recipeLink.click]
+21:53:26 Completed Teststep: When navigate to recipe page
+21:53:26 Invoking Teststep: When navigate to search page
+21:53:36 Invoking Teststep: click on {loc} with arguments: [recipe.search]
+21:53:38 Completed Teststep: click on {loc} with arguments: [recipe.search]
+21:53:38 Invoking Teststep: wait until {loc} to be visible with arguments: [recipetype.search]
+21:53:39 Completed Teststep: wait until {loc} to be visible with arguments: [recipetype.search]
+21:53:39 Completed Teststep: When navigate to search page
+21:53:39 Invoking Teststep: Then search recipe '${searchtext}' with arguments: [${searchtext}]
+21:53:39 Invoking Teststep: click on {loc} with arguments: [recipetype.search]
+21:53:40 Completed Teststep: click on {loc} with arguments: [recipetype.search]
+21:53:40 Invoking Teststep: sendKeys {text} into {loc} with arguments: [breakfast pizza?, recipetype.search]
+21:53:40 Completed Teststep: sendKeys {text} into {loc} with arguments: [breakfast pizza?, recipetype.search]
+21:53:50 Completed Teststep: Then search recipe 'breakfast pizza' with arguments: [${searchtext}]
+21:53:50 Invoking Teststep: Then select a recipe
+21:54:00 Invoking Teststep: click on {loc} with arguments: [pizzaRecipeImg.click]
+21:54:00 Completed Teststep: click on {loc} with arguments: [pizzaRecipeImg.click]
+21:54:10 Completed Teststep: Then select a recipe
+21:54:10 Invoking Teststep: Then click on review btn
+21:54:11 Invoking Teststep: click on {loc} with arguments: [reviewBtn.click]
+21:54:11 Completed Teststep: click on {loc} with arguments: [reviewBtn.click]
+21:54:21 Completed Teststep: Then click on review btn
+21:54:21 Invoking Teststep: Then write a review '${Reviewcomment}' with arguments: [${Reviewcomment}]
+21:54:31 Invoking Teststep: sendKeys {text} into {loc} with arguments: [Good?, writeReview.click]
+21:54:31 Completed Teststep: sendKeys {text} into {loc} with arguments: [Good?, writeReview.click]
+21:54:41 Completed Teststep: Then write a review 'Good' with arguments: [${Reviewcomment}]
+21:54:41 Invoking Teststep: Then verify login message for unregistered user while save/review
+21:54:51 Invoking Teststep: assert {loc} is visible with arguments: [saveMessageText.verify]
+21:54:52 Completed Teststep: assert {loc} is visible with arguments: [saveMessageText.verify]
+21:54:52 Completed Teststep: Then verify login message for unregistered user while save/review
+21:54:52 Competed scenario: verify Review Recipe Action for Guest User with status SUCCESS
+21:54:52 
+
+Executing scenario: verify Invalid Search - 
+21:54:52 Test Data{searchtext=breakfast pizza, Reviewcomment=Good, searchRecipe=Biriyani, Invalidsearch=Iphone, recipeTittle=RECIPES, username=vdhuggis@gmail.com, password=Arjun@17, __index=1}
+21:54:52 Invoking Teststep: Given get '/' with arguments: [/]
+21:54:53 Completed Teststep: Given get '/' with arguments: [/]
+21:54:53 Invoking Teststep: When navigate to recipe page
+21:54:54 Invoking Teststep: click on {loc} with arguments: [recipeLink.click]
+21:54:56 Failure Teststep: click on {loc} with arguments: [recipeLink.click]
+com.qmetry.qaf.automation.step.JavaStepReporter$JPThrowable: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a href="/recipe?ref=nav" class="" ref="gk-menu-item">...</a> is not clickable at point (255, 135). Other element would receive the click: <iframe scrolling="no" frameborder="0"></iframe>
+  (Session info: chrome=81.0.4044.138)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'VAIDHUSANTHU', ip: '192.168.0.56', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: C:\Users\vaidh\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52686}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 75b47d1de1872e1aac2cd8d6159aafcc
+	at com.qmetry.qaf.automation.step.JavaStepReporter$MockJavaStep.doExecute(JavaStepReporter.java:144)
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)
+	at com.qmetry.qaf.automation.step.JavaStepReporter.javaTestStep(JavaStepReporter.java:88)
+	at com.qmetry.qaf.automation.step.CommonStep.click(CommonStep.java:459)
+	at com.qmetry.qaf.example.steps.StepsLibrary.navigateToRecipePage(StepsLibrary.java:228)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:153)
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:134)
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:180)
+	at com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(DataDrivenScenario.java:69)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:781)
+	at org.testng.TestRunner.run(TestRunner.java:635)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a href="/recipe?ref=nav" class="" ref="gk-menu-item">...</a> is not clickable at point (255, 135). Other element would receive the click: <iframe scrolling="no" frameborder="0"></iframe>
+  (Session info: chrome=81.0.4044.138)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'VAIDHUSANTHU', ip: '192.168.0.56', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: C:\Users\vaidh\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52686}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 75b47d1de1872e1aac2cd8d6159aafcc
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.executeWitoutLog(QAFExtendedWebDriver.java:257)
+	at com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.execute(QAFExtendedWebElement.java:263)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at com.qmetry.qaf.automation.step.CommonStep.click_aroundBody38(CommonStep.java:460)
+	at com.qmetry.qaf.automation.step.CommonStep$AjcClosure39.run(CommonStep.java:1)
+	at org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:149)
+	at com.qmetry.qaf.automation.step.JavaStepReporter$MockJavaStep.doExecute(JavaStepReporter.java:138)
+	... 38 more
+21:54:56 Completed Teststep: click on {loc} with arguments: [recipeLink.click]
+21:54:56 Failure Teststep: When navigate to recipe page
+org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a href="/recipe?ref=nav" class="" ref="gk-menu-item">...</a> is not clickable at point (255, 135). Other element would receive the click: <iframe scrolling="no" frameborder="0"></iframe>
+  (Session info: chrome=81.0.4044.138)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'VAIDHUSANTHU', ip: '192.168.0.56', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: C:\Users\vaidh\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52686}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 75b47d1de1872e1aac2cd8d6159aafcc
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.executeWitoutLog(QAFExtendedWebDriver.java:257)
+	at com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.execute(QAFExtendedWebElement.java:263)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at com.qmetry.qaf.automation.step.CommonStep.click_aroundBody38(CommonStep.java:460)
+	at com.qmetry.qaf.automation.step.CommonStep$AjcClosure39.run(CommonStep.java:1)
+	at org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:149)
+	at com.qmetry.qaf.automation.step.JavaStepReporter$MockJavaStep.doExecute(JavaStepReporter.java:138)
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)
+	at com.qmetry.qaf.automation.step.JavaStepReporter.javaTestStep(JavaStepReporter.java:88)
+	at com.qmetry.qaf.automation.step.CommonStep.click(CommonStep.java:459)
+	at com.qmetry.qaf.example.steps.StepsLibrary.navigateToRecipePage(StepsLibrary.java:228)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:153)
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:134)
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:180)
+	at com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(DataDrivenScenario.java:69)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:781)
+	at org.testng.TestRunner.run(TestRunner.java:635)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+21:54:56 Completed Teststep: When navigate to recipe page
+21:54:56 Competed scenario: verify Invalid Search with status FAILURE
+21:54:57 
+
+Executing scenario: Verify SAVES Button functionality - 
+21:54:57 Test Data{searchtext=breakfast pizza, Reviewcomment=Good, searchRecipe=Biriyani, Invalidsearch=Iphone, recipeTittle=RECIPES, username=vdhuggis@gmail.com, password=Arjun@17, __index=1}
+21:54:57 Invoking Teststep: Given get '/' with arguments: [/]
+21:54:58 Completed Teststep: Given get '/' with arguments: [/]
+21:54:58 Invoking Teststep: When login as Reg User '${username}' '${password}' with arguments: [${username}, ${password}]
+21:55:09 Invoking Teststep: wait until {loc} to be visible with arguments: [logInBtn.click]
+21:55:10 Completed Teststep: wait until {loc} to be visible with arguments: [logInBtn.click]
+21:55:10 Invoking Teststep: click on {loc} with arguments: [logInBtn.click]
+21:55:10 Completed Teststep: click on {loc} with arguments: [logInBtn.click]
+21:55:10 Invoking Teststep: wait until {loc} to be visible with arguments: [emailTxt.click]
+21:55:10 Completed Teststep: wait until {loc} to be visible with arguments: [emailTxt.click]
+21:55:10 Invoking Teststep: click on {loc} with arguments: [emailTxt.click]
+21:55:10 Completed Teststep: click on {loc} with arguments: [emailTxt.click]
+21:55:10 Invoking Teststep: sendKeys {text} into {loc} with arguments: [vdhuggis@gmail.com, emailTxt.click]
+21:55:10 Completed Teststep: sendKeys {text} into {loc} with arguments: [vdhuggis@gmail.com, emailTxt.click]
+21:55:10 Invoking Teststep: wait until {loc} to be visible with arguments: [pwdTxt.click]
+21:55:10 Completed Teststep: wait until {loc} to be visible with arguments: [pwdTxt.click]
+21:55:10 Invoking Teststep: click on {loc} with arguments: [pwdTxt.click]
+21:55:10 Completed Teststep: click on {loc} with arguments: [pwdTxt.click]
+21:55:10 Invoking Teststep: sendKeys {text} into {loc} with arguments: [Arjun@17?, pwdTxt.click]
+21:55:10 Completed Teststep: sendKeys {text} into {loc} with arguments: [Arjun@17?, pwdTxt.click]
+21:55:20 Completed Teststep: When login as Reg User 'vdhuggis@gmail.com' 'Arjun@17' with arguments: [${username}, ${password}]
+21:55:20 Invoking Teststep: Then navigate to search page
+21:55:31 Invoking Teststep: click on {loc} with arguments: [recipe.search]
+21:55:32 Completed Teststep: click on {loc} with arguments: [recipe.search]
+21:55:32 Invoking Teststep: wait until {loc} to be visible with arguments: [recipetype.search]
+21:55:32 Completed Teststep: wait until {loc} to be visible with arguments: [recipetype.search]
+21:55:32 Completed Teststep: Then navigate to search page
+21:55:32 Invoking Teststep: Then search recipe '${searchtext}' with arguments: [${searchtext}]
+21:55:32 Invoking Teststep: click on {loc} with arguments: [recipetype.search]
+21:55:33 Completed Teststep: click on {loc} with arguments: [recipetype.search]
+21:55:33 Invoking Teststep: sendKeys {text} into {loc} with arguments: [breakfast pizza?, recipetype.search]
+21:55:33 Completed Teststep: sendKeys {text} into {loc} with arguments: [breakfast pizza?, recipetype.search]
+21:55:43 Completed Teststep: Then search recipe 'breakfast pizza' with arguments: [${searchtext}]
+21:55:43 Invoking Teststep: Then select a recipe
+21:55:53 Invoking Teststep: click on {loc} with arguments: [pizzaRecipeImg.click]
+21:55:53 Completed Teststep: click on {loc} with arguments: [pizzaRecipeImg.click]
+21:56:03 Completed Teststep: Then select a recipe
+21:56:03 Invoking Teststep: Then save a recipe
+21:56:34 Failure Teststep: Then save a recipe
+org.openqa.selenium.TimeoutException: Timed out after 30 seconds: Wait time out for Save a recipe to be visible
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'VAIDHUSANTHU', ip: '192.168.0.56', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: driver.version: unknown
+	at com.qmetry.qaf.automation.ui.util.DynamicWait.until(DynamicWait.java:170)
+	at com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.waitForVisible(QAFExtendedWebElement.java:535)
+	at com.qmetry.qaf.automation.step.CommonStep.waitForVisible_aroundBody42(CommonStep.java:520)
+	at com.qmetry.qaf.automation.step.CommonStep$AjcClosure43.run(CommonStep.java:1)
+	at org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:149)
+	at com.qmetry.qaf.automation.step.JavaStepReporter.javaTestStep(JavaStepReporter.java:101)
+	at com.qmetry.qaf.automation.step.CommonStep.waitForVisible(CommonStep.java:519)
+	at com.qmetry.qaf.example.steps.StepsLibrary.saveRecipe(StepsLibrary.java:72)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:153)
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:134)
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:180)
+	at com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(DataDrivenScenario.java:69)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:781)
+	at org.testng.TestRunner.run(TestRunner.java:635)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+21:56:34 Completed Teststep: Then save a recipe
+21:56:34 Competed scenario: Verify SAVES Button functionality with status FAILURE
+21:59:25 scenario.file.loc[Ljava.lang.String;@10dba097
+21:59:25 loading feature file: C:\Users\vaidh\eclipse-workspace\foodautomationadv\.\scenarios\metadata.feature
+21:59:25 loading feature file: C:\Users\vaidh\eclipse-workspace\foodautomationadv\.\scenarios\metadataexample.feature
+21:59:26 total test found: 1
+21:59:26 
+
+Executing scenario: verify Review Recipe Action for Guest User - 
+21:59:26 Test Data{searchtext=breakfast pizza, Reviewcomment=Good, searchRecipe=Biriyani, Invalidsearch=Iphone, recipeTittle=RECIPES, username=vdhuggis@gmail.com, password=Arjun@17, __index=1}
+21:59:26 pkg: com.qmetry.qaf.automation.step
+21:59:26 pkg: com.qmetry.qaf.example
+21:59:26 Found duplicate step to load [] with [lower] prority then []
+21:59:26 Invoking Teststep: Given get '/' with arguments: [/]
+21:59:36 Completed Teststep: Given get '/' with arguments: [/]
+21:59:36 Invoking Teststep: When navigate to recipe page
+21:59:36 Invoking Teststep: wait until {loc} to be visible with arguments: [recipeLink.click]
+21:59:36 Completed Teststep: wait until {loc} to be visible with arguments: [recipeLink.click]
+21:59:36 Invoking Teststep: click on {loc} with arguments: [recipeLink.click]
+21:59:37 Completed Teststep: click on {loc} with arguments: [recipeLink.click]
+21:59:37 Completed Teststep: When navigate to recipe page
+21:59:37 Invoking Teststep: When navigate to search page
+21:59:47 Invoking Teststep: wait until {loc} to be visible with arguments: [recipe.search]
+21:59:47 Completed Teststep: wait until {loc} to be visible with arguments: [recipe.search]
+21:59:47 Invoking Teststep: click on {loc} with arguments: [recipe.search]
+21:59:49 Completed Teststep: click on {loc} with arguments: [recipe.search]
+21:59:49 Invoking Teststep: wait until {loc} to be visible with arguments: [recipetype.search]
+21:59:49 Completed Teststep: wait until {loc} to be visible with arguments: [recipetype.search]
+21:59:49 Completed Teststep: When navigate to search page
+21:59:49 Invoking Teststep: Then search recipe '${searchtext}' with arguments: [${searchtext}]
+21:59:49 Invoking Teststep: wait until {loc} to be visible with arguments: [recipetype.search]
+21:59:49 Completed Teststep: wait until {loc} to be visible with arguments: [recipetype.search]
+21:59:49 Invoking Teststep: click on {loc} with arguments: [recipetype.search]
+21:59:50 Completed Teststep: click on {loc} with arguments: [recipetype.search]
+21:59:50 Invoking Teststep: sendKeys {text} into {loc} with arguments: [breakfast pizza?, recipetype.search]
+21:59:50 Completed Teststep: sendKeys {text} into {loc} with arguments: [breakfast pizza?, recipetype.search]
+22:00:00 Completed Teststep: Then search recipe 'breakfast pizza' with arguments: [${searchtext}]
+22:00:00 Invoking Teststep: Then select a recipe
+22:00:10 Invoking Teststep: wait until {loc} to be visible with arguments: [pizzaRecipeImg.click]
+22:00:10 Completed Teststep: wait until {loc} to be visible with arguments: [pizzaRecipeImg.click]
+22:00:10 Invoking Teststep: click on {loc} with arguments: [pizzaRecipeImg.click]
+22:00:11 Completed Teststep: click on {loc} with arguments: [pizzaRecipeImg.click]
+22:00:21 Completed Teststep: Then select a recipe
+22:00:21 Invoking Teststep: Then click on review btn
+22:00:21 Invoking Teststep: wait until {loc} to be visible with arguments: [reviewBtn.click]
+22:00:21 Completed Teststep: wait until {loc} to be visible with arguments: [reviewBtn.click]
+22:00:21 Invoking Teststep: click on {loc} with arguments: [reviewBtn.click]
+22:00:21 Completed Teststep: click on {loc} with arguments: [reviewBtn.click]
+22:00:31 Completed Teststep: Then click on review btn
+22:00:31 Invoking Teststep: Then write a review '${Reviewcomment}' with arguments: [${Reviewcomment}]
+22:00:31 Invoking Teststep: wait until {loc} to be visible with arguments: [writeReview.click]
+22:00:31 Completed Teststep: wait until {loc} to be visible with arguments: [writeReview.click]
+22:00:41 Invoking Teststep: sendKeys {text} into {loc} with arguments: [Good?, writeReview.click]
+22:00:41 Completed Teststep: sendKeys {text} into {loc} with arguments: [Good?, writeReview.click]
+22:00:51 Completed Teststep: Then write a review 'Good' with arguments: [${Reviewcomment}]
+22:00:51 Invoking Teststep: Then verify login message for unregistered user while save/review
+22:00:51 Invoking Teststep: wait until {loc} to be visible with arguments: [saveMessageText.verify]
+22:01:55 scenario.file.loc[Ljava.lang.String;@10dba097
+22:01:55 loading feature file: C:\Users\vaidh\eclipse-workspace\foodautomationadv\.\scenarios\metadata.feature
+22:01:55 loading feature file: C:\Users\vaidh\eclipse-workspace\foodautomationadv\.\scenarios\metadataexample.feature
+22:01:55 total test found: 1
+22:01:55 
+
+Executing scenario: verify Invalid Search - 
+22:01:55 Test Data{searchtext=breakfast pizza, Reviewcomment=Good, searchRecipe=Biriyani, Invalidsearch=Iphone, recipeTittle=RECIPES, username=vdhuggis@gmail.com, password=Arjun@17, __index=1}
+22:01:55 pkg: com.qmetry.qaf.automation.step
+22:01:55 pkg: com.qmetry.qaf.example
+22:01:55 Found duplicate step to load [] with [lower] prority then []
+22:01:55 Invoking Teststep: Given get '/' with arguments: [/]
+22:02:04 Completed Teststep: Given get '/' with arguments: [/]
+22:02:04 Invoking Teststep: When navigate to recipe page
+22:02:04 Invoking Teststep: wait until {loc} to be visible with arguments: [recipeLink.click]
+22:02:05 Completed Teststep: wait until {loc} to be visible with arguments: [recipeLink.click]
+22:02:05 Invoking Teststep: click on {loc} with arguments: [recipeLink.click]
+22:02:05 Completed Teststep: click on {loc} with arguments: [recipeLink.click]
+22:02:05 Completed Teststep: When navigate to recipe page
+22:02:06 Invoking Teststep: When navigate to search page
+22:02:16 Invoking Teststep: wait until {loc} to be visible with arguments: [recipe.search]
+22:02:16 Completed Teststep: wait until {loc} to be visible with arguments: [recipe.search]
+22:02:16 Invoking Teststep: click on {loc} with arguments: [recipe.search]
+22:02:16 Completed Teststep: click on {loc} with arguments: [recipe.search]
+22:02:16 Invoking Teststep: wait until {loc} to be visible with arguments: [recipetype.search]
+22:02:17 Completed Teststep: wait until {loc} to be visible with arguments: [recipetype.search]
+22:02:17 Completed Teststep: When navigate to search page
+22:02:17 Invoking Teststep: Then search recipe '${Invalidsearch}' with arguments: [${Invalidsearch}]
+22:02:17 Invoking Teststep: wait until {loc} to be visible with arguments: [recipetype.search]
+22:02:18 Completed Teststep: wait until {loc} to be visible with arguments: [recipetype.search]
+22:02:18 Invoking Teststep: click on {loc} with arguments: [recipetype.search]
+22:02:18 Completed Teststep: click on {loc} with arguments: [recipetype.search]
+22:02:18 Invoking Teststep: sendKeys {text} into {loc} with arguments: [Iphone?, recipetype.search]
+22:02:19 Completed Teststep: sendKeys {text} into {loc} with arguments: [Iphone?, recipetype.search]
+22:02:29 Completed Teststep: Then search recipe 'Iphone' with arguments: [${Invalidsearch}]
+22:02:29 Invoking Teststep: Then verify no match message
+22:02:29 Invoking Teststep: wait until {loc} to be visible with arguments: [noMatchRecipeMsg.verify]
+22:02:29 Completed Teststep: wait until {loc} to be visible with arguments: [noMatchRecipeMsg.verify]
+22:02:29 Invoking Teststep: assert {loc} is visible with arguments: [noMatchRecipeMsg.verify]
+22:02:29 Completed Teststep: assert {loc} is visible with arguments: [noMatchRecipeMsg.verify]
+22:02:29 Completed Teststep: Then verify no match message
+22:02:29 Competed scenario: verify Invalid Search with status SUCCESS
+22:03:12 scenario.file.loc[Ljava.lang.String;@10dba097
+22:03:12 loading feature file: C:\Users\vaidh\eclipse-workspace\foodautomationadv\.\scenarios\metadata.feature
+22:03:12 loading feature file: C:\Users\vaidh\eclipse-workspace\foodautomationadv\.\scenarios\metadataexample.feature
+22:03:12 total test found: 6
+22:03:13 
+
+Executing scenario: verify Test Food Receipe Title - 
+22:03:13 Test Data{searchtext=breakfast pizza, Reviewcomment=Good, searchRecipe=Biriyani, Invalidsearch=Iphone, recipeTittle=RECIPES, username=vdhuggis@gmail.com, password=Arjun@17, __index=1}
+22:03:13 pkg: com.qmetry.qaf.automation.step
+22:03:13 pkg: com.qmetry.qaf.example
+22:03:13 Found duplicate step to load [] with [lower] prority then []
+22:03:13 Invoking Teststep: Given get '/' with arguments: [/]
+22:03:23 Completed Teststep: Given get '/' with arguments: [/]
+22:03:23 Invoking Teststep: When navigate to recipe page
+22:03:24 Invoking Teststep: click on {loc} with arguments: [recipeLink.click]
+22:03:24 Completed Teststep: click on {loc} with arguments: [recipeLink.click]
+22:03:24 Completed Teststep: When navigate to recipe page
+22:03:24 Invoking Teststep: Then verify text is RECIPES '${recipeTittle}' with arguments: [${recipeTittle}]
+22:03:27 Completed Teststep: Then verify text is RECIPES 'RECIPES' with arguments: [${recipeTittle}]
+22:03:27 Competed scenario: verify Test Food Receipe Title with status SUCCESS
+22:03:27 
+
+Executing scenario: verify Search Results - 
+22:03:27 Test Data{searchtext=breakfast pizza, Reviewcomment=Good, searchRecipe=Biriyani, Invalidsearch=Iphone, recipeTittle=RECIPES, username=vdhuggis@gmail.com, password=Arjun@17, __index=1}
+22:03:27 Invoking Teststep: Given get '/' with arguments: [/]
+22:03:29 Completed Teststep: Given get '/' with arguments: [/]
+22:03:29 Invoking Teststep: When navigate to recipe page
+22:03:30 Invoking Teststep: click on {loc} with arguments: [recipeLink.click]
+22:03:31 Completed Teststep: click on {loc} with arguments: [recipeLink.click]
+22:03:31 Completed Teststep: When navigate to recipe page
+22:03:31 Invoking Teststep: When navigate to search page
+22:03:41 Invoking Teststep: click on {loc} with arguments: [recipe.search]
+22:03:42 Completed Teststep: click on {loc} with arguments: [recipe.search]
+22:03:42 Invoking Teststep: wait until {loc} to be visible with arguments: [recipetype.search]
+22:03:43 Completed Teststep: wait until {loc} to be visible with arguments: [recipetype.search]
+22:03:43 Completed Teststep: When navigate to search page
+22:03:43 Invoking Teststep: Then search recipe '${searchRecipe}' with arguments: [${searchRecipe}]
+22:03:43 Invoking Teststep: click on {loc} with arguments: [recipetype.search]
+22:03:44 Completed Teststep: click on {loc} with arguments: [recipetype.search]
+22:03:44 Invoking Teststep: sendKeys {text} into {loc} with arguments: [Biriyani?, recipetype.search]
+22:03:44 Completed Teststep: sendKeys {text} into {loc} with arguments: [Biriyani?, recipetype.search]
+22:03:54 Completed Teststep: Then search recipe 'Biriyani' with arguments: [${searchRecipe}]
+22:03:54 Invoking Teststep: Then verify result count
+22:03:54 Invoking Teststep: assert {loc} text is {text} with arguments: [resultCountText.verify, 10 RESULTS]
+22:03:55 Completed Teststep: assert {loc} text is {text} with arguments: [resultCountText.verify, 10 RESULTS]
+22:03:55 Completed Teststep: Then verify result count
+22:03:55 Competed scenario: verify Search Results with status SUCCESS
+22:03:55 
+
+Executing scenario: verify Save Recipe Action for Guest User - 
+22:03:55 Test Data{searchtext=breakfast pizza, Reviewcomment=Good, searchRecipe=Biriyani, Invalidsearch=Iphone, recipeTittle=RECIPES, username=vdhuggis@gmail.com, password=Arjun@17, __index=1}
+22:03:55 Invoking Teststep: Given get '/' with arguments: [/]
+22:03:56 Completed Teststep: Given get '/' with arguments: [/]
+22:03:56 Invoking Teststep: When navigate to recipe page
+22:03:57 Invoking Teststep: click on {loc} with arguments: [recipeLink.click]
+22:04:00 Completed Teststep: click on {loc} with arguments: [recipeLink.click]
+22:04:00 Completed Teststep: When navigate to recipe page
+22:04:00 Invoking Teststep: When navigate to search page
+22:04:10 Invoking Teststep: click on {loc} with arguments: [recipe.search]
+22:04:11 Completed Teststep: click on {loc} with arguments: [recipe.search]
+22:04:11 Invoking Teststep: wait until {loc} to be visible with arguments: [recipetype.search]
+22:04:11 Completed Teststep: wait until {loc} to be visible with arguments: [recipetype.search]
+22:04:11 Completed Teststep: When navigate to search page
+22:04:11 Invoking Teststep: Then search recipe '${searchtext}' with arguments: [${searchtext}]
+22:04:12 Invoking Teststep: click on {loc} with arguments: [recipetype.search]
+22:04:12 Completed Teststep: click on {loc} with arguments: [recipetype.search]
+22:04:12 Invoking Teststep: sendKeys {text} into {loc} with arguments: [breakfast pizza?, recipetype.search]
+22:04:13 Completed Teststep: sendKeys {text} into {loc} with arguments: [breakfast pizza?, recipetype.search]
+22:04:23 Completed Teststep: Then search recipe 'breakfast pizza' with arguments: [${searchtext}]
+22:04:23 Invoking Teststep: Then select a recipe
+22:04:33 Invoking Teststep: click on {loc} with arguments: [pizzaRecipeImg.click]
+22:04:33 Completed Teststep: click on {loc} with arguments: [pizzaRecipeImg.click]
+22:04:43 Completed Teststep: Then select a recipe
+22:04:43 Invoking Teststep: Then save a recipe
+22:04:43 Invoking Teststep: click on {loc} with arguments: [saveReceipeBtn.click]
+22:04:44 Completed Teststep: click on {loc} with arguments: [saveReceipeBtn.click]
+22:04:54 Completed Teststep: Then save a recipe
+22:04:54 Invoking Teststep: Then verify login message for unregistered user while save/review
+22:05:04 Invoking Teststep: assert {loc} is visible with arguments: [saveMessageText.verify]
+22:05:04 Completed Teststep: assert {loc} is visible with arguments: [saveMessageText.verify]
+22:05:04 Completed Teststep: Then verify login message for unregistered user while save/review
+22:05:04 Competed scenario: verify Save Recipe Action for Guest User with status SUCCESS
+22:05:04 
+
+Executing scenario: verify Review Recipe Action for Guest User - 
+22:05:04 Test Data{searchtext=breakfast pizza, Reviewcomment=Good, searchRecipe=Biriyani, Invalidsearch=Iphone, recipeTittle=RECIPES, username=vdhuggis@gmail.com, password=Arjun@17, __index=1}
+22:05:04 Invoking Teststep: Given get '/' with arguments: [/]
+22:05:05 Completed Teststep: Given get '/' with arguments: [/]
+22:05:05 Invoking Teststep: When navigate to recipe page
+22:05:06 Invoking Teststep: click on {loc} with arguments: [recipeLink.click]
+22:05:08 Completed Teststep: click on {loc} with arguments: [recipeLink.click]
+22:05:08 Completed Teststep: When navigate to recipe page
+22:05:08 Invoking Teststep: When navigate to search page
+22:05:18 Invoking Teststep: click on {loc} with arguments: [recipe.search]
+22:05:19 Completed Teststep: click on {loc} with arguments: [recipe.search]
+22:05:19 Invoking Teststep: wait until {loc} to be visible with arguments: [recipetype.search]
+22:05:20 Completed Teststep: wait until {loc} to be visible with arguments: [recipetype.search]
+22:05:20 Completed Teststep: When navigate to search page
+22:05:20 Invoking Teststep: Then search recipe '${searchtext}' with arguments: [${searchtext}]
+22:05:20 Invoking Teststep: click on {loc} with arguments: [recipetype.search]
+22:05:20 Completed Teststep: click on {loc} with arguments: [recipetype.search]
+22:05:20 Invoking Teststep: sendKeys {text} into {loc} with arguments: [breakfast pizza?, recipetype.search]
+22:05:21 Completed Teststep: sendKeys {text} into {loc} with arguments: [breakfast pizza?, recipetype.search]
+22:05:31 Completed Teststep: Then search recipe 'breakfast pizza' with arguments: [${searchtext}]
+22:05:31 Invoking Teststep: Then select a recipe
+22:05:41 Invoking Teststep: click on {loc} with arguments: [pizzaRecipeImg.click]
+22:05:42 Completed Teststep: click on {loc} with arguments: [pizzaRecipeImg.click]
+22:05:52 Completed Teststep: Then select a recipe
+22:05:52 Invoking Teststep: Then click on review btn
+22:05:52 Invoking Teststep: click on {loc} with arguments: [reviewBtn.click]
+22:05:52 Completed Teststep: click on {loc} with arguments: [reviewBtn.click]
+22:06:02 Completed Teststep: Then click on review btn
+22:06:02 Invoking Teststep: Then write a review '${Reviewcomment}' with arguments: [${Reviewcomment}]
+22:06:12 Invoking Teststep: sendKeys {text} into {loc} with arguments: [Good?, writeReview.click]
+22:06:12 Completed Teststep: sendKeys {text} into {loc} with arguments: [Good?, writeReview.click]
+22:06:22 Completed Teststep: Then write a review 'Good' with arguments: [${Reviewcomment}]
+22:06:22 Invoking Teststep: Then verify login message for unregistered user while save/review
+22:06:32 Invoking Teststep: assert {loc} is visible with arguments: [saveMessageText.verify]
+22:06:33 Completed Teststep: assert {loc} is visible with arguments: [saveMessageText.verify]
+22:06:33 Completed Teststep: Then verify login message for unregistered user while save/review
+22:06:33 Competed scenario: verify Review Recipe Action for Guest User with status SUCCESS
+22:06:33 
+
+Executing scenario: verify Invalid Search - 
+22:06:33 Test Data{searchtext=breakfast pizza, Reviewcomment=Good, searchRecipe=Biriyani, Invalidsearch=Iphone, recipeTittle=RECIPES, username=vdhuggis@gmail.com, password=Arjun@17, __index=1}
+22:06:33 Invoking Teststep: Given get '/' with arguments: [/]
+22:06:34 Completed Teststep: Given get '/' with arguments: [/]
+22:06:34 Invoking Teststep: When navigate to recipe page
+22:06:35 Invoking Teststep: click on {loc} with arguments: [recipeLink.click]
+22:06:37 Completed Teststep: click on {loc} with arguments: [recipeLink.click]
+22:06:37 Completed Teststep: When navigate to recipe page
+22:06:37 Invoking Teststep: When navigate to search page
+22:06:47 Invoking Teststep: click on {loc} with arguments: [recipe.search]
+22:06:48 Completed Teststep: click on {loc} with arguments: [recipe.search]
+22:06:48 Invoking Teststep: wait until {loc} to be visible with arguments: [recipetype.search]
+22:06:48 Completed Teststep: wait until {loc} to be visible with arguments: [recipetype.search]
+22:06:48 Completed Teststep: When navigate to search page
+22:06:48 Invoking Teststep: Then search recipe '${Invalidsearch}' with arguments: [${Invalidsearch}]
+22:06:48 Invoking Teststep: click on {loc} with arguments: [recipetype.search]
+22:06:48 Completed Teststep: click on {loc} with arguments: [recipetype.search]
+22:06:48 Invoking Teststep: sendKeys {text} into {loc} with arguments: [Iphone?, recipetype.search]
+22:06:49 Completed Teststep: sendKeys {text} into {loc} with arguments: [Iphone?, recipetype.search]
+22:06:59 Completed Teststep: Then search recipe 'Iphone' with arguments: [${Invalidsearch}]
+22:06:59 Invoking Teststep: Then verify no match message
+22:06:59 Invoking Teststep: assert {loc} is visible with arguments: [noMatchRecipeMsg.verify]
+22:06:59 Completed Teststep: assert {loc} is visible with arguments: [noMatchRecipeMsg.verify]
+22:06:59 Completed Teststep: Then verify no match message
+22:06:59 Competed scenario: verify Invalid Search with status SUCCESS
+22:06:59 
+
+Executing scenario: Verify SAVES Button functionality - 
+22:06:59 Test Data{searchtext=breakfast pizza, Reviewcomment=Good, searchRecipe=Biriyani, Invalidsearch=Iphone, recipeTittle=RECIPES, username=vdhuggis@gmail.com, password=Arjun@17, __index=1}
+22:06:59 Invoking Teststep: Given get '/' with arguments: [/]
+22:07:00 Completed Teststep: Given get '/' with arguments: [/]
+22:07:00 Invoking Teststep: When login as Reg User '${username}' '${password}' with arguments: [${username}, ${password}]
+22:07:10 Invoking Teststep: wait until {loc} to be visible with arguments: [logInBtn.click]
+22:07:12 Completed Teststep: wait until {loc} to be visible with arguments: [logInBtn.click]
+22:07:12 Invoking Teststep: click on {loc} with arguments: [logInBtn.click]
+22:07:12 Completed Teststep: click on {loc} with arguments: [logInBtn.click]
+22:07:12 Invoking Teststep: wait until {loc} to be visible with arguments: [emailTxt.click]
+22:07:12 Completed Teststep: wait until {loc} to be visible with arguments: [emailTxt.click]
+22:07:12 Invoking Teststep: click on {loc} with arguments: [emailTxt.click]
+22:07:12 Completed Teststep: click on {loc} with arguments: [emailTxt.click]
+22:07:12 Invoking Teststep: sendKeys {text} into {loc} with arguments: [vdhuggis@gmail.com, emailTxt.click]
+22:07:12 Completed Teststep: sendKeys {text} into {loc} with arguments: [vdhuggis@gmail.com, emailTxt.click]
+22:07:12 Invoking Teststep: wait until {loc} to be visible with arguments: [pwdTxt.click]
+22:07:12 Completed Teststep: wait until {loc} to be visible with arguments: [pwdTxt.click]
+22:07:12 Invoking Teststep: click on {loc} with arguments: [pwdTxt.click]
+22:07:12 Completed Teststep: click on {loc} with arguments: [pwdTxt.click]
+22:07:12 Invoking Teststep: sendKeys {text} into {loc} with arguments: [Arjun@17?, pwdTxt.click]
+22:07:12 Completed Teststep: sendKeys {text} into {loc} with arguments: [Arjun@17?, pwdTxt.click]
+22:07:22 Completed Teststep: When login as Reg User 'vdhuggis@gmail.com' 'Arjun@17' with arguments: [${username}, ${password}]
+22:07:22 Invoking Teststep: Then navigate to search page
+22:07:32 Invoking Teststep: click on {loc} with arguments: [recipe.search]
+22:07:34 Completed Teststep: click on {loc} with arguments: [recipe.search]
+22:07:34 Invoking Teststep: wait until {loc} to be visible with arguments: [recipetype.search]
+22:07:34 Completed Teststep: wait until {loc} to be visible with arguments: [recipetype.search]
+22:07:34 Completed Teststep: Then navigate to search page
+22:07:34 Invoking Teststep: Then search recipe '${searchtext}' with arguments: [${searchtext}]
+22:07:34 Invoking Teststep: click on {loc} with arguments: [recipetype.search]
+22:07:35 Completed Teststep: click on {loc} with arguments: [recipetype.search]
+22:07:35 Invoking Teststep: sendKeys {text} into {loc} with arguments: [breakfast pizza?, recipetype.search]
+22:07:35 Completed Teststep: sendKeys {text} into {loc} with arguments: [breakfast pizza?, recipetype.search]
+22:07:45 Completed Teststep: Then search recipe 'breakfast pizza' with arguments: [${searchtext}]
+22:07:45 Invoking Teststep: Then select a recipe
+22:07:55 Invoking Teststep: click on {loc} with arguments: [pizzaRecipeImg.click]
+22:07:56 Completed Teststep: click on {loc} with arguments: [pizzaRecipeImg.click]
+22:08:06 Completed Teststep: Then select a recipe
+22:08:06 Invoking Teststep: Then save a recipe
+22:08:36 Failure Teststep: Then save a recipe
+org.openqa.selenium.TimeoutException: Timed out after 30 seconds: Wait time out for Save a recipe to be visible
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'VAIDHUSANTHU', ip: '192.168.0.56', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: driver.version: unknown
+	at com.qmetry.qaf.automation.ui.util.DynamicWait.until(DynamicWait.java:170)
+	at com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.waitForVisible(QAFExtendedWebElement.java:535)
+	at com.qmetry.qaf.automation.step.CommonStep.waitForVisible_aroundBody42(CommonStep.java:520)
+	at com.qmetry.qaf.automation.step.CommonStep$AjcClosure43.run(CommonStep.java:1)
+	at org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:149)
+	at com.qmetry.qaf.automation.step.JavaStepReporter.javaTestStep(JavaStepReporter.java:101)
+	at com.qmetry.qaf.automation.step.CommonStep.waitForVisible(CommonStep.java:519)
+	at com.qmetry.qaf.example.steps.StepsLibrary.saveRecipe(StepsLibrary.java:72)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:153)
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:134)
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:180)
+	at com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(DataDrivenScenario.java:69)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:781)
+	at org.testng.TestRunner.run(TestRunner.java:635)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+22:08:36 Completed Teststep: Then save a recipe
+22:08:36 Competed scenario: Verify SAVES Button functionality with status FAILURE
+22:10:45 scenario.file.loc[Ljava.lang.String;@10dba097
+22:10:45 loading feature file: C:\Users\vaidh\eclipse-workspace\foodautomationadv\.\scenarios\metadataexample.feature
+22:10:45 total test found: 6
+22:10:45 
+
+Executing scenario: verify Test Food Receipe Title - 
+22:10:45 Test Data{searchtext=breakfast pizza, Reviewcomment=Good, searchRecipe=Biriyani, Invalidsearch=Iphone, recipeTittle=RECIPES, username=vdhuggis@gmail.com, password=Arjun@17, __index=1}
+22:10:45 pkg: com.qmetry.qaf.automation.step
+22:10:45 pkg: com.qmetry.qaf.example
+22:10:45 Found duplicate step to load [] with [lower] prority then []
+22:10:45 Invoking Teststep: Given get '/' with arguments: [/]
+22:10:54 Completed Teststep: Given get '/' with arguments: [/]
+22:10:54 Invoking Teststep: When navigate to recipe page
+22:10:55 Invoking Teststep: click on {loc} with arguments: [recipeLink.click]
+22:10:55 Completed Teststep: click on {loc} with arguments: [recipeLink.click]
+22:10:55 Completed Teststep: When navigate to recipe page
+22:10:55 Invoking Teststep: Then verify text is RECIPES '${recipeTittle}' with arguments: [${recipeTittle}]
+22:10:59 Completed Teststep: Then verify text is RECIPES 'RECIPES' with arguments: [${recipeTittle}]
+22:10:59 Competed scenario: verify Test Food Receipe Title with status SUCCESS
+22:10:59 
+
+Executing scenario: verify Search Results - 
+22:10:59 Test Data{searchtext=breakfast pizza, Reviewcomment=Good, searchRecipe=Biriyani, Invalidsearch=Iphone, recipeTittle=RECIPES, username=vdhuggis@gmail.com, password=Arjun@17, __index=1}
+22:10:59 Invoking Teststep: Given get '/' with arguments: [/]
+22:11:00 Completed Teststep: Given get '/' with arguments: [/]
+22:11:00 Invoking Teststep: When navigate to recipe page
+22:11:01 Invoking Teststep: click on {loc} with arguments: [recipeLink.click]
+22:11:03 Completed Teststep: click on {loc} with arguments: [recipeLink.click]
+22:11:03 Completed Teststep: When navigate to recipe page
+22:11:03 Invoking Teststep: When navigate to search page
+22:11:13 Invoking Teststep: click on {loc} with arguments: [recipe.search]
+22:11:14 Completed Teststep: click on {loc} with arguments: [recipe.search]
+22:11:14 Invoking Teststep: wait until {loc} to be visible with arguments: [recipetype.search]
+22:11:15 Completed Teststep: wait until {loc} to be visible with arguments: [recipetype.search]
+22:11:15 Completed Teststep: When navigate to search page
+22:11:15 Invoking Teststep: Then search recipe '${searchRecipe}' with arguments: [${searchRecipe}]
+22:11:16 Invoking Teststep: click on {loc} with arguments: [recipetype.search]
+22:11:16 Completed Teststep: click on {loc} with arguments: [recipetype.search]
+22:11:16 Invoking Teststep: sendKeys {text} into {loc} with arguments: [Biriyani?, recipetype.search]
+22:11:16 Completed Teststep: sendKeys {text} into {loc} with arguments: [Biriyani?, recipetype.search]
+22:11:26 Completed Teststep: Then search recipe 'Biriyani' with arguments: [${searchRecipe}]
+22:11:26 Invoking Teststep: Then verify result count
+22:11:26 Invoking Teststep: assert {loc} text is {text} with arguments: [resultCountText.verify, 10 RESULTS]
+22:11:27 Completed Teststep: assert {loc} text is {text} with arguments: [resultCountText.verify, 10 RESULTS]
+22:11:27 Completed Teststep: Then verify result count
+22:11:27 Competed scenario: verify Search Results with status SUCCESS
+22:11:27 
+
+Executing scenario: verify Save Recipe Action for Guest User - 
+22:11:27 Test Data{searchtext=breakfast pizza, Reviewcomment=Good, searchRecipe=Biriyani, Invalidsearch=Iphone, recipeTittle=RECIPES, username=vdhuggis@gmail.com, password=Arjun@17, __index=1}
+22:11:27 Invoking Teststep: Given get '/' with arguments: [/]
+22:11:28 Completed Teststep: Given get '/' with arguments: [/]
+22:11:28 Invoking Teststep: When navigate to recipe page
+22:11:29 Invoking Teststep: click on {loc} with arguments: [recipeLink.click]
+22:11:30 Completed Teststep: click on {loc} with arguments: [recipeLink.click]
+22:11:30 Completed Teststep: When navigate to recipe page
+22:11:30 Invoking Teststep: When navigate to search page
+22:11:40 Invoking Teststep: click on {loc} with arguments: [recipe.search]
+22:11:41 Completed Teststep: click on {loc} with arguments: [recipe.search]
+22:11:41 Invoking Teststep: wait until {loc} to be visible with arguments: [recipetype.search]
+22:11:41 Completed Teststep: wait until {loc} to be visible with arguments: [recipetype.search]
+22:11:41 Completed Teststep: When navigate to search page
+22:11:41 Invoking Teststep: Then search recipe '${searchtext}' with arguments: [${searchtext}]
+22:11:41 Invoking Teststep: click on {loc} with arguments: [recipetype.search]
+22:11:42 Completed Teststep: click on {loc} with arguments: [recipetype.search]
+22:11:42 Invoking Teststep: sendKeys {text} into {loc} with arguments: [breakfast pizza?, recipetype.search]
+22:11:42 Completed Teststep: sendKeys {text} into {loc} with arguments: [breakfast pizza?, recipetype.search]
+22:11:52 Completed Teststep: Then search recipe 'breakfast pizza' with arguments: [${searchtext}]
+22:11:52 Invoking Teststep: Then select a recipe
+22:12:02 Invoking Teststep: click on {loc} with arguments: [pizzaRecipeImg.click]
+22:12:03 Completed Teststep: click on {loc} with arguments: [pizzaRecipeImg.click]
+22:12:13 Completed Teststep: Then select a recipe
+22:12:13 Invoking Teststep: Then save a recipe
+22:12:13 Invoking Teststep: click on {loc} with arguments: [saveReceipeBtn.click]
+22:12:13 Completed Teststep: click on {loc} with arguments: [saveReceipeBtn.click]
+22:12:23 Completed Teststep: Then save a recipe
+22:12:23 Invoking Teststep: Then verify login message for unregistered user while save/review
+22:12:33 Invoking Teststep: assert {loc} is visible with arguments: [saveMessageText.verify]
+22:12:34 Completed Teststep: assert {loc} is visible with arguments: [saveMessageText.verify]
+22:12:34 Completed Teststep: Then verify login message for unregistered user while save/review
+22:12:34 Competed scenario: verify Save Recipe Action for Guest User with status SUCCESS
+22:12:34 
+
+Executing scenario: verify Review Recipe Action for Guest User - 
+22:12:34 Test Data{searchtext=breakfast pizza, Reviewcomment=Good, searchRecipe=Biriyani, Invalidsearch=Iphone, recipeTittle=RECIPES, username=vdhuggis@gmail.com, password=Arjun@17, __index=1}
+22:12:34 Invoking Teststep: Given get '/' with arguments: [/]
+22:12:35 Completed Teststep: Given get '/' with arguments: [/]
+22:12:35 Invoking Teststep: When navigate to recipe page
+22:12:36 Invoking Teststep: click on {loc} with arguments: [recipeLink.click]
+22:12:37 Completed Teststep: click on {loc} with arguments: [recipeLink.click]
+22:12:37 Completed Teststep: When navigate to recipe page
+22:12:37 Invoking Teststep: When navigate to search page
+22:12:47 Invoking Teststep: click on {loc} with arguments: [recipe.search]
+22:12:49 Completed Teststep: click on {loc} with arguments: [recipe.search]
+22:12:49 Invoking Teststep: wait until {loc} to be visible with arguments: [recipetype.search]
+22:12:49 Completed Teststep: wait until {loc} to be visible with arguments: [recipetype.search]
+22:12:49 Completed Teststep: When navigate to search page
+22:12:49 Invoking Teststep: Then search recipe '${searchtext}' with arguments: [${searchtext}]
+22:12:50 Invoking Teststep: click on {loc} with arguments: [recipetype.search]
+22:12:50 Completed Teststep: click on {loc} with arguments: [recipetype.search]
+22:12:50 Invoking Teststep: sendKeys {text} into {loc} with arguments: [breakfast pizza?, recipetype.search]
+22:12:50 Completed Teststep: sendKeys {text} into {loc} with arguments: [breakfast pizza?, recipetype.search]
+22:13:00 Completed Teststep: Then search recipe 'breakfast pizza' with arguments: [${searchtext}]
+22:13:00 Invoking Teststep: Then select a recipe
+22:13:10 Invoking Teststep: click on {loc} with arguments: [pizzaRecipeImg.click]
+22:13:11 Completed Teststep: click on {loc} with arguments: [pizzaRecipeImg.click]
+22:13:21 Completed Teststep: Then select a recipe
+22:13:21 Invoking Teststep: Then click on review btn
+22:13:21 Invoking Teststep: click on {loc} with arguments: [reviewBtn.click]
+22:13:21 Completed Teststep: click on {loc} with arguments: [reviewBtn.click]
+22:13:31 Completed Teststep: Then click on review btn
+22:13:31 Invoking Teststep: Then write a review '${Reviewcomment}' with arguments: [${Reviewcomment}]
+22:13:41 Invoking Teststep: sendKeys {text} into {loc} with arguments: [Good?, writeReview.click]
+22:13:41 Completed Teststep: sendKeys {text} into {loc} with arguments: [Good?, writeReview.click]
+22:13:51 Completed Teststep: Then write a review 'Good' with arguments: [${Reviewcomment}]
+22:13:51 Invoking Teststep: Then verify login message for unregistered user while save/review
+22:14:01 Invoking Teststep: assert {loc} is visible with arguments: [saveMessageText.verify]
+22:14:02 Completed Teststep: assert {loc} is visible with arguments: [saveMessageText.verify]
+22:14:02 Completed Teststep: Then verify login message for unregistered user while save/review
+22:14:02 Competed scenario: verify Review Recipe Action for Guest User with status SUCCESS
+22:14:02 
+
+Executing scenario: verify Invalid Search - 
+22:14:02 Test Data{searchtext=breakfast pizza, Reviewcomment=Good, searchRecipe=Biriyani, Invalidsearch=Iphone, recipeTittle=RECIPES, username=vdhuggis@gmail.com, password=Arjun@17, __index=1}
+22:14:02 Invoking Teststep: Given get '/' with arguments: [/]
+22:14:03 Completed Teststep: Given get '/' with arguments: [/]
+22:14:03 Invoking Teststep: When navigate to recipe page
+22:14:04 Invoking Teststep: click on {loc} with arguments: [recipeLink.click]
+22:14:05 Completed Teststep: click on {loc} with arguments: [recipeLink.click]
+22:14:05 Completed Teststep: When navigate to recipe page
+22:14:05 Invoking Teststep: When navigate to search page
+22:14:16 Invoking Teststep: click on {loc} with arguments: [recipe.search]
+22:14:17 Completed Teststep: click on {loc} with arguments: [recipe.search]
+22:14:17 Invoking Teststep: wait until {loc} to be visible with arguments: [recipetype.search]
+22:14:18 Completed Teststep: wait until {loc} to be visible with arguments: [recipetype.search]
+22:14:18 Completed Teststep: When navigate to search page
+22:14:18 Invoking Teststep: Then search recipe '${Invalidsearch}' with arguments: [${Invalidsearch}]
+22:14:18 Invoking Teststep: click on {loc} with arguments: [recipetype.search]
+22:14:18 Completed Teststep: click on {loc} with arguments: [recipetype.search]
+22:14:18 Invoking Teststep: sendKeys {text} into {loc} with arguments: [Iphone?, recipetype.search]
+22:14:18 Completed Teststep: sendKeys {text} into {loc} with arguments: [Iphone?, recipetype.search]
+22:14:28 Completed Teststep: Then search recipe 'Iphone' with arguments: [${Invalidsearch}]
+22:14:28 Invoking Teststep: Then verify no match message
+22:14:28 Invoking Teststep: assert {loc} is visible with arguments: [noMatchRecipeMsg.verify]
+22:14:29 Completed Teststep: assert {loc} is visible with arguments: [noMatchRecipeMsg.verify]
+22:14:29 Completed Teststep: Then verify no match message
+22:14:29 Competed scenario: verify Invalid Search with status SUCCESS
+22:14:29 
+
+Executing scenario: Verify SAVES Button functionality - 
+22:14:29 Test Data{searchtext=breakfast pizza, Reviewcomment=Good, searchRecipe=Biriyani, Invalidsearch=Iphone, recipeTittle=RECIPES, username=vdhuggis@gmail.com, password=Arjun@17, __index=1}
+22:14:29 Invoking Teststep: Given get '/' with arguments: [/]
+22:14:30 Completed Teststep: Given get '/' with arguments: [/]
+22:14:30 Invoking Teststep: When login as Reg User '${username}' '${password}' with arguments: [${username}, ${password}]
+22:14:40 Invoking Teststep: wait until {loc} to be visible with arguments: [logInBtn.click]
+22:14:41 Completed Teststep: wait until {loc} to be visible with arguments: [logInBtn.click]
+22:14:41 Invoking Teststep: click on {loc} with arguments: [logInBtn.click]
+22:14:41 Completed Teststep: click on {loc} with arguments: [logInBtn.click]
+22:14:41 Invoking Teststep: wait until {loc} to be visible with arguments: [emailTxt.click]
+22:14:41 Completed Teststep: wait until {loc} to be visible with arguments: [emailTxt.click]
+22:14:41 Invoking Teststep: click on {loc} with arguments: [emailTxt.click]
+22:14:41 Completed Teststep: click on {loc} with arguments: [emailTxt.click]
+22:14:41 Invoking Teststep: sendKeys {text} into {loc} with arguments: [vdhuggis@gmail.com, emailTxt.click]
+22:14:42 Completed Teststep: sendKeys {text} into {loc} with arguments: [vdhuggis@gmail.com, emailTxt.click]
+22:14:42 Invoking Teststep: wait until {loc} to be visible with arguments: [pwdTxt.click]
+22:14:42 Completed Teststep: wait until {loc} to be visible with arguments: [pwdTxt.click]
+22:14:42 Invoking Teststep: click on {loc} with arguments: [pwdTxt.click]
+22:14:42 Completed Teststep: click on {loc} with arguments: [pwdTxt.click]
+22:14:42 Invoking Teststep: sendKeys {text} into {loc} with arguments: [Arjun@17?, pwdTxt.click]
+22:14:42 Completed Teststep: sendKeys {text} into {loc} with arguments: [Arjun@17?, pwdTxt.click]
+22:14:52 Completed Teststep: When login as Reg User 'vdhuggis@gmail.com' 'Arjun@17' with arguments: [${username}, ${password}]
+22:14:52 Invoking Teststep: Then navigate to search page
+22:15:02 Invoking Teststep: click on {loc} with arguments: [recipe.search]
+22:15:03 Completed Teststep: click on {loc} with arguments: [recipe.search]
+22:15:03 Invoking Teststep: wait until {loc} to be visible with arguments: [recipetype.search]
+22:15:04 Completed Teststep: wait until {loc} to be visible with arguments: [recipetype.search]
+22:15:04 Completed Teststep: Then navigate to search page
+22:15:04 Invoking Teststep: Then search recipe '${searchtext}' with arguments: [${searchtext}]
+22:15:04 Invoking Teststep: click on {loc} with arguments: [recipetype.search]
+22:15:04 Completed Teststep: click on {loc} with arguments: [recipetype.search]
+22:15:04 Invoking Teststep: sendKeys {text} into {loc} with arguments: [breakfast pizza?, recipetype.search]
+22:15:05 Completed Teststep: sendKeys {text} into {loc} with arguments: [breakfast pizza?, recipetype.search]
+22:15:15 Completed Teststep: Then search recipe 'breakfast pizza' with arguments: [${searchtext}]
+22:15:15 Invoking Teststep: Then select a recipe
+22:15:25 Invoking Teststep: click on {loc} with arguments: [pizzaRecipeImg.click]
+22:15:25 Completed Teststep: click on {loc} with arguments: [pizzaRecipeImg.click]
+22:15:35 Completed Teststep: Then select a recipe
+22:15:35 Invoking Teststep: Then save a recipe
+22:15:35 Invoking Teststep: click on {loc} with arguments: [saveReceipeBtn.click]
+22:15:35 Completed Teststep: click on {loc} with arguments: [saveReceipeBtn.click]
+22:15:45 Completed Teststep: Then save a recipe
+22:15:45 Invoking Teststep: Then verify saved recipe msg for Reg User
+22:15:46 Invoking Teststep: assert {loc} is visible with arguments: [savedTxt.verify]
+22:15:46 Completed Teststep: assert {loc} is visible with arguments: [savedTxt.verify]
+22:15:56 Completed Teststep: Then verify saved recipe msg for Reg User
+22:15:56 Competed scenario: Verify SAVES Button functionality with status SUCCESS
+14:03:47 scenario.file.loc[Ljava.lang.String;@704d6e83
+14:03:47 loading BDD file: C:\Users\vaidh\eclipse-workspace\foodautomationadv\.\scenarios\smoketest.bdd
+14:03:47 total test found: 6
+14:03:47 
+
+Executing scenario: verify Test Food Receipe Title - verify Test Food Receipe Title
+14:03:47 pkg: com.qmetry.qaf.automation.step
+14:03:47 pkg: com.qmetry.qaf.example
+14:03:47 Found duplicate step to load [] with [lower] prority then []
+14:03:47 Invoking Teststep: Given get '/' with arguments: [/]
+14:03:59 Completed Teststep: Given get '/' with arguments: [/]
+14:03:59 Invoking Teststep: When navigate to recipe page
+14:03:59 Invoking Teststep: wait until {loc} to be visible with arguments: [recipeLink.click]
+14:03:59 Completed Teststep: wait until {loc} to be visible with arguments: [recipeLink.click]
+14:03:59 Invoking Teststep: click on {loc} with arguments: [recipeLink.click]
+14:03:59 Completed Teststep: click on {loc} with arguments: [recipeLink.click]
+14:03:59 Completed Teststep: When navigate to recipe page
+14:03:59 
+/**
+* Auto-generated code snippet by QMetry Automation Framework.
+*/
+@QAFTestStep(description="verify text is RECIPES")
+public void verifyTextIsRECIPES(){
+	//TODO: remove NotYetImplementedException and call test steps
+	throw new NotYetImplementedException();
+}
+14:03:59 Competed scenario: verify Test Food Receipe Title with status FAILURE
+14:03:59 
+
+Executing scenario: verify Save Recipe Action for Guest User - verify Save Recipe for Guest User
+14:03:59 Invoking Teststep: Given get '/' with arguments: [/]
+14:04:01 Completed Teststep: Given get '/' with arguments: [/]
+14:04:01 Invoking Teststep: When navigate to search page
+14:04:11 Invoking Teststep: wait until {loc} to be visible with arguments: [recipe.search]
+14:04:11 Completed Teststep: wait until {loc} to be visible with arguments: [recipe.search]
+14:04:11 Invoking Teststep: click on {loc} with arguments: [recipe.search]
+14:04:12 Completed Teststep: click on {loc} with arguments: [recipe.search]
+14:04:12 Invoking Teststep: wait until {loc} to be visible with arguments: [recipetype.search]
+14:04:12 Completed Teststep: wait until {loc} to be visible with arguments: [recipetype.search]
+14:04:12 Completed Teststep: When navigate to search page
+14:04:12 Invoking Teststep: Then search recipe 'breakfast pizza' with arguments: [breakfast pizza]
+14:04:12 Invoking Teststep: wait until {loc} to be visible with arguments: [recipetype.search]
+14:04:13 Completed Teststep: wait until {loc} to be visible with arguments: [recipetype.search]
+14:04:13 Invoking Teststep: click on {loc} with arguments: [recipetype.search]
+14:04:13 Completed Teststep: click on {loc} with arguments: [recipetype.search]
+14:04:13 Invoking Teststep: sendKeys {text} into {loc} with arguments: [breakfast pizza?, recipetype.search]
+14:04:13 Completed Teststep: sendKeys {text} into {loc} with arguments: [breakfast pizza?, recipetype.search]
+14:04:23 Completed Teststep: Then search recipe 'breakfast pizza' with arguments: [breakfast pizza]
+14:04:23 Invoking Teststep: Then select a recipe
+14:04:38 scenario.file.loc[Ljava.lang.String;@704d6e83
+14:04:38 loading BDD file: C:\Users\vaidh\eclipse-workspace\foodautomationadv\.\scenarios\smoketest.bdd
+14:04:38 total test found: 6
+14:04:39 
+
+Executing scenario: verify Test Food Receipe Title - verify Test Food Receipe Title
+14:04:39 pkg: com.qmetry.qaf.automation.step
+14:04:39 pkg: com.qmetry.qaf.example
+14:04:39 Found duplicate step to load [] with [lower] prority then []
+14:04:39 Invoking Teststep: Given get '/' with arguments: [/]
+14:04:49 Completed Teststep: Given get '/' with arguments: [/]
+14:04:49 Invoking Teststep: When navigate to recipe page
+14:04:50 Invoking Teststep: click on {loc} with arguments: [recipeLink.click]
+14:04:50 Completed Teststep: click on {loc} with arguments: [recipeLink.click]
+14:04:50 Completed Teststep: When navigate to recipe page
+14:04:50 
+/**
+* Auto-generated code snippet by QMetry Automation Framework.
+*/
+@QAFTestStep(description="verify text is RECIPES")
+public void verifyTextIsRECIPES(){
+	//TODO: remove NotYetImplementedException and call test steps
+	throw new NotYetImplementedException();
+}
+14:04:50 Competed scenario: verify Test Food Receipe Title with status FAILURE
+14:04:50 
+
+Executing scenario: verify Save Recipe Action for Guest User - verify Save Recipe for Guest User
+14:04:50 Invoking Teststep: Given get '/' with arguments: [/]
+14:04:52 Completed Teststep: Given get '/' with arguments: [/]
+14:04:52 Invoking Teststep: When navigate to search page
+14:05:02 Invoking Teststep: click on {loc} with arguments: [recipe.search]
+14:05:03 Completed Teststep: click on {loc} with arguments: [recipe.search]
+14:05:03 Invoking Teststep: wait until {loc} to be visible with arguments: [recipetype.search]
+14:05:04 Completed Teststep: wait until {loc} to be visible with arguments: [recipetype.search]
+14:05:04 Completed Teststep: When navigate to search page
+14:05:04 Invoking Teststep: Then search recipe 'breakfast pizza' with arguments: [breakfast pizza]
+14:05:04 Invoking Teststep: click on {loc} with arguments: [recipetype.search]
+14:05:04 Completed Teststep: click on {loc} with arguments: [recipetype.search]
+14:05:04 Invoking Teststep: sendKeys {text} into {loc} with arguments: [breakfast pizza?, recipetype.search]
+14:05:04 Completed Teststep: sendKeys {text} into {loc} with arguments: [breakfast pizza?, recipetype.search]
+14:08:10 scenario.file.loc[Ljava.lang.String;@704d6e83
+14:08:10 loading BDD file: C:\Users\vaidh\eclipse-workspace\foodautomationadv\.\scenarios\smoketest.bdd
+14:08:10 total test found: 6
+14:08:11 
+
+Executing scenario: verify Test Food Receipe Title - verify Test Food Receipe Title
+14:08:11 pkg: com.qmetry.qaf.automation.step
+14:08:11 pkg: com.qmetry.qaf.example
+14:08:11 Found duplicate step to load [] with [lower] prority then []
+14:08:11 Invoking Teststep: Given get '/' with arguments: [/]
+14:08:21 Completed Teststep: Given get '/' with arguments: [/]
+14:08:21 Invoking Teststep: When navigate to recipe page
+14:08:22 Invoking Teststep: click on {loc} with arguments: [recipeLink.click]
+14:08:22 Completed Teststep: click on {loc} with arguments: [recipeLink.click]
+14:08:22 Completed Teststep: When navigate to recipe page
+14:08:22 Invoking Teststep: Then verify text is RECIPES 'RECIPES' with arguments: [RECIPES]
+14:08:24 Completed Teststep: Then verify text is RECIPES 'RECIPES' with arguments: [RECIPES]
+14:08:24 Competed scenario: verify Test Food Receipe Title with status SUCCESS
+14:08:24 
+
+Executing scenario: verify Save Recipe Action for Guest User - verify Save Recipe for Guest User
+14:08:24 Invoking Teststep: Given get '/' with arguments: [/]
+14:08:25 Completed Teststep: Given get '/' with arguments: [/]
+14:08:25 Invoking Teststep: When navigate to search page
+14:08:35 Invoking Teststep: click on {loc} with arguments: [recipe.search]
+14:08:35 Completed Teststep: click on {loc} with arguments: [recipe.search]
+14:08:35 Invoking Teststep: wait until {loc} to be visible with arguments: [recipetype.search]
+14:08:36 Completed Teststep: wait until {loc} to be visible with arguments: [recipetype.search]
+14:08:36 Completed Teststep: When navigate to search page
+14:08:36 Invoking Teststep: Then search recipe 'breakfast pizza' with arguments: [breakfast pizza]
+14:08:37 Invoking Teststep: click on {loc} with arguments: [recipetype.search]
+14:08:37 Completed Teststep: click on {loc} with arguments: [recipetype.search]
+14:08:37 Invoking Teststep: sendKeys {text} into {loc} with arguments: [breakfast pizza?, recipetype.search]
+14:08:38 Completed Teststep: sendKeys {text} into {loc} with arguments: [breakfast pizza?, recipetype.search]
+14:10:53 scenario.file.loc[Ljava.lang.String;@704d6e83
+14:10:53 loading BDD file: C:\Users\vaidh\eclipse-workspace\foodautomationadv\.\scenarios\smoketest.bdd
+14:10:53 total test found: 6
+14:10:53 
+
+Executing scenario: verify Test Food Receipe Title - verify Test Food Receipe Title
+14:10:53 pkg: com.qmetry.qaf.automation.step
+14:10:53 pkg: com.qmetry.qaf.example
+14:10:53 Found duplicate step to load [] with [lower] prority then []
+14:10:53 Invoking Teststep: Given get '/' with arguments: [/]
+14:11:04 Completed Teststep: Given get '/' with arguments: [/]
+14:11:04 Invoking Teststep: When navigate to recipe page
+14:11:04 Invoking Teststep: click on {loc} with arguments: [recipeLink.click]
+14:11:05 Completed Teststep: click on {loc} with arguments: [recipeLink.click]
+14:11:05 Completed Teststep: When navigate to recipe page
+14:11:05 Invoking Teststep: Then verify text is RECIPES 'RECIPES' with arguments: [RECIPES]
+14:11:07 Completed Teststep: Then verify text is RECIPES 'RECIPES' with arguments: [RECIPES]
+14:11:07 Competed scenario: verify Test Food Receipe Title with status SUCCESS
+14:11:08 
+
+Executing scenario: verify Save Recipe Action for Guest User - verify Save Recipe for Guest User
+14:11:08 Invoking Teststep: Given get '/' with arguments: [/]
+14:11:09 Completed Teststep: Given get '/' with arguments: [/]
+14:11:09 Invoking Teststep: When navigate to search page
+14:11:20 Invoking Teststep: click on {loc} with arguments: [recipe.search]
+14:11:20 Completed Teststep: click on {loc} with arguments: [recipe.search]
+14:11:20 Invoking Teststep: wait until {loc} to be visible with arguments: [recipetype.search]
+14:11:22 Completed Teststep: wait until {loc} to be visible with arguments: [recipetype.search]
+14:11:22 Completed Teststep: When navigate to search page
+14:11:22 Invoking Teststep: Then search recipe 'breakfast pizza' with arguments: [breakfast pizza]
+14:11:22 Invoking Teststep: click on {loc} with arguments: [recipetype.search]
+14:11:22 Completed Teststep: click on {loc} with arguments: [recipetype.search]
+14:11:22 Invoking Teststep: sendKeys {text} into {loc} with arguments: [breakfast pizza?, recipetype.search]
+14:11:23 Completed Teststep: sendKeys {text} into {loc} with arguments: [breakfast pizza?, recipetype.search]
+14:11:33 Completed Teststep: Then search recipe 'breakfast pizza' with arguments: [breakfast pizza]
+14:11:33 Invoking Teststep: Then select a recipe
+14:11:43 Invoking Teststep: click on {loc} with arguments: [pizzaRecipeImg.click]
+14:11:44 Completed Teststep: click on {loc} with arguments: [pizzaRecipeImg.click]
+14:11:54 Completed Teststep: Then select a recipe
+14:11:54 Invoking Teststep: Then save a recipe
+14:11:54 Invoking Teststep: click on {loc} with arguments: [saveReceipeBtn.click]
+14:11:54 Completed Teststep: click on {loc} with arguments: [saveReceipeBtn.click]
+14:12:04 Completed Teststep: Then save a recipe
+14:12:04 Invoking Teststep: Then verify login message for unregistered user while save/review
+14:12:14 Invoking Teststep: assert {loc} is visible with arguments: [saveMessageText.verify]
+14:12:14 Completed Teststep: assert {loc} is visible with arguments: [saveMessageText.verify]
+14:12:14 Completed Teststep: Then verify login message for unregistered user while save/review
+14:12:14 Competed scenario: verify Save Recipe Action for Guest User with status SUCCESS
+14:12:15 
+
+Executing scenario: verify Review Recipe Action for Guest User - verify Review Recipe for Guest User
+14:12:15 Invoking Teststep: Given get '/' with arguments: [/]
+14:12:16 Completed Teststep: Given get '/' with arguments: [/]
+14:12:16 Invoking Teststep: When navigate to search page
+14:12:26 Invoking Teststep: click on {loc} with arguments: [recipe.search]
+14:12:27 Completed Teststep: click on {loc} with arguments: [recipe.search]
+14:12:27 Invoking Teststep: wait until {loc} to be visible with arguments: [recipetype.search]
+14:12:28 Completed Teststep: wait until {loc} to be visible with arguments: [recipetype.search]
+14:12:28 Completed Teststep: When navigate to search page
+14:12:28 Invoking Teststep: Then search recipe 'breakfast pizza' with arguments: [breakfast pizza]
+14:12:28 Invoking Teststep: click on {loc} with arguments: [recipetype.search]
+14:12:28 Completed Teststep: click on {loc} with arguments: [recipetype.search]
+14:12:28 Invoking Teststep: sendKeys {text} into {loc} with arguments: [breakfast pizza?, recipetype.search]
+14:12:29 Completed Teststep: sendKeys {text} into {loc} with arguments: [breakfast pizza?, recipetype.search]
+14:12:39 Completed Teststep: Then search recipe 'breakfast pizza' with arguments: [breakfast pizza]
+14:12:39 Invoking Teststep: Then select a recipe
+14:12:49 Invoking Teststep: click on {loc} with arguments: [pizzaRecipeImg.click]
+14:12:49 Completed Teststep: click on {loc} with arguments: [pizzaRecipeImg.click]
+14:12:59 Completed Teststep: Then select a recipe
+14:12:59 Invoking Teststep: Then click on review btn
+14:12:59 Invoking Teststep: click on {loc} with arguments: [reviewBtn.click]
+14:13:00 Completed Teststep: click on {loc} with arguments: [reviewBtn.click]
+14:13:10 Completed Teststep: Then click on review btn
+14:13:10 Invoking Teststep: Then write a review 'Good' with arguments: [Good]
+14:13:20 Invoking Teststep: sendKeys {text} into {loc} with arguments: [Good?, writeReview.click]
+14:13:20 Completed Teststep: sendKeys {text} into {loc} with arguments: [Good?, writeReview.click]
+14:13:30 Completed Teststep: Then write a review 'Good' with arguments: [Good]
+14:13:30 Invoking Teststep: Then verify login message for unregistered user while save/review
+14:13:40 Invoking Teststep: assert {loc} is visible with arguments: [saveMessageText.verify]
+14:13:40 Completed Teststep: assert {loc} is visible with arguments: [saveMessageText.verify]
+14:13:40 Completed Teststep: Then verify login message for unregistered user while save/review
+14:13:40 Competed scenario: verify Review Recipe Action for Guest User with status SUCCESS
+14:13:40 
+
+Executing scenario: verify Search Results - verify Search Results -count
+14:13:40 Invoking Teststep: Given get '/' with arguments: [/]
+14:13:41 Completed Teststep: Given get '/' with arguments: [/]
+14:13:41 Invoking Teststep: When navigate to recipe page
+14:13:42 Invoking Teststep: click on {loc} with arguments: [recipeLink.click]
+14:13:42 Completed Teststep: click on {loc} with arguments: [recipeLink.click]
+14:13:42 Completed Teststep: When navigate to recipe page
+14:13:42 Invoking Teststep: When navigate to search page
+14:13:52 Invoking Teststep: click on {loc} with arguments: [recipe.search]
+14:13:53 Completed Teststep: click on {loc} with arguments: [recipe.search]
+14:13:53 Invoking Teststep: wait until {loc} to be visible with arguments: [recipetype.search]
+14:13:54 Completed Teststep: wait until {loc} to be visible with arguments: [recipetype.search]
+14:13:54 Completed Teststep: When navigate to search page
+14:13:54 Invoking Teststep: Then search recipe 'Biriyani' with arguments: [Biriyani]
+14:13:54 Invoking Teststep: click on {loc} with arguments: [recipetype.search]
+14:13:54 Completed Teststep: click on {loc} with arguments: [recipetype.search]
+14:13:54 Invoking Teststep: sendKeys {text} into {loc} with arguments: [Biriyani?, recipetype.search]
+14:13:54 Completed Teststep: sendKeys {text} into {loc} with arguments: [Biriyani?, recipetype.search]
+14:14:04 Completed Teststep: Then search recipe 'Biriyani' with arguments: [Biriyani]
+14:14:04 Invoking Teststep: Then verify result count
+14:14:05 Invoking Teststep: assert {loc} text is {text} with arguments: [resultCountText.verify, 10 RESULTS]
+14:14:05 Completed Teststep: assert {loc} text is {text} with arguments: [resultCountText.verify, 10 RESULTS]
+14:14:05 Completed Teststep: Then verify result count
+14:14:05 Competed scenario: verify Search Results with status SUCCESS
+14:14:05 
+
+Executing scenario: verify Invalid Search - verify Invalid Search
+14:14:05 Invoking Teststep: Given get '/' with arguments: [/]
+14:14:06 Completed Teststep: Given get '/' with arguments: [/]
+14:14:06 Invoking Teststep: When navigate to recipe page
+14:14:07 Invoking Teststep: click on {loc} with arguments: [recipeLink.click]
+14:14:08 Completed Teststep: click on {loc} with arguments: [recipeLink.click]
+14:14:08 Completed Teststep: When navigate to recipe page
+14:14:08 Invoking Teststep: When navigate to search page
+14:14:18 Invoking Teststep: click on {loc} with arguments: [recipe.search]
+14:14:19 Completed Teststep: click on {loc} with arguments: [recipe.search]
+14:14:19 Invoking Teststep: wait until {loc} to be visible with arguments: [recipetype.search]
+14:14:20 Completed Teststep: wait until {loc} to be visible with arguments: [recipetype.search]
+14:14:20 Completed Teststep: When navigate to search page
+14:14:20 Invoking Teststep: Then search recipe 'Iphone' with arguments: [Iphone]
+14:14:20 Invoking Teststep: click on {loc} with arguments: [recipetype.search]
+14:14:20 Completed Teststep: click on {loc} with arguments: [recipetype.search]
+14:14:20 Invoking Teststep: sendKeys {text} into {loc} with arguments: [Iphone?, recipetype.search]
+14:14:20 Completed Teststep: sendKeys {text} into {loc} with arguments: [Iphone?, recipetype.search]
+14:14:30 Completed Teststep: Then search recipe 'Iphone' with arguments: [Iphone]
+14:14:30 Invoking Teststep: Then verify no match message
+14:14:30 Invoking Teststep: assert {loc} is visible with arguments: [noMatchRecipeMsg.verify]
+14:14:31 Completed Teststep: assert {loc} is visible with arguments: [noMatchRecipeMsg.verify]
+14:14:31 Completed Teststep: Then verify no match message
+14:14:31 Competed scenario: verify Invalid Search with status SUCCESS
+14:14:31 
+
+Executing scenario: Verify SAVES Button functionality - Verify SAVES Button functionality
+14:14:31 Invoking Teststep: Given get '/' with arguments: [/]
+14:14:32 Completed Teststep: Given get '/' with arguments: [/]
+14:14:32 Invoking Teststep: When login as Reg User 'vdhuggis@gmail.com' 'Arjun@17' with arguments: [vdhuggis@gmail.com, Arjun@17]
+14:14:42 Invoking Teststep: wait until {loc} to be visible with arguments: [logInBtn.click]
+14:14:43 Completed Teststep: wait until {loc} to be visible with arguments: [logInBtn.click]
+14:14:43 Invoking Teststep: click on {loc} with arguments: [logInBtn.click]
+14:14:43 Completed Teststep: click on {loc} with arguments: [logInBtn.click]
+14:14:43 Invoking Teststep: wait until {loc} to be visible with arguments: [emailTxt.click]
+14:14:43 Completed Teststep: wait until {loc} to be visible with arguments: [emailTxt.click]
+14:14:43 Invoking Teststep: click on {loc} with arguments: [emailTxt.click]
+14:14:43 Completed Teststep: click on {loc} with arguments: [emailTxt.click]
+14:14:43 Invoking Teststep: sendKeys {text} into {loc} with arguments: [vdhuggis@gmail.com, emailTxt.click]
+14:14:43 Completed Teststep: sendKeys {text} into {loc} with arguments: [vdhuggis@gmail.com, emailTxt.click]
+14:14:43 Invoking Teststep: wait until {loc} to be visible with arguments: [pwdTxt.click]
+14:14:43 Completed Teststep: wait until {loc} to be visible with arguments: [pwdTxt.click]
+14:14:43 Invoking Teststep: click on {loc} with arguments: [pwdTxt.click]
+14:14:43 Completed Teststep: click on {loc} with arguments: [pwdTxt.click]
+14:14:43 Invoking Teststep: sendKeys {text} into {loc} with arguments: [Arjun@17?, pwdTxt.click]
+14:14:44 Completed Teststep: sendKeys {text} into {loc} with arguments: [Arjun@17?, pwdTxt.click]
+14:14:54 Completed Teststep: When login as Reg User 'vdhuggis@gmail.com' 'Arjun@17' with arguments: [vdhuggis@gmail.com, Arjun@17]
+14:14:54 Invoking Teststep: Then navigate to search page
+14:15:04 Invoking Teststep: click on {loc} with arguments: [recipe.search]
+14:15:04 Completed Teststep: click on {loc} with arguments: [recipe.search]
+14:15:04 Invoking Teststep: wait until {loc} to be visible with arguments: [recipetype.search]
+14:15:05 Completed Teststep: wait until {loc} to be visible with arguments: [recipetype.search]
+14:15:05 Completed Teststep: Then navigate to search page
+14:15:05 Invoking Teststep: Then search recipe 'breakfast pizza' with arguments: [breakfast pizza]
+14:15:05 Invoking Teststep: click on {loc} with arguments: [recipetype.search]
+14:15:05 Completed Teststep: click on {loc} with arguments: [recipetype.search]
+14:15:05 Invoking Teststep: sendKeys {text} into {loc} with arguments: [breakfast pizza?, recipetype.search]
+14:15:06 Completed Teststep: sendKeys {text} into {loc} with arguments: [breakfast pizza?, recipetype.search]
+14:15:16 Completed Teststep: Then search recipe 'breakfast pizza' with arguments: [breakfast pizza]
+14:15:16 Invoking Teststep: Then select a recipe
+14:15:26 Invoking Teststep: click on {loc} with arguments: [pizzaRecipeImg.click]
+14:15:26 Completed Teststep: click on {loc} with arguments: [pizzaRecipeImg.click]
+14:15:36 Completed Teststep: Then select a recipe
+14:15:36 Invoking Teststep: Then save a recipe
+14:15:36 Invoking Teststep: click on {loc} with arguments: [saveReceipeBtn.click]
+14:15:36 Completed Teststep: click on {loc} with arguments: [saveReceipeBtn.click]
+14:15:46 Completed Teststep: Then save a recipe
+14:15:46 Invoking Teststep: Then verify saved recipe msg for Reg User
+14:15:46 Invoking Teststep: assert {loc} is visible with arguments: [savedTxt.verify]
+14:15:47 Completed Teststep: assert {loc} is visible with arguments: [savedTxt.verify]
+14:15:57 Completed Teststep: Then verify saved recipe msg for Reg User
+14:15:57 Competed scenario: Verify SAVES Button functionality with status SUCCESS
+14:28:45 scenario.file.loc[Ljava.lang.String;@704d6e83
+14:28:45 loading BDD file: C:\Users\vaidh\eclipse-workspace\foodautomationadv\.\scenarios\smoketest.bdd
+14:28:45 total test found: 6
+14:28:45 
+
+Executing scenario: verify Test Food Receipe Title - verify Test Food Receipe Title
+14:28:45 Test Data{searchtext=breakfast pizza, Reviewcomment=Good, searchRecipe=Biriyani, Invalidsearch=Iphone, recipeTittle=RECIPES, username=vdhuggis@gmail.com, password=Arjun@17, __index=1}
+14:28:45 pkg: com.qmetry.qaf.automation.step
+14:28:45 pkg: com.qmetry.qaf.example
+14:28:45 Found duplicate step to load [] with [lower] prority then []
+14:28:45 Invoking Teststep: Given get '/' with arguments: [/]
+14:28:54 Completed Teststep: Given get '/' with arguments: [/]
+14:28:54 Invoking Teststep: When navigate to recipe page
+14:28:54 Invoking Teststep: click on {loc} with arguments: [recipeLink.click]
+14:28:55 Completed Teststep: click on {loc} with arguments: [recipeLink.click]
+14:28:55 Completed Teststep: When navigate to recipe page
+14:28:55 Invoking Teststep: Then verify text is RECIPES '${recipeTittle}' with arguments: [${recipeTittle}]
+14:28:56 Completed Teststep: Then verify text is RECIPES 'RECIPES' with arguments: [${recipeTittle}]
+14:28:56 Competed scenario: verify Test Food Receipe Title with status SUCCESS
+14:28:56 
+
+Executing scenario: verify Save Recipe Action for Guest User - verify Save Recipe for Guest User
+14:28:56 Test Data{searchtext=breakfast pizza, Reviewcomment=Good, searchRecipe=Biriyani, Invalidsearch=Iphone, recipeTittle=RECIPES, username=vdhuggis@gmail.com, password=Arjun@17, __index=1}
+14:28:56 Invoking Teststep: Given get '/' with arguments: [/]
+14:28:58 Completed Teststep: Given get '/' with arguments: [/]
+14:28:58 Invoking Teststep: When navigate to search page
+14:29:09 Invoking Teststep: click on {loc} with arguments: [recipe.search]
+14:29:09 Completed Teststep: click on {loc} with arguments: [recipe.search]
+14:29:09 Invoking Teststep: wait until {loc} to be visible with arguments: [recipetype.search]
+14:29:10 Completed Teststep: wait until {loc} to be visible with arguments: [recipetype.search]
+14:29:10 Completed Teststep: When navigate to search page
+14:29:10 Invoking Teststep: Then search recipe '${searchtext}' with arguments: [${searchtext}]
+14:29:11 Invoking Teststep: click on {loc} with arguments: [recipetype.search]
+14:29:11 Completed Teststep: click on {loc} with arguments: [recipetype.search]
+14:29:11 Invoking Teststep: sendKeys {text} into {loc} with arguments: [breakfast pizza?, recipetype.search]
+14:29:11 Completed Teststep: sendKeys {text} into {loc} with arguments: [breakfast pizza?, recipetype.search]
+14:29:21 Completed Teststep: Then search recipe 'breakfast pizza' with arguments: [${searchtext}]
+14:29:21 Invoking Teststep: Then select a recipe
+14:29:31 Invoking Teststep: click on {loc} with arguments: [pizzaRecipeImg.click]
+14:29:32 Completed Teststep: click on {loc} with arguments: [pizzaRecipeImg.click]
+14:29:42 Completed Teststep: Then select a recipe
+14:29:42 Invoking Teststep: Then save a recipe
+14:29:42 Invoking Teststep: click on {loc} with arguments: [saveReceipeBtn.click]
+14:29:43 Completed Teststep: click on {loc} with arguments: [saveReceipeBtn.click]
+14:29:53 Completed Teststep: Then save a recipe
+14:29:53 Invoking Teststep: Then verify login message for unregistered user while save/review
+14:30:03 Invoking Teststep: assert {loc} is visible with arguments: [saveMessageText.verify]
+14:30:03 Completed Teststep: assert {loc} is visible with arguments: [saveMessageText.verify]
+14:30:03 Completed Teststep: Then verify login message for unregistered user while save/review
+14:30:03 Competed scenario: verify Save Recipe Action for Guest User with status SUCCESS
+14:30:03 
+
+Executing scenario: verify Review Recipe Action for Guest User - verify Review Recipe for Guest User
+14:30:03 Test Data{searchtext=breakfast pizza, Reviewcomment=Good, searchRecipe=Biriyani, Invalidsearch=Iphone, recipeTittle=RECIPES, username=vdhuggis@gmail.com, password=Arjun@17, __index=1}
+14:30:03 Invoking Teststep: Given get '/' with arguments: [/]
+14:30:05 Completed Teststep: Given get '/' with arguments: [/]
+14:30:05 Invoking Teststep: When navigate to search page
+14:30:15 Invoking Teststep: click on {loc} with arguments: [recipe.search]
+14:30:16 Completed Teststep: click on {loc} with arguments: [recipe.search]
+14:30:16 Invoking Teststep: wait until {loc} to be visible with arguments: [recipetype.search]
+14:30:17 Completed Teststep: wait until {loc} to be visible with arguments: [recipetype.search]
+14:30:17 Completed Teststep: When navigate to search page
+14:30:17 Invoking Teststep: Then search recipe '${searchtext}' with arguments: [${searchtext}]
+14:30:18 Invoking Teststep: click on {loc} with arguments: [recipetype.search]
+14:30:18 Completed Teststep: click on {loc} with arguments: [recipetype.search]
+14:30:18 Invoking Teststep: sendKeys {text} into {loc} with arguments: [breakfast pizza?, recipetype.search]
+14:30:18 Completed Teststep: sendKeys {text} into {loc} with arguments: [breakfast pizza?, recipetype.search]
+14:30:28 Completed Teststep: Then search recipe 'breakfast pizza' with arguments: [${searchtext}]
+14:30:28 Invoking Teststep: Then select a recipe
+14:30:39 Invoking Teststep: click on {loc} with arguments: [pizzaRecipeImg.click]
+14:30:39 Completed Teststep: click on {loc} with arguments: [pizzaRecipeImg.click]
+14:30:49 Completed Teststep: Then select a recipe
+14:30:49 Invoking Teststep: Then click on review btn
+14:30:49 Invoking Teststep: click on {loc} with arguments: [reviewBtn.click]
+14:30:49 Completed Teststep: click on {loc} with arguments: [reviewBtn.click]
+14:30:59 Completed Teststep: Then click on review btn
+14:30:59 Invoking Teststep: Then write a review '${Reviewcomment}' with arguments: [${Reviewcomment}]
+14:31:10 Invoking Teststep: sendKeys {text} into {loc} with arguments: [Good?, writeReview.click]
+14:31:10 Completed Teststep: sendKeys {text} into {loc} with arguments: [Good?, writeReview.click]
+14:31:20 Completed Teststep: Then write a review 'Good' with arguments: [${Reviewcomment}]
+14:31:20 Invoking Teststep: Then verify login message for unregistered user while save/review
+14:31:30 Invoking Teststep: assert {loc} is visible with arguments: [saveMessageText.verify]
+14:31:30 Completed Teststep: assert {loc} is visible with arguments: [saveMessageText.verify]
+14:31:30 Completed Teststep: Then verify login message for unregistered user while save/review
+14:31:30 Competed scenario: verify Review Recipe Action for Guest User with status SUCCESS
+14:31:30 
+
+Executing scenario: verify Search Results - verify Search Results -count
+14:31:30 Test Data{searchtext=breakfast pizza, Reviewcomment=Good, searchRecipe=Biriyani, Invalidsearch=Iphone, recipeTittle=RECIPES, username=vdhuggis@gmail.com, password=Arjun@17, __index=1}
+14:31:30 Invoking Teststep: Given get '/' with arguments: [/]
+14:31:31 Completed Teststep: Given get '/' with arguments: [/]
+14:31:31 Invoking Teststep: When navigate to recipe page
+14:31:32 Invoking Teststep: click on {loc} with arguments: [recipeLink.click]
+14:31:33 Completed Teststep: click on {loc} with arguments: [recipeLink.click]
+14:31:33 Completed Teststep: When navigate to recipe page
+14:31:33 Invoking Teststep: When navigate to search page
+14:31:43 Invoking Teststep: click on {loc} with arguments: [recipe.search]
+14:31:44 Completed Teststep: click on {loc} with arguments: [recipe.search]
+14:31:44 Invoking Teststep: wait until {loc} to be visible with arguments: [recipetype.search]
+14:31:44 Completed Teststep: wait until {loc} to be visible with arguments: [recipetype.search]
+14:31:44 Completed Teststep: When navigate to search page
+14:31:44 Invoking Teststep: Then search recipe '${searchRecipe}' with arguments: [${searchRecipe}]
+14:31:44 Invoking Teststep: click on {loc} with arguments: [recipetype.search]
+14:31:44 Completed Teststep: click on {loc} with arguments: [recipetype.search]
+14:31:44 Invoking Teststep: sendKeys {text} into {loc} with arguments: [Biriyani?, recipetype.search]
+14:31:45 Completed Teststep: sendKeys {text} into {loc} with arguments: [Biriyani?, recipetype.search]
+14:31:55 Completed Teststep: Then search recipe 'Biriyani' with arguments: [${searchRecipe}]
+14:31:55 Invoking Teststep: Then verify result count
+14:31:55 Invoking Teststep: assert {loc} text is {text} with arguments: [resultCountText.verify, 10 RESULTS]
+14:31:56 Completed Teststep: assert {loc} text is {text} with arguments: [resultCountText.verify, 10 RESULTS]
+14:31:56 Completed Teststep: Then verify result count
+14:31:56 Competed scenario: verify Search Results with status SUCCESS
+14:31:56 
+
+Executing scenario: verify Invalid Search - verify Invalid Search
+14:31:56 Test Data{searchtext=breakfast pizza, Reviewcomment=Good, searchRecipe=Biriyani, Invalidsearch=Iphone, recipeTittle=RECIPES, username=vdhuggis@gmail.com, password=Arjun@17, __index=1}
+14:31:56 Invoking Teststep: Given get '/' with arguments: [/]
+14:31:56 Completed Teststep: Given get '/' with arguments: [/]
+14:31:56 Invoking Teststep: When navigate to recipe page
+14:31:57 Invoking Teststep: click on {loc} with arguments: [recipeLink.click]
+14:31:58 Completed Teststep: click on {loc} with arguments: [recipeLink.click]
+14:31:58 Completed Teststep: When navigate to recipe page
+14:31:58 Invoking Teststep: When navigate to search page
+14:32:08 Invoking Teststep: click on {loc} with arguments: [recipe.search]
+14:32:09 Completed Teststep: click on {loc} with arguments: [recipe.search]
+14:32:09 Invoking Teststep: wait until {loc} to be visible with arguments: [recipetype.search]
+14:32:09 Completed Teststep: wait until {loc} to be visible with arguments: [recipetype.search]
+14:32:09 Completed Teststep: When navigate to search page
+14:32:09 Invoking Teststep: Then search recipe '${Invalidsearch}' with arguments: [${Invalidsearch}]
+14:32:09 Invoking Teststep: click on {loc} with arguments: [recipetype.search]
+14:32:09 Completed Teststep: click on {loc} with arguments: [recipetype.search]
+14:32:09 Invoking Teststep: sendKeys {text} into {loc} with arguments: [Iphone?, recipetype.search]
+14:32:09 Completed Teststep: sendKeys {text} into {loc} with arguments: [Iphone?, recipetype.search]
+14:32:19 Completed Teststep: Then search recipe 'Iphone' with arguments: [${Invalidsearch}]
+14:32:19 Invoking Teststep: Then verify no match message
+14:32:19 Invoking Teststep: assert {loc} is visible with arguments: [noMatchRecipeMsg.verify]
+14:32:20 Completed Teststep: assert {loc} is visible with arguments: [noMatchRecipeMsg.verify]
+14:32:20 Completed Teststep: Then verify no match message
+14:32:20 Competed scenario: verify Invalid Search with status SUCCESS
+14:32:20 
+
+Executing scenario: Verify SAVES Button functionality - Verify SAVES Button functionality
+14:32:20 Test Data{searchtext=breakfast pizza, Reviewcomment=Good, searchRecipe=Biriyani, Invalidsearch=Iphone, recipeTittle=RECIPES, username=vdhuggis@gmail.com, password=Arjun@17, __index=1}
+14:32:20 Invoking Teststep: Given get '/' with arguments: [/]
+14:32:21 Completed Teststep: Given get '/' with arguments: [/]
+14:32:21 Invoking Teststep: When login as Reg User '${username}' '${password}' with arguments: [${username}, ${password}]
+14:32:31 Invoking Teststep: wait until {loc} to be visible with arguments: [logInBtn.click]
+14:32:32 Completed Teststep: wait until {loc} to be visible with arguments: [logInBtn.click]
+14:32:32 Invoking Teststep: click on {loc} with arguments: [logInBtn.click]
+14:32:32 Completed Teststep: click on {loc} with arguments: [logInBtn.click]
+14:32:32 Invoking Teststep: wait until {loc} to be visible with arguments: [emailTxt.click]
+14:32:32 Completed Teststep: wait until {loc} to be visible with arguments: [emailTxt.click]
+14:32:32 Invoking Teststep: click on {loc} with arguments: [emailTxt.click]
+14:32:33 Completed Teststep: click on {loc} with arguments: [emailTxt.click]
+14:32:33 Invoking Teststep: sendKeys {text} into {loc} with arguments: [vdhuggis@gmail.com, emailTxt.click]
+14:32:33 Completed Teststep: sendKeys {text} into {loc} with arguments: [vdhuggis@gmail.com, emailTxt.click]
+14:32:33 Invoking Teststep: wait until {loc} to be visible with arguments: [pwdTxt.click]
+14:32:33 Completed Teststep: wait until {loc} to be visible with arguments: [pwdTxt.click]
+14:32:33 Invoking Teststep: click on {loc} with arguments: [pwdTxt.click]
+14:32:33 Completed Teststep: click on {loc} with arguments: [pwdTxt.click]
+14:32:33 Invoking Teststep: sendKeys {text} into {loc} with arguments: [Arjun@17?, pwdTxt.click]
+14:32:33 Completed Teststep: sendKeys {text} into {loc} with arguments: [Arjun@17?, pwdTxt.click]
+14:32:43 Completed Teststep: When login as Reg User 'vdhuggis@gmail.com' 'Arjun@17' with arguments: [${username}, ${password}]
+14:32:43 Invoking Teststep: Then navigate to search page
+14:32:53 Invoking Teststep: click on {loc} with arguments: [recipe.search]
+14:32:54 Completed Teststep: click on {loc} with arguments: [recipe.search]
+14:32:54 Invoking Teststep: wait until {loc} to be visible with arguments: [recipetype.search]
+14:32:55 Completed Teststep: wait until {loc} to be visible with arguments: [recipetype.search]
+14:32:55 Completed Teststep: Then navigate to search page
+14:32:55 Invoking Teststep: Then search recipe '${searchtext}' with arguments: [${searchtext}]
+14:32:55 Invoking Teststep: click on {loc} with arguments: [recipetype.search]
+14:32:55 Completed Teststep: click on {loc} with arguments: [recipetype.search]
+14:32:55 Invoking Teststep: sendKeys {text} into {loc} with arguments: [breakfast pizza?, recipetype.search]
+14:32:56 Completed Teststep: sendKeys {text} into {loc} with arguments: [breakfast pizza?, recipetype.search]
+14:33:06 Completed Teststep: Then search recipe 'breakfast pizza' with arguments: [${searchtext}]
+14:33:06 Invoking Teststep: Then select a recipe
+14:33:16 Invoking Teststep: click on {loc} with arguments: [pizzaRecipeImg.click]
+14:33:17 Completed Teststep: click on {loc} with arguments: [pizzaRecipeImg.click]
+14:33:27 Completed Teststep: Then select a recipe
+14:33:27 Invoking Teststep: Then save a recipe
+14:33:27 Invoking Teststep: click on {loc} with arguments: [saveReceipeBtn.click]
+14:33:27 Completed Teststep: click on {loc} with arguments: [saveReceipeBtn.click]
+14:33:37 Completed Teststep: Then save a recipe
+14:33:37 Invoking Teststep: Then verify saved recipe msg for Reg User
+14:33:37 Invoking Teststep: assert {loc} is visible with arguments: [savedTxt.verify]
+14:33:38 Completed Teststep: assert {loc} is visible with arguments: [savedTxt.verify]
+14:33:48 Completed Teststep: Then verify saved recipe msg for Reg User
+14:33:48 Competed scenario: Verify SAVES Button functionality with status SUCCESS
+14:47:55 scenario.file.loc[Ljava.lang.String;@704d6e83
+14:47:55 loading BDD file: C:\Users\vaidh\eclipse-workspace\foodautomationadv\.\scenarios\smoketest.bdd
+14:47:55 total test found: 6
+14:47:55 
+
+Executing scenario: verify Test Food Receipe Title - verify Test Food Receipe Title
+14:47:55 Test Data{searchtext=breakfast pizza, Reviewcomment=Good, searchRecipe=Biriyani, Invalidsearch=Iphone, recipeTittle=RECIPES, username=vdhuggis@gmail.com, password=Arjun@17, __index=1}
+14:47:55 pkg: com.qmetry.qaf.automation.step
+14:47:55 pkg: com.qmetry.qaf.example
+14:47:55 Found duplicate step to load [] with [lower] prority then []
+14:47:55 Invoking Teststep: Given get '/' with arguments: [/]
+14:48:06 Completed Teststep: Given get '/' with arguments: [/]
+14:48:06 Invoking Teststep: When navigate to recipe page
+14:48:06 Invoking Teststep: click on {loc} with arguments: [recipeLink.click]
+14:48:06 Completed Teststep: click on {loc} with arguments: [recipeLink.click]
+14:48:06 Completed Teststep: When navigate to recipe page
+14:48:06 Invoking Teststep: Then verify text is RECIPES '${recipeTittle}' with arguments: [${recipeTittle}]
+14:48:09 Completed Teststep: Then verify text is RECIPES 'RECIPES' with arguments: [${recipeTittle}]
+14:48:09 Competed scenario: verify Test Food Receipe Title with status SUCCESS
+14:48:09 
+
+Executing scenario: verify Save Recipe Action for Guest User - verify Save Recipe for Guest User
+14:48:09 Test Data{searchtext=breakfast pizza, Reviewcomment=Good, searchRecipe=Biriyani, Invalidsearch=Iphone, recipeTittle=RECIPES, username=vdhuggis@gmail.com, password=Arjun@17, __index=1}
+14:48:09 Invoking Teststep: Given get '/' with arguments: [/]
+14:48:10 Completed Teststep: Given get '/' with arguments: [/]
+14:48:10 Invoking Teststep: When navigate to search page
+14:48:20 Invoking Teststep: click on {loc} with arguments: [recipe.search]
+14:48:21 Completed Teststep: click on {loc} with arguments: [recipe.search]
+14:48:21 Invoking Teststep: wait until {loc} to be visible with arguments: [recipetype.search]
+14:48:22 Completed Teststep: wait until {loc} to be visible with arguments: [recipetype.search]
+14:48:22 Completed Teststep: When navigate to search page
+14:48:22 Invoking Teststep: Then search recipe '${searchtext}' with arguments: [${searchtext}]
+14:48:22 Invoking Teststep: click on {loc} with arguments: [recipetype.search]
+14:48:23 Completed Teststep: click on {loc} with arguments: [recipetype.search]
+14:48:23 Invoking Teststep: sendKeys {text} into {loc} with arguments: [breakfast pizza?, recipetype.search]
+14:48:23 Completed Teststep: sendKeys {text} into {loc} with arguments: [breakfast pizza?, recipetype.search]
+14:48:33 Completed Teststep: Then search recipe 'breakfast pizza' with arguments: [${searchtext}]
+14:48:33 Invoking Teststep: Then select a recipe
+14:48:43 Invoking Teststep: click on {loc} with arguments: [pizzaRecipeImg.click]
+14:48:44 Completed Teststep: click on {loc} with arguments: [pizzaRecipeImg.click]
+14:48:54 Completed Teststep: Then select a recipe
+14:48:54 Invoking Teststep: Then save a recipe
+14:48:54 Invoking Teststep: click on {loc} with arguments: [saveReceipeBtn.click]
+14:48:54 Completed Teststep: click on {loc} with arguments: [saveReceipeBtn.click]
+14:49:04 Completed Teststep: Then save a recipe
+14:49:04 Invoking Teststep: Then verify login message for unregistered user while save/review
+14:49:14 Invoking Teststep: assert {loc} is visible with arguments: [saveMessageText.verify]
+14:49:15 Completed Teststep: assert {loc} is visible with arguments: [saveMessageText.verify]
+14:49:15 Completed Teststep: Then verify login message for unregistered user while save/review
+14:49:15 Competed scenario: verify Save Recipe Action for Guest User with status SUCCESS
+14:49:15 
+
+Executing scenario: verify Review Recipe Action for Guest User - verify Review Recipe for Guest User
+14:49:15 Test Data{searchtext=breakfast pizza, Reviewcomment=Good, searchRecipe=Biriyani, Invalidsearch=Iphone, recipeTittle=RECIPES, username=vdhuggis@gmail.com, password=Arjun@17, __index=1}
+14:49:15 Invoking Teststep: Given get '/' with arguments: [/]
+14:49:15 Completed Teststep: Given get '/' with arguments: [/]
+14:49:15 Invoking Teststep: When navigate to search page
+14:49:26 Invoking Teststep: click on {loc} with arguments: [recipe.search]
+14:49:27 Completed Teststep: click on {loc} with arguments: [recipe.search]
+14:49:27 Invoking Teststep: wait until {loc} to be visible with arguments: [recipetype.search]
+14:49:27 Completed Teststep: wait until {loc} to be visible with arguments: [recipetype.search]
+14:49:27 Completed Teststep: When navigate to search page
+14:49:27 Invoking Teststep: Then search recipe '${searchtext}' with arguments: [${searchtext}]
+14:49:27 Invoking Teststep: click on {loc} with arguments: [recipetype.search]
+14:49:27 Completed Teststep: click on {loc} with arguments: [recipetype.search]
+14:49:27 Invoking Teststep: sendKeys {text} into {loc} with arguments: [breakfast pizza?, recipetype.search]
+14:49:27 Completed Teststep: sendKeys {text} into {loc} with arguments: [breakfast pizza?, recipetype.search]
+14:49:37 Completed Teststep: Then search recipe 'breakfast pizza' with arguments: [${searchtext}]
+14:49:37 Invoking Teststep: Then select a recipe
+14:49:48 Invoking Teststep: click on {loc} with arguments: [pizzaRecipeImg.click]
+14:49:48 Completed Teststep: click on {loc} with arguments: [pizzaRecipeImg.click]
+14:49:58 Completed Teststep: Then select a recipe
+14:49:58 Invoking Teststep: Then click on review btn
+14:49:58 Invoking Teststep: click on {loc} with arguments: [reviewBtn.click]
+14:49:58 Completed Teststep: click on {loc} with arguments: [reviewBtn.click]
+14:50:08 Completed Teststep: Then click on review btn
+14:50:08 Invoking Teststep: Then write a review '${Reviewcomment}' with arguments: [${Reviewcomment}]
+14:50:18 Invoking Teststep: sendKeys {text} into {loc} with arguments: [Good?, writeReview.click]
+14:50:19 Completed Teststep: sendKeys {text} into {loc} with arguments: [Good?, writeReview.click]
+14:50:29 Completed Teststep: Then write a review 'Good' with arguments: [${Reviewcomment}]
+14:50:29 Invoking Teststep: Then verify login message for unregistered user while save/review
+14:50:39 Invoking Teststep: assert {loc} is visible with arguments: [saveMessageText.verify]
+14:50:39 Completed Teststep: assert {loc} is visible with arguments: [saveMessageText.verify]
+14:50:39 Completed Teststep: Then verify login message for unregistered user while save/review
+14:50:39 Competed scenario: verify Review Recipe Action for Guest User with status SUCCESS
+14:50:39 
+
+Executing scenario: verify Search Results - verify Search Results -count
+14:50:39 Test Data{searchtext=breakfast pizza, Reviewcomment=Good, searchRecipe=Biriyani, Invalidsearch=Iphone, recipeTittle=RECIPES, username=vdhuggis@gmail.com, password=Arjun@17, __index=1}
+14:50:39 Invoking Teststep: Given get '/' with arguments: [/]
+14:50:40 Completed Teststep: Given get '/' with arguments: [/]
+14:50:40 Invoking Teststep: When navigate to recipe page
+14:50:41 Invoking Teststep: click on {loc} with arguments: [recipeLink.click]
+14:50:41 Completed Teststep: click on {loc} with arguments: [recipeLink.click]
+14:50:41 Completed Teststep: When navigate to recipe page
+14:50:41 Invoking Teststep: When navigate to search page
+14:50:51 Invoking Teststep: click on {loc} with arguments: [recipe.search]
+14:50:52 Completed Teststep: click on {loc} with arguments: [recipe.search]
+14:50:52 Invoking Teststep: wait until {loc} to be visible with arguments: [recipetype.search]
+14:50:53 Completed Teststep: wait until {loc} to be visible with arguments: [recipetype.search]
+14:50:53 Completed Teststep: When navigate to search page
+14:50:53 Invoking Teststep: Then search recipe '${searchRecipe}' with arguments: [${searchRecipe}]
+14:50:53 Invoking Teststep: click on {loc} with arguments: [recipetype.search]
+14:50:53 Completed Teststep: click on {loc} with arguments: [recipetype.search]
+14:50:53 Invoking Teststep: sendKeys {text} into {loc} with arguments: [Biriyani?, recipetype.search]
+14:50:53 Completed Teststep: sendKeys {text} into {loc} with arguments: [Biriyani?, recipetype.search]
+14:51:03 Completed Teststep: Then search recipe 'Biriyani' with arguments: [${searchRecipe}]
+14:51:03 Invoking Teststep: Then verify result count
+14:51:03 Invoking Teststep: assert {loc} text is {text} with arguments: [resultCountText.verify, 10 RESULTS]
+14:51:04 Completed Teststep: assert {loc} text is {text} with arguments: [resultCountText.verify, 10 RESULTS]
+14:51:04 Completed Teststep: Then verify result count
+14:51:04 Competed scenario: verify Search Results with status SUCCESS
+14:51:04 
+
+Executing scenario: verify Invalid Search - verify Invalid Search
+14:51:04 Test Data{searchtext=breakfast pizza, Reviewcomment=Good, searchRecipe=Biriyani, Invalidsearch=Iphone, recipeTittle=RECIPES, username=vdhuggis@gmail.com, password=Arjun@17, __index=1}
+14:51:04 Invoking Teststep: Given get '/' with arguments: [/]
+14:51:05 Completed Teststep: Given get '/' with arguments: [/]
+14:51:05 Invoking Teststep: When navigate to recipe page
+14:51:05 Invoking Teststep: click on {loc} with arguments: [recipeLink.click]
+14:51:07 Completed Teststep: click on {loc} with arguments: [recipeLink.click]
+14:51:07 Completed Teststep: When navigate to recipe page
+14:51:07 Invoking Teststep: When navigate to search page
+14:51:17 Invoking Teststep: click on {loc} with arguments: [recipe.search]
+14:51:17 Completed Teststep: click on {loc} with arguments: [recipe.search]
+14:51:17 Invoking Teststep: wait until {loc} to be visible with arguments: [recipetype.search]
+14:51:18 Completed Teststep: wait until {loc} to be visible with arguments: [recipetype.search]
+14:51:18 Completed Teststep: When navigate to search page
+14:51:18 Invoking Teststep: Then search recipe '${Invalidsearch}' with arguments: [${Invalidsearch}]
+14:51:18 Invoking Teststep: click on {loc} with arguments: [recipetype.search]
+14:51:18 Completed Teststep: click on {loc} with arguments: [recipetype.search]
+14:51:18 Invoking Teststep: sendKeys {text} into {loc} with arguments: [Iphone?, recipetype.search]
+14:51:18 Completed Teststep: sendKeys {text} into {loc} with arguments: [Iphone?, recipetype.search]
+14:51:28 Completed Teststep: Then search recipe 'Iphone' with arguments: [${Invalidsearch}]
+14:51:28 Invoking Teststep: Then verify no match message
+14:51:29 Invoking Teststep: assert {loc} is visible with arguments: [noMatchRecipeMsg.verify]
+14:51:29 Completed Teststep: assert {loc} is visible with arguments: [noMatchRecipeMsg.verify]
+14:51:29 Completed Teststep: Then verify no match message
+14:51:29 Competed scenario: verify Invalid Search with status SUCCESS
+14:51:29 
+
+Executing scenario: Verify SAVES Button functionality - Verify SAVES Button functionality
+14:51:29 Test Data{searchtext=breakfast pizza, Reviewcomment=Good, searchRecipe=Biriyani, Invalidsearch=Iphone, recipeTittle=RECIPES, username=vdhuggis@gmail.com, password=Arjun@17, __index=1}
+14:51:29 Invoking Teststep: Given get '/' with arguments: [/]
+14:51:30 Completed Teststep: Given get '/' with arguments: [/]
+14:51:30 Invoking Teststep: When login as Reg User '${username}' '${password}' with arguments: [${username}, ${password}]
+14:51:40 Invoking Teststep: wait until {loc} to be visible with arguments: [logInBtn.click]
+14:51:41 Completed Teststep: wait until {loc} to be visible with arguments: [logInBtn.click]
+14:51:41 Invoking Teststep: click on {loc} with arguments: [logInBtn.click]
+14:51:41 Completed Teststep: click on {loc} with arguments: [logInBtn.click]
+14:51:41 Invoking Teststep: wait until {loc} to be visible with arguments: [emailTxt.click]
+14:51:41 Completed Teststep: wait until {loc} to be visible with arguments: [emailTxt.click]
+14:51:41 Invoking Teststep: click on {loc} with arguments: [emailTxt.click]
+14:51:42 Completed Teststep: click on {loc} with arguments: [emailTxt.click]
+14:51:42 Invoking Teststep: sendKeys {text} into {loc} with arguments: [vdhuggis@gmail.com, emailTxt.click]
+14:51:42 Completed Teststep: sendKeys {text} into {loc} with arguments: [vdhuggis@gmail.com, emailTxt.click]
+14:51:42 Invoking Teststep: wait until {loc} to be visible with arguments: [pwdTxt.click]
+14:51:42 Completed Teststep: wait until {loc} to be visible with arguments: [pwdTxt.click]
+14:51:42 Invoking Teststep: click on {loc} with arguments: [pwdTxt.click]
+14:51:42 Completed Teststep: click on {loc} with arguments: [pwdTxt.click]
+14:51:42 Invoking Teststep: sendKeys {text} into {loc} with arguments: [Arjun@17?, pwdTxt.click]
+14:51:42 Completed Teststep: sendKeys {text} into {loc} with arguments: [Arjun@17?, pwdTxt.click]
+14:51:52 Completed Teststep: When login as Reg User 'vdhuggis@gmail.com' 'Arjun@17' with arguments: [${username}, ${password}]
+14:51:52 Invoking Teststep: Then navigate to search page
+14:52:02 Invoking Teststep: click on {loc} with arguments: [recipe.search]
+14:52:03 Completed Teststep: click on {loc} with arguments: [recipe.search]
+14:52:03 Invoking Teststep: wait until {loc} to be visible with arguments: [recipetype.search]
+14:52:03 Completed Teststep: wait until {loc} to be visible with arguments: [recipetype.search]
+14:52:03 Completed Teststep: Then navigate to search page
+14:52:03 Invoking Teststep: Then search recipe '${searchtext}' with arguments: [${searchtext}]
+14:52:03 Invoking Teststep: click on {loc} with arguments: [recipetype.search]
+14:52:03 Completed Teststep: click on {loc} with arguments: [recipetype.search]
+14:52:03 Invoking Teststep: sendKeys {text} into {loc} with arguments: [breakfast pizza?, recipetype.search]
+14:52:04 Completed Teststep: sendKeys {text} into {loc} with arguments: [breakfast pizza?, recipetype.search]
+14:52:14 Completed Teststep: Then search recipe 'breakfast pizza' with arguments: [${searchtext}]
+14:52:14 Invoking Teststep: Then select a recipe
+14:52:24 Invoking Teststep: click on {loc} with arguments: [pizzaRecipeImg.click]
+14:52:24 Completed Teststep: click on {loc} with arguments: [pizzaRecipeImg.click]
+14:52:34 Completed Teststep: Then select a recipe
+14:52:34 Invoking Teststep: Then save a recipe
+14:52:34 Invoking Teststep: click on {loc} with arguments: [saveReceipeBtn.click]
+14:52:34 Completed Teststep: click on {loc} with arguments: [saveReceipeBtn.click]
+14:52:44 Completed Teststep: Then save a recipe
+14:52:44 Invoking Teststep: Then verify saved recipe msg for Reg User
+14:52:44 Invoking Teststep: assert {loc} is visible with arguments: [savedTxt.verify]
+14:52:45 Completed Teststep: assert {loc} is visible with arguments: [savedTxt.verify]
+14:52:55 Completed Teststep: Then verify saved recipe msg for Reg User
+14:52:55 Competed scenario: Verify SAVES Button functionality with status SUCCESS
+15:00:15 scenario.file.loc[Ljava.lang.String;@10a035a0
+15:00:15 loading feature file: C:\Users\vaidh\eclipse-workspace\foodautomationadv\.\scenarios\metadataexample.feature
+15:00:15 total test found: 6
+15:00:15 
+
+Executing scenario: verify Test Food Receipe Title - 
+15:00:15 Test Data{searchtext=breakfast pizza, Reviewcomment=Good, searchRecipe=Biriyani, Invalidsearch=Iphone, recipeTittle=RECIPES, username=vdhuggis@gmail.com, password=Arjun@17, __index=1}
+15:00:15 pkg: com.qmetry.qaf.automation.step
+15:00:16 pkg: com.qmetry.qaf.example
+15:00:16 Found duplicate step to load [] with [lower] prority then []
+15:00:16 Invoking Teststep: Given get '/' with arguments: [/]
+15:00:24 Completed Teststep: Given get '/' with arguments: [/]
+15:00:24 Invoking Teststep: When navigate to recipe page
+15:00:24 Invoking Teststep: wait until {loc} to be visible with arguments: [recipeLink.click]
+15:00:25 Completed Teststep: wait until {loc} to be visible with arguments: [recipeLink.click]
+15:00:25 Invoking Teststep: click on {loc} with arguments: [recipeLink.click]
+15:00:25 Completed Teststep: click on {loc} with arguments: [recipeLink.click]
+15:00:25 Completed Teststep: When navigate to recipe page
+15:00:25 Invoking Teststep: Then verify text is RECIPES '${recipeTittle}' with arguments: [${recipeTittle}]
+15:00:25 Invoking Teststep: verify {loc} text is {text} with arguments: [text.recipe, RECIPES]
+15:00:26 Completed Teststep: verify {loc} text is {text} with arguments: [text.recipe, RECIPES]
+15:00:26 Completed Teststep: Then verify text is RECIPES 'RECIPES' with arguments: [${recipeTittle}]
+15:00:26 Competed scenario: verify Test Food Receipe Title with status SUCCESS
+15:00:26 
+
+Executing scenario: verify Search Results - 
+15:00:26 Test Data{searchtext=breakfast pizza, Reviewcomment=Good, searchRecipe=Biriyani, Invalidsearch=Iphone, recipeTittle=RECIPES, username=vdhuggis@gmail.com, password=Arjun@17, __index=1}
+15:00:26 Invoking Teststep: Given get '/' with arguments: [/]
+15:00:28 Completed Teststep: Given get '/' with arguments: [/]
+15:00:28 Invoking Teststep: When navigate to recipe page
+15:00:28 Invoking Teststep: wait until {loc} to be visible with arguments: [recipeLink.click]
+15:00:31 Completed Teststep: wait until {loc} to be visible with arguments: [recipeLink.click]
+15:00:31 Invoking Teststep: click on {loc} with arguments: [recipeLink.click]
+15:00:32 Completed Teststep: click on {loc} with arguments: [recipeLink.click]
+15:00:32 Completed Teststep: When navigate to recipe page
+15:00:32 Invoking Teststep: When navigate to search page
+15:00:42 Invoking Teststep: wait until {loc} to be visible with arguments: [recipe.search]
+15:00:42 Completed Teststep: wait until {loc} to be visible with arguments: [recipe.search]
+15:00:42 Invoking Teststep: click on {loc} with arguments: [recipe.search]
+15:00:43 Completed Teststep: click on {loc} with arguments: [recipe.search]
+15:00:43 Invoking Teststep: wait until {loc} to be visible with arguments: [recipetype.search]
+15:00:43 Completed Teststep: wait until {loc} to be visible with arguments: [recipetype.search]
+15:00:43 Completed Teststep: When navigate to search page
+15:00:43 Invoking Teststep: Then search recipe '${searchRecipe}' with arguments: [${searchRecipe}]
+15:00:43 Invoking Teststep: wait until {loc} to be visible with arguments: [recipetype.search]
+15:00:44 Completed Teststep: wait until {loc} to be visible with arguments: [recipetype.search]
+15:00:44 Invoking Teststep: click on {loc} with arguments: [recipetype.search]
+15:00:44 Completed Teststep: click on {loc} with arguments: [recipetype.search]
+15:00:44 Invoking Teststep: sendKeys {text} into {loc} with arguments: [Biriyani?, recipetype.search]
+15:00:44 Completed Teststep: sendKeys {text} into {loc} with arguments: [Biriyani?, recipetype.search]
+15:00:54 Completed Teststep: Then search recipe 'Biriyani' with arguments: [${searchRecipe}]
+15:00:54 Invoking Teststep: Then verify result count
+15:00:54 Invoking Teststep: wait until {loc} to be visible with arguments: [resultCountText.verify]
+15:00:54 Completed Teststep: wait until {loc} to be visible with arguments: [resultCountText.verify]
+15:00:54 Invoking Teststep: scroll Down To Bottom
+15:00:54 Completed Teststep: scroll Down To Bottom
+15:00:54 Invoking Teststep: assert {loc} text is {text} with arguments: [resultCountText.verify, 10 RESULTS]
+15:00:55 Completed Teststep: assert {loc} text is {text} with arguments: [resultCountText.verify, 10 RESULTS]
+15:00:55 Completed Teststep: Then verify result count
+15:00:55 Competed scenario: verify Search Results with status SUCCESS
+15:00:55 
+
+Executing scenario: verify Save Recipe Action for Guest User - 
+15:00:55 Test Data{searchtext=breakfast pizza, Reviewcomment=Good, searchRecipe=Biriyani, Invalidsearch=Iphone, recipeTittle=RECIPES, username=vdhuggis@gmail.com, password=Arjun@17, __index=1}
+15:00:55 Invoking Teststep: Given get '/' with arguments: [/]
+15:00:56 Completed Teststep: Given get '/' with arguments: [/]
+15:00:56 Invoking Teststep: When navigate to recipe page
+15:00:56 Invoking Teststep: wait until {loc} to be visible with arguments: [recipeLink.click]
+15:00:56 Completed Teststep: wait until {loc} to be visible with arguments: [recipeLink.click]
+15:00:56 Invoking Teststep: click on {loc} with arguments: [recipeLink.click]
+15:00:58 Failure Teststep: click on {loc} with arguments: [recipeLink.click]
+com.qmetry.qaf.automation.step.JavaStepReporter$JPThrowable: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a href="/recipe?ref=nav" class="" ref="gk-menu-item">...</a> is not clickable at point (255, 214). Other element would receive the click: <iframe scrolling="no" frameborder="0" src="https://sni-ads-creativeservices.s3.us-east-1.amazonaws.com/fnk/2020/Quarantine-ads/fnk-flex-mar.html?macro=https://adclick.g.doubleclick.net/pcs/click?xai=AKAOjsuY6gHKv-LKKiQa1DddmUFo-ZpeifNgebk93LJq38Lk2ou3CPjQsgKgEa5PNm66kGu2iGzJkxCCb46sAnSN-pyQRNrf0ZYaXmOPUyjEuNLuliVvj93SOrXWM3uvP8blNtJEAoaFg7OwmCM1dlHg8cL9wmpkbc_W9rFoRCS2LNkcMKmGFFQ3dm4zLcOGKSM4MuJeY6jvpbHax_xOfA3PdMXNtFnyVK3Oe_MjXrGCgblbsp8NOTElM3Fcmk-xTjvKCXlgUvY5p5o5&amp;sig=Cg0ArKJSzFFacGDiI9QiEAE&amp;urlfix=1&amp;adurl="></iframe>
+  (Session info: chrome=81.0.4044.138)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'VAIDHUSANTHU', ip: '192.168.0.56', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: C:\Users\vaidh\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61815}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 1800d43849bdb3223a063bb651ca9dcd
+	at com.qmetry.qaf.automation.step.JavaStepReporter$MockJavaStep.doExecute(JavaStepReporter.java:144)
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)
+	at com.qmetry.qaf.automation.step.JavaStepReporter.javaTestStep(JavaStepReporter.java:88)
+	at com.qmetry.qaf.automation.step.CommonStep.click(CommonStep.java:459)
+	at com.qmetry.qaf.example.steps.StepsLibrary.navigateToRecipePage_aroundBody34(StepsLibrary.java:228)
+	at com.qmetry.qaf.example.steps.StepsLibrary$AjcClosure35.run(StepsLibrary.java:1)
+	at org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:149)
+	at com.qmetry.qaf.automation.step.JavaStepReporter.javaTestStep(JavaStepReporter.java:101)
+	at com.qmetry.qaf.example.steps.StepsLibrary.navigateToRecipePage(StepsLibrary.java:226)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:153)
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:134)
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:180)
+	at com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(DataDrivenScenario.java:69)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:781)
+	at org.testng.TestRunner.run(TestRunner.java:635)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a href="/recipe?ref=nav" class="" ref="gk-menu-item">...</a> is not clickable at point (255, 214). Other element would receive the click: <iframe scrolling="no" frameborder="0" src="https://sni-ads-creativeservices.s3.us-east-1.amazonaws.com/fnk/2020/Quarantine-ads/fnk-flex-mar.html?macro=https://adclick.g.doubleclick.net/pcs/click?xai=AKAOjsuY6gHKv-LKKiQa1DddmUFo-ZpeifNgebk93LJq38Lk2ou3CPjQsgKgEa5PNm66kGu2iGzJkxCCb46sAnSN-pyQRNrf0ZYaXmOPUyjEuNLuliVvj93SOrXWM3uvP8blNtJEAoaFg7OwmCM1dlHg8cL9wmpkbc_W9rFoRCS2LNkcMKmGFFQ3dm4zLcOGKSM4MuJeY6jvpbHax_xOfA3PdMXNtFnyVK3Oe_MjXrGCgblbsp8NOTElM3Fcmk-xTjvKCXlgUvY5p5o5&amp;sig=Cg0ArKJSzFFacGDiI9QiEAE&amp;urlfix=1&amp;adurl="></iframe>
+  (Session info: chrome=81.0.4044.138)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'VAIDHUSANTHU', ip: '192.168.0.56', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: C:\Users\vaidh\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61815}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 1800d43849bdb3223a063bb651ca9dcd
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.executeWitoutLog(QAFExtendedWebDriver.java:257)
+	at com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.execute(QAFExtendedWebElement.java:263)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at com.qmetry.qaf.automation.step.CommonStep.click_aroundBody38(CommonStep.java:460)
+	at com.qmetry.qaf.automation.step.CommonStep$AjcClosure39.run(CommonStep.java:1)
+	at org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:149)
+	at com.qmetry.qaf.automation.step.JavaStepReporter$MockJavaStep.doExecute(JavaStepReporter.java:138)
+	... 42 more
+15:00:58 Completed Teststep: click on {loc} with arguments: [recipeLink.click]
+15:00:58 Failure Teststep: When navigate to recipe page
+org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a href="/recipe?ref=nav" class="" ref="gk-menu-item">...</a> is not clickable at point (255, 214). Other element would receive the click: <iframe scrolling="no" frameborder="0" src="https://sni-ads-creativeservices.s3.us-east-1.amazonaws.com/fnk/2020/Quarantine-ads/fnk-flex-mar.html?macro=https://adclick.g.doubleclick.net/pcs/click?xai=AKAOjsuY6gHKv-LKKiQa1DddmUFo-ZpeifNgebk93LJq38Lk2ou3CPjQsgKgEa5PNm66kGu2iGzJkxCCb46sAnSN-pyQRNrf0ZYaXmOPUyjEuNLuliVvj93SOrXWM3uvP8blNtJEAoaFg7OwmCM1dlHg8cL9wmpkbc_W9rFoRCS2LNkcMKmGFFQ3dm4zLcOGKSM4MuJeY6jvpbHax_xOfA3PdMXNtFnyVK3Oe_MjXrGCgblbsp8NOTElM3Fcmk-xTjvKCXlgUvY5p5o5&amp;sig=Cg0ArKJSzFFacGDiI9QiEAE&amp;urlfix=1&amp;adurl="></iframe>
+  (Session info: chrome=81.0.4044.138)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'VAIDHUSANTHU', ip: '192.168.0.56', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: C:\Users\vaidh\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61815}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 1800d43849bdb3223a063bb651ca9dcd
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.executeWitoutLog(QAFExtendedWebDriver.java:257)
+	at com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.execute(QAFExtendedWebElement.java:263)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at com.qmetry.qaf.automation.step.CommonStep.click_aroundBody38(CommonStep.java:460)
+	at com.qmetry.qaf.automation.step.CommonStep$AjcClosure39.run(CommonStep.java:1)
+	at org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:149)
+	at com.qmetry.qaf.automation.step.JavaStepReporter$MockJavaStep.doExecute(JavaStepReporter.java:138)
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)
+	at com.qmetry.qaf.automation.step.JavaStepReporter.javaTestStep(JavaStepReporter.java:88)
+	at com.qmetry.qaf.automation.step.CommonStep.click(CommonStep.java:459)
+	at com.qmetry.qaf.example.steps.StepsLibrary.navigateToRecipePage_aroundBody34(StepsLibrary.java:228)
+	at com.qmetry.qaf.example.steps.StepsLibrary$AjcClosure35.run(StepsLibrary.java:1)
+	at org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:149)
+	at com.qmetry.qaf.automation.step.JavaStepReporter.javaTestStep(JavaStepReporter.java:101)
+	at com.qmetry.qaf.example.steps.StepsLibrary.navigateToRecipePage(StepsLibrary.java:226)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:153)
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:134)
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:180)
+	at com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(DataDrivenScenario.java:69)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:781)
+	at org.testng.TestRunner.run(TestRunner.java:635)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+15:00:58 Completed Teststep: When navigate to recipe page
+15:00:58 Competed scenario: verify Save Recipe Action for Guest User with status FAILURE
+15:00:59 
+
+Executing scenario: verify Review Recipe Action for Guest User - 
+15:00:59 Test Data{searchtext=breakfast pizza, Reviewcomment=Good, searchRecipe=Biriyani, Invalidsearch=Iphone, recipeTittle=RECIPES, username=vdhuggis@gmail.com, password=Arjun@17, __index=1}
+15:00:59 Invoking Teststep: Given get '/' with arguments: [/]
+15:01:00 Completed Teststep: Given get '/' with arguments: [/]
+15:01:00 Invoking Teststep: When navigate to recipe page
+15:01:00 Invoking Teststep: wait until {loc} to be visible with arguments: [recipeLink.click]
+15:01:00 Completed Teststep: wait until {loc} to be visible with arguments: [recipeLink.click]
+15:01:00 Invoking Teststep: click on {loc} with arguments: [recipeLink.click]
+15:01:01 Completed Teststep: click on {loc} with arguments: [recipeLink.click]
+15:01:01 Completed Teststep: When navigate to recipe page
+15:01:01 Invoking Teststep: When navigate to search page
+15:01:33 scenario.file.loc[Ljava.lang.String;@10a035a0
+15:01:33 loading feature file: C:\Users\vaidh\eclipse-workspace\foodautomationadv\.\scenarios\metadataexample.feature
+15:01:33 total test found: 6
+15:01:33 
+
+Executing scenario: verify Test Food Receipe Title - 
+15:01:33 Test Data{searchtext=breakfast pizza, Reviewcomment=Good, searchRecipe=Biriyani, Invalidsearch=Iphone, recipeTittle=RECIPES, username=vdhuggis@gmail.com, password=Arjun@17, __index=1}
+15:01:33 pkg: com.qmetry.qaf.automation.step
+15:01:34 pkg: com.qmetry.qaf.example
+15:01:34 Found duplicate step to load [] with [lower] prority then []
+15:01:34 Invoking Teststep: Given get '/' with arguments: [/]
+15:01:43 Completed Teststep: Given get '/' with arguments: [/]
+15:01:43 Invoking Teststep: When navigate to recipe page
+15:01:43 Invoking Teststep: wait until {loc} to be visible with arguments: [recipeLink.click]
+15:01:43 Completed Teststep: wait until {loc} to be visible with arguments: [recipeLink.click]
+15:01:43 Invoking Teststep: click on {loc} with arguments: [recipeLink.click]
+15:01:43 Completed Teststep: click on {loc} with arguments: [recipeLink.click]
+15:01:43 Completed Teststep: When navigate to recipe page
+15:01:43 Invoking Teststep: Then verify text is RECIPES '${recipeTittle}' with arguments: [${recipeTittle}]
+15:01:43 Invoking Teststep: verify {loc} text is {text} with arguments: [text.recipe, RECIPES]
+15:01:47 Completed Teststep: verify {loc} text is {text} with arguments: [text.recipe, RECIPES]
+15:01:47 Completed Teststep: Then verify text is RECIPES 'RECIPES' with arguments: [${recipeTittle}]
+15:01:47 Competed scenario: verify Test Food Receipe Title with status SUCCESS
+15:01:47 
+
+Executing scenario: verify Search Results - 
+15:01:47 Test Data{searchtext=breakfast pizza, Reviewcomment=Good, searchRecipe=Biriyani, Invalidsearch=Iphone, recipeTittle=RECIPES, username=vdhuggis@gmail.com, password=Arjun@17, __index=1}
+15:01:47 Invoking Teststep: Given get '/' with arguments: [/]
+15:01:48 Completed Teststep: Given get '/' with arguments: [/]
+15:01:48 Invoking Teststep: When navigate to recipe page
+15:01:48 Invoking Teststep: wait until {loc} to be visible with arguments: [recipeLink.click]
+15:01:48 Completed Teststep: wait until {loc} to be visible with arguments: [recipeLink.click]
+15:01:48 Invoking Teststep: click on {loc} with arguments: [recipeLink.click]
+15:01:49 Completed Teststep: click on {loc} with arguments: [recipeLink.click]
+15:01:49 Completed Teststep: When navigate to recipe page
+15:01:49 Invoking Teststep: When navigate to search page
+15:01:59 Invoking Teststep: wait until {loc} to be visible with arguments: [recipe.search]
+15:01:59 Completed Teststep: wait until {loc} to be visible with arguments: [recipe.search]
+15:01:59 Invoking Teststep: click on {loc} with arguments: [recipe.search]
+15:02:00 Completed Teststep: click on {loc} with arguments: [recipe.search]
+15:02:00 Invoking Teststep: wait until {loc} to be visible with arguments: [recipetype.search]
+15:02:00 Completed Teststep: wait until {loc} to be visible with arguments: [recipetype.search]
+15:02:00 Completed Teststep: When navigate to search page
+15:02:00 Invoking Teststep: Then search recipe '${searchRecipe}' with arguments: [${searchRecipe}]
+15:02:00 Invoking Teststep: wait until {loc} to be visible with arguments: [recipetype.search]
+15:02:01 Completed Teststep: wait until {loc} to be visible with arguments: [recipetype.search]
+15:02:01 Invoking Teststep: click on {loc} with arguments: [recipetype.search]
+15:02:01 Completed Teststep: click on {loc} with arguments: [recipetype.search]
+15:02:01 Invoking Teststep: sendKeys {text} into {loc} with arguments: [Biriyani?, recipetype.search]
+15:02:01 Completed Teststep: sendKeys {text} into {loc} with arguments: [Biriyani?, recipetype.search]
+15:02:11 Completed Teststep: Then search recipe 'Biriyani' with arguments: [${searchRecipe}]
+15:02:11 Invoking Teststep: Then verify result count
+15:02:11 Invoking Teststep: wait until {loc} to be visible with arguments: [resultCountText.verify]
+15:02:11 Completed Teststep: wait until {loc} to be visible with arguments: [resultCountText.verify]
+15:02:11 Invoking Teststep: scroll Down To Bottom
+15:02:11 Completed Teststep: scroll Down To Bottom
+15:02:11 Invoking Teststep: assert {loc} text is {text} with arguments: [resultCountText.verify, 10 RESULTS]
+15:02:12 Completed Teststep: assert {loc} text is {text} with arguments: [resultCountText.verify, 10 RESULTS]
+15:02:12 Completed Teststep: Then verify result count
+15:02:12 Competed scenario: verify Search Results with status SUCCESS
+15:02:12 
+
+Executing scenario: verify Save Recipe Action for Guest User - 
+15:02:12 Test Data{searchtext=breakfast pizza, Reviewcomment=Good, searchRecipe=Biriyani, Invalidsearch=Iphone, recipeTittle=RECIPES, username=vdhuggis@gmail.com, password=Arjun@17, __index=1}
+15:02:12 Invoking Teststep: Given get '/' with arguments: [/]
+15:02:13 Completed Teststep: Given get '/' with arguments: [/]
+15:02:13 Invoking Teststep: When navigate to recipe page
+15:02:13 Invoking Teststep: wait until {loc} to be visible with arguments: [recipeLink.click]
+15:02:13 Completed Teststep: wait until {loc} to be visible with arguments: [recipeLink.click]
+15:02:13 Invoking Teststep: click on {loc} with arguments: [recipeLink.click]
+15:02:15 Completed Teststep: click on {loc} with arguments: [recipeLink.click]
+15:02:15 Completed Teststep: When navigate to recipe page
+15:02:15 Invoking Teststep: When navigate to search page
+15:02:25 Invoking Teststep: wait until {loc} to be visible with arguments: [recipe.search]
+15:02:25 Completed Teststep: wait until {loc} to be visible with arguments: [recipe.search]
+15:02:25 Invoking Teststep: click on {loc} with arguments: [recipe.search]
+15:02:26 Completed Teststep: click on {loc} with arguments: [recipe.search]
+15:02:26 Invoking Teststep: wait until {loc} to be visible with arguments: [recipetype.search]
+15:02:26 Completed Teststep: wait until {loc} to be visible with arguments: [recipetype.search]
+15:02:26 Completed Teststep: When navigate to search page
+15:02:26 Invoking Teststep: Then search recipe '${searchtext}' with arguments: [${searchtext}]
+15:02:26 Invoking Teststep: wait until {loc} to be visible with arguments: [recipetype.search]
+15:02:26 Completed Teststep: wait until {loc} to be visible with arguments: [recipetype.search]
+15:02:26 Invoking Teststep: click on {loc} with arguments: [recipetype.search]
+15:02:26 Completed Teststep: click on {loc} with arguments: [recipetype.search]
+15:02:26 Invoking Teststep: sendKeys {text} into {loc} with arguments: [breakfast pizza?, recipetype.search]
+15:02:27 Completed Teststep: sendKeys {text} into {loc} with arguments: [breakfast pizza?, recipetype.search]
+15:02:37 Completed Teststep: Then search recipe 'breakfast pizza' with arguments: [${searchtext}]
+15:02:37 Invoking Teststep: Then select a recipe
+15:02:47 Invoking Teststep: wait until {loc} to be visible with arguments: [pizzaRecipeImg.click]
+15:02:47 Completed Teststep: wait until {loc} to be visible with arguments: [pizzaRecipeImg.click]
+15:02:47 Invoking Teststep: click on {loc} with arguments: [pizzaRecipeImg.click]
+15:02:47 Completed Teststep: click on {loc} with arguments: [pizzaRecipeImg.click]
+15:02:57 Completed Teststep: Then select a recipe
+15:02:57 Invoking Teststep: Then save a recipe
+15:02:57 Invoking Teststep: wait until {loc} to be visible with arguments: [saveReceipeBtn.click]
+15:02:57 Completed Teststep: wait until {loc} to be visible with arguments: [saveReceipeBtn.click]
+15:02:57 Invoking Teststep: click on {loc} with arguments: [saveReceipeBtn.click]
+15:02:57 Completed Teststep: click on {loc} with arguments: [saveReceipeBtn.click]
+15:03:07 Completed Teststep: Then save a recipe
+15:03:07 Invoking Teststep: Then verify login message for unregistered user while save/review
+15:03:07 Invoking Teststep: wait until {loc} to be visible with arguments: [saveMessageText.verify]
+15:03:07 Completed Teststep: wait until {loc} to be visible with arguments: [saveMessageText.verify]
+15:03:17 Invoking Teststep: assert {loc} is visible with arguments: [saveMessageText.verify]
+15:03:18 Completed Teststep: assert {loc} is visible with arguments: [saveMessageText.verify]
+15:03:18 Completed Teststep: Then verify login message for unregistered user while save/review
+15:03:18 Competed scenario: verify Save Recipe Action for Guest User with status SUCCESS
+15:03:18 
+
+Executing scenario: verify Review Recipe Action for Guest User - 
+15:03:18 Test Data{searchtext=breakfast pizza, Reviewcomment=Good, searchRecipe=Biriyani, Invalidsearch=Iphone, recipeTittle=RECIPES, username=vdhuggis@gmail.com, password=Arjun@17, __index=1}
+15:03:18 Invoking Teststep: Given get '/' with arguments: [/]
+15:03:19 Completed Teststep: Given get '/' with arguments: [/]
+15:03:19 Invoking Teststep: When navigate to recipe page
+15:03:19 Invoking Teststep: wait until {loc} to be visible with arguments: [recipeLink.click]
+15:03:20 Completed Teststep: wait until {loc} to be visible with arguments: [recipeLink.click]
+15:03:20 Invoking Teststep: click on {loc} with arguments: [recipeLink.click]
+15:03:21 Completed Teststep: click on {loc} with arguments: [recipeLink.click]
+15:03:21 Completed Teststep: When navigate to recipe page
+15:03:21 Invoking Teststep: When navigate to search page
+15:03:31 Invoking Teststep: wait until {loc} to be visible with arguments: [recipe.search]
+15:03:31 Completed Teststep: wait until {loc} to be visible with arguments: [recipe.search]
+15:03:31 Invoking Teststep: click on {loc} with arguments: [recipe.search]
+15:03:32 Completed Teststep: click on {loc} with arguments: [recipe.search]
+15:03:32 Invoking Teststep: wait until {loc} to be visible with arguments: [recipetype.search]
+15:03:33 Completed Teststep: wait until {loc} to be visible with arguments: [recipetype.search]
+15:03:33 Completed Teststep: When navigate to search page
+15:03:33 Invoking Teststep: Then search recipe '${searchtext}' with arguments: [${searchtext}]
+15:03:33 Invoking Teststep: wait until {loc} to be visible with arguments: [recipetype.search]
+15:03:33 Completed Teststep: wait until {loc} to be visible with arguments: [recipetype.search]
+15:03:33 Invoking Teststep: click on {loc} with arguments: [recipetype.search]
+15:03:33 Completed Teststep: click on {loc} with arguments: [recipetype.search]
+15:03:33 Invoking Teststep: sendKeys {text} into {loc} with arguments: [breakfast pizza?, recipetype.search]
+15:03:33 Completed Teststep: sendKeys {text} into {loc} with arguments: [breakfast pizza?, recipetype.search]
+15:03:43 Completed Teststep: Then search recipe 'breakfast pizza' with arguments: [${searchtext}]
+15:03:43 Invoking Teststep: Then select a recipe
+15:03:53 Invoking Teststep: wait until {loc} to be visible with arguments: [pizzaRecipeImg.click]
+15:03:53 Completed Teststep: wait until {loc} to be visible with arguments: [pizzaRecipeImg.click]
+15:03:53 Invoking Teststep: click on {loc} with arguments: [pizzaRecipeImg.click]
+15:03:54 Completed Teststep: click on {loc} with arguments: [pizzaRecipeImg.click]
+15:04:04 Completed Teststep: Then select a recipe
+15:04:04 Invoking Teststep: Then click on review btn
+15:04:04 Invoking Teststep: wait until {loc} to be visible with arguments: [reviewBtn.click]
+15:04:04 Completed Teststep: wait until {loc} to be visible with arguments: [reviewBtn.click]
+15:04:04 Invoking Teststep: click on {loc} with arguments: [reviewBtn.click]
+15:04:04 Completed Teststep: click on {loc} with arguments: [reviewBtn.click]
+15:04:14 Completed Teststep: Then click on review btn
+15:04:14 Invoking Teststep: Then write a review '${Reviewcomment}' with arguments: [${Reviewcomment}]
+15:04:14 Invoking Teststep: wait until {loc} to be visible with arguments: [writeReview.click]
+15:04:14 Completed Teststep: wait until {loc} to be visible with arguments: [writeReview.click]
+15:04:24 Invoking Teststep: sendKeys {text} into {loc} with arguments: [Good?, writeReview.click]
+15:04:25 Completed Teststep: sendKeys {text} into {loc} with arguments: [Good?, writeReview.click]
+15:04:35 Completed Teststep: Then write a review 'Good' with arguments: [${Reviewcomment}]
+15:04:35 Invoking Teststep: Then verify login message for unregistered user while save/review
+15:04:35 Invoking Teststep: wait until {loc} to be visible with arguments: [saveMessageText.verify]
+15:04:35 Completed Teststep: wait until {loc} to be visible with arguments: [saveMessageText.verify]
+15:04:45 Invoking Teststep: assert {loc} is visible with arguments: [saveMessageText.verify]
+15:04:45 Completed Teststep: assert {loc} is visible with arguments: [saveMessageText.verify]
+15:04:45 Completed Teststep: Then verify login message for unregistered user while save/review
+15:04:45 Competed scenario: verify Review Recipe Action for Guest User with status SUCCESS
+15:04:45 
+
+Executing scenario: verify Invalid Search - 
+15:04:45 Test Data{searchtext=breakfast pizza, Reviewcomment=Good, searchRecipe=Biriyani, Invalidsearch=Iphone, recipeTittle=RECIPES, username=vdhuggis@gmail.com, password=Arjun@17, __index=1}
+15:04:45 Invoking Teststep: Given get '/' with arguments: [/]
+15:04:46 Completed Teststep: Given get '/' with arguments: [/]
+15:04:46 Invoking Teststep: When navigate to recipe page
+15:04:46 Invoking Teststep: wait until {loc} to be visible with arguments: [recipeLink.click]
+15:04:47 Completed Teststep: wait until {loc} to be visible with arguments: [recipeLink.click]
+15:04:47 Invoking Teststep: click on {loc} with arguments: [recipeLink.click]
+15:04:48 Completed Teststep: click on {loc} with arguments: [recipeLink.click]
+15:04:48 Completed Teststep: When navigate to recipe page
+15:04:48 Invoking Teststep: When navigate to search page
+15:04:58 Invoking Teststep: wait until {loc} to be visible with arguments: [recipe.search]
+15:04:58 Completed Teststep: wait until {loc} to be visible with arguments: [recipe.search]
+15:04:58 Invoking Teststep: click on {loc} with arguments: [recipe.search]
+15:04:58 Completed Teststep: click on {loc} with arguments: [recipe.search]
+15:04:58 Invoking Teststep: wait until {loc} to be visible with arguments: [recipetype.search]
+15:04:59 Completed Teststep: wait until {loc} to be visible with arguments: [recipetype.search]
+15:04:59 Completed Teststep: When navigate to search page
+15:04:59 Invoking Teststep: Then search recipe '${Invalidsearch}' with arguments: [${Invalidsearch}]
+15:04:59 Invoking Teststep: wait until {loc} to be visible with arguments: [recipetype.search]
+15:04:59 Completed Teststep: wait until {loc} to be visible with arguments: [recipetype.search]
+15:04:59 Invoking Teststep: click on {loc} with arguments: [recipetype.search]
+15:04:59 Completed Teststep: click on {loc} with arguments: [recipetype.search]
+15:04:59 Invoking Teststep: sendKeys {text} into {loc} with arguments: [Iphone?, recipetype.search]
+15:04:59 Completed Teststep: sendKeys {text} into {loc} with arguments: [Iphone?, recipetype.search]
+15:05:09 Completed Teststep: Then search recipe 'Iphone' with arguments: [${Invalidsearch}]
+15:05:09 Invoking Teststep: Then verify no match message
+15:05:09 Invoking Teststep: wait until {loc} to be visible with arguments: [noMatchRecipeMsg.verify]
+15:05:09 Completed Teststep: wait until {loc} to be visible with arguments: [noMatchRecipeMsg.verify]
+15:05:09 Invoking Teststep: assert {loc} is visible with arguments: [noMatchRecipeMsg.verify]
+15:05:10 Completed Teststep: assert {loc} is visible with arguments: [noMatchRecipeMsg.verify]
+15:05:10 Completed Teststep: Then verify no match message
+15:05:10 Competed scenario: verify Invalid Search with status SUCCESS
+15:05:10 
+
+Executing scenario: Verify SAVES Button functionality - 
+15:05:10 Test Data{searchtext=breakfast pizza, Reviewcomment=Good, searchRecipe=Biriyani, Invalidsearch=Iphone, recipeTittle=RECIPES, username=vdhuggis@gmail.com, password=Arjun@17, __index=1}
+15:05:10 Invoking Teststep: Given get '/' with arguments: [/]
+15:05:11 Completed Teststep: Given get '/' with arguments: [/]
+15:05:11 Invoking Teststep: When login as Reg User '${username}' '${password}' with arguments: [${username}, ${password}]
+15:05:21 Invoking Teststep: click on {loc} with arguments: [signInBtn.click]
+15:05:21 Completed Teststep: click on {loc} with arguments: [signInBtn.click]
+15:05:21 Invoking Teststep: wait until {loc} to be visible with arguments: [logInBtn.click]
+15:05:22 Completed Teststep: wait until {loc} to be visible with arguments: [logInBtn.click]
+15:05:22 Invoking Teststep: click on {loc} with arguments: [logInBtn.click]
+15:05:22 Completed Teststep: click on {loc} with arguments: [logInBtn.click]
+15:05:22 Invoking Teststep: wait until {loc} to be visible with arguments: [emailTxt.click]
+15:05:22 Completed Teststep: wait until {loc} to be visible with arguments: [emailTxt.click]
+15:05:22 Invoking Teststep: click on {loc} with arguments: [emailTxt.click]
+15:05:22 Completed Teststep: click on {loc} with arguments: [emailTxt.click]
+15:05:22 Invoking Teststep: sendKeys {text} into {loc} with arguments: [vdhuggis@gmail.com, emailTxt.click]
+15:05:22 Completed Teststep: sendKeys {text} into {loc} with arguments: [vdhuggis@gmail.com, emailTxt.click]
+15:05:22 Invoking Teststep: wait until {loc} to be visible with arguments: [pwdTxt.click]
+15:05:22 Completed Teststep: wait until {loc} to be visible with arguments: [pwdTxt.click]
+15:05:22 Invoking Teststep: click on {loc} with arguments: [pwdTxt.click]
+15:05:23 Completed Teststep: click on {loc} with arguments: [pwdTxt.click]
+15:05:23 Invoking Teststep: sendKeys {text} into {loc} with arguments: [Arjun@17?, pwdTxt.click]
+15:05:23 Completed Teststep: sendKeys {text} into {loc} with arguments: [Arjun@17?, pwdTxt.click]
+15:05:33 Completed Teststep: When login as Reg User 'vdhuggis@gmail.com' 'Arjun@17' with arguments: [${username}, ${password}]
+15:05:33 Invoking Teststep: Then navigate to search page
+15:05:43 Invoking Teststep: wait until {loc} to be visible with arguments: [recipe.search]
+15:05:43 Completed Teststep: wait until {loc} to be visible with arguments: [recipe.search]
+15:05:43 Invoking Teststep: click on {loc} with arguments: [recipe.search]
+15:05:43 Completed Teststep: click on {loc} with arguments: [recipe.search]
+15:05:43 Invoking Teststep: wait until {loc} to be visible with arguments: [recipetype.search]
+15:05:44 Completed Teststep: wait until {loc} to be visible with arguments: [recipetype.search]
+15:05:44 Completed Teststep: Then navigate to search page
+15:05:44 Invoking Teststep: Then search recipe '${searchtext}' with arguments: [${searchtext}]
+15:05:44 Invoking Teststep: wait until {loc} to be visible with arguments: [recipetype.search]
+15:05:44 Completed Teststep: wait until {loc} to be visible with arguments: [recipetype.search]
+15:05:44 Invoking Teststep: click on {loc} with arguments: [recipetype.search]
+15:05:44 Completed Teststep: click on {loc} with arguments: [recipetype.search]
+15:05:44 Invoking Teststep: sendKeys {text} into {loc} with arguments: [breakfast pizza?, recipetype.search]
+15:05:45 Completed Teststep: sendKeys {text} into {loc} with arguments: [breakfast pizza?, recipetype.search]
+15:05:55 Completed Teststep: Then search recipe 'breakfast pizza' with arguments: [${searchtext}]
+15:05:55 Invoking Teststep: Then select a recipe
+15:06:05 Invoking Teststep: wait until {loc} to be visible with arguments: [pizzaRecipeImg.click]
+15:06:05 Completed Teststep: wait until {loc} to be visible with arguments: [pizzaRecipeImg.click]
+15:06:05 Invoking Teststep: click on {loc} with arguments: [pizzaRecipeImg.click]
+15:06:06 Completed Teststep: click on {loc} with arguments: [pizzaRecipeImg.click]
+15:06:16 Completed Teststep: Then select a recipe
+15:06:16 Invoking Teststep: Then save a recipe
+15:06:16 Invoking Teststep: wait until {loc} to be visible with arguments: [saveReceipeBtn.click]
+15:06:16 Completed Teststep: wait until {loc} to be visible with arguments: [saveReceipeBtn.click]
+15:06:16 Invoking Teststep: click on {loc} with arguments: [saveReceipeBtn.click]
+15:06:16 Completed Teststep: click on {loc} with arguments: [saveReceipeBtn.click]
+15:06:26 Completed Teststep: Then save a recipe
+15:06:26 Invoking Teststep: Then verify saved recipe msg for Reg User
+15:06:26 Invoking Teststep: wait until {loc} to be visible with arguments: [savedTxt.verify]
+15:06:26 Completed Teststep: wait until {loc} to be visible with arguments: [savedTxt.verify]
+15:06:26 Invoking Teststep: assert {loc} is visible with arguments: [savedTxt.verify]
+15:06:26 Completed Teststep: assert {loc} is visible with arguments: [savedTxt.verify]
+15:06:36 Completed Teststep: Then verify saved recipe msg for Reg User
+15:06:36 Competed scenario: Verify SAVES Button functionality with status SUCCESS

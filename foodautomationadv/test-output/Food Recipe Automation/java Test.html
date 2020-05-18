@@ -1,0 +1,151 @@
+<html>
+<head>
+<title>TestNG:  java Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>java Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>6/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sat May 09 17:58:24 PDT 2020</td>
+</tr>
+<tr><td>Total time:</td><td>340 seconds (340456 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.qmetry.qaf.example.test.FoodTestCasesAdv.verifyInvalidSearch()'><b>verifyInvalidSearch</b><br>Test class: com.qmetry.qaf.example.test.FoodTestCasesAdv<br>Parameters: {searchtext=breakfast pizza, Reviewcomment=Good, searchRecipe=Biriyani, Invalidsearch=Iphone, recipeTittle=RECIPES, username=vdhuggis@gmail.com, password=Arjun@17, __index=1}<br/>
+<a href="#Output-855547146" onClick='toggleBox("Output-855547146", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-855547146" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-855547146">
+<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>get '/'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>navigate to recipe page</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>wait until 'recipeLink.click' to be visible</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'recipeLink.click'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>navigate to search page</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>wait until 'recipe.search' to be visible</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'recipe.search'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>wait until 'recipetype.search' to be visible</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>search recipe 'Iphone'</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>wait until 'recipetype.search' to be visible</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'recipetype.search'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'Iphone?' into 'recipetype.search'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>verify no match message</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>wait until 'noMatchRecipeMsg.verify' to be visible</div><div  class="teststeppass"><span class="teststeppass-label">T </span>assert 'noMatchRecipeMsg.verify' is visible</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected No Match Recipe Message visible : Actual No Match Recipe Message visible <a href="../img/VerifyInvalidSearch_1ona2dpnjsc1433109.png" target="_blank">[View Screenshot]</a> </div></div></div></div><br/>
+</div>
+</td>
+<td></td>
+<td>24</td>
+<td>com.qmetry.qaf.example.test.FoodTestCasesAdv@4ae82894</td></tr>
+<tr>
+<td title='com.qmetry.qaf.example.test.FoodTestCasesAdv.verifyReviewForGuest()'><b>verifyReviewForGuest</b><br>Test class: com.qmetry.qaf.example.test.FoodTestCasesAdv<br>Parameters: {searchtext=breakfast pizza, Reviewcomment=Good, searchRecipe=Biriyani, Invalidsearch=Iphone, recipeTittle=RECIPES, username=vdhuggis@gmail.com, password=Arjun@17, __index=1}<br/>
+<a href="#Output-1096411163" onClick='toggleBox("Output-1096411163", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1096411163" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1096411163">
+<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>get '/'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>navigate to recipe page</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>wait until 'recipeLink.click' to be visible</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'recipeLink.click'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>navigate to search page</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>wait until 'recipe.search' to be visible</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'recipe.search'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>wait until 'recipetype.search' to be visible</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>search recipe 'breakfast pizza'</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>wait until 'recipetype.search' to be visible</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'recipetype.search'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'breakfast pizza?' into 'recipetype.search'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>select a recipe</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>wait until 'pizzaRecipeImg.click' to be visible</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'pizzaRecipeImg.click'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on review btn</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>wait until 'reviewBtn.click' to be visible</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'reviewBtn.click'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>write a review 'Good'</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>wait until 'writeReview.click' to be visible</div><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'Good?' into 'writeReview.click'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>verify login message for unregistered user while save/review</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>wait until 'saveMessageText.verify' to be visible</div><div  class="teststeppass"><span class="teststeppass-label">T </span>assert 'saveMessageText.verify' is visible</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected Save message for guest visible : Actual Save message for guest visible <a href="../img/VerifyReviewForGuest_1gqy8tw6hriys33111.png" target="_blank">[View Screenshot]</a> </div></div></div></div><br/>
+</div>
+</td>
+<td></td>
+<td>86</td>
+<td>com.qmetry.qaf.example.test.FoodTestCasesAdv@4ae82894</td></tr>
+<tr>
+<td title='com.qmetry.qaf.example.test.FoodTestCasesAdv.verifySaveForGuest()'><b>verifySaveForGuest</b><br>Test class: com.qmetry.qaf.example.test.FoodTestCasesAdv<br>Parameters: {searchtext=breakfast pizza, Reviewcomment=Good, searchRecipe=Biriyani, Invalidsearch=Iphone, recipeTittle=RECIPES, username=vdhuggis@gmail.com, password=Arjun@17, __index=1}<br/>
+<a href="#Output-1671816300" onClick='toggleBox("Output-1671816300", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1671816300" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1671816300">
+<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>get '/'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>navigate to recipe page</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>wait until 'recipeLink.click' to be visible</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'recipeLink.click'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>navigate to search page</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>wait until 'recipe.search' to be visible</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'recipe.search'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>wait until 'recipetype.search' to be visible</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>search recipe 'breakfast pizza'</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>wait until 'recipetype.search' to be visible</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'recipetype.search'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'breakfast pizza?' into 'recipetype.search'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>select a recipe</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>wait until 'pizzaRecipeImg.click' to be visible</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'pizzaRecipeImg.click'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>save a recipe</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>wait until 'saveReceipeBtn.click' to be visible</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'saveReceipeBtn.click'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>verify login message for unregistered user while save/review</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>wait until 'saveMessageText.verify' to be visible</div><div  class="teststeppass"><span class="teststeppass-label">T </span>assert 'saveMessageText.verify' is visible</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected Save message for guest visible : Actual Save message for guest visible <a href="../img/VerifySaveForGuest_19lmb1n041e5133110.png" target="_blank">[View Screenshot]</a> </div></div></div></div><br/>
+</div>
+</td>
+<td></td>
+<td>65</td>
+<td>com.qmetry.qaf.example.test.FoodTestCasesAdv@4ae82894</td></tr>
+<tr>
+<td title='com.qmetry.qaf.example.test.FoodTestCasesAdv.verifySaveForRegUser()'><b>verifySaveForRegUser</b><br>Test class: com.qmetry.qaf.example.test.FoodTestCasesAdv<br>Parameters: {searchtext=breakfast pizza, Reviewcomment=Good, searchRecipe=Biriyani, Invalidsearch=Iphone, recipeTittle=RECIPES, username=vdhuggis@gmail.com, password=Arjun@17, __index=1}<br/>
+<a href="#Output-1847410999" onClick='toggleBox("Output-1847410999", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1847410999" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1847410999">
+<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>get '/'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>login as Reg User 'vdhuggis@gmail.com' 'Arjun@17'</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'signInBtn.click'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>wait until 'logInBtn.click' to be visible</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'logInBtn.click'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>wait until 'emailTxt.click' to be visible</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'emailTxt.click'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'vdhuggis@gmail.com' into 'emailTxt.click'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>wait until 'pwdTxt.click' to be visible</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'pwdTxt.click'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'Arjun@17?' into 'pwdTxt.click'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>navigate to recipe page</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>wait until 'recipeLink.click' to be visible</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'recipeLink.click'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>navigate to search page</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>wait until 'recipe.search' to be visible</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'recipe.search'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>wait until 'recipetype.search' to be visible</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>search recipe 'breakfast pizza'</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>wait until 'recipetype.search' to be visible</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'recipetype.search'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'breakfast pizza?' into 'recipetype.search'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>select a recipe</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>wait until 'pizzaRecipeImg.click' to be visible</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'pizzaRecipeImg.click'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>save a recipe</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>wait until 'saveReceipeBtn.click' to be visible</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'saveReceipeBtn.click'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>verify saved recipe msg for Reg User</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>wait until 'savedTxt.verify' to be visible</div><div  class="teststeppass"><span class="teststeppass-label">T </span>assert 'savedTxt.verify' is visible</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected verify saved message for Reg User visible : Actual verify saved message for Reg User visible <a href="../img/VerifySaveForRegUser_o4lt75b41b2333112.png" target="_blank">[View Screenshot]</a> </div></div></div></div><br/>
+</div>
+</td>
+<td></td>
+<td>86</td>
+<td>com.qmetry.qaf.example.test.FoodTestCasesAdv@4ae82894</td></tr>
+<tr>
+<td title='com.qmetry.qaf.example.test.FoodTestCasesAdv.verifySearchResults()'><b>verifySearchResults</b><br>Test class: com.qmetry.qaf.example.test.FoodTestCasesAdv<br>Parameters: {searchtext=breakfast pizza, Reviewcomment=Good, searchRecipe=Biriyani, Invalidsearch=Iphone, recipeTittle=RECIPES, username=vdhuggis@gmail.com, password=Arjun@17, __index=1}<br/>
+<a href="#Output-1367672657" onClick='toggleBox("Output-1367672657", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1367672657" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1367672657">
+<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>get '/'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>navigate to recipe page</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>wait until 'recipeLink.click' to be visible</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'recipeLink.click'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>navigate to search page</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>wait until 'recipe.search' to be visible</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'recipe.search'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>wait until 'recipetype.search' to be visible</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>search recipe 'Biriyani'</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>wait until 'recipetype.search' to be visible</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'recipetype.search'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'Biriyani?' into 'recipetype.search'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>verify result count</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>wait until 'resultCountText.verify' to be visible</div><div  class="teststeppass"><span class="teststeppass-label">T </span>scroll Down To Bottom</div><div  class="teststeppass"><span class="teststeppass-label">T </span>assert 'resultCountText.verify' text is '10 RESULTS'</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected Result Count Text text should be 10 RESULTS : Actual Result Count Text text is 10 RESULTS <a href="../img/VerifySearchResults_6r5vitv8exs733108.png" target="_blank">[View Screenshot]</a> </div></div></div></div><br/>
+</div>
+</td>
+<td></td>
+<td>45</td>
+<td>com.qmetry.qaf.example.test.FoodTestCasesAdv@4ae82894</td></tr>
+<tr>
+<td title='com.qmetry.qaf.example.test.FoodTestCasesAdv.verifyTestFoodReceipeTitle()'><b>verifyTestFoodReceipeTitle</b><br>Test class: com.qmetry.qaf.example.test.FoodTestCasesAdv<br>Parameters: {searchtext=breakfast pizza, Reviewcomment=Good, searchRecipe=Biriyani, Invalidsearch=Iphone, recipeTittle=RECIPES, username=vdhuggis@gmail.com, password=Arjun@17, __index=1}<br/>
+<a href="#Output-260084831" onClick='toggleBox("Output-260084831", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-260084831" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-260084831">
+<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>get '/'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>navigate To Recipes page</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'button.recipe'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>verify 'text.recipe' text is 'RECIPES'</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected Recipe text should be RECIPES : Actual Recipe text is RECIPES <a href="../img/VerifyTestFoodReceipeTitle_1oro1ymp2dhxp33107.png" target="_blank">[View Screenshot]</a> </div></div></div><br/>
+</div>
+</td>
+<td></td>
+<td>31</td>
+<td>com.qmetry.qaf.example.test.FoodTestCasesAdv@4ae82894</td></tr>
+</table><p>
+</body>
+</html>

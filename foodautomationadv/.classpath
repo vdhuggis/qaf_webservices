@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="target/classes" path="src/main/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="**" kind="src" output="target/classes" path="src/main/resources">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="com/qmetry/qaf/example/test/FoodTestCasesAdv.java" kind="src" output="target/test-classes" path="src/test/java">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="**" kind="src" output="target/test-classes" path="src/test/resources">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="lib" path="C:/Users/vaidh/.ivy2/cache/com.qmetry/qaf-support/jars/qaf-support-3.0.0-RC3.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/vaidh/.ivy2/cache/com.qmetry/qaf-support-ws/jars/qaf-support-ws-3.0.0-RC3.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/vaidh/.ivy2/cache/com.github.fge/btf/jars/btf-1.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/vaidh/.ivy2/cache/com.github.fge/jackson-coreutils/jars/jackson-coreutils-1.8.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/vaidh/.ivy2/cache/com.github.fge/json-schema-core/jars/json-schema-core-1.2.5.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/vaidh/.ivy2/cache/com.github.fge/json-schema-validator/jars/json-schema-validator-2.2.6.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/vaidh/.ivy2/cache/com.github.fge/msg-simple/jars/msg-simple-1.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/vaidh/.ivy2/cache/com.github.fge/uri-template/jars/uri-template-0.9.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/vaidh/.ivy2/cache/com.jayway.jsonpath/json-path/jars/json-path-2.2.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/vaidh/.ivy2/cache/com.jayway.jsonpath/json-path-assert/jars/json-path-assert-2.2.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/vaidh/Downloads/jackson-databind-2.9.8.jar"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>

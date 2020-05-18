@@ -1,0 +1,35 @@
+{
+  "total": 0,
+  "pass": 0,
+  "fail": 0,
+  "skip": 0,
+  "classes": [
+    "com.qmetry.qaf.automation.step.client.DataDrivenScenario",
+    "com.qmetry.qaf.automation.step.client.Scenario"
+  ],
+  "envInfo": {
+    "browser-actual-capabilities": {},
+    "isfw-build-info": {
+      "qaf-Type": "core",
+      "qaf-Revision": "14",
+      "qaf-Version": "2.1",
+      "qaf-Build-Time": "01-Jan-2019 19:18:14"
+    },
+    "run-parameters": {
+      "baseurl": "https://www.food.com/",
+      "resources": "resources"
+    },
+    "execution-env-info": {
+      "java.arch": "64",
+      "java.vendor": "Oracle Corporation",
+      "java.version": "1.8.0_231",
+      "os.arch": "amd64",
+      "host": "VaidhuSanthu",
+      "os.name": "Windows 10",
+      "user.name": "vaidh",
+      "os.version": "10.0"
+    }
+  },
+  "startTime": 1589061128854,
+  "endTime": 1589085848109
+}

@@ -1,0 +1,159 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "get",
+      "args": [
+        "[/]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=https://www.food.com/}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 5367
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "navigateToRecipes",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "click",
+          "args": [
+            "[button.recipe]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=.v-nav-toggle.gk-nav__recipes, using=css selector}"
+              ],
+              "result": "id: 70c09eb0-297b-4f65-aef6-2c97b2407499",
+              "subLogs": [],
+              "duration": 1351
+            },
+            {
+              "commandName": "clickElement",
+              "args": [
+                "By.cssSelector: .v-nav-toggle.gk-nav__recipes",
+                "{\"id\":\"70c09eb0-297b-4f65-aef6-2c97b2407499\"}"
+              ],
+              "result": "clickElement:null",
+              "subLogs": [],
+              "duration": 379
+            }
+          ],
+          "duration": -1
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "verifyText",
+      "args": [
+        "[text.recipe, RECIPES]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=.gk-tile-heading h1, using=css selector}"
+          ],
+          "result": "[id: 987e9b25-16e1-4a8f-a29f-303dd9e28e00]",
+          "subLogs": [],
+          "duration": 119
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=.gk-tile-heading h1, using=css selector}"
+          ],
+          "result": "id: 987e9b25-16e1-4a8f-a29f-303dd9e28e00",
+          "subLogs": [],
+          "duration": 20
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.cssSelector: .gk-tile-heading h1",
+            "{\"id\":\"987e9b25-16e1-4a8f-a29f-303dd9e28e00\"}"
+          ],
+          "result": "getElementText:RECIPES",
+          "subLogs": [],
+          "duration": 20
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=.gk-tile-heading h1, using=css selector}"
+          ],
+          "result": "id: 987e9b25-16e1-4a8f-a29f-303dd9e28e00",
+          "subLogs": [],
+          "duration": 23
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.cssSelector: .gk-tile-heading h1",
+            "{\"id\":\"987e9b25-16e1-4a8f-a29f-303dd9e28e00\"}"
+          ],
+          "result": "getElementText:RECIPES",
+          "subLogs": [],
+          "duration": 10
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "get '/'",
+      "type": "TestStepPass",
+      "duration": 9447,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "navigate To Recipes page",
+      "type": "TestStepPass",
+      "duration": 21754,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "click on 'button.recipe'",
+          "type": "TestStepPass",
+          "duration": 1751,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "verify 'text.recipe' text is 'RECIPES'",
+      "type": "TestStepPass",
+      "duration": 756,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Expected Recipe text should be RECIPES : Actual Recipe text is RECIPES",
+          "type": "Pass",
+          "screenshot": "../img/VerifyTestFoodReceipeTitle_w3y2y8igoc9c37819.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    }
+  ]
+}

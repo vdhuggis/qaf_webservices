@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"></div>]]>
+    </line>
+  </reporter-output>
+  <suite name="WebService Automation" duration-ms="1207" started-at="2020-05-18T16:49:38Z" finished-at="2020-05-18T16:49:39Z">
+    <groups>
+    </groups>
+    <test name="java Test" duration-ms="1207" started-at="2020-05-18T16:49:38Z" finished-at="2020-05-18T16:49:39Z">
+      <class name="com.qmetry.qaf.example.test.WsTesting">
+        <test-method status="PASS" signature="setupSuit(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.example.test.WsTesting@1ee807c6]" name="setupSuit" is-config="true" duration-ms="36" started-at="2020-05-18T09:49:37Z" finished-at="2020-05-18T09:49:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4df50bcc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupSuit -->
+        <test-method status="PASS" signature="setupTest(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.example.test.WsTesting@1ee807c6]" name="setupTest" is-config="true" duration-ms="7" started-at="2020-05-18T09:49:38Z" finished-at="2020-05-18T09:49:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4df50bcc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="setup(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.example.test.WsTesting@1ee807c6]" name="setup" is-config="true" duration-ms="1" started-at="2020-05-18T09:49:38Z" finished-at="2020-05-18T09:49:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4df50bcc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.example.test.WsTesting@1ee807c6]" name="setupMethod" is-config="true" duration-ms="1" started-at="2020-05-18T09:49:38Z" finished-at="2020-05-18T09:49:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qmetry.qaf.example.test.WsTesting.getCallTest()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@4df50bcc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="PASS" signature="getCallTest()[pri:0, instance:com.qmetry.qaf.example.test.WsTesting@1ee807c6]" name="getCallTest" duration-ms="1089" started-at="2020-05-18T09:49:38Z" description="Validate Get Result" finished-at="2020-05-18T09:49:39Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- getCallTest -->
+        <test-method status="PASS" signature="afterSuit(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.example.test.WsTesting@1ee807c6]" name="afterSuit" is-config="true" duration-ms="3" started-at="2020-05-18T09:49:39Z" finished-at="2020-05-18T09:49:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4df50bcc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuit -->
+      </class> <!-- com.qmetry.qaf.example.test.WsTesting -->
+    </test> <!-- java Test -->
+  </suite> <!-- WebService Automation -->
+</testng-results>

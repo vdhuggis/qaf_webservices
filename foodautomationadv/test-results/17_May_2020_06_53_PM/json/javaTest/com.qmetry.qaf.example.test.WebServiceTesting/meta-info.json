@@ -1,0 +1,157 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "Validate Post",
+        "groups": [],
+        "name": "validatePost",
+        "resultFileName": "ValidatePost",
+        "sign": "WebServiceTesting.validatePost()[pri:0, instance:com.qmetry.qaf.example.test.WebServiceTesting@46238e3f]"
+      },
+      "dependsOn": [],
+      "startTime": 1589741747615,
+      "duration": 6467,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "Validate Json Path",
+        "groups": [],
+        "name": "validateJsonPath",
+        "resultFileName": "ValidateJsonPath",
+        "sign": "WebServiceTesting.validateJsonPath()[pri:0, instance:com.qmetry.qaf.example.test.WebServiceTesting@46238e3f]"
+      },
+      "dependsOn": [],
+      "startTime": 1589741754118,
+      "duration": 171,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "Validate Get Result",
+        "groups": [],
+        "name": "getCallTest",
+        "resultFileName": "GetCallTest",
+        "sign": "WebServiceTesting.getCallTest()[pri:0, instance:com.qmetry.qaf.example.test.WebServiceTesting@46238e3f]"
+      },
+      "dependsOn": [],
+      "startTime": 1589741754346,
+      "duration": 25,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "Validate Post",
+        "groups": [],
+        "name": "validatePost",
+        "resultFileName": "ValidatePostvtRpufmJXF",
+        "sign": "WebServiceTesting.validatePost()[pri:0, instance:com.qmetry.qaf.example.test.WebServiceTesting@46238e3f]"
+      },
+      "dependsOn": [],
+      "startTime": 1589741880724,
+      "duration": 4707,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "Validate Json Path",
+        "groups": [],
+        "name": "validateJsonPath",
+        "resultFileName": "ValidateJsonPathnLefJhyUIi",
+        "sign": "WebServiceTesting.validateJsonPath()[pri:0, instance:com.qmetry.qaf.example.test.WebServiceTesting@46238e3f]"
+      },
+      "dependsOn": [],
+      "startTime": 1589741885484,
+      "duration": 166,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "Validate Get Result",
+        "groups": [],
+        "name": "getCallTest",
+        "resultFileName": "GetCallTestyLMArcOPnh",
+        "sign": "WebServiceTesting.getCallTest()[pri:0, instance:com.qmetry.qaf.example.test.WebServiceTesting@46238e3f]"
+      },
+      "dependsOn": [],
+      "startTime": 1589741885681,
+      "duration": 24,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "Validate Post",
+        "groups": [],
+        "name": "validatePost",
+        "resultFileName": "ValidatePostnfIiSqPoQp",
+        "sign": "WebServiceTesting.validatePost()[pri:0, instance:com.qmetry.qaf.example.test.WebServiceTesting@46238e3f]"
+      },
+      "dependsOn": [],
+      "startTime": 1589742713290,
+      "duration": 8483,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "Validate Json Path",
+        "groups": [],
+        "name": "validateJsonPath",
+        "resultFileName": "ValidateJsonPathDYKDfBRRDk",
+        "sign": "WebServiceTesting.validateJsonPath()[pri:0, instance:com.qmetry.qaf.example.test.WebServiceTesting@46238e3f]"
+      },
+      "dependsOn": [],
+      "startTime": 1589742721828,
+      "duration": 171,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "Validate Get Result",
+        "groups": [],
+        "name": "getCallTest",
+        "resultFileName": "GetCallTestRSqdztSKtB",
+        "sign": "WebServiceTesting.getCallTest()[pri:0, instance:com.qmetry.qaf.example.test.WebServiceTesting@46238e3f]"
+      },
+      "dependsOn": [],
+      "startTime": 1589742722025,
+      "duration": 23,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

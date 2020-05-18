@@ -1,0 +1,4758 @@
+[17.05.2020] [11:54:10] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Client out-bound request
+1 >> POST https://jsonplaceholder.typicode.com/posts
+1 >> Content-type: application/json; charset=UTF-8
+1 >> {"title":"QMETRYTester","body":"QmetryExample","userId":"1001"}
+[17.05.2020] [11:54:11] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Sent: delta: 63 bytes: 63
+
+[17.05.2020] [11:54:15] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Receive Start: 89
+
+[17.05.2020] [11:54:15] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Received: delta: 89 bytes: 89
+
+[17.05.2020] [11:54:15] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - Finished
+[17.05.2020] [11:54:15] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Finished
+
+[17.05.2020] [11:54:15] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Client in-bound response
+1 << 201
+1 << CF-RAY: 594f8ba8af0f92b6-SJC
+1 << Server: cloudflare
+1 << X-Content-Type-Options: nosniff
+1 << Connection: keep-alive
+1 << Pragma: no-cache
+1 << Date: Sun, 17 May 2020 18:54:15 GMT
+1 << Via: 1.1 vegur
+1 << CF-Cache-Status: DYNAMIC
+1 << Access-Control-Expose-Headers: Location
+1 << Etag: W/"59-03C4JZV/KC/As0CurNREPLVlqSk"
+1 << Cache-Control: no-cache
+1 << Access-Control-Allow-Credentials: true
+1 << Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+1 << Set-Cookie: __cfduid=df04dd6ad9a644782f00a872bcc15f0ec1589741651; expires=Tue, 16-Jun-20 18:54:11 GMT; path=/; domain=.typicode.com; HttpOnly; SameSite=Lax
+1 << Expires: -1
+1 << Content-Length: 89
+1 << cf-request-id: 02c5959d67000092b6b5b0e200000001
+1 << Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 << Location: http://jsonplaceholder.typicode.com/posts/101
+1 << X-Powered-By: Express
+1 << Content-Type: application/json; charset=utf-8
+1 << 
+{
+  "title": "QMETRYTester",
+  "body": "QmetryExample",
+  "userId": "1001",
+  "id": 101
+}
+
+[17.05.2020] [11:54:15] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 2 * Client out-bound request
+2 >> GET https://jsonplaceholder.typicode.com/todos/1
+2 >> accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+
+[17.05.2020] [11:54:15] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 2 * Receive Start: 83
+
+[17.05.2020] [11:54:15] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 2 * Received: delta: 83 bytes: 83
+
+[17.05.2020] [11:54:15] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - Finished
+[17.05.2020] [11:54:15] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 2 * Finished
+
+[17.05.2020] [11:54:15] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 2 * Client in-bound response
+2 << 200
+2 << CF-RAY: 594f8bc2387792b6-SJC
+2 << Server: cloudflare
+2 << X-Content-Type-Options: nosniff
+2 << Connection: keep-alive
+2 << Pragma: no-cache
+2 << Date: Sun, 17 May 2020 18:54:15 GMT
+2 << Via: 1.1 vegur
+2 << Accept-Ranges: bytes
+2 << CF-Cache-Status: HIT
+2 << Etag: W/"53-hfEnumeNh6YirfjyjaujcOPPT+s"
+2 << Cache-Control: max-age=14400
+2 << Access-Control-Allow-Credentials: true
+2 << Vary: Origin, Accept-Encoding
+2 << Set-Cookie: __cfduid=d3eb948c8b612c6dcfdab555d92104ca51589741655; expires=Tue, 16-Jun-20 18:54:15 GMT; path=/; domain=.typicode.com; HttpOnly; SameSite=Lax
+2 << Expires: -1
+2 << Content-Length: 83
+2 << Age: 4330
+2 << cf-request-id: 02c595ad63000092b6b5bec200000001
+2 << Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+2 << X-Powered-By: Express
+2 << Content-Type: application/json; charset=utf-8
+2 << 
+{
+  "userId": 1,
+  "id": 1,
+  "title": "delectus aut autem",
+  "completed": false
+}
+
+[17.05.2020] [11:54:15] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 3 * Client out-bound request
+3 >> GET https://jsonplaceholder.typicode.com/todos/1
+3 >> accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+
+[17.05.2020] [11:54:15] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 3 * Receive Start: 83
+
+[17.05.2020] [11:54:15] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 3 * Received: delta: 83 bytes: 83
+
+[17.05.2020] [11:54:15] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - Finished
+[17.05.2020] [11:54:15] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 3 * Finished
+
+[17.05.2020] [11:54:15] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 3 * Client in-bound response
+3 << 200
+3 << CF-RAY: 594f8bc469e692b6-SJC
+3 << Server: cloudflare
+3 << X-Content-Type-Options: nosniff
+3 << Connection: keep-alive
+3 << Pragma: no-cache
+3 << Date: Sun, 17 May 2020 18:54:15 GMT
+3 << Via: 1.1 vegur
+3 << Accept-Ranges: bytes
+3 << CF-Cache-Status: HIT
+3 << Etag: W/"53-hfEnumeNh6YirfjyjaujcOPPT+s"
+3 << Cache-Control: max-age=14400
+3 << Access-Control-Allow-Credentials: true
+3 << Vary: Origin, Accept-Encoding
+3 << Set-Cookie: __cfduid=d3eb948c8b612c6dcfdab555d92104ca51589741655; expires=Tue, 16-Jun-20 18:54:15 GMT; path=/; domain=.typicode.com; HttpOnly; SameSite=Lax
+3 << Expires: -1
+3 << Content-Length: 83
+3 << Age: 4330
+3 << cf-request-id: 02c595aebd000092b6b5bfd200000001
+3 << Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+3 << X-Powered-By: Express
+3 << Content-Type: application/json; charset=utf-8
+3 << 
+{
+  "userId": 1,
+  "id": 1,
+  "title": "delectus aut autem",
+  "completed": false
+}
+
+[17.05.2020] [11:55:47] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Client out-bound request
+1 >> POST https://jsonplaceholder.typicode.com/posts
+1 >> Content-type: application/json; charset=UTF-8
+1 >> {"title":"QMETRYTester","body":"QmetryExample","userId":"1001"}
+[17.05.2020] [11:55:48] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Sent: delta: 63 bytes: 63
+
+[17.05.2020] [11:55:54] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Receive Start: 89
+
+[17.05.2020] [11:55:54] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Received: delta: 89 bytes: 89
+
+[17.05.2020] [11:55:54] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - Finished
+[17.05.2020] [11:55:54] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Finished
+
+[17.05.2020] [11:55:54] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Client in-bound response
+1 << 201
+1 << CF-RAY: 594f8e09dfa5932e-SJC
+1 << Server: cloudflare
+1 << X-Content-Type-Options: nosniff
+1 << Connection: keep-alive
+1 << Pragma: no-cache
+1 << Date: Sun, 17 May 2020 18:55:54 GMT
+1 << Via: 1.1 vegur
+1 << CF-Cache-Status: DYNAMIC
+1 << Access-Control-Expose-Headers: Location
+1 << Etag: W/"59-03C4JZV/KC/As0CurNREPLVlqSk"
+1 << Cache-Control: no-cache
+1 << Access-Control-Allow-Credentials: true
+1 << Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+1 << Set-Cookie: __cfduid=d6a4c0d9bf353a2cabfd436af3561d2af1589741748; expires=Tue, 16-Jun-20 18:55:48 GMT; path=/; domain=.typicode.com; HttpOnly; SameSite=Lax
+1 << Expires: -1
+1 << Content-Length: 89
+1 << cf-request-id: 02c5971a2b0000932e69bcb200000001
+1 << Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 << Location: http://jsonplaceholder.typicode.com/posts/101
+1 << X-Powered-By: Express
+1 << Content-Type: application/json; charset=utf-8
+1 << 
+{
+  "title": "QMETRYTester",
+  "body": "QmetryExample",
+  "userId": "1001",
+  "id": 101
+}
+
+[17.05.2020] [11:55:54] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 2 * Client out-bound request
+2 >> GET https://jsonplaceholder.typicode.com/todos/1
+2 >> accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+
+[17.05.2020] [11:55:54] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 2 * Receive Start: 83
+
+[17.05.2020] [11:55:54] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 2 * Received: delta: 83 bytes: 83
+
+[17.05.2020] [11:55:54] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - Finished
+[17.05.2020] [11:55:54] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 2 * Finished
+
+[17.05.2020] [11:55:54] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 2 * Client in-bound response
+2 << 200
+2 << CF-RAY: 594f8e2ceddf932e-SJC
+2 << Server: cloudflare
+2 << X-Content-Type-Options: nosniff
+2 << Connection: keep-alive
+2 << Pragma: no-cache
+2 << Date: Sun, 17 May 2020 18:55:54 GMT
+2 << Via: 1.1 vegur
+2 << Accept-Ranges: bytes
+2 << CF-Cache-Status: HIT
+2 << Etag: W/"53-hfEnumeNh6YirfjyjaujcOPPT+s"
+2 << Cache-Control: max-age=14400
+2 << Access-Control-Allow-Credentials: true
+2 << Vary: Origin, Accept-Encoding
+2 << Set-Cookie: __cfduid=d8464ba87596ed3fee6c38dcef4330c8d1589741754; expires=Tue, 16-Jun-20 18:55:54 GMT; path=/; domain=.typicode.com; HttpOnly; SameSite=Lax
+2 << Expires: -1
+2 << Content-Length: 83
+2 << Age: 4429
+2 << cf-request-id: 02c59730150000932e698a3200000001
+2 << Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+2 << X-Powered-By: Express
+2 << Content-Type: application/json; charset=utf-8
+2 << 
+{
+  "userId": 1,
+  "id": 1,
+  "title": "delectus aut autem",
+  "completed": false
+}
+
+[17.05.2020] [11:55:54] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 3 * Client out-bound request
+3 >> GET https://jsonplaceholder.typicode.com/todos/1
+3 >> accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+
+[17.05.2020] [11:55:54] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 3 * Receive Start: 83
+
+[17.05.2020] [11:55:54] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 3 * Received: delta: 83 bytes: 83
+
+[17.05.2020] [11:55:54] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - Finished
+[17.05.2020] [11:55:54] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 3 * Finished
+
+[17.05.2020] [11:55:54] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 3 * Client in-bound response
+3 << 200
+3 << CF-RAY: 594f8e2e5eb8932e-SJC
+3 << Server: cloudflare
+3 << X-Content-Type-Options: nosniff
+3 << Connection: keep-alive
+3 << Pragma: no-cache
+3 << Date: Sun, 17 May 2020 18:55:54 GMT
+3 << Via: 1.1 vegur
+3 << Accept-Ranges: bytes
+3 << CF-Cache-Status: HIT
+3 << Etag: W/"53-hfEnumeNh6YirfjyjaujcOPPT+s"
+3 << Cache-Control: max-age=14400
+3 << Access-Control-Allow-Credentials: true
+3 << Vary: Origin, Accept-Encoding
+3 << Set-Cookie: __cfduid=d8464ba87596ed3fee6c38dcef4330c8d1589741754; expires=Tue, 16-Jun-20 18:55:54 GMT; path=/; domain=.typicode.com; HttpOnly; SameSite=Lax
+3 << Expires: -1
+3 << Content-Length: 83
+3 << Age: 4429
+3 << cf-request-id: 02c59730f70000932e698b0200000001
+3 << Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+3 << X-Powered-By: Express
+3 << Content-Type: application/json; charset=utf-8
+3 << 
+{
+  "userId": 1,
+  "id": 1,
+  "title": "delectus aut autem",
+  "completed": false
+}
+
+[17.05.2020] [11:58:01] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Client out-bound request
+1 >> POST https://jsonplaceholder.typicode.com/posts
+1 >> Content-type: application/json; charset=UTF-8
+1 >> {"title":"QMETRYTester","body":"QmetryExample","userId":"1001"}
+[17.05.2020] [11:58:01] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Sent: delta: 63 bytes: 63
+
+[17.05.2020] [11:58:05] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Receive Start: 89
+
+[17.05.2020] [11:58:05] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Received: delta: 89 bytes: 89
+
+[17.05.2020] [11:58:05] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - Finished
+[17.05.2020] [11:58:05] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Finished
+
+[17.05.2020] [11:58:05] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Client in-bound response
+1 << 201
+1 << CF-RAY: 594f914a4b78ed63-SJC
+1 << Server: cloudflare
+1 << X-Content-Type-Options: nosniff
+1 << Connection: keep-alive
+1 << Pragma: no-cache
+1 << Date: Sun, 17 May 2020 18:58:05 GMT
+1 << Via: 1.1 vegur
+1 << CF-Cache-Status: DYNAMIC
+1 << Access-Control-Expose-Headers: Location
+1 << Etag: W/"59-03C4JZV/KC/As0CurNREPLVlqSk"
+1 << Cache-Control: no-cache
+1 << Access-Control-Allow-Credentials: true
+1 << Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+1 << Set-Cookie: __cfduid=d68cf15e7a6652598379bc1f5c6d6ce0b1589741881; expires=Tue, 16-Jun-20 18:58:01 GMT; path=/; domain=.typicode.com; HttpOnly; SameSite=Lax
+1 << Expires: -1
+1 << Content-Length: 89
+1 << cf-request-id: 02c599226d0000ed6347b7a200000001
+1 << Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 << Location: http://jsonplaceholder.typicode.com/posts/101
+1 << X-Powered-By: Express
+1 << Content-Type: application/json; charset=utf-8
+1 << 
+{
+  "title": "QMETRYTester",
+  "body": "QmetryExample",
+  "userId": "1001",
+  "id": 101
+}
+
+[17.05.2020] [11:58:05] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 2 * Client out-bound request
+2 >> GET https://jsonplaceholder.typicode.com/todos/1
+2 >> accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+
+[17.05.2020] [11:58:05] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 2 * Receive Start: 83
+
+[17.05.2020] [11:58:05] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 2 * Received: delta: 83 bytes: 83
+
+[17.05.2020] [11:58:05] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - Finished
+[17.05.2020] [11:58:05] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 2 * Finished
+
+[17.05.2020] [11:58:05] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 2 * Client in-bound response
+2 << 200
+2 << CF-RAY: 594f9161fe62ed63-SJC
+2 << Server: cloudflare
+2 << X-Content-Type-Options: nosniff
+2 << Connection: keep-alive
+2 << Pragma: no-cache
+2 << Date: Sun, 17 May 2020 18:58:05 GMT
+2 << Via: 1.1 vegur
+2 << Accept-Ranges: bytes
+2 << CF-Cache-Status: HIT
+2 << Etag: W/"53-hfEnumeNh6YirfjyjaujcOPPT+s"
+2 << Cache-Control: max-age=14400
+2 << Access-Control-Allow-Credentials: true
+2 << Vary: Origin, Accept-Encoding
+2 << Set-Cookie: __cfduid=de4bc61c6d165dc7adfaeab78280bca9b1589741885; expires=Tue, 16-Jun-20 18:58:05 GMT; path=/; domain=.typicode.com; HttpOnly; SameSite=Lax
+2 << Expires: -1
+2 << Content-Length: 83
+2 << Age: 4560
+2 << cf-request-id: 02c599313b0000ed6347821200000001
+2 << Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+2 << X-Powered-By: Express
+2 << Content-Type: application/json; charset=utf-8
+2 << 
+{
+  "userId": 1,
+  "id": 1,
+  "title": "delectus aut autem",
+  "completed": false
+}
+
+[17.05.2020] [11:58:05] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 3 * Client out-bound request
+3 >> GET https://jsonplaceholder.typicode.com/todos/1
+3 >> accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+
+[17.05.2020] [11:58:05] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 3 * Receive Start: 83
+
+[17.05.2020] [11:58:05] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 3 * Received: delta: 83 bytes: 83
+
+[17.05.2020] [11:58:05] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - Finished
+[17.05.2020] [11:58:05] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 3 * Finished
+
+[17.05.2020] [11:58:05] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 3 * Client in-bound response
+3 << 200
+3 << CF-RAY: 594f9163282eed63-SJC
+3 << Server: cloudflare
+3 << X-Content-Type-Options: nosniff
+3 << Connection: keep-alive
+3 << Pragma: no-cache
+3 << Date: Sun, 17 May 2020 18:58:05 GMT
+3 << Via: 1.1 vegur
+3 << Accept-Ranges: bytes
+3 << CF-Cache-Status: HIT
+3 << Etag: W/"53-hfEnumeNh6YirfjyjaujcOPPT+s"
+3 << Cache-Control: max-age=14400
+3 << Access-Control-Allow-Credentials: true
+3 << Vary: Origin, Accept-Encoding
+3 << Set-Cookie: __cfduid=de4bc61c6d165dc7adfaeab78280bca9b1589741885; expires=Tue, 16-Jun-20 18:58:05 GMT; path=/; domain=.typicode.com; HttpOnly; SameSite=Lax
+3 << Expires: -1
+3 << Content-Length: 83
+3 << Age: 4560
+3 << cf-request-id: 02c59931fd0000ed634782b200000001
+3 << Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+3 << X-Powered-By: Express
+3 << Content-Type: application/json; charset=utf-8
+3 << 
+{
+  "userId": 1,
+  "id": 1,
+  "title": "delectus aut autem",
+  "completed": false
+}
+
+[17.05.2020] [12:02:46] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Client out-bound request
+1 >> GET https://jsonplaceholder.typicode.com
+
+[17.05.2020] [12:02:48] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Receive Start: -1
+
+[17.05.2020] [12:02:48] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Received: delta: 26 bytes: 26
+
+[17.05.2020] [12:02:48] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Received: delta: 606 bytes: 632
+
+[17.05.2020] [12:02:48] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Received: delta: 1369 bytes: 2001
+
+[17.05.2020] [12:02:48] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Received: delta: 1369 bytes: 3370
+
+[17.05.2020] [12:02:48] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Received: delta: 1369 bytes: 4739
+
+[17.05.2020] [12:02:48] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Received: delta: 1369 bytes: 6108
+
+[17.05.2020] [12:02:48] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Received: delta: 1239 bytes: 7347
+
+[17.05.2020] [12:02:48] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - Finished
+[17.05.2020] [12:02:48] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Finished
+
+[17.05.2020] [12:02:48] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Client in-bound response
+1 << 200
+1 << Transfer-Encoding: chunked
+1 << CF-RAY: 594f98484fcf0256-SJC
+1 << Server: cloudflare
+1 << Connection: keep-alive
+1 << Last-Modified: Wed, 06 May 2020 21:24:05 GMT
+1 << Date: Sun, 17 May 2020 19:02:48 GMT
+1 << Via: 1.1 vegur
+1 << CF-Cache-Status: HIT
+1 << Cache-Control: public, max-age=14400
+1 << Access-Control-Allow-Credentials: true
+1 << Vary: Origin, Accept-Encoding
+1 << Set-Cookie: __cfduid=d381cae9ebde647d0fadbe24cc94b40331589742168; expires=Tue, 16-Jun-20 19:02:48 GMT; path=/; domain=.typicode.com; HttpOnly; SameSite=Lax
+1 << Age: 2603
+1 << cf-request-id: 02c59d812b00000256b6865200000001
+1 << Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 << X-Powered-By: Express
+1 << Content-Type: text/html; charset=UTF-8
+1 << 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.5.0/modern-normalize.min.css" />
+<link rel="stylesheet" href="./style.css" />
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" />
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous" />
+<script>
+      hljs.initHighlightingOnLoad()
+    </script>
+<title>JSONPlaceholder - Fake online REST API for developers</title>
+</head>
+<body>
+<header>
+<div class="announcement">
+This service is maintained and provided for free, please consider
+supporting it on
+<a href="https://github.com/users/typicode/sponsorship">GitHub Sponsors</a
+        >
+â?¤ï¸?
+</div>
+<nav class="container">
+<ul>
+<li><a href="/">JSONPlaceholder</a></li>
+<li><a href="/guide.html">Guide</a></li>
+<li><a href="https://github.com/typicode">GitHub</a></li>
+<li>
+<a href="https://my-json-server.typicode.com">My JSON Server</a>
+</li>
+</ul>
+</nav>
+</header>
+<div class="container">
+
+<div class="hero">
+<div class="container">
+<h1>
+JSONPlaceholder
+</h1>
+<p class="subtitle">
+Fake Online REST API for Testing and Prototyping
+<br> <b>Serving ~350M requests per month</b>
+<br> Powered by
+<a href="https://github.com/typicode/json-server">JSON Server</a>
++
+<a href="https://github.com/typicode/lowdb">LowDB</a>
+</p>
+
+
+
+
+
+</div>
+</div>
+
+<div class="sponsors">
+<h3>Gold Sponsors</h3>
+<p>
+<a href="https://tryretool.com/?utm_source=sponsor&utm_campaign=typicode" target="_blank">
+<img src="https://i.imgur.com/IBItATn.png" height="70px">
+</a>
+</p>
+<p>
+<a href="https://www.patreon.com/bePatron?c=784328">Your Company Logo Here</a>
+</p>
+</div>
+
+<div class="container">
+<main>
+
+<h2>Intro</h2>
+<p>
+JSONPlaceholder is a free online REST API that you can use whenever you need some fake data.
+<br>It's great for tutorials, testing new libraries, sharing code examples, ...
+</p>
+
+<h2>Example</h2>
+<p>
+Run this code in a console or from any site:
+</p>
+<pre><code id="example" class="javascript">fetch('https://jsonplaceholder.typicode.com/todos/1')
+  .then(response => response.json())
+  .then(json => console.log(json))
+</code></pre>
+<p>
+<button id="run-button">Try it</button>
+</p>
+<pre><code id="result" class="json"></code></pre>
+<span id="run-message">Congrats you've made your first call to JSONPlaceholder! ðŸ˜ƒ ðŸŽ‰</span>
+<p>
+<strong>Tip</strong>: you can use
+<b>
+http://
+</b> or
+<b>
+https://
+</b> when making requests to JSONPlaceholder.
+</p>
+<div id="codefund"></div>
+<script src="https://codefund.io/properties/338/funder.js" async="async"></script>
+
+<h2>Resources</h2>
+<p>
+JSONPlaceholder comes with a set of 6 common resources:
+</p>
+<table class="resources">
+<tr>
+ <td>
+<a href="/posts">/posts</a>
+</td>
+<td>100 posts</td>
+</tr>
+<tr>
+<td>
+<a href="/comments">/comments</a>
+</td>
+<td>500 comments</td>
+</tr>
+<tr>
+<td>
+<a href="/albums">/albums</a>
+</td>
+<td>100 albums</td>
+</tr>
+<tr>
+<td>
+<a href="/photos">/photos</a>
+</td>
+<td>5000 photos</td>
+</tr>
+<tr>
+<td>
+<a href="/todos">/todos</a>
+</td>
+<td>200 todos</td>
+</tr>
+<tr>
+<td>
+<a href="/users">/users</a>
+</td>
+<td>10 users</td>
+</tr>
+</table>
+<p>
+<strong>Note</strong>: resources have relations. For example:
+<b>posts</b> have many
+<b>comments</b>,
+<b>albums</b> have many
+<b>photos</b>, ... see below for routes examples.
+</p>
+
+<h2>Routes</h2>
+<p>
+All HTTP methods are supported.
+</p>
+<table>
+<tr>
+<td>GET</td>
+<td>
+<a href="/posts">/posts</a>
+</td>
+</tr>
+<tr>
+<td>GET</td>
+<td>
+<a href="/posts/1">/posts/1</a>
+</td>
+</tr>
+<tr>
+<td>GET</td>
+<td>
+<a href="/posts/1/comments">/posts/1/comments</a>
+</td>
+</tr>
+<tr>
+<td>GET</td>
+<td>
+<a href="/comments?postId=1">/comments?postId=1</a>
+</td>
+</tr>
+<tr>
+<td>GET</td>
+<td>
+<a href="/posts?userId=1">/posts?userId=1</a>
+</td>
+</tr>
+<tr>
+<td>POST</td>
+<td>/posts</td>
+</tr>
+<tr>
+<td>PUT</td>
+<td>/posts/1</td>
+</tr>
+<tr>
+<td>PATCH</td>
+<td>/posts/1</td>
+</tr>
+<tr>
+<td>DELETE</td>
+<td>/posts/1</td>
+</tr>
+</tr>
+</table>
+<p>
+<strong>Note</strong>: you can view detailed examples
+<a href="guide.html">here</a>.
+</p>
+
+<h2>Use your own data</h2>
+
+<p>
+With <a href="https://my-json-server.typicode.com">My JSON Server</a> online service and a simple GitHub repo, you can have your own online fake REST server in seconds.
+</p>
+</main>
+</div>
+</div>
+
+<footer>
+<div class="container">
+<div style="margin-bottom: 2rem;">
+
+
+
+
+
+
+<a href="https://github.com/users/typicode/sponsorship">
+<i class="fab fa-github-alt"></i>
+<strong>Sponsor this project on GitHub</strong>
+</a>
+</div>
+<div>
+Coded and built with â?¤ï¸? by
+<a href="https://github.com/typicode">typicode</a>
+<br />Source code and CHANGELOG available on
+<a href="https://github.com/typicode/jsonplaceholder">GitHub</a>
+</div>
+</div>
+</footer>
+
+<script>
+      ;(function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r
+        ;(i[r] =
+          i[r] ||
+          function () {
+            ;(i[r].q = i[r].q || []).push(arguments)
+          }),
+          (i[r].l = 1 * new Date())
+        ;(a = s.createElement(o)), (m = s.getElementsByTagName(o)[0])
+        a.async = 1
+        a.src = g
+        m.parentNode.insertBefore(a, m)
+      })(
+        window,
+        document,
+        'script',
+        '//www.google-analytics.com/analytics.js',
+        'ga',
+      )
+      ga('create', 'UA-44497010-1', 'typicode.com')
+      ga('send', 'pageview')
+      var trackOutboundLink = function (url) {
+        ga('send', 'event', 'outbound', 'click', url, {
+          transport: 'beacon',
+        })
+      }
+    </script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/fetch/2.0.3/fetch.min.js"></script>
+<script>
+      // Use http or https based on location.protocol
+      var example = document.getElementById('example')
+      example.textContent = example.textContent.replace(
+        'http:',
+        location.protocol,
+      )
+
+      // Highlight result element
+      var result = document.getElementById('result')
+      hljs.highlightBlock(result)
+
+      // Run example
+      var runButton = document.getElementById('run-button')
+      runButton.onclick = function () {
+        var root = location.protocol + '//jsonplaceholder.typicode.com'
+        var runMessage = document.getElementById('run-message')
+
+        // Hide or disable things during API call
+        runButton.disabled = true
+        runMessage.style.opacity = 0
+        result.style.opacity = 0
+
+        fetch('https://jsonplaceholder.typicode.com/todos/1')
+          .then((response) => response.json())
+          .then((json) => {
+            var str = JSON.stringify(json, null, '\t')
+
+            // Format result
+            result.innerHTML = str
+              .replace(/\n/g, '<br/>')
+              .replace(/\\n/g, ' ')
+              .replace(/\t/g, '&nbsp;&nbsp;')
+
+            hljs.highlightBlock(result)
+
+            // Show and enable things after API call
+            runButton.disabled = false
+            runMessage.style.opacity = 1
+            result.style.opacity = 1
+          })
+      }
+    </script>
+</body>
+</html>
+
+
+[17.05.2020] [12:04:20] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Client out-bound request
+1 >> GET https://jsonplaceholder.typicode.com
+
+[17.05.2020] [12:04:21] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Receive Start: -1
+
+[17.05.2020] [12:04:21] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Received: delta: 26 bytes: 26
+
+[17.05.2020] [12:04:21] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Received: delta: 606 bytes: 632
+
+[17.05.2020] [12:04:21] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Received: delta: 1369 bytes: 2001
+
+[17.05.2020] [12:04:21] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Received: delta: 1369 bytes: 3370
+
+[17.05.2020] [12:04:21] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Received: delta: 1369 bytes: 4739
+
+[17.05.2020] [12:04:21] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Received: delta: 1369 bytes: 6108
+
+[17.05.2020] [12:04:21] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Received: delta: 1239 bytes: 7347
+
+[17.05.2020] [12:04:21] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - Finished
+[17.05.2020] [12:04:21] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Finished
+
+[17.05.2020] [12:04:21] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Client in-bound response
+1 << 200
+1 << Transfer-Encoding: chunked
+1 << CF-RAY: 594f9a8fbda2025a-SJC
+1 << Server: cloudflare
+1 << Connection: keep-alive
+1 << Last-Modified: Wed, 06 May 2020 21:24:05 GMT
+1 << Date: Sun, 17 May 2020 19:04:21 GMT
+1 << Via: 1.1 vegur
+1 << CF-Cache-Status: HIT
+1 << Cache-Control: public, max-age=14400
+1 << Access-Control-Allow-Credentials: true
+1 << Vary: Origin, Accept-Encoding
+1 << Set-Cookie: __cfduid=d206c774f482033d416a110ae3550c05e1589742261; expires=Tue, 16-Jun-20 19:04:21 GMT; path=/; domain=.typicode.com; HttpOnly; SameSite=Lax
+1 << Age: 2696
+1 << cf-request-id: 02c59eedd00000025a2427f200000001
+1 << Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 << X-Powered-By: Express
+1 << Content-Type: text/html; charset=UTF-8
+1 << 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.5.0/modern-normalize.min.css" />
+<link rel="stylesheet" href="./style.css" />
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" />
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous" />
+<script>
+      hljs.initHighlightingOnLoad()
+    </script>
+<title>JSONPlaceholder - Fake online REST API for developers</title>
+</head>
+<body>
+<header>
+<div class="announcement">
+This service is maintained and provided for free, please consider
+supporting it on
+<a href="https://github.com/users/typicode/sponsorship">GitHub Sponsors</a
+        >
+â?¤ï¸?
+</div>
+<nav class="container">
+<ul>
+<li><a href="/">JSONPlaceholder</a></li>
+<li><a href="/guide.html">Guide</a></li>
+<li><a href="https://github.com/typicode">GitHub</a></li>
+<li>
+<a href="https://my-json-server.typicode.com">My JSON Server</a>
+</li>
+</ul>
+</nav>
+</header>
+<div class="container">
+
+<div class="hero">
+<div class="container">
+<h1>
+JSONPlaceholder
+</h1>
+<p class="subtitle">
+Fake Online REST API for Testing and Prototyping
+<br> <b>Serving ~350M requests per month</b>
+<br> Powered by
+<a href="https://github.com/typicode/json-server">JSON Server</a>
++
+<a href="https://github.com/typicode/lowdb">LowDB</a>
+</p>
+
+
+
+
+
+</div>
+</div>
+
+<div class="sponsors">
+<h3>Gold Sponsors</h3>
+<p>
+<a href="https://tryretool.com/?utm_source=sponsor&utm_campaign=typicode" target="_blank">
+<img src="https://i.imgur.com/IBItATn.png" height="70px">
+</a>
+</p>
+<p>
+<a href="https://www.patreon.com/bePatron?c=784328">Your Company Logo Here</a>
+</p>
+</div>
+
+<div class="container">
+<main>
+
+<h2>Intro</h2>
+<p>
+JSONPlaceholder is a free online REST API that you can use whenever you need some fake data.
+<br>It's great for tutorials, testing new libraries, sharing code examples, ...
+</p>
+
+<h2>Example</h2>
+<p>
+Run this code in a console or from any site:
+</p>
+<pre><code id="example" class="javascript">fetch('https://jsonplaceholder.typicode.com/todos/1')
+  .then(response => response.json())
+  .then(json => console.log(json))
+</code></pre>
+<p>
+<button id="run-button">Try it</button>
+</p>
+<pre><code id="result" class="json"></code></pre>
+<span id="run-message">Congrats you've made your first call to JSONPlaceholder! ðŸ˜ƒ ðŸŽ‰</span>
+<p>
+<strong>Tip</strong>: you can use
+<b>
+http://
+</b> or
+<b>
+https://
+</b> when making requests to JSONPlaceholder.
+</p>
+<div id="codefund"></div>
+<script src="https://codefund.io/properties/338/funder.js" async="async"></script>
+
+<h2>Resources</h2>
+<p>
+JSONPlaceholder comes with a set of 6 common resources:
+</p>
+<table class="resources">
+<tr>
+ <td>
+<a href="/posts">/posts</a>
+</td>
+<td>100 posts</td>
+</tr>
+<tr>
+<td>
+<a href="/comments">/comments</a>
+</td>
+<td>500 comments</td>
+</tr>
+<tr>
+<td>
+<a href="/albums">/albums</a>
+</td>
+<td>100 albums</td>
+</tr>
+<tr>
+<td>
+<a href="/photos">/photos</a>
+</td>
+<td>5000 photos</td>
+</tr>
+<tr>
+<td>
+<a href="/todos">/todos</a>
+</td>
+<td>200 todos</td>
+</tr>
+<tr>
+<td>
+<a href="/users">/users</a>
+</td>
+<td>10 users</td>
+</tr>
+</table>
+<p>
+<strong>Note</strong>: resources have relations. For example:
+<b>posts</b> have many
+<b>comments</b>,
+<b>albums</b> have many
+<b>photos</b>, ... see below for routes examples.
+</p>
+
+<h2>Routes</h2>
+<p>
+All HTTP methods are supported.
+</p>
+<table>
+<tr>
+<td>GET</td>
+<td>
+<a href="/posts">/posts</a>
+</td>
+</tr>
+<tr>
+<td>GET</td>
+<td>
+<a href="/posts/1">/posts/1</a>
+</td>
+</tr>
+<tr>
+<td>GET</td>
+<td>
+<a href="/posts/1/comments">/posts/1/comments</a>
+</td>
+</tr>
+<tr>
+<td>GET</td>
+<td>
+<a href="/comments?postId=1">/comments?postId=1</a>
+</td>
+</tr>
+<tr>
+<td>GET</td>
+<td>
+<a href="/posts?userId=1">/posts?userId=1</a>
+</td>
+</tr>
+<tr>
+<td>POST</td>
+<td>/posts</td>
+</tr>
+<tr>
+<td>PUT</td>
+<td>/posts/1</td>
+</tr>
+<tr>
+<td>PATCH</td>
+<td>/posts/1</td>
+</tr>
+<tr>
+<td>DELETE</td>
+<td>/posts/1</td>
+</tr>
+</tr>
+</table>
+<p>
+<strong>Note</strong>: you can view detailed examples
+<a href="guide.html">here</a>.
+</p>
+
+<h2>Use your own data</h2>
+
+<p>
+With <a href="https://my-json-server.typicode.com">My JSON Server</a> online service and a simple GitHub repo, you can have your own online fake REST server in seconds.
+</p>
+</main>
+</div>
+</div>
+
+<footer>
+<div class="container">
+<div style="margin-bottom: 2rem;">
+
+
+
+
+
+
+<a href="https://github.com/users/typicode/sponsorship">
+<i class="fab fa-github-alt"></i>
+<strong>Sponsor this project on GitHub</strong>
+</a>
+</div>
+<div>
+Coded and built with â?¤ï¸? by
+<a href="https://github.com/typicode">typicode</a>
+<br />Source code and CHANGELOG available on
+<a href="https://github.com/typicode/jsonplaceholder">GitHub</a>
+</div>
+</div>
+</footer>
+
+<script>
+      ;(function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r
+        ;(i[r] =
+          i[r] ||
+          function () {
+            ;(i[r].q = i[r].q || []).push(arguments)
+          }),
+          (i[r].l = 1 * new Date())
+        ;(a = s.createElement(o)), (m = s.getElementsByTagName(o)[0])
+        a.async = 1
+        a.src = g
+        m.parentNode.insertBefore(a, m)
+      })(
+        window,
+        document,
+        'script',
+        '//www.google-analytics.com/analytics.js',
+        'ga',
+      )
+      ga('create', 'UA-44497010-1', 'typicode.com')
+      ga('send', 'pageview')
+      var trackOutboundLink = function (url) {
+        ga('send', 'event', 'outbound', 'click', url, {
+          transport: 'beacon',
+        })
+      }
+    </script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/fetch/2.0.3/fetch.min.js"></script>
+<script>
+      // Use http or https based on location.protocol
+      var example = document.getElementById('example')
+      example.textContent = example.textContent.replace(
+        'http:',
+        location.protocol,
+      )
+
+      // Highlight result element
+      var result = document.getElementById('result')
+      hljs.highlightBlock(result)
+
+      // Run example
+      var runButton = document.getElementById('run-button')
+      runButton.onclick = function () {
+        var root = location.protocol + '//jsonplaceholder.typicode.com'
+        var runMessage = document.getElementById('run-message')
+
+        // Hide or disable things during API call
+        runButton.disabled = true
+        runMessage.style.opacity = 0
+        result.style.opacity = 0
+
+        fetch('https://jsonplaceholder.typicode.com/todos/1')
+          .then((response) => response.json())
+          .then((json) => {
+            var str = JSON.stringify(json, null, '\t')
+
+            // Format result
+            result.innerHTML = str
+              .replace(/\n/g, '<br/>')
+              .replace(/\\n/g, ' ')
+              .replace(/\t/g, '&nbsp;&nbsp;')
+
+            hljs.highlightBlock(result)
+
+            // Show and enable things after API call
+            runButton.disabled = false
+            runMessage.style.opacity = 1
+            result.style.opacity = 1
+          })
+      }
+    </script>
+</body>
+</html>
+
+
+[17.05.2020] [12:05:14] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Client out-bound request
+1 >> GET https://jsonplaceholder.typicode.com
+
+[17.05.2020] [12:05:15] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Receive Start: -1
+
+[17.05.2020] [12:05:15] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Received: delta: 26 bytes: 26
+
+[17.05.2020] [12:05:15] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Received: delta: 606 bytes: 632
+
+[17.05.2020] [12:05:15] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Received: delta: 1369 bytes: 2001
+
+[17.05.2020] [12:05:15] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Received: delta: 1369 bytes: 3370
+
+[17.05.2020] [12:05:15] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Received: delta: 1369 bytes: 4739
+
+[17.05.2020] [12:05:15] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Received: delta: 1369 bytes: 6108
+
+[17.05.2020] [12:05:15] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Received: delta: 1239 bytes: 7347
+
+[17.05.2020] [12:05:15] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - Finished
+[17.05.2020] [12:05:15] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Finished
+
+[17.05.2020] [12:05:15] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Client in-bound response
+1 << 200
+1 << Transfer-Encoding: chunked
+1 << CF-RAY: 594f9bdff9b202ab-SJC
+1 << Server: cloudflare
+1 << Connection: keep-alive
+1 << Last-Modified: Wed, 06 May 2020 21:24:05 GMT
+1 << Date: Sun, 17 May 2020 19:05:15 GMT
+1 << Via: 1.1 vegur
+1 << CF-Cache-Status: HIT
+1 << Cache-Control: public, max-age=14400
+1 << Access-Control-Allow-Credentials: true
+1 << Vary: Origin, Accept-Encoding
+1 << Set-Cookie: __cfduid=df257454e9405e36adbbfedcb1e8f79d11589742315; expires=Tue, 16-Jun-20 19:05:15 GMT; path=/; domain=.typicode.com; HttpOnly; SameSite=Lax
+1 << Age: 2750
+1 << cf-request-id: 02c59fbfff000002ab5305b200000001
+1 << Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 << X-Powered-By: Express
+1 << Content-Type: text/html; charset=UTF-8
+1 << 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.5.0/modern-normalize.min.css" />
+<link rel="stylesheet" href="./style.css" />
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" />
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous" />
+<script>
+      hljs.initHighlightingOnLoad()
+    </script>
+<title>JSONPlaceholder - Fake online REST API for developers</title>
+</head>
+<body>
+<header>
+<div class="announcement">
+This service is maintained and provided for free, please consider
+supporting it on
+<a href="https://github.com/users/typicode/sponsorship">GitHub Sponsors</a
+        >
+â?¤ï¸?
+</div>
+<nav class="container">
+<ul>
+<li><a href="/">JSONPlaceholder</a></li>
+<li><a href="/guide.html">Guide</a></li>
+<li><a href="https://github.com/typicode">GitHub</a></li>
+<li>
+<a href="https://my-json-server.typicode.com">My JSON Server</a>
+</li>
+</ul>
+</nav>
+</header>
+<div class="container">
+
+<div class="hero">
+<div class="container">
+<h1>
+JSONPlaceholder
+</h1>
+<p class="subtitle">
+Fake Online REST API for Testing and Prototyping
+<br> <b>Serving ~350M requests per month</b>
+<br> Powered by
+<a href="https://github.com/typicode/json-server">JSON Server</a>
++
+<a href="https://github.com/typicode/lowdb">LowDB</a>
+</p>
+
+
+
+
+
+</div>
+</div>
+
+<div class="sponsors">
+<h3>Gold Sponsors</h3>
+<p>
+<a href="https://tryretool.com/?utm_source=sponsor&utm_campaign=typicode" target="_blank">
+<img src="https://i.imgur.com/IBItATn.png" height="70px">
+</a>
+</p>
+<p>
+<a href="https://www.patreon.com/bePatron?c=784328">Your Company Logo Here</a>
+</p>
+</div>
+
+<div class="container">
+<main>
+
+<h2>Intro</h2>
+<p>
+JSONPlaceholder is a free online REST API that you can use whenever you need some fake data.
+<br>It's great for tutorials, testing new libraries, sharing code examples, ...
+</p>
+
+<h2>Example</h2>
+<p>
+Run this code in a console or from any site:
+</p>
+<pre><code id="example" class="javascript">fetch('https://jsonplaceholder.typicode.com/todos/1')
+  .then(response => response.json())
+  .then(json => console.log(json))
+</code></pre>
+<p>
+<button id="run-button">Try it</button>
+</p>
+<pre><code id="result" class="json"></code></pre>
+<span id="run-message">Congrats you've made your first call to JSONPlaceholder! ðŸ˜ƒ ðŸŽ‰</span>
+<p>
+<strong>Tip</strong>: you can use
+<b>
+http://
+</b> or
+<b>
+https://
+</b> when making requests to JSONPlaceholder.
+</p>
+<div id="codefund"></div>
+<script src="https://codefund.io/properties/338/funder.js" async="async"></script>
+
+<h2>Resources</h2>
+<p>
+JSONPlaceholder comes with a set of 6 common resources:
+</p>
+<table class="resources">
+<tr>
+ <td>
+<a href="/posts">/posts</a>
+</td>
+<td>100 posts</td>
+</tr>
+<tr>
+<td>
+<a href="/comments">/comments</a>
+</td>
+<td>500 comments</td>
+</tr>
+<tr>
+<td>
+<a href="/albums">/albums</a>
+</td>
+<td>100 albums</td>
+</tr>
+<tr>
+<td>
+<a href="/photos">/photos</a>
+</td>
+<td>5000 photos</td>
+</tr>
+<tr>
+<td>
+<a href="/todos">/todos</a>
+</td>
+<td>200 todos</td>
+</tr>
+<tr>
+<td>
+<a href="/users">/users</a>
+</td>
+<td>10 users</td>
+</tr>
+</table>
+<p>
+<strong>Note</strong>: resources have relations. For example:
+<b>posts</b> have many
+<b>comments</b>,
+<b>albums</b> have many
+<b>photos</b>, ... see below for routes examples.
+</p>
+
+<h2>Routes</h2>
+<p>
+All HTTP methods are supported.
+</p>
+<table>
+<tr>
+<td>GET</td>
+<td>
+<a href="/posts">/posts</a>
+</td>
+</tr>
+<tr>
+<td>GET</td>
+<td>
+<a href="/posts/1">/posts/1</a>
+</td>
+</tr>
+<tr>
+<td>GET</td>
+<td>
+<a href="/posts/1/comments">/posts/1/comments</a>
+</td>
+</tr>
+<tr>
+<td>GET</td>
+<td>
+<a href="/comments?postId=1">/comments?postId=1</a>
+</td>
+</tr>
+<tr>
+<td>GET</td>
+<td>
+<a href="/posts?userId=1">/posts?userId=1</a>
+</td>
+</tr>
+<tr>
+<td>POST</td>
+<td>/posts</td>
+</tr>
+<tr>
+<td>PUT</td>
+<td>/posts/1</td>
+</tr>
+<tr>
+<td>PATCH</td>
+<td>/posts/1</td>
+</tr>
+<tr>
+<td>DELETE</td>
+<td>/posts/1</td>
+</tr>
+</tr>
+</table>
+<p>
+<strong>Note</strong>: you can view detailed examples
+<a href="guide.html">here</a>.
+</p>
+
+<h2>Use your own data</h2>
+
+<p>
+With <a href="https://my-json-server.typicode.com">My JSON Server</a> online service and a simple GitHub repo, you can have your own online fake REST server in seconds.
+</p>
+</main>
+</div>
+</div>
+
+<footer>
+<div class="container">
+<div style="margin-bottom: 2rem;">
+
+
+
+
+
+
+<a href="https://github.com/users/typicode/sponsorship">
+<i class="fab fa-github-alt"></i>
+<strong>Sponsor this project on GitHub</strong>
+</a>
+</div>
+<div>
+Coded and built with â?¤ï¸? by
+<a href="https://github.com/typicode">typicode</a>
+<br />Source code and CHANGELOG available on
+<a href="https://github.com/typicode/jsonplaceholder">GitHub</a>
+</div>
+</div>
+</footer>
+
+<script>
+      ;(function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r
+        ;(i[r] =
+          i[r] ||
+          function () {
+            ;(i[r].q = i[r].q || []).push(arguments)
+          }),
+          (i[r].l = 1 * new Date())
+        ;(a = s.createElement(o)), (m = s.getElementsByTagName(o)[0])
+        a.async = 1
+        a.src = g
+        m.parentNode.insertBefore(a, m)
+      })(
+        window,
+        document,
+        'script',
+        '//www.google-analytics.com/analytics.js',
+        'ga',
+      )
+      ga('create', 'UA-44497010-1', 'typicode.com')
+      ga('send', 'pageview')
+      var trackOutboundLink = function (url) {
+        ga('send', 'event', 'outbound', 'click', url, {
+          transport: 'beacon',
+        })
+      }
+    </script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/fetch/2.0.3/fetch.min.js"></script>
+<script>
+      // Use http or https based on location.protocol
+      var example = document.getElementById('example')
+      example.textContent = example.textContent.replace(
+        'http:',
+        location.protocol,
+      )
+
+      // Highlight result element
+      var result = document.getElementById('result')
+      hljs.highlightBlock(result)
+
+      // Run example
+      var runButton = document.getElementById('run-button')
+      runButton.onclick = function () {
+        var root = location.protocol + '//jsonplaceholder.typicode.com'
+        var runMessage = document.getElementById('run-message')
+
+        // Hide or disable things during API call
+        runButton.disabled = true
+        runMessage.style.opacity = 0
+        result.style.opacity = 0
+
+        fetch('https://jsonplaceholder.typicode.com/todos/1')
+          .then((response) => response.json())
+          .then((json) => {
+            var str = JSON.stringify(json, null, '\t')
+
+            // Format result
+            result.innerHTML = str
+              .replace(/\n/g, '<br/>')
+              .replace(/\\n/g, ' ')
+              .replace(/\t/g, '&nbsp;&nbsp;')
+
+            hljs.highlightBlock(result)
+
+            // Show and enable things after API call
+            runButton.disabled = false
+            runMessage.style.opacity = 1
+            result.style.opacity = 1
+          })
+      }
+    </script>
+</body>
+</html>
+
+
+[17.05.2020] [12:06:18] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Client out-bound request
+1 >> GET https://jsonplaceholder.typicode.com
+
+[17.05.2020] [12:06:18] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Receive Start: -1
+
+[17.05.2020] [12:06:18] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Received: delta: 26 bytes: 26
+
+[17.05.2020] [12:06:18] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Received: delta: 606 bytes: 632
+
+[17.05.2020] [12:06:18] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Received: delta: 1369 bytes: 2001
+
+[17.05.2020] [12:06:18] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Received: delta: 1369 bytes: 3370
+
+[17.05.2020] [12:06:18] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Received: delta: 1369 bytes: 4739
+
+[17.05.2020] [12:06:18] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Received: delta: 1369 bytes: 6108
+
+[17.05.2020] [12:06:18] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Received: delta: 1239 bytes: 7347
+
+[17.05.2020] [12:06:18] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - Finished
+[17.05.2020] [12:06:18] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Finished
+
+[17.05.2020] [12:06:18] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Client in-bound response
+1 << 200
+1 << Transfer-Encoding: chunked
+1 << CF-RAY: 594f9d6d4b876bfc-SJC
+1 << Server: cloudflare
+1 << Connection: keep-alive
+1 << Last-Modified: Wed, 06 May 2020 21:24:05 GMT
+1 << Date: Sun, 17 May 2020 19:06:19 GMT
+1 << Via: 1.1 vegur
+1 << CF-Cache-Status: HIT
+1 << Cache-Control: public, max-age=14400
+1 << Access-Control-Allow-Credentials: true
+1 << Vary: Origin, Accept-Encoding
+1 << Set-Cookie: __cfduid=d5abf639d30d9e9fef1226d3b920b36891589742379; expires=Tue, 16-Jun-20 19:06:19 GMT; path=/; domain=.typicode.com; HttpOnly; SameSite=Lax
+1 << Age: 2814
+1 << cf-request-id: 02c5a0b84d00006bfc9629c200000001
+1 << Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 << X-Powered-By: Express
+1 << Content-Type: text/html; charset=UTF-8
+1 << 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.5.0/modern-normalize.min.css" />
+<link rel="stylesheet" href="./style.css" />
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" />
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous" />
+<script>
+      hljs.initHighlightingOnLoad()
+    </script>
+<title>JSONPlaceholder - Fake online REST API for developers</title>
+</head>
+<body>
+<header>
+<div class="announcement">
+This service is maintained and provided for free, please consider
+supporting it on
+<a href="https://github.com/users/typicode/sponsorship">GitHub Sponsors</a
+        >
+â?¤ï¸?
+</div>
+<nav class="container">
+<ul>
+<li><a href="/">JSONPlaceholder</a></li>
+<li><a href="/guide.html">Guide</a></li>
+<li><a href="https://github.com/typicode">GitHub</a></li>
+<li>
+<a href="https://my-json-server.typicode.com">My JSON Server</a>
+</li>
+</ul>
+</nav>
+</header>
+<div class="container">
+
+<div class="hero">
+<div class="container">
+<h1>
+JSONPlaceholder
+</h1>
+<p class="subtitle">
+Fake Online REST API for Testing and Prototyping
+<br> <b>Serving ~350M requests per month</b>
+<br> Powered by
+<a href="https://github.com/typicode/json-server">JSON Server</a>
++
+<a href="https://github.com/typicode/lowdb">LowDB</a>
+</p>
+
+
+
+
+
+</div>
+</div>
+
+<div class="sponsors">
+<h3>Gold Sponsors</h3>
+<p>
+<a href="https://tryretool.com/?utm_source=sponsor&utm_campaign=typicode" target="_blank">
+<img src="https://i.imgur.com/IBItATn.png" height="70px">
+</a>
+</p>
+<p>
+<a href="https://www.patreon.com/bePatron?c=784328">Your Company Logo Here</a>
+</p>
+</div>
+
+<div class="container">
+<main>
+
+<h2>Intro</h2>
+<p>
+JSONPlaceholder is a free online REST API that you can use whenever you need some fake data.
+<br>It's great for tutorials, testing new libraries, sharing code examples, ...
+</p>
+
+<h2>Example</h2>
+<p>
+Run this code in a console or from any site:
+</p>
+<pre><code id="example" class="javascript">fetch('https://jsonplaceholder.typicode.com/todos/1')
+  .then(response => response.json())
+  .then(json => console.log(json))
+</code></pre>
+<p>
+<button id="run-button">Try it</button>
+</p>
+<pre><code id="result" class="json"></code></pre>
+<span id="run-message">Congrats you've made your first call to JSONPlaceholder! ðŸ˜ƒ ðŸŽ‰</span>
+<p>
+<strong>Tip</strong>: you can use
+<b>
+http://
+</b> or
+<b>
+https://
+</b> when making requests to JSONPlaceholder.
+</p>
+<div id="codefund"></div>
+<script src="https://codefund.io/properties/338/funder.js" async="async"></script>
+
+<h2>Resources</h2>
+<p>
+JSONPlaceholder comes with a set of 6 common resources:
+</p>
+<table class="resources">
+<tr>
+ <td>
+<a href="/posts">/posts</a>
+</td>
+<td>100 posts</td>
+</tr>
+<tr>
+<td>
+<a href="/comments">/comments</a>
+</td>
+<td>500 comments</td>
+</tr>
+<tr>
+<td>
+<a href="/albums">/albums</a>
+</td>
+<td>100 albums</td>
+</tr>
+<tr>
+<td>
+<a href="/photos">/photos</a>
+</td>
+<td>5000 photos</td>
+</tr>
+<tr>
+<td>
+<a href="/todos">/todos</a>
+</td>
+<td>200 todos</td>
+</tr>
+<tr>
+<td>
+<a href="/users">/users</a>
+</td>
+<td>10 users</td>
+</tr>
+</table>
+<p>
+<strong>Note</strong>: resources have relations. For example:
+<b>posts</b> have many
+<b>comments</b>,
+<b>albums</b> have many
+<b>photos</b>, ... see below for routes examples.
+</p>
+
+<h2>Routes</h2>
+<p>
+All HTTP methods are supported.
+</p>
+<table>
+<tr>
+<td>GET</td>
+<td>
+<a href="/posts">/posts</a>
+</td>
+</tr>
+<tr>
+<td>GET</td>
+<td>
+<a href="/posts/1">/posts/1</a>
+</td>
+</tr>
+<tr>
+<td>GET</td>
+<td>
+<a href="/posts/1/comments">/posts/1/comments</a>
+</td>
+</tr>
+<tr>
+<td>GET</td>
+<td>
+<a href="/comments?postId=1">/comments?postId=1</a>
+</td>
+</tr>
+<tr>
+<td>GET</td>
+<td>
+<a href="/posts?userId=1">/posts?userId=1</a>
+</td>
+</tr>
+<tr>
+<td>POST</td>
+<td>/posts</td>
+</tr>
+<tr>
+<td>PUT</td>
+<td>/posts/1</td>
+</tr>
+<tr>
+<td>PATCH</td>
+<td>/posts/1</td>
+</tr>
+<tr>
+<td>DELETE</td>
+<td>/posts/1</td>
+</tr>
+</tr>
+</table>
+<p>
+<strong>Note</strong>: you can view detailed examples
+<a href="guide.html">here</a>.
+</p>
+
+<h2>Use your own data</h2>
+
+<p>
+With <a href="https://my-json-server.typicode.com">My JSON Server</a> online service and a simple GitHub repo, you can have your own online fake REST server in seconds.
+</p>
+</main>
+</div>
+</div>
+
+<footer>
+<div class="container">
+<div style="margin-bottom: 2rem;">
+
+
+
+
+
+
+<a href="https://github.com/users/typicode/sponsorship">
+<i class="fab fa-github-alt"></i>
+<strong>Sponsor this project on GitHub</strong>
+</a>
+</div>
+<div>
+Coded and built with â?¤ï¸? by
+<a href="https://github.com/typicode">typicode</a>
+<br />Source code and CHANGELOG available on
+<a href="https://github.com/typicode/jsonplaceholder">GitHub</a>
+</div>
+</div>
+</footer>
+
+<script>
+      ;(function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r
+        ;(i[r] =
+          i[r] ||
+          function () {
+            ;(i[r].q = i[r].q || []).push(arguments)
+          }),
+          (i[r].l = 1 * new Date())
+        ;(a = s.createElement(o)), (m = s.getElementsByTagName(o)[0])
+        a.async = 1
+        a.src = g
+        m.parentNode.insertBefore(a, m)
+      })(
+        window,
+        document,
+        'script',
+        '//www.google-analytics.com/analytics.js',
+        'ga',
+      )
+      ga('create', 'UA-44497010-1', 'typicode.com')
+      ga('send', 'pageview')
+      var trackOutboundLink = function (url) {
+        ga('send', 'event', 'outbound', 'click', url, {
+          transport: 'beacon',
+        })
+      }
+    </script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/fetch/2.0.3/fetch.min.js"></script>
+<script>
+      // Use http or https based on location.protocol
+      var example = document.getElementById('example')
+      example.textContent = example.textContent.replace(
+        'http:',
+        location.protocol,
+      )
+
+      // Highlight result element
+      var result = document.getElementById('result')
+      hljs.highlightBlock(result)
+
+      // Run example
+      var runButton = document.getElementById('run-button')
+      runButton.onclick = function () {
+        var root = location.protocol + '//jsonplaceholder.typicode.com'
+        var runMessage = document.getElementById('run-message')
+
+        // Hide or disable things during API call
+        runButton.disabled = true
+        runMessage.style.opacity = 0
+        result.style.opacity = 0
+
+        fetch('https://jsonplaceholder.typicode.com/todos/1')
+          .then((response) => response.json())
+          .then((json) => {
+            var str = JSON.stringify(json, null, '\t')
+
+            // Format result
+            result.innerHTML = str
+              .replace(/\n/g, '<br/>')
+              .replace(/\\n/g, ' ')
+              .replace(/\t/g, '&nbsp;&nbsp;')
+
+            hljs.highlightBlock(result)
+
+            // Show and enable things after API call
+            runButton.disabled = false
+            runMessage.style.opacity = 1
+            result.style.opacity = 1
+          })
+      }
+    </script>
+</body>
+</html>
+
+
+[17.05.2020] [12:06:40] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Client out-bound request
+1 >> GET https://jsonplaceholder.typicode.com
+
+[17.05.2020] [12:06:41] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Receive Start: -1
+
+[17.05.2020] [12:06:41] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Received: delta: 26 bytes: 26
+
+[17.05.2020] [12:06:41] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Received: delta: 606 bytes: 632
+
+[17.05.2020] [12:06:41] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Received: delta: 1369 bytes: 2001
+
+[17.05.2020] [12:06:41] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Received: delta: 1369 bytes: 3370
+
+[17.05.2020] [12:06:41] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Received: delta: 1369 bytes: 4739
+
+[17.05.2020] [12:06:41] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Received: delta: 1369 bytes: 6108
+
+[17.05.2020] [12:06:41] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Received: delta: 1239 bytes: 7347
+
+[17.05.2020] [12:06:41] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - Finished
+[17.05.2020] [12:06:41] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Finished
+
+[17.05.2020] [12:06:41] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Client in-bound response
+1 << 200
+1 << Transfer-Encoding: chunked
+1 << CF-RAY: 594f9df939b6ed4b-SJC
+1 << Server: cloudflare
+1 << Connection: keep-alive
+1 << Last-Modified: Wed, 06 May 2020 21:24:05 GMT
+1 << Date: Sun, 17 May 2020 19:06:41 GMT
+1 << Via: 1.1 vegur
+1 << CF-Cache-Status: HIT
+1 << Cache-Control: public, max-age=14400
+1 << Access-Control-Allow-Credentials: true
+1 << Vary: Origin, Accept-Encoding
+1 << Set-Cookie: __cfduid=d1e07c1ece0d49cddb9e548fdc955f2011589742401; expires=Tue, 16-Jun-20 19:06:41 GMT; path=/; domain=.typicode.com; HttpOnly; SameSite=Lax
+1 << Age: 2836
+1 << cf-request-id: 02c5a10fc10000ed4b18838200000001
+1 << Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 << X-Powered-By: Express
+1 << Content-Type: text/html; charset=UTF-8
+1 << 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.5.0/modern-normalize.min.css" />
+<link rel="stylesheet" href="./style.css" />
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" />
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous" />
+<script>
+      hljs.initHighlightingOnLoad()
+    </script>
+<title>JSONPlaceholder - Fake online REST API for developers</title>
+</head>
+<body>
+<header>
+<div class="announcement">
+This service is maintained and provided for free, please consider
+supporting it on
+<a href="https://github.com/users/typicode/sponsorship">GitHub Sponsors</a
+        >
+â?¤ï¸?
+</div>
+<nav class="container">
+<ul>
+<li><a href="/">JSONPlaceholder</a></li>
+<li><a href="/guide.html">Guide</a></li>
+<li><a href="https://github.com/typicode">GitHub</a></li>
+<li>
+<a href="https://my-json-server.typicode.com">My JSON Server</a>
+</li>
+</ul>
+</nav>
+</header>
+<div class="container">
+
+<div class="hero">
+<div class="container">
+<h1>
+JSONPlaceholder
+</h1>
+<p class="subtitle">
+Fake Online REST API for Testing and Prototyping
+<br> <b>Serving ~350M requests per month</b>
+<br> Powered by
+<a href="https://github.com/typicode/json-server">JSON Server</a>
++
+<a href="https://github.com/typicode/lowdb">LowDB</a>
+</p>
+
+
+
+
+
+</div>
+</div>
+
+<div class="sponsors">
+<h3>Gold Sponsors</h3>
+<p>
+<a href="https://tryretool.com/?utm_source=sponsor&utm_campaign=typicode" target="_blank">
+<img src="https://i.imgur.com/IBItATn.png" height="70px">
+</a>
+</p>
+<p>
+<a href="https://www.patreon.com/bePatron?c=784328">Your Company Logo Here</a>
+</p>
+</div>
+
+<div class="container">
+<main>
+
+<h2>Intro</h2>
+<p>
+JSONPlaceholder is a free online REST API that you can use whenever you need some fake data.
+<br>It's great for tutorials, testing new libraries, sharing code examples, ...
+</p>
+
+<h2>Example</h2>
+<p>
+Run this code in a console or from any site:
+</p>
+<pre><code id="example" class="javascript">fetch('https://jsonplaceholder.typicode.com/todos/1')
+  .then(response => response.json())
+  .then(json => console.log(json))
+</code></pre>
+<p>
+<button id="run-button">Try it</button>
+</p>
+<pre><code id="result" class="json"></code></pre>
+<span id="run-message">Congrats you've made your first call to JSONPlaceholder! ðŸ˜ƒ ðŸŽ‰</span>
+<p>
+<strong>Tip</strong>: you can use
+<b>
+http://
+</b> or
+<b>
+https://
+</b> when making requests to JSONPlaceholder.
+</p>
+<div id="codefund"></div>
+<script src="https://codefund.io/properties/338/funder.js" async="async"></script>
+
+<h2>Resources</h2>
+<p>
+JSONPlaceholder comes with a set of 6 common resources:
+</p>
+<table class="resources">
+<tr>
+ <td>
+<a href="/posts">/posts</a>
+</td>
+<td>100 posts</td>
+</tr>
+<tr>
+<td>
+<a href="/comments">/comments</a>
+</td>
+<td>500 comments</td>
+</tr>
+<tr>
+<td>
+<a href="/albums">/albums</a>
+</td>
+<td>100 albums</td>
+</tr>
+<tr>
+<td>
+<a href="/photos">/photos</a>
+</td>
+<td>5000 photos</td>
+</tr>
+<tr>
+<td>
+<a href="/todos">/todos</a>
+</td>
+<td>200 todos</td>
+</tr>
+<tr>
+<td>
+<a href="/users">/users</a>
+</td>
+<td>10 users</td>
+</tr>
+</table>
+<p>
+<strong>Note</strong>: resources have relations. For example:
+<b>posts</b> have many
+<b>comments</b>,
+<b>albums</b> have many
+<b>photos</b>, ... see below for routes examples.
+</p>
+
+<h2>Routes</h2>
+<p>
+All HTTP methods are supported.
+</p>
+<table>
+<tr>
+<td>GET</td>
+<td>
+<a href="/posts">/posts</a>
+</td>
+</tr>
+<tr>
+<td>GET</td>
+<td>
+<a href="/posts/1">/posts/1</a>
+</td>
+</tr>
+<tr>
+<td>GET</td>
+<td>
+<a href="/posts/1/comments">/posts/1/comments</a>
+</td>
+</tr>
+<tr>
+<td>GET</td>
+<td>
+<a href="/comments?postId=1">/comments?postId=1</a>
+</td>
+</tr>
+<tr>
+<td>GET</td>
+<td>
+<a href="/posts?userId=1">/posts?userId=1</a>
+</td>
+</tr>
+<tr>
+<td>POST</td>
+<td>/posts</td>
+</tr>
+<tr>
+<td>PUT</td>
+<td>/posts/1</td>
+</tr>
+<tr>
+<td>PATCH</td>
+<td>/posts/1</td>
+</tr>
+<tr>
+<td>DELETE</td>
+<td>/posts/1</td>
+</tr>
+</tr>
+</table>
+<p>
+<strong>Note</strong>: you can view detailed examples
+<a href="guide.html">here</a>.
+</p>
+
+<h2>Use your own data</h2>
+
+<p>
+With <a href="https://my-json-server.typicode.com">My JSON Server</a> online service and a simple GitHub repo, you can have your own online fake REST server in seconds.
+</p>
+</main>
+</div>
+</div>
+
+<footer>
+<div class="container">
+<div style="margin-bottom: 2rem;">
+
+
+
+
+
+
+<a href="https://github.com/users/typicode/sponsorship">
+<i class="fab fa-github-alt"></i>
+<strong>Sponsor this project on GitHub</strong>
+</a>
+</div>
+<div>
+Coded and built with â?¤ï¸? by
+<a href="https://github.com/typicode">typicode</a>
+<br />Source code and CHANGELOG available on
+<a href="https://github.com/typicode/jsonplaceholder">GitHub</a>
+</div>
+</div>
+</footer>
+
+<script>
+      ;(function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r
+        ;(i[r] =
+          i[r] ||
+          function () {
+            ;(i[r].q = i[r].q || []).push(arguments)
+          }),
+          (i[r].l = 1 * new Date())
+        ;(a = s.createElement(o)), (m = s.getElementsByTagName(o)[0])
+        a.async = 1
+        a.src = g
+        m.parentNode.insertBefore(a, m)
+      })(
+        window,
+        document,
+        'script',
+        '//www.google-analytics.com/analytics.js',
+        'ga',
+      )
+      ga('create', 'UA-44497010-1', 'typicode.com')
+      ga('send', 'pageview')
+      var trackOutboundLink = function (url) {
+        ga('send', 'event', 'outbound', 'click', url, {
+          transport: 'beacon',
+        })
+      }
+    </script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/fetch/2.0.3/fetch.min.js"></script>
+<script>
+      // Use http or https based on location.protocol
+      var example = document.getElementById('example')
+      example.textContent = example.textContent.replace(
+        'http:',
+        location.protocol,
+      )
+
+      // Highlight result element
+      var result = document.getElementById('result')
+      hljs.highlightBlock(result)
+
+      // Run example
+      var runButton = document.getElementById('run-button')
+      runButton.onclick = function () {
+        var root = location.protocol + '//jsonplaceholder.typicode.com'
+        var runMessage = document.getElementById('run-message')
+
+        // Hide or disable things during API call
+        runButton.disabled = true
+        runMessage.style.opacity = 0
+        result.style.opacity = 0
+
+        fetch('https://jsonplaceholder.typicode.com/todos/1')
+          .then((response) => response.json())
+          .then((json) => {
+            var str = JSON.stringify(json, null, '\t')
+
+            // Format result
+            result.innerHTML = str
+              .replace(/\n/g, '<br/>')
+              .replace(/\\n/g, ' ')
+              .replace(/\t/g, '&nbsp;&nbsp;')
+
+            hljs.highlightBlock(result)
+
+            // Show and enable things after API call
+            runButton.disabled = false
+            runMessage.style.opacity = 1
+            result.style.opacity = 1
+          })
+      }
+    </script>
+</body>
+</html>
+
+
+[17.05.2020] [12:11:14] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Client out-bound request
+1 >> POST https://jsonplaceholder.typicode.com/posts
+1 >> Content-type: application/json; charset=UTF-8
+1 >> {"title":"QMETRYTester","body":"QmetryExample","userId":"1001"}
+[17.05.2020] [12:11:14] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Sent: delta: 63 bytes: 63
+
+[17.05.2020] [12:11:16] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Receive Start: 89
+
+[17.05.2020] [12:11:16] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Received: delta: 89 bytes: 89
+
+[17.05.2020] [12:11:16] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - Finished
+[17.05.2020] [12:11:16] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Finished
+
+[17.05.2020] [12:11:16] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Client in-bound response
+1 << 201
+1 << CF-RAY: 594fa4a6fe656d76-SJC
+1 << Server: cloudflare
+1 << X-Content-Type-Options: nosniff
+1 << Connection: keep-alive
+1 << Pragma: no-cache
+1 << Date: Sun, 17 May 2020 19:11:17 GMT
+1 << Via: 1.1 vegur
+1 << CF-Cache-Status: DYNAMIC
+1 << Access-Control-Expose-Headers: Location
+1 << Etag: W/"59-03C4JZV/KC/As0CurNREPLVlqSk"
+1 << Cache-Control: no-cache
+1 << Access-Control-Allow-Credentials: true
+1 << Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+1 << Set-Cookie: __cfduid=d07bac0b8767f6d45e6c7dbe156aadfba1589742675; expires=Tue, 16-Jun-20 19:11:15 GMT; path=/; domain=.typicode.com; HttpOnly; SameSite=Lax
+1 << Expires: -1
+1 << Content-Length: 89
+1 << cf-request-id: 02c5a53c5600006d7624075200000001
+1 << Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 << Location: http://jsonplaceholder.typicode.com/posts/101
+1 << X-Powered-By: Express
+1 << Content-Type: application/json; charset=utf-8
+1 << 
+{
+  "title": "QMETRYTester",
+  "body": "QmetryExample",
+  "userId": "1001",
+  "id": 101
+}
+
+[17.05.2020] [12:11:16] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 2 * Client out-bound request
+2 >> GET https://jsonplaceholder.typicode.com/todos/1
+2 >> accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+
+[17.05.2020] [12:11:16] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 2 * Receive Start: 83
+
+[17.05.2020] [12:11:16] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 2 * Received: delta: 83 bytes: 83
+
+[17.05.2020] [12:11:16] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - Finished
+[17.05.2020] [12:11:16] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 2 * Finished
+
+[17.05.2020] [12:11:16] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 2 * Client in-bound response
+2 << 200
+2 << CF-RAY: 594fa4b43e166d76-SJC
+2 << Server: cloudflare
+2 << X-Content-Type-Options: nosniff
+2 << Connection: keep-alive
+2 << Pragma: no-cache
+2 << Date: Sun, 17 May 2020 19:11:17 GMT
+2 << Via: 1.1 vegur
+2 << Accept-Ranges: bytes
+2 << CF-Cache-Status: HIT
+2 << Etag: W/"53-hfEnumeNh6YirfjyjaujcOPPT+s"
+2 << Cache-Control: max-age=14400
+2 << Access-Control-Allow-Credentials: true
+2 << Vary: Origin, Accept-Encoding
+2 << Set-Cookie: __cfduid=d8787d8e10085a3ef234673403d5624b61589742677; expires=Tue, 16-Jun-20 19:11:17 GMT; path=/; domain=.typicode.com; HttpOnly; SameSite=Lax
+2 << Expires: -1
+2 << Content-Length: 83
+2 << Age: 5352
+2 << cf-request-id: 02c5a544a500006d76240cf200000001
+2 << Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+2 << X-Powered-By: Express
+2 << Content-Type: application/json; charset=utf-8
+2 << 
+{
+  "userId": 1,
+  "id": 1,
+  "title": "delectus aut autem",
+  "completed": false
+}
+
+[17.05.2020] [12:11:17] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 3 * Client out-bound request
+3 >> GET https://jsonplaceholder.typicode.com/todos/1
+3 >> accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+
+[17.05.2020] [12:11:17] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 3 * Receive Start: 83
+
+[17.05.2020] [12:11:17] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 3 * Received: delta: 83 bytes: 83
+
+[17.05.2020] [12:11:17] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - Finished
+[17.05.2020] [12:11:17] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 3 * Finished
+
+[17.05.2020] [12:11:17] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 3 * Client in-bound response
+3 << 200
+3 << CF-RAY: 594fa4b57ec26d76-SJC
+3 << Server: cloudflare
+3 << X-Content-Type-Options: nosniff
+3 << Connection: keep-alive
+3 << Pragma: no-cache
+3 << Date: Sun, 17 May 2020 19:11:17 GMT
+3 << Via: 1.1 vegur
+3 << Accept-Ranges: bytes
+3 << CF-Cache-Status: HIT
+3 << Etag: W/"53-hfEnumeNh6YirfjyjaujcOPPT+s"
+3 << Cache-Control: max-age=14400
+3 << Access-Control-Allow-Credentials: true
+3 << Vary: Origin, Accept-Encoding
+3 << Set-Cookie: __cfduid=d8787d8e10085a3ef234673403d5624b61589742677; expires=Tue, 16-Jun-20 19:11:17 GMT; path=/; domain=.typicode.com; HttpOnly; SameSite=Lax
+3 << Expires: -1
+3 << Content-Length: 83
+3 << Age: 5352
+3 << cf-request-id: 02c5a5456d00006d76240d5200000001
+3 << Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+3 << X-Powered-By: Express
+3 << Content-Type: application/json; charset=utf-8
+3 << 
+{
+  "userId": 1,
+  "id": 1,
+  "title": "delectus aut autem",
+  "completed": false
+}
+
+[17.05.2020] [12:11:53] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Client out-bound request
+1 >> POST https://jsonplaceholder.typicode.com/posts
+1 >> Content-type: application/json; charset=UTF-8
+1 >> {"title":"QMETRYTester","body":"QmetryExample","userId":"1001"}
+[17.05.2020] [12:11:54] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Sent: delta: 63 bytes: 63
+
+[17.05.2020] [12:12:01] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Receive Start: 89
+
+[17.05.2020] [12:12:01] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Received: delta: 89 bytes: 89
+
+[17.05.2020] [12:12:01] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - Finished
+[17.05.2020] [12:12:01] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Finished
+
+[17.05.2020] [12:12:01] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Client in-bound response
+1 << 201
+1 << CF-RAY: 594fa59d4eca6dac-SJC
+1 << Server: cloudflare
+1 << X-Content-Type-Options: nosniff
+1 << Connection: keep-alive
+1 << Pragma: no-cache
+1 << Date: Sun, 17 May 2020 19:12:01 GMT
+1 << Via: 1.1 vegur
+1 << CF-Cache-Status: DYNAMIC
+1 << Access-Control-Expose-Headers: Location
+1 << Etag: W/"59-03C4JZV/KC/As0CurNREPLVlqSk"
+1 << Cache-Control: no-cache
+1 << Access-Control-Allow-Credentials: true
+1 << Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+1 << Set-Cookie: __cfduid=d7dd3843061ec66920bf53b988afe1c401589742714; expires=Tue, 16-Jun-20 19:11:54 GMT; path=/; domain=.typicode.com; HttpOnly; SameSite=Lax
+1 << Expires: -1
+1 << Content-Length: 89
+1 << cf-request-id: 02c5a5d64a00006dac959cd200000001
+1 << Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 << Location: http://jsonplaceholder.typicode.com/posts/101
+1 << X-Powered-By: Express
+1 << Content-Type: application/json; charset=utf-8
+1 << 
+{
+  "title": "QMETRYTester",
+  "body": "QmetryExample",
+  "userId": "1001",
+  "id": 101
+}
+
+[17.05.2020] [12:12:01] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 2 * Client out-bound request
+2 >> GET https://jsonplaceholder.typicode.com/todos/1
+2 >> accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+
+[17.05.2020] [12:12:01] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 2 * Receive Start: 83
+
+[17.05.2020] [12:12:01] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 2 * Received: delta: 83 bytes: 83
+
+[17.05.2020] [12:12:01] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - Finished
+[17.05.2020] [12:12:01] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 2 * Finished
+
+[17.05.2020] [12:12:01] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 2 * Client in-bound response
+2 << 200
+2 << CF-RAY: 594fa5cd1dcd6dac-SJC
+2 << Server: cloudflare
+2 << X-Content-Type-Options: nosniff
+2 << Connection: keep-alive
+2 << Pragma: no-cache
+2 << Date: Sun, 17 May 2020 19:12:02 GMT
+2 << Via: 1.1 vegur
+2 << Accept-Ranges: bytes
+2 << CF-Cache-Status: HIT
+2 << Etag: W/"53-hfEnumeNh6YirfjyjaujcOPPT+s"
+2 << Cache-Control: max-age=14400
+2 << Access-Control-Allow-Credentials: true
+2 << Vary: Origin, Accept-Encoding
+2 << Set-Cookie: __cfduid=d40d6885bff49c840f1060b359842cd5c1589742722; expires=Tue, 16-Jun-20 19:12:02 GMT; path=/; domain=.typicode.com; HttpOnly; SameSite=Lax
+2 << Expires: -1
+2 << Content-Length: 83
+2 << Age: 5397
+2 << cf-request-id: 02c5a5f43100006dac95b6c200000001
+2 << Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+2 << X-Powered-By: Express
+2 << Content-Type: application/json; charset=utf-8
+2 << 
+{
+  "userId": 1,
+  "id": 1,
+  "title": "delectus aut autem",
+  "completed": false
+}
+
+[17.05.2020] [12:12:02] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 3 * Client out-bound request
+3 >> GET https://jsonplaceholder.typicode.com/todos/1
+3 >> accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+
+[17.05.2020] [12:12:02] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 3 * Receive Start: 83
+
+[17.05.2020] [12:12:02] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 3 * Received: delta: 83 bytes: 83
+
+[17.05.2020] [12:12:02] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - Finished
+[17.05.2020] [12:12:02] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 3 * Finished
+
+[17.05.2020] [12:12:02] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 3 * Client in-bound response
+3 << 200
+3 << CF-RAY: 594fa5ce5e346dac-SJC
+3 << Server: cloudflare
+3 << X-Content-Type-Options: nosniff
+3 << Connection: keep-alive
+3 << Pragma: no-cache
+3 << Date: Sun, 17 May 2020 19:12:02 GMT
+3 << Via: 1.1 vegur
+3 << Accept-Ranges: bytes
+3 << CF-Cache-Status: HIT
+3 << Etag: W/"53-hfEnumeNh6YirfjyjaujcOPPT+s"
+3 << Cache-Control: max-age=14400
+3 << Access-Control-Allow-Credentials: true
+3 << Vary: Origin, Accept-Encoding
+3 << Set-Cookie: __cfduid=d40d6885bff49c840f1060b359842cd5c1589742722; expires=Tue, 16-Jun-20 19:12:02 GMT; path=/; domain=.typicode.com; HttpOnly; SameSite=Lax
+3 << Expires: -1
+3 << Content-Length: 83
+3 << Age: 5397
+3 << cf-request-id: 02c5a5f4f300006dac95b74200000001
+3 << Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+3 << X-Powered-By: Express
+3 << Content-Type: application/json; charset=utf-8
+3 << 
+{
+  "userId": 1,
+  "id": 1,
+  "title": "delectus aut autem",
+  "completed": false
+}
+
+[17.05.2020] [13:25:37] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Client out-bound request
+1 >> POST https://jsonplaceholder.typicode.com/posts
+1 >> Content-type: application/json; charset=UTF-8
+1 >> {"title":"QMETRYTester","body":"QmetryExample","userId":"1001"}
+[17.05.2020] [13:25:37] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Sent: delta: 63 bytes: 63
+
+[17.05.2020] [13:25:44] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Receive Start: 89
+
+[17.05.2020] [13:25:44] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Received: delta: 89 bytes: 89
+
+[17.05.2020] [13:25:44] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - Finished
+[17.05.2020] [13:25:44] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Finished
+
+[17.05.2020] [13:25:44] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Client in-bound response
+1 << 201
+1 << CF-RAY: 5950119a4c186d76-SJC
+1 << Server: cloudflare
+1 << X-Content-Type-Options: nosniff
+1 << Connection: keep-alive
+1 << Pragma: no-cache
+1 << Date: Sun, 17 May 2020 20:25:44 GMT
+1 << Via: 1.1 vegur
+1 << CF-Cache-Status: DYNAMIC
+1 << Access-Control-Expose-Headers: Location
+1 << Etag: W/"59-03C4JZV/KC/As0CurNREPLVlqSk"
+1 << Cache-Control: no-cache
+1 << Access-Control-Allow-Credentials: true
+1 << Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+1 << Set-Cookie: __cfduid=dab6599b7083d1b84702a05e824ce8e9b1589747137; expires=Tue, 16-Jun-20 20:25:37 GMT; path=/; domain=.typicode.com; HttpOnly; SameSite=Lax
+1 << Expires: -1
+1 << Content-Length: 89
+1 << cf-request-id: 02c5e9546b00006d762a840200000001
+1 << Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 << Location: http://jsonplaceholder.typicode.com/posts/101
+1 << X-Powered-By: Express
+1 << Content-Type: application/json; charset=utf-8
+1 << 
+{
+  "title": "QMETRYTester",
+  "body": "QmetryExample",
+  "userId": "1001",
+  "id": 101
+}
+
+[17.05.2020] [13:25:44] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 2 * Client out-bound request
+2 >> GET https://jsonplaceholder.typicode.com/todos/1
+2 >> accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+
+[17.05.2020] [13:25:44] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 2 * Receive Start: 83
+
+[17.05.2020] [13:25:44] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 2 * Received: delta: 83 bytes: 83
+
+[17.05.2020] [13:25:44] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - Finished
+[17.05.2020] [13:25:44] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 2 * Finished
+
+[17.05.2020] [13:25:44] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 2 * Client in-bound response
+2 << 200
+2 << CF-RAY: 595011c4be876d76-SJC
+2 << Server: cloudflare
+2 << X-Content-Type-Options: nosniff
+2 << Connection: keep-alive
+2 << Pragma: no-cache
+2 << Date: Sun, 17 May 2020 20:25:44 GMT
+2 << Via: 1.1 vegur
+2 << Accept-Ranges: bytes
+2 << CF-Cache-Status: HIT
+2 << Etag: W/"53-hfEnumeNh6YirfjyjaujcOPPT+s"
+2 << Cache-Control: max-age=14400
+2 << Access-Control-Allow-Credentials: true
+2 << Vary: Origin, Accept-Encoding
+2 << Set-Cookie: __cfduid=d3eb65f606a759faf75795dde258be1be1589747144; expires=Tue, 16-Jun-20 20:25:44 GMT; path=/; domain=.typicode.com; HttpOnly; SameSite=Lax
+2 << Expires: -1
+2 << Content-Length: 83
+2 << Age: 2605
+2 << cf-request-id: 02c5e96ef200006d762a93f200000001
+2 << Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+2 << X-Powered-By: Express
+2 << Content-Type: application/json; charset=utf-8
+2 << 
+{
+  "userId": 1,
+  "id": 1,
+  "title": "delectus aut autem",
+  "completed": false
+}
+
+[17.05.2020] [13:25:44] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 3 * Client out-bound request
+3 >> GET https://jsonplaceholder.typicode.com/todos/1
+3 >> accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+
+[17.05.2020] [13:25:44] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 3 * Receive Start: 83
+
+[17.05.2020] [13:25:44] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 3 * Received: delta: 83 bytes: 83
+
+[17.05.2020] [13:25:44] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - Finished
+[17.05.2020] [13:25:44] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 3 * Finished
+
+[17.05.2020] [13:25:44] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 3 * Client in-bound response
+3 << 200
+3 << CF-RAY: 595011c5ef166d76-SJC
+3 << Server: cloudflare
+3 << X-Content-Type-Options: nosniff
+3 << Connection: keep-alive
+3 << Pragma: no-cache
+3 << Date: Sun, 17 May 2020 20:25:44 GMT
+3 << Via: 1.1 vegur
+3 << Accept-Ranges: bytes
+3 << CF-Cache-Status: HIT
+3 << Etag: W/"53-hfEnumeNh6YirfjyjaujcOPPT+s"
+3 << Cache-Control: max-age=14400
+3 << Access-Control-Allow-Credentials: true
+3 << Vary: Origin, Accept-Encoding
+3 << Set-Cookie: __cfduid=d3eb65f606a759faf75795dde258be1be1589747144; expires=Tue, 16-Jun-20 20:25:44 GMT; path=/; domain=.typicode.com; HttpOnly; SameSite=Lax
+3 << Expires: -1
+3 << Content-Length: 83
+3 << Age: 2605
+3 << cf-request-id: 02c5e96fb100006d762a953200000001
+3 << Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+3 << X-Powered-By: Express
+3 << Content-Type: application/json; charset=utf-8
+3 << 
+{
+  "userId": 1,
+  "id": 1,
+  "title": "delectus aut autem",
+  "completed": false
+}
+
+[17.05.2020] [13:27:56] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Client out-bound request
+1 >> GET https://jsonplaceholder.typicode.com
+
+[17.05.2020] [13:27:57] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Receive Start: -1
+
+[17.05.2020] [13:27:57] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Received: delta: 26 bytes: 26
+
+[17.05.2020] [13:27:57] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Received: delta: 607 bytes: 633
+
+[17.05.2020] [13:27:57] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Received: delta: 1369 bytes: 2002
+
+[17.05.2020] [13:27:57] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Received: delta: 1369 bytes: 3371
+
+[17.05.2020] [13:27:57] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Received: delta: 1369 bytes: 4740
+
+[17.05.2020] [13:27:57] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Received: delta: 711 bytes: 5451
+
+[17.05.2020] [13:27:57] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Received: delta: 27 bytes: 5478
+
+[17.05.2020] [13:27:57] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Received: delta: 1337 bytes: 6815
+
+[17.05.2020] [13:27:57] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Received: delta: 532 bytes: 7347
+
+[17.05.2020] [13:27:57] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - Finished
+[17.05.2020] [13:27:57] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Finished
+
+[17.05.2020] [13:27:57] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Client in-bound response
+1 << 200
+1 << Transfer-Encoding: chunked
+1 << CF-RAY: 595015037ed79304-SJC
+1 << Server: cloudflare
+1 << Connection: keep-alive
+1 << Last-Modified: Wed, 06 May 2020 21:24:05 GMT
+1 << Date: Sun, 17 May 2020 20:27:57 GMT
+1 << Via: 1.1 vegur
+1 << CF-Cache-Status: HIT
+1 << Cache-Control: public, max-age=14400
+1 << Access-Control-Allow-Credentials: true
+1 << Vary: Origin, Accept-Encoding
+1 << Set-Cookie: __cfduid=db075f8e6bba574a3499e4bcfbcb0ce4b1589747277; expires=Tue, 16-Jun-20 20:27:57 GMT; path=/; domain=.typicode.com; HttpOnly; SameSite=Lax
+1 << Age: 502
+1 << cf-request-id: 02c5eb7628000093048d969200000001
+1 << Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 << X-Powered-By: Express
+1 << Content-Type: text/html; charset=UTF-8
+1 << 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.5.0/modern-normalize.min.css" />
+<link rel="stylesheet" href="./style.css" />
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" />
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous" />
+<script>
+      hljs.initHighlightingOnLoad()
+    </script>
+<title>JSONPlaceholder - Fake online REST API for developers</title>
+</head>
+<body>
+<header>
+<div class="announcement">
+This service is maintained and provided for free, please consider
+supporting it on
+<a href="https://github.com/users/typicode/sponsorship">GitHub Sponsors</a
+        >
+â?¤ï¸?
+</div>
+<nav class="container">
+<ul>
+<li><a href="/">JSONPlaceholder</a></li>
+<li><a href="/guide.html">Guide</a></li>
+<li><a href="https://github.com/typicode">GitHub</a></li>
+<li>
+<a href="https://my-json-server.typicode.com">My JSON Server</a>
+</li>
+</ul>
+</nav>
+</header>
+<div class="container">
+
+<div class="hero">
+<div class="container">
+<h1>
+JSONPlaceholder
+</h1>
+<p class="subtitle">
+Fake Online REST API for Testing and Prototyping
+<br> <b>Serving ~350M requests per month</b>
+<br> Powered by
+<a href="https://github.com/typicode/json-server">JSON Server</a>
++
+<a href="https://github.com/typicode/lowdb">LowDB</a>
+</p>
+
+
+
+
+
+</div>
+</div>
+
+<div class="sponsors">
+<h3>Gold Sponsors</h3>
+<p>
+<a href="https://tryretool.com/?utm_source=sponsor&utm_campaign=typicode" target="_blank">
+<img src="https://i.imgur.com/IBItATn.png" height="70px">
+</a>
+</p>
+<p>
+<a href="https://www.patreon.com/bePatron?c=784328">Your Company Logo Here</a>
+</p>
+</div>
+
+<div class="container">
+<main>
+
+<h2>Intro</h2>
+<p>
+JSONPlaceholder is a free online REST API that you can use whenever you need some fake data.
+<br>It's great for tutorials, testing new libraries, sharing code examples, ...
+</p>
+
+<h2>Example</h2>
+<p>
+Run this code in a console or from any site:
+</p>
+<pre><code id="example" class="javascript">fetch('https://jsonplaceholder.typicode.com/todos/1')
+  .then(response => response.json())
+  .then(json => console.log(json))
+</code></pre>
+<p>
+<button id="run-button">Try it</button>
+</p>
+<pre><code id="result" class="json"></code></pre>
+<span id="run-message">Congrats you've made your first call to JSONPlaceholder! ðŸ˜ƒ ðŸŽ‰</span>
+<p>
+<strong>Tip</strong>: you can use
+<b>
+http://
+</b> or
+<b>
+https://
+</b> when making requests to JSONPlaceholder.
+</p>
+<div id="codefund"></div>
+<script src="https://codefund.io/properties/338/funder.js" async="async"></script>
+
+<h2>Resources</h2>
+<p>
+JSONPlaceholder comes with a set of 6 common resources:
+</p>
+<table class="resources">
+<tr>
+ <td>
+<a href="/posts">/posts</a>
+</td>
+<td>100 posts</td>
+</tr>
+<tr>
+<td>
+<a href="/comments">/comments</a>
+</td>
+<td>500 comments</td>
+</tr>
+<tr>
+<td>
+<a href="/albums">/albums</a>
+</td>
+<td>100 albums</td>
+</tr>
+<tr>
+<td>
+<a href="/photos">/photos</a>
+</td>
+<td>5000 photos</td>
+</tr>
+<tr>
+<td>
+<a href="/todos">/todos</a>
+</td>
+<td>200 todos</td>
+</tr>
+<tr>
+<td>
+<a href="/users">/users</a>
+</td>
+<td>10 users</td>
+</tr>
+</table>
+<p>
+<strong>Note</strong>: resources have relations. For example:
+<b>posts</b> have many
+<b>comments</b>,
+<b>albums</b> have many
+<b>photos</b>, ... see below for routes examples.
+</p>
+
+<h2>Routes</h2>
+<p>
+All HTTP methods are supported.
+</p>
+<table>
+<tr>
+<td>GET</td>
+<td>
+<a href="/posts">/posts</a>
+</td>
+</tr>
+<tr>
+<td>GET</td>
+<td>
+<a href="/posts/1">/posts/1</a>
+</td>
+</tr>
+<tr>
+<td>GET</td>
+<td>
+<a href="/posts/1/comments">/posts/1/comments</a>
+</td>
+</tr>
+<tr>
+<td>GET</td>
+<td>
+<a href="/comments?postId=1">/comments?postId=1</a>
+</td>
+</tr>
+<tr>
+<td>GET</td>
+<td>
+<a href="/posts?userId=1">/posts?userId=1</a>
+</td>
+</tr>
+<tr>
+<td>POST</td>
+<td>/posts</td>
+</tr>
+<tr>
+<td>PUT</td>
+<td>/posts/1</td>
+</tr>
+<tr>
+<td>PATCH</td>
+<td>/posts/1</td>
+</tr>
+<tr>
+<td>DELETE</td>
+<td>/posts/1</td>
+</tr>
+</tr>
+</table>
+<p>
+<strong>Note</strong>: you can view detailed examples
+<a href="guide.html">here</a>.
+</p>
+
+<h2>Use your own data</h2>
+
+<p>
+With <a href="https://my-json-server.typicode.com">My JSON Server</a> online service and a simple GitHub repo, you can have your own online fake REST server in seconds.
+</p>
+</main>
+</div>
+</div>
+
+<footer>
+<div class="container">
+<div style="margin-bottom: 2rem;">
+
+
+
+
+
+
+<a href="https://github.com/users/typicode/sponsorship">
+<i class="fab fa-github-alt"></i>
+<strong>Sponsor this project on GitHub</strong>
+</a>
+</div>
+<div>
+Coded and built with â?¤ï¸? by
+<a href="https://github.com/typicode">typicode</a>
+<br />Source code and CHANGELOG available on
+<a href="https://github.com/typicode/jsonplaceholder">GitHub</a>
+</div>
+</div>
+</footer>
+
+<script>
+      ;(function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r
+        ;(i[r] =
+          i[r] ||
+          function () {
+            ;(i[r].q = i[r].q || []).push(arguments)
+          }),
+          (i[r].l = 1 * new Date())
+        ;(a = s.createElement(o)), (m = s.getElementsByTagName(o)[0])
+        a.async = 1
+        a.src = g
+        m.parentNode.insertBefore(a, m)
+      })(
+        window,
+        document,
+        'script',
+        '//www.google-analytics.com/analytics.js',
+        'ga',
+      )
+      ga('create', 'UA-44497010-1', 'typicode.com')
+      ga('send', 'pageview')
+      var trackOutboundLink = function (url) {
+        ga('send', 'event', 'outbound', 'click', url, {
+          transport: 'beacon',
+        })
+      }
+    </script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/fetch/2.0.3/fetch.min.js"></script>
+<script>
+      // Use http or https based on location.protocol
+      var example = document.getElementById('example')
+      example.textContent = example.textContent.replace(
+        'http:',
+        location.protocol,
+      )
+
+      // Highlight result element
+      var result = document.getElementById('result')
+      hljs.highlightBlock(result)
+
+      // Run example
+      var runButton = document.getElementById('run-button')
+      runButton.onclick = function () {
+        var root = location.protocol + '//jsonplaceholder.typicode.com'
+        var runMessage = document.getElementById('run-message')
+
+        // Hide or disable things during API call
+        runButton.disabled = true
+        runMessage.style.opacity = 0
+        result.style.opacity = 0
+
+        fetch('https://jsonplaceholder.typicode.com/todos/1')
+          .then((response) => response.json())
+          .then((json) => {
+            var str = JSON.stringify(json, null, '\t')
+
+            // Format result
+            result.innerHTML = str
+              .replace(/\n/g, '<br/>')
+              .replace(/\\n/g, ' ')
+              .replace(/\t/g, '&nbsp;&nbsp;')
+
+            hljs.highlightBlock(result)
+
+            // Show and enable things after API call
+            runButton.disabled = false
+            runMessage.style.opacity = 1
+            result.style.opacity = 1
+          })
+      }
+    </script>
+</body>
+</html>
+
+
+[17.05.2020] [13:30:05] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Client out-bound request
+1 >> GET https://jsonplaceholder.typicode.com
+
+[17.05.2020] [13:30:05] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Receive Start: -1
+
+[17.05.2020] [13:30:05] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Received: delta: 26 bytes: 26
+
+[17.05.2020] [13:30:05] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Received: delta: 607 bytes: 633
+
+[17.05.2020] [13:30:05] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Received: delta: 1369 bytes: 2002
+
+[17.05.2020] [13:30:05] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Received: delta: 1369 bytes: 3371
+
+[17.05.2020] [13:30:05] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Received: delta: 1369 bytes: 4740
+
+[17.05.2020] [13:30:05] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Received: delta: 1369 bytes: 6109
+
+[17.05.2020] [13:30:05] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Received: delta: 1238 bytes: 7347
+
+[17.05.2020] [13:30:05] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - Finished
+[17.05.2020] [13:30:05] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Finished
+
+[17.05.2020] [13:30:05] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Client in-bound response
+1 << 200
+1 << Transfer-Encoding: chunked
+1 << CF-RAY: 59501825ded96d4c-SJC
+1 << Server: cloudflare
+1 << Connection: keep-alive
+1 << Last-Modified: Wed, 06 May 2020 21:24:05 GMT
+1 << Date: Sun, 17 May 2020 20:30:05 GMT
+1 << Via: 1.1 vegur
+1 << CF-Cache-Status: HIT
+1 << Cache-Control: public, max-age=14400
+1 << Access-Control-Allow-Credentials: true
+1 << Vary: Origin, Accept-Encoding
+1 << Set-Cookie: __cfduid=dd6407fe3869228814a494a9e5015ad8d1589747405; expires=Tue, 16-Jun-20 20:30:05 GMT; path=/; domain=.typicode.com; HttpOnly; SameSite=Lax
+1 << Age: 630
+1 << cf-request-id: 02c5ed6bab00006d4ce43eb200000001
+1 << Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 << X-Powered-By: Express
+1 << Content-Type: text/html; charset=UTF-8
+1 << 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.5.0/modern-normalize.min.css" />
+<link rel="stylesheet" href="./style.css" />
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" />
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous" />
+<script>
+      hljs.initHighlightingOnLoad()
+    </script>
+<title>JSONPlaceholder - Fake online REST API for developers</title>
+</head>
+<body>
+<header>
+<div class="announcement">
+This service is maintained and provided for free, please consider
+supporting it on
+<a href="https://github.com/users/typicode/sponsorship">GitHub Sponsors</a
+        >
+â?¤ï¸?
+</div>
+<nav class="container">
+<ul>
+<li><a href="/">JSONPlaceholder</a></li>
+<li><a href="/guide.html">Guide</a></li>
+<li><a href="https://github.com/typicode">GitHub</a></li>
+<li>
+<a href="https://my-json-server.typicode.com">My JSON Server</a>
+</li>
+</ul>
+</nav>
+</header>
+<div class="container">
+
+<div class="hero">
+<div class="container">
+<h1>
+JSONPlaceholder
+</h1>
+<p class="subtitle">
+Fake Online REST API for Testing and Prototyping
+<br> <b>Serving ~350M requests per month</b>
+<br> Powered by
+<a href="https://github.com/typicode/json-server">JSON Server</a>
++
+<a href="https://github.com/typicode/lowdb">LowDB</a>
+</p>
+
+
+
+
+
+</div>
+</div>
+
+<div class="sponsors">
+<h3>Gold Sponsors</h3>
+<p>
+<a href="https://tryretool.com/?utm_source=sponsor&utm_campaign=typicode" target="_blank">
+<img src="https://i.imgur.com/IBItATn.png" height="70px">
+</a>
+</p>
+<p>
+<a href="https://www.patreon.com/bePatron?c=784328">Your Company Logo Here</a>
+</p>
+</div>
+
+<div class="container">
+<main>
+
+<h2>Intro</h2>
+<p>
+JSONPlaceholder is a free online REST API that you can use whenever you need some fake data.
+<br>It's great for tutorials, testing new libraries, sharing code examples, ...
+</p>
+
+<h2>Example</h2>
+<p>
+Run this code in a console or from any site:
+</p>
+<pre><code id="example" class="javascript">fetch('https://jsonplaceholder.typicode.com/todos/1')
+  .then(response => response.json())
+  .then(json => console.log(json))
+</code></pre>
+<p>
+<button id="run-button">Try it</button>
+</p>
+<pre><code id="result" class="json"></code></pre>
+<span id="run-message">Congrats you've made your first call to JSONPlaceholder! ðŸ˜ƒ ðŸŽ‰</span>
+<p>
+<strong>Tip</strong>: you can use
+<b>
+http://
+</b> or
+<b>
+https://
+</b> when making requests to JSONPlaceholder.
+</p>
+<div id="codefund"></div>
+<script src="https://codefund.io/properties/338/funder.js" async="async"></script>
+
+<h2>Resources</h2>
+<p>
+JSONPlaceholder comes with a set of 6 common resources:
+</p>
+<table class="resources">
+<tr>
+ <td>
+<a href="/posts">/posts</a>
+</td>
+<td>100 posts</td>
+</tr>
+<tr>
+<td>
+<a href="/comments">/comments</a>
+</td>
+<td>500 comments</td>
+</tr>
+<tr>
+<td>
+<a href="/albums">/albums</a>
+</td>
+<td>100 albums</td>
+</tr>
+<tr>
+<td>
+<a href="/photos">/photos</a>
+</td>
+<td>5000 photos</td>
+</tr>
+<tr>
+<td>
+<a href="/todos">/todos</a>
+</td>
+<td>200 todos</td>
+</tr>
+<tr>
+<td>
+<a href="/users">/users</a>
+</td>
+<td>10 users</td>
+</tr>
+</table>
+<p>
+<strong>Note</strong>: resources have relations. For example:
+<b>posts</b> have many
+<b>comments</b>,
+<b>albums</b> have many
+<b>photos</b>, ... see below for routes examples.
+</p>
+
+<h2>Routes</h2>
+<p>
+All HTTP methods are supported.
+</p>
+<table>
+<tr>
+<td>GET</td>
+<td>
+<a href="/posts">/posts</a>
+</td>
+</tr>
+<tr>
+<td>GET</td>
+<td>
+<a href="/posts/1">/posts/1</a>
+</td>
+</tr>
+<tr>
+<td>GET</td>
+<td>
+<a href="/posts/1/comments">/posts/1/comments</a>
+</td>
+</tr>
+<tr>
+<td>GET</td>
+<td>
+<a href="/comments?postId=1">/comments?postId=1</a>
+</td>
+</tr>
+<tr>
+<td>GET</td>
+<td>
+<a href="/posts?userId=1">/posts?userId=1</a>
+</td>
+</tr>
+<tr>
+<td>POST</td>
+<td>/posts</td>
+</tr>
+<tr>
+<td>PUT</td>
+<td>/posts/1</td>
+</tr>
+<tr>
+<td>PATCH</td>
+<td>/posts/1</td>
+</tr>
+<tr>
+<td>DELETE</td>
+<td>/posts/1</td>
+</tr>
+</tr>
+</table>
+<p>
+<strong>Note</strong>: you can view detailed examples
+<a href="guide.html">here</a>.
+</p>
+
+<h2>Use your own data</h2>
+
+<p>
+With <a href="https://my-json-server.typicode.com">My JSON Server</a> online service and a simple GitHub repo, you can have your own online fake REST server in seconds.
+</p>
+</main>
+</div>
+</div>
+
+<footer>
+<div class="container">
+<div style="margin-bottom: 2rem;">
+
+
+
+
+
+
+<a href="https://github.com/users/typicode/sponsorship">
+<i class="fab fa-github-alt"></i>
+<strong>Sponsor this project on GitHub</strong>
+</a>
+</div>
+<div>
+Coded and built with â?¤ï¸? by
+<a href="https://github.com/typicode">typicode</a>
+<br />Source code and CHANGELOG available on
+<a href="https://github.com/typicode/jsonplaceholder">GitHub</a>
+</div>
+</div>
+</footer>
+
+<script>
+      ;(function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r
+        ;(i[r] =
+          i[r] ||
+          function () {
+            ;(i[r].q = i[r].q || []).push(arguments)
+          }),
+          (i[r].l = 1 * new Date())
+        ;(a = s.createElement(o)), (m = s.getElementsByTagName(o)[0])
+        a.async = 1
+        a.src = g
+        m.parentNode.insertBefore(a, m)
+      })(
+        window,
+        document,
+        'script',
+        '//www.google-analytics.com/analytics.js',
+        'ga',
+      )
+      ga('create', 'UA-44497010-1', 'typicode.com')
+      ga('send', 'pageview')
+      var trackOutboundLink = function (url) {
+        ga('send', 'event', 'outbound', 'click', url, {
+          transport: 'beacon',
+        })
+      }
+    </script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/fetch/2.0.3/fetch.min.js"></script>
+<script>
+      // Use http or https based on location.protocol
+      var example = document.getElementById('example')
+      example.textContent = example.textContent.replace(
+        'http:',
+        location.protocol,
+      )
+
+      // Highlight result element
+      var result = document.getElementById('result')
+      hljs.highlightBlock(result)
+
+      // Run example
+      var runButton = document.getElementById('run-button')
+      runButton.onclick = function () {
+        var root = location.protocol + '//jsonplaceholder.typicode.com'
+        var runMessage = document.getElementById('run-message')
+
+        // Hide or disable things during API call
+        runButton.disabled = true
+        runMessage.style.opacity = 0
+        result.style.opacity = 0
+
+        fetch('https://jsonplaceholder.typicode.com/todos/1')
+          .then((response) => response.json())
+          .then((json) => {
+            var str = JSON.stringify(json, null, '\t')
+
+            // Format result
+            result.innerHTML = str
+              .replace(/\n/g, '<br/>')
+              .replace(/\\n/g, ' ')
+              .replace(/\t/g, '&nbsp;&nbsp;')
+
+            hljs.highlightBlock(result)
+
+            // Show and enable things after API call
+            runButton.disabled = false
+            runMessage.style.opacity = 1
+            result.style.opacity = 1
+          })
+      }
+    </script>
+</body>
+</html>
+
+
+[17.05.2020] [13:31:34] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Client out-bound request
+1 >> GET https://jsonplaceholder.typicode.com
+
+[17.05.2020] [13:31:35] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Receive Start: -1
+
+[17.05.2020] [13:31:35] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Received: delta: 26 bytes: 26
+
+[17.05.2020] [13:31:35] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Received: delta: 607 bytes: 633
+
+[17.05.2020] [13:31:35] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Received: delta: 1369 bytes: 2002
+
+[17.05.2020] [13:31:35] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Received: delta: 1369 bytes: 3371
+
+[17.05.2020] [13:31:35] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Received: delta: 1369 bytes: 4740
+
+[17.05.2020] [13:31:35] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Received: delta: 1369 bytes: 6109
+
+[17.05.2020] [13:31:35] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Received: delta: 1238 bytes: 7347
+
+[17.05.2020] [13:31:35] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - Finished
+[17.05.2020] [13:31:35] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Finished
+
+[17.05.2020] [13:31:35] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Client in-bound response
+1 << 200
+1 << Transfer-Encoding: chunked
+1 << CF-RAY: 59501a551b5b939a-SJC
+1 << Server: cloudflare
+1 << Connection: keep-alive
+1 << Last-Modified: Wed, 06 May 2020 21:24:05 GMT
+1 << Date: Sun, 17 May 2020 20:31:35 GMT
+1 << Via: 1.1 vegur
+1 << CF-Cache-Status: HIT
+1 << Cache-Control: public, max-age=14400
+1 << Access-Control-Allow-Credentials: true
+1 << Vary: Origin, Accept-Encoding
+1 << Set-Cookie: __cfduid=d19054278fcb6e138bcdc8429ddbe6e3e1589747495; expires=Tue, 16-Jun-20 20:31:35 GMT; path=/; domain=.typicode.com; HttpOnly; SameSite=Lax
+1 << Age: 720
+1 << cf-request-id: 02c5eec92f0000939a049cb200000001
+1 << Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 << X-Powered-By: Express
+1 << Content-Type: text/html; charset=UTF-8
+1 << 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.5.0/modern-normalize.min.css" />
+<link rel="stylesheet" href="./style.css" />
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" />
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous" />
+<script>
+      hljs.initHighlightingOnLoad()
+    </script>
+<title>JSONPlaceholder - Fake online REST API for developers</title>
+</head>
+<body>
+<header>
+<div class="announcement">
+This service is maintained and provided for free, please consider
+supporting it on
+<a href="https://github.com/users/typicode/sponsorship">GitHub Sponsors</a
+        >
+â?¤ï¸?
+</div>
+<nav class="container">
+<ul>
+<li><a href="/">JSONPlaceholder</a></li>
+<li><a href="/guide.html">Guide</a></li>
+<li><a href="https://github.com/typicode">GitHub</a></li>
+<li>
+<a href="https://my-json-server.typicode.com">My JSON Server</a>
+</li>
+</ul>
+</nav>
+</header>
+<div class="container">
+
+<div class="hero">
+<div class="container">
+<h1>
+JSONPlaceholder
+</h1>
+<p class="subtitle">
+Fake Online REST API for Testing and Prototyping
+<br> <b>Serving ~350M requests per month</b>
+<br> Powered by
+<a href="https://github.com/typicode/json-server">JSON Server</a>
++
+<a href="https://github.com/typicode/lowdb">LowDB</a>
+</p>
+
+
+
+
+
+</div>
+</div>
+
+<div class="sponsors">
+<h3>Gold Sponsors</h3>
+<p>
+<a href="https://tryretool.com/?utm_source=sponsor&utm_campaign=typicode" target="_blank">
+<img src="https://i.imgur.com/IBItATn.png" height="70px">
+</a>
+</p>
+<p>
+<a href="https://www.patreon.com/bePatron?c=784328">Your Company Logo Here</a>
+</p>
+</div>
+
+<div class="container">
+<main>
+
+<h2>Intro</h2>
+<p>
+JSONPlaceholder is a free online REST API that you can use whenever you need some fake data.
+<br>It's great for tutorials, testing new libraries, sharing code examples, ...
+</p>
+
+<h2>Example</h2>
+<p>
+Run this code in a console or from any site:
+</p>
+<pre><code id="example" class="javascript">fetch('https://jsonplaceholder.typicode.com/todos/1')
+  .then(response => response.json())
+  .then(json => console.log(json))
+</code></pre>
+<p>
+<button id="run-button">Try it</button>
+</p>
+<pre><code id="result" class="json"></code></pre>
+<span id="run-message">Congrats you've made your first call to JSONPlaceholder! ðŸ˜ƒ ðŸŽ‰</span>
+<p>
+<strong>Tip</strong>: you can use
+<b>
+http://
+</b> or
+<b>
+https://
+</b> when making requests to JSONPlaceholder.
+</p>
+<div id="codefund"></div>
+<script src="https://codefund.io/properties/338/funder.js" async="async"></script>
+
+<h2>Resources</h2>
+<p>
+JSONPlaceholder comes with a set of 6 common resources:
+</p>
+<table class="resources">
+<tr>
+ <td>
+<a href="/posts">/posts</a>
+</td>
+<td>100 posts</td>
+</tr>
+<tr>
+<td>
+<a href="/comments">/comments</a>
+</td>
+<td>500 comments</td>
+</tr>
+<tr>
+<td>
+<a href="/albums">/albums</a>
+</td>
+<td>100 albums</td>
+</tr>
+<tr>
+<td>
+<a href="/photos">/photos</a>
+</td>
+<td>5000 photos</td>
+</tr>
+<tr>
+<td>
+<a href="/todos">/todos</a>
+</td>
+<td>200 todos</td>
+</tr>
+<tr>
+<td>
+<a href="/users">/users</a>
+</td>
+<td>10 users</td>
+</tr>
+</table>
+<p>
+<strong>Note</strong>: resources have relations. For example:
+<b>posts</b> have many
+<b>comments</b>,
+<b>albums</b> have many
+<b>photos</b>, ... see below for routes examples.
+</p>
+
+<h2>Routes</h2>
+<p>
+All HTTP methods are supported.
+</p>
+<table>
+<tr>
+<td>GET</td>
+<td>
+<a href="/posts">/posts</a>
+</td>
+</tr>
+<tr>
+<td>GET</td>
+<td>
+<a href="/posts/1">/posts/1</a>
+</td>
+</tr>
+<tr>
+<td>GET</td>
+<td>
+<a href="/posts/1/comments">/posts/1/comments</a>
+</td>
+</tr>
+<tr>
+<td>GET</td>
+<td>
+<a href="/comments?postId=1">/comments?postId=1</a>
+</td>
+</tr>
+<tr>
+<td>GET</td>
+<td>
+<a href="/posts?userId=1">/posts?userId=1</a>
+</td>
+</tr>
+<tr>
+<td>POST</td>
+<td>/posts</td>
+</tr>
+<tr>
+<td>PUT</td>
+<td>/posts/1</td>
+</tr>
+<tr>
+<td>PATCH</td>
+<td>/posts/1</td>
+</tr>
+<tr>
+<td>DELETE</td>
+<td>/posts/1</td>
+</tr>
+</tr>
+</table>
+<p>
+<strong>Note</strong>: you can view detailed examples
+<a href="guide.html">here</a>.
+</p>
+
+<h2>Use your own data</h2>
+
+<p>
+With <a href="https://my-json-server.typicode.com">My JSON Server</a> online service and a simple GitHub repo, you can have your own online fake REST server in seconds.
+</p>
+</main>
+</div>
+</div>
+
+<footer>
+<div class="container">
+<div style="margin-bottom: 2rem;">
+
+
+
+
+
+
+<a href="https://github.com/users/typicode/sponsorship">
+<i class="fab fa-github-alt"></i>
+<strong>Sponsor this project on GitHub</strong>
+</a>
+</div>
+<div>
+Coded and built with â?¤ï¸? by
+<a href="https://github.com/typicode">typicode</a>
+<br />Source code and CHANGELOG available on
+<a href="https://github.com/typicode/jsonplaceholder">GitHub</a>
+</div>
+</div>
+</footer>
+
+<script>
+      ;(function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r
+        ;(i[r] =
+          i[r] ||
+          function () {
+            ;(i[r].q = i[r].q || []).push(arguments)
+          }),
+          (i[r].l = 1 * new Date())
+        ;(a = s.createElement(o)), (m = s.getElementsByTagName(o)[0])
+        a.async = 1
+        a.src = g
+        m.parentNode.insertBefore(a, m)
+      })(
+        window,
+        document,
+        'script',
+        '//www.google-analytics.com/analytics.js',
+        'ga',
+      )
+      ga('create', 'UA-44497010-1', 'typicode.com')
+      ga('send', 'pageview')
+      var trackOutboundLink = function (url) {
+        ga('send', 'event', 'outbound', 'click', url, {
+          transport: 'beacon',
+        })
+      }
+    </script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/fetch/2.0.3/fetch.min.js"></script>
+<script>
+      // Use http or https based on location.protocol
+      var example = document.getElementById('example')
+      example.textContent = example.textContent.replace(
+        'http:',
+        location.protocol,
+      )
+
+      // Highlight result element
+      var result = document.getElementById('result')
+      hljs.highlightBlock(result)
+
+      // Run example
+      var runButton = document.getElementById('run-button')
+      runButton.onclick = function () {
+        var root = location.protocol + '//jsonplaceholder.typicode.com'
+        var runMessage = document.getElementById('run-message')
+
+        // Hide or disable things during API call
+        runButton.disabled = true
+        runMessage.style.opacity = 0
+        result.style.opacity = 0
+
+        fetch('https://jsonplaceholder.typicode.com/todos/1')
+          .then((response) => response.json())
+          .then((json) => {
+            var str = JSON.stringify(json, null, '\t')
+
+            // Format result
+            result.innerHTML = str
+              .replace(/\n/g, '<br/>')
+              .replace(/\\n/g, ' ')
+              .replace(/\t/g, '&nbsp;&nbsp;')
+
+            hljs.highlightBlock(result)
+
+            // Show and enable things after API call
+            runButton.disabled = false
+            runMessage.style.opacity = 1
+            result.style.opacity = 1
+          })
+      }
+    </script>
+</body>
+</html>
+
+
+[17.05.2020] [13:33:01] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Client out-bound request
+1 >> GET https://jsonplaceholder.typicode.com
+
+[17.05.2020] [13:33:02] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Receive Start: -1
+
+[17.05.2020] [13:33:02] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Received: delta: 26 bytes: 26
+
+[17.05.2020] [13:33:02] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Received: delta: 607 bytes: 633
+
+[17.05.2020] [13:33:02] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Received: delta: 1369 bytes: 2002
+
+[17.05.2020] [13:33:02] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Received: delta: 1369 bytes: 3371
+
+[17.05.2020] [13:33:02] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Received: delta: 1369 bytes: 4740
+
+[17.05.2020] [13:33:02] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Received: delta: 1369 bytes: 6109
+
+[17.05.2020] [13:33:02] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Received: delta: 1238 bytes: 7347
+
+[17.05.2020] [13:33:02] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - Finished
+[17.05.2020] [13:33:02] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Finished
+
+[17.05.2020] [13:33:02] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Client in-bound response
+1 << 200
+1 << Transfer-Encoding: chunked
+1 << CF-RAY: 59501c743ff2ed7f-SJC
+1 << Server: cloudflare
+1 << Connection: keep-alive
+1 << Last-Modified: Wed, 06 May 2020 21:24:05 GMT
+1 << Date: Sun, 17 May 2020 20:33:02 GMT
+1 << Via: 1.1 vegur
+1 << CF-Cache-Status: HIT
+1 << Cache-Control: public, max-age=14400
+1 << Access-Control-Allow-Credentials: true
+1 << Vary: Origin, Accept-Encoding
+1 << Set-Cookie: __cfduid=df02879ae48ac5faca14ac079edd3a49a1589747582; expires=Tue, 16-Jun-20 20:33:02 GMT; path=/; domain=.typicode.com; HttpOnly; SameSite=Lax
+1 << Age: 807
+1 << cf-request-id: 02c5f01ca10000ed7f40800200000001
+1 << Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 << X-Powered-By: Express
+1 << Content-Type: text/html; charset=UTF-8
+1 << 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.5.0/modern-normalize.min.css" />
+<link rel="stylesheet" href="./style.css" />
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" />
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous" />
+<script>
+      hljs.initHighlightingOnLoad()
+    </script>
+<title>JSONPlaceholder - Fake online REST API for developers</title>
+</head>
+<body>
+<header>
+<div class="announcement">
+This service is maintained and provided for free, please consider
+supporting it on
+<a href="https://github.com/users/typicode/sponsorship">GitHub Sponsors</a
+        >
+â?¤ï¸?
+</div>
+<nav class="container">
+<ul>
+<li><a href="/">JSONPlaceholder</a></li>
+<li><a href="/guide.html">Guide</a></li>
+<li><a href="https://github.com/typicode">GitHub</a></li>
+<li>
+<a href="https://my-json-server.typicode.com">My JSON Server</a>
+</li>
+</ul>
+</nav>
+</header>
+<div class="container">
+
+<div class="hero">
+<div class="container">
+<h1>
+JSONPlaceholder
+</h1>
+<p class="subtitle">
+Fake Online REST API for Testing and Prototyping
+<br> <b>Serving ~350M requests per month</b>
+<br> Powered by
+<a href="https://github.com/typicode/json-server">JSON Server</a>
++
+<a href="https://github.com/typicode/lowdb">LowDB</a>
+</p>
+
+
+
+
+
+</div>
+</div>
+
+<div class="sponsors">
+<h3>Gold Sponsors</h3>
+<p>
+<a href="https://tryretool.com/?utm_source=sponsor&utm_campaign=typicode" target="_blank">
+<img src="https://i.imgur.com/IBItATn.png" height="70px">
+</a>
+</p>
+<p>
+<a href="https://www.patreon.com/bePatron?c=784328">Your Company Logo Here</a>
+</p>
+</div>
+
+<div class="container">
+<main>
+
+<h2>Intro</h2>
+<p>
+JSONPlaceholder is a free online REST API that you can use whenever you need some fake data.
+<br>It's great for tutorials, testing new libraries, sharing code examples, ...
+</p>
+
+<h2>Example</h2>
+<p>
+Run this code in a console or from any site:
+</p>
+<pre><code id="example" class="javascript">fetch('https://jsonplaceholder.typicode.com/todos/1')
+  .then(response => response.json())
+  .then(json => console.log(json))
+</code></pre>
+<p>
+<button id="run-button">Try it</button>
+</p>
+<pre><code id="result" class="json"></code></pre>
+<span id="run-message">Congrats you've made your first call to JSONPlaceholder! ðŸ˜ƒ ðŸŽ‰</span>
+<p>
+<strong>Tip</strong>: you can use
+<b>
+http://
+</b> or
+<b>
+https://
+</b> when making requests to JSONPlaceholder.
+</p>
+<div id="codefund"></div>
+<script src="https://codefund.io/properties/338/funder.js" async="async"></script>
+
+<h2>Resources</h2>
+<p>
+JSONPlaceholder comes with a set of 6 common resources:
+</p>
+<table class="resources">
+<tr>
+ <td>
+<a href="/posts">/posts</a>
+</td>
+<td>100 posts</td>
+</tr>
+<tr>
+<td>
+<a href="/comments">/comments</a>
+</td>
+<td>500 comments</td>
+</tr>
+<tr>
+<td>
+<a href="/albums">/albums</a>
+</td>
+<td>100 albums</td>
+</tr>
+<tr>
+<td>
+<a href="/photos">/photos</a>
+</td>
+<td>5000 photos</td>
+</tr>
+<tr>
+<td>
+<a href="/todos">/todos</a>
+</td>
+<td>200 todos</td>
+</tr>
+<tr>
+<td>
+<a href="/users">/users</a>
+</td>
+<td>10 users</td>
+</tr>
+</table>
+<p>
+<strong>Note</strong>: resources have relations. For example:
+<b>posts</b> have many
+<b>comments</b>,
+<b>albums</b> have many
+<b>photos</b>, ... see below for routes examples.
+</p>
+
+<h2>Routes</h2>
+<p>
+All HTTP methods are supported.
+</p>
+<table>
+<tr>
+<td>GET</td>
+<td>
+<a href="/posts">/posts</a>
+</td>
+</tr>
+<tr>
+<td>GET</td>
+<td>
+<a href="/posts/1">/posts/1</a>
+</td>
+</tr>
+<tr>
+<td>GET</td>
+<td>
+<a href="/posts/1/comments">/posts/1/comments</a>
+</td>
+</tr>
+<tr>
+<td>GET</td>
+<td>
+<a href="/comments?postId=1">/comments?postId=1</a>
+</td>
+</tr>
+<tr>
+<td>GET</td>
+<td>
+<a href="/posts?userId=1">/posts?userId=1</a>
+</td>
+</tr>
+<tr>
+<td>POST</td>
+<td>/posts</td>
+</tr>
+<tr>
+<td>PUT</td>
+<td>/posts/1</td>
+</tr>
+<tr>
+<td>PATCH</td>
+<td>/posts/1</td>
+</tr>
+<tr>
+<td>DELETE</td>
+<td>/posts/1</td>
+</tr>
+</tr>
+</table>
+<p>
+<strong>Note</strong>: you can view detailed examples
+<a href="guide.html">here</a>.
+</p>
+
+<h2>Use your own data</h2>
+
+<p>
+With <a href="https://my-json-server.typicode.com">My JSON Server</a> online service and a simple GitHub repo, you can have your own online fake REST server in seconds.
+</p>
+</main>
+</div>
+</div>
+
+<footer>
+<div class="container">
+<div style="margin-bottom: 2rem;">
+
+
+
+
+
+
+<a href="https://github.com/users/typicode/sponsorship">
+<i class="fab fa-github-alt"></i>
+<strong>Sponsor this project on GitHub</strong>
+</a>
+</div>
+<div>
+Coded and built with â?¤ï¸? by
+<a href="https://github.com/typicode">typicode</a>
+<br />Source code and CHANGELOG available on
+<a href="https://github.com/typicode/jsonplaceholder">GitHub</a>
+</div>
+</div>
+</footer>
+
+<script>
+      ;(function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r
+        ;(i[r] =
+          i[r] ||
+          function () {
+            ;(i[r].q = i[r].q || []).push(arguments)
+          }),
+          (i[r].l = 1 * new Date())
+        ;(a = s.createElement(o)), (m = s.getElementsByTagName(o)[0])
+        a.async = 1
+        a.src = g
+        m.parentNode.insertBefore(a, m)
+      })(
+        window,
+        document,
+        'script',
+        '//www.google-analytics.com/analytics.js',
+        'ga',
+      )
+      ga('create', 'UA-44497010-1', 'typicode.com')
+      ga('send', 'pageview')
+      var trackOutboundLink = function (url) {
+        ga('send', 'event', 'outbound', 'click', url, {
+          transport: 'beacon',
+        })
+      }
+    </script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/fetch/2.0.3/fetch.min.js"></script>
+<script>
+      // Use http or https based on location.protocol
+      var example = document.getElementById('example')
+      example.textContent = example.textContent.replace(
+        'http:',
+        location.protocol,
+      )
+
+      // Highlight result element
+      var result = document.getElementById('result')
+      hljs.highlightBlock(result)
+
+      // Run example
+      var runButton = document.getElementById('run-button')
+      runButton.onclick = function () {
+        var root = location.protocol + '//jsonplaceholder.typicode.com'
+        var runMessage = document.getElementById('run-message')
+
+        // Hide or disable things during API call
+        runButton.disabled = true
+        runMessage.style.opacity = 0
+        result.style.opacity = 0
+
+        fetch('https://jsonplaceholder.typicode.com/todos/1')
+          .then((response) => response.json())
+          .then((json) => {
+            var str = JSON.stringify(json, null, '\t')
+
+            // Format result
+            result.innerHTML = str
+              .replace(/\n/g, '<br/>')
+              .replace(/\\n/g, ' ')
+              .replace(/\t/g, '&nbsp;&nbsp;')
+
+            hljs.highlightBlock(result)
+
+            // Show and enable things after API call
+            runButton.disabled = false
+            runMessage.style.opacity = 1
+            result.style.opacity = 1
+          })
+      }
+    </script>
+</body>
+</html>
+
+
+[17.05.2020] [13:33:37] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Client out-bound request
+1 >> GET https://jsonplaceholder.typicode.com
+
+[17.05.2020] [13:33:38] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Receive Start: -1
+
+[17.05.2020] [13:33:38] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Received: delta: 26 bytes: 26
+
+[17.05.2020] [13:33:38] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Received: delta: 607 bytes: 633
+
+[17.05.2020] [13:33:38] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Received: delta: 1369 bytes: 2002
+
+[17.05.2020] [13:33:38] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Received: delta: 1369 bytes: 3371
+
+[17.05.2020] [13:33:38] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Received: delta: 1369 bytes: 4740
+
+[17.05.2020] [13:33:38] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Received: delta: 1369 bytes: 6109
+
+[17.05.2020] [13:33:38] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Received: delta: 1238 bytes: 7347
+
+[17.05.2020] [13:33:38] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - Finished
+[17.05.2020] [13:33:38] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Finished
+
+[17.05.2020] [13:33:38] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Client in-bound response
+1 << 200
+1 << Transfer-Encoding: chunked
+1 << CF-RAY: 59501d55fcb6ed53-SJC
+1 << Server: cloudflare
+1 << Connection: keep-alive
+1 << Last-Modified: Wed, 06 May 2020 21:24:05 GMT
+1 << Date: Sun, 17 May 2020 20:33:38 GMT
+1 << Via: 1.1 vegur
+1 << CF-Cache-Status: HIT
+1 << Cache-Control: public, max-age=14400
+1 << Access-Control-Allow-Credentials: true
+1 << Vary: Origin, Accept-Encoding
+1 << Set-Cookie: __cfduid=d0c519b28084003f2efbf4d85c6f206a31589747618; expires=Tue, 16-Jun-20 20:33:38 GMT; path=/; domain=.typicode.com; HttpOnly; SameSite=Lax
+1 << Age: 843
+1 << cf-request-id: 02c5f0a9b80000ed533a2a9200000001
+1 << Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 << X-Powered-By: Express
+1 << Content-Type: text/html; charset=UTF-8
+1 << 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.5.0/modern-normalize.min.css" />
+<link rel="stylesheet" href="./style.css" />
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" />
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous" />
+<script>
+      hljs.initHighlightingOnLoad()
+    </script>
+<title>JSONPlaceholder - Fake online REST API for developers</title>
+</head>
+<body>
+<header>
+<div class="announcement">
+This service is maintained and provided for free, please consider
+supporting it on
+<a href="https://github.com/users/typicode/sponsorship">GitHub Sponsors</a
+        >
+â?¤ï¸?
+</div>
+<nav class="container">
+<ul>
+<li><a href="/">JSONPlaceholder</a></li>
+<li><a href="/guide.html">Guide</a></li>
+<li><a href="https://github.com/typicode">GitHub</a></li>
+<li>
+<a href="https://my-json-server.typicode.com">My JSON Server</a>
+</li>
+</ul>
+</nav>
+</header>
+<div class="container">
+
+<div class="hero">
+<div class="container">
+<h1>
+JSONPlaceholder
+</h1>
+<p class="subtitle">
+Fake Online REST API for Testing and Prototyping
+<br> <b>Serving ~350M requests per month</b>
+<br> Powered by
+<a href="https://github.com/typicode/json-server">JSON Server</a>
++
+<a href="https://github.com/typicode/lowdb">LowDB</a>
+</p>
+
+
+
+
+
+</div>
+</div>
+
+<div class="sponsors">
+<h3>Gold Sponsors</h3>
+<p>
+<a href="https://tryretool.com/?utm_source=sponsor&utm_campaign=typicode" target="_blank">
+<img src="https://i.imgur.com/IBItATn.png" height="70px">
+</a>
+</p>
+<p>
+<a href="https://www.patreon.com/bePatron?c=784328">Your Company Logo Here</a>
+</p>
+</div>
+
+<div class="container">
+<main>
+
+<h2>Intro</h2>
+<p>
+JSONPlaceholder is a free online REST API that you can use whenever you need some fake data.
+<br>It's great for tutorials, testing new libraries, sharing code examples, ...
+</p>
+
+<h2>Example</h2>
+<p>
+Run this code in a console or from any site:
+</p>
+<pre><code id="example" class="javascript">fetch('https://jsonplaceholder.typicode.com/todos/1')
+  .then(response => response.json())
+  .then(json => console.log(json))
+</code></pre>
+<p>
+<button id="run-button">Try it</button>
+</p>
+<pre><code id="result" class="json"></code></pre>
+<span id="run-message">Congrats you've made your first call to JSONPlaceholder! ðŸ˜ƒ ðŸŽ‰</span>
+<p>
+<strong>Tip</strong>: you can use
+<b>
+http://
+</b> or
+<b>
+https://
+</b> when making requests to JSONPlaceholder.
+</p>
+<div id="codefund"></div>
+<script src="https://codefund.io/properties/338/funder.js" async="async"></script>
+
+<h2>Resources</h2>
+<p>
+JSONPlaceholder comes with a set of 6 common resources:
+</p>
+<table class="resources">
+<tr>
+ <td>
+<a href="/posts">/posts</a>
+</td>
+<td>100 posts</td>
+</tr>
+<tr>
+<td>
+<a href="/comments">/comments</a>
+</td>
+<td>500 comments</td>
+</tr>
+<tr>
+<td>
+<a href="/albums">/albums</a>
+</td>
+<td>100 albums</td>
+</tr>
+<tr>
+<td>
+<a href="/photos">/photos</a>
+</td>
+<td>5000 photos</td>
+</tr>
+<tr>
+<td>
+<a href="/todos">/todos</a>
+</td>
+<td>200 todos</td>
+</tr>
+<tr>
+<td>
+<a href="/users">/users</a>
+</td>
+<td>10 users</td>
+</tr>
+</table>
+<p>
+<strong>Note</strong>: resources have relations. For example:
+<b>posts</b> have many
+<b>comments</b>,
+<b>albums</b> have many
+<b>photos</b>, ... see below for routes examples.
+</p>
+
+<h2>Routes</h2>
+<p>
+All HTTP methods are supported.
+</p>
+<table>
+<tr>
+<td>GET</td>
+<td>
+<a href="/posts">/posts</a>
+</td>
+</tr>
+<tr>
+<td>GET</td>
+<td>
+<a href="/posts/1">/posts/1</a>
+</td>
+</tr>
+<tr>
+<td>GET</td>
+<td>
+<a href="/posts/1/comments">/posts/1/comments</a>
+</td>
+</tr>
+<tr>
+<td>GET</td>
+<td>
+<a href="/comments?postId=1">/comments?postId=1</a>
+</td>
+</tr>
+<tr>
+<td>GET</td>
+<td>
+<a href="/posts?userId=1">/posts?userId=1</a>
+</td>
+</tr>
+<tr>
+<td>POST</td>
+<td>/posts</td>
+</tr>
+<tr>
+<td>PUT</td>
+<td>/posts/1</td>
+</tr>
+<tr>
+<td>PATCH</td>
+<td>/posts/1</td>
+</tr>
+<tr>
+<td>DELETE</td>
+<td>/posts/1</td>
+</tr>
+</tr>
+</table>
+<p>
+<strong>Note</strong>: you can view detailed examples
+<a href="guide.html">here</a>.
+</p>
+
+<h2>Use your own data</h2>
+
+<p>
+With <a href="https://my-json-server.typicode.com">My JSON Server</a> online service and a simple GitHub repo, you can have your own online fake REST server in seconds.
+</p>
+</main>
+</div>
+</div>
+
+<footer>
+<div class="container">
+<div style="margin-bottom: 2rem;">
+
+
+
+
+
+
+<a href="https://github.com/users/typicode/sponsorship">
+<i class="fab fa-github-alt"></i>
+<strong>Sponsor this project on GitHub</strong>
+</a>
+</div>
+<div>
+Coded and built with â?¤ï¸? by
+<a href="https://github.com/typicode">typicode</a>
+<br />Source code and CHANGELOG available on
+<a href="https://github.com/typicode/jsonplaceholder">GitHub</a>
+</div>
+</div>
+</footer>
+
+<script>
+      ;(function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r
+        ;(i[r] =
+          i[r] ||
+          function () {
+            ;(i[r].q = i[r].q || []).push(arguments)
+          }),
+          (i[r].l = 1 * new Date())
+        ;(a = s.createElement(o)), (m = s.getElementsByTagName(o)[0])
+        a.async = 1
+        a.src = g
+        m.parentNode.insertBefore(a, m)
+      })(
+        window,
+        document,
+        'script',
+        '//www.google-analytics.com/analytics.js',
+        'ga',
+      )
+      ga('create', 'UA-44497010-1', 'typicode.com')
+      ga('send', 'pageview')
+      var trackOutboundLink = function (url) {
+        ga('send', 'event', 'outbound', 'click', url, {
+          transport: 'beacon',
+        })
+      }
+    </script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/fetch/2.0.3/fetch.min.js"></script>
+<script>
+      // Use http or https based on location.protocol
+      var example = document.getElementById('example')
+      example.textContent = example.textContent.replace(
+        'http:',
+        location.protocol,
+      )
+
+      // Highlight result element
+      var result = document.getElementById('result')
+      hljs.highlightBlock(result)
+
+      // Run example
+      var runButton = document.getElementById('run-button')
+      runButton.onclick = function () {
+        var root = location.protocol + '//jsonplaceholder.typicode.com'
+        var runMessage = document.getElementById('run-message')
+
+        // Hide or disable things during API call
+        runButton.disabled = true
+        runMessage.style.opacity = 0
+        result.style.opacity = 0
+
+        fetch('https://jsonplaceholder.typicode.com/todos/1')
+          .then((response) => response.json())
+          .then((json) => {
+            var str = JSON.stringify(json, null, '\t')
+
+            // Format result
+            result.innerHTML = str
+              .replace(/\n/g, '<br/>')
+              .replace(/\\n/g, ' ')
+              .replace(/\t/g, '&nbsp;&nbsp;')
+
+            hljs.highlightBlock(result)
+
+            // Show and enable things after API call
+            runButton.disabled = false
+            runMessage.style.opacity = 1
+            result.style.opacity = 1
+          })
+      }
+    </script>
+</body>
+</html>
+
+
+[17.05.2020] [13:34:03] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Client out-bound request
+1 >> GET https://jsonplaceholder.typicode.com
+
+[17.05.2020] [13:34:03] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Receive Start: -1
+
+[17.05.2020] [13:34:03] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Received: delta: 26 bytes: 26
+
+[17.05.2020] [13:34:03] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Received: delta: 607 bytes: 633
+
+[17.05.2020] [13:34:03] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Received: delta: 1369 bytes: 2002
+
+[17.05.2020] [13:34:03] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Received: delta: 1369 bytes: 3371
+
+[17.05.2020] [13:34:03] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Received: delta: 1369 bytes: 4740
+
+[17.05.2020] [13:34:03] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Received: delta: 711 bytes: 5451
+
+[17.05.2020] [13:34:03] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Received: delta: 27 bytes: 5478
+
+[17.05.2020] [13:34:03] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Received: delta: 1337 bytes: 6815
+
+[17.05.2020] [13:34:03] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Received: delta: 532 bytes: 7347
+
+[17.05.2020] [13:34:03] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - Finished
+[17.05.2020] [13:34:03] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Finished
+
+[17.05.2020] [13:34:03] INFO [main] com.qmetry.qaf.automation.ws.rest.RequestLogger (RequestLogger.java:141) - 1 * Client in-bound response
+1 << 200
+1 << Transfer-Encoding: chunked
+1 << CF-RAY: 59501df53b8b6d10-SJC
+1 << Server: cloudflare
+1 << Connection: keep-alive
+1 << Last-Modified: Wed, 06 May 2020 21:24:05 GMT
+1 << Date: Sun, 17 May 2020 20:34:03 GMT
+1 << Via: 1.1 vegur
+1 << CF-Cache-Status: HIT
+1 << Cache-Control: public, max-age=14400
+1 << Access-Control-Allow-Credentials: true
+1 << Vary: Origin, Accept-Encoding
+1 << Set-Cookie: __cfduid=d650d3bc88f7f8a1c2e4e630107838eda1589747643; expires=Tue, 16-Jun-20 20:34:03 GMT; path=/; domain=.typicode.com; HttpOnly; SameSite=Lax
+1 << Age: 868
+1 << cf-request-id: 02c5f10d4600006d10b6b5e200000001
+1 << Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 << X-Powered-By: Express
+1 << Content-Type: text/html; charset=UTF-8
+1 << 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.5.0/modern-normalize.min.css" />
+<link rel="stylesheet" href="./style.css" />
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" />
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous" />
+<script>
+      hljs.initHighlightingOnLoad()
+    </script>
+<title>JSONPlaceholder - Fake online REST API for developers</title>
+</head>
+<body>
+<header>
+<div class="announcement">
+This service is maintained and provided for free, please consider
+supporting it on
+<a href="https://github.com/users/typicode/sponsorship">GitHub Sponsors</a
+        >
+â?¤ï¸?
+</div>
+<nav class="container">
+<ul>
+<li><a href="/">JSONPlaceholder</a></li>
+<li><a href="/guide.html">Guide</a></li>
+<li><a href="https://github.com/typicode">GitHub</a></li>
+<li>
+<a href="https://my-json-server.typicode.com">My JSON Server</a>
+</li>
+</ul>
+</nav>
+</header>
+<div class="container">
+
+<div class="hero">
+<div class="container">
+<h1>
+JSONPlaceholder
+</h1>
+<p class="subtitle">
+Fake Online REST API for Testing and Prototyping
+<br> <b>Serving ~350M requests per month</b>
+<br> Powered by
+<a href="https://github.com/typicode/json-server">JSON Server</a>
++
+<a href="https://github.com/typicode/lowdb">LowDB</a>
+</p>
+
+
+
+
+
+</div>
+</div>
+
+<div class="sponsors">
+<h3>Gold Sponsors</h3>
+<p>
+<a href="https://tryretool.com/?utm_source=sponsor&utm_campaign=typicode" target="_blank">
+<img src="https://i.imgur.com/IBItATn.png" height="70px">
+</a>
+</p>
+<p>
+<a href="https://www.patreon.com/bePatron?c=784328">Your Company Logo Here</a>
+</p>
+</div>
+
+<div class="container">
+<main>
+
+<h2>Intro</h2>
+<p>
+JSONPlaceholder is a free online REST API that you can use whenever you need some fake data.
+<br>It's great for tutorials, testing new libraries, sharing code examples, ...
+</p>
+
+<h2>Example</h2>
+<p>
+Run this code in a console or from any site:
+</p>
+<pre><code id="example" class="javascript">fetch('https://jsonplaceholder.typicode.com/todos/1')
+  .then(response => response.json())
+  .then(json => console.log(json))
+</code></pre>
+<p>
+<button id="run-button">Try it</button>
+</p>
+<pre><code id="result" class="json"></code></pre>
+<span id="run-message">Congrats you've made your first call to JSONPlaceholder! ðŸ˜ƒ ðŸŽ‰</span>
+<p>
+<strong>Tip</strong>: you can use
+<b>
+http://
+</b> or
+<b>
+https://
+</b> when making requests to JSONPlaceholder.
+</p>
+<div id="codefund"></div>
+<script src="https://codefund.io/properties/338/funder.js" async="async"></script>
+
+<h2>Resources</h2>
+<p>
+JSONPlaceholder comes with a set of 6 common resources:
+</p>
+<table class="resources">
+<tr>
+ <td>
+<a href="/posts">/posts</a>
+</td>
+<td>100 posts</td>
+</tr>
+<tr>
+<td>
+<a href="/comments">/comments</a>
+</td>
+<td>500 comments</td>
+</tr>
+<tr>
+<td>
+<a href="/albums">/albums</a>
+</td>
+<td>100 albums</td>
+</tr>
+<tr>
+<td>
+<a href="/photos">/photos</a>
+</td>
+<td>5000 photos</td>
+</tr>
+<tr>
+<td>
+<a href="/todos">/todos</a>
+</td>
+<td>200 todos</td>
+</tr>
+<tr>
+<td>
+<a href="/users">/users</a>
+</td>
+<td>10 users</td>
+</tr>
+</table>
+<p>
+<strong>Note</strong>: resources have relations. For example:
+<b>posts</b> have many
+<b>comments</b>,
+<b>albums</b> have many
+<b>photos</b>, ... see below for routes examples.
+</p>
+
+<h2>Routes</h2>
+<p>
+All HTTP methods are supported.
+</p>
+<table>
+<tr>
+<td>GET</td>
+<td>
+<a href="/posts">/posts</a>
+</td>
+</tr>
+<tr>
+<td>GET</td>
+<td>
+<a href="/posts/1">/posts/1</a>
+</td>
+</tr>
+<tr>
+<td>GET</td>
+<td>
+<a href="/posts/1/comments">/posts/1/comments</a>
+</td>
+</tr>
+<tr>
+<td>GET</td>
+<td>
+<a href="/comments?postId=1">/comments?postId=1</a>
+</td>
+</tr>
+<tr>
+<td>GET</td>
+<td>
+<a href="/posts?userId=1">/posts?userId=1</a>
+</td>
+</tr>
+<tr>
+<td>POST</td>
+<td>/posts</td>
+</tr>
+<tr>
+<td>PUT</td>
+<td>/posts/1</td>
+</tr>
+<tr>
+<td>PATCH</td>
+<td>/posts/1</td>
+</tr>
+<tr>
+<td>DELETE</td>
+<td>/posts/1</td>
+</tr>
+</tr>
+</table>
+<p>
+<strong>Note</strong>: you can view detailed examples
+<a href="guide.html">here</a>.
+</p>
+
+<h2>Use your own data</h2>
+
+<p>
+With <a href="https://my-json-server.typicode.com">My JSON Server</a> online service and a simple GitHub repo, you can have your own online fake REST server in seconds.
+</p>
+</main>
+</div>
+</div>
+
+<footer>
+<div class="container">
+<div style="margin-bottom: 2rem;">
+
+
+
+
+
+
+<a href="https://github.com/users/typicode/sponsorship">
+<i class="fab fa-github-alt"></i>
+<strong>Sponsor this project on GitHub</strong>
+</a>
+</div>
+<div>
+Coded and built with â?¤ï¸? by
+<a href="https://github.com/typicode">typicode</a>
+<br />Source code and CHANGELOG available on
+<a href="https://github.com/typicode/jsonplaceholder">GitHub</a>
+</div>
+</div>
+</footer>
+
+<script>
+      ;(function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r
+        ;(i[r] =
+          i[r] ||
+          function () {
+            ;(i[r].q = i[r].q || []).push(arguments)
+          }),
+          (i[r].l = 1 * new Date())
+        ;(a = s.createElement(o)), (m = s.getElementsByTagName(o)[0])
+        a.async = 1
+        a.src = g
+        m.parentNode.insertBefore(a, m)
+      })(
+        window,
+        document,
+        'script',
+        '//www.google-analytics.com/analytics.js',
+        'ga',
+      )
+      ga('create', 'UA-44497010-1', 'typicode.com')
+      ga('send', 'pageview')
+      var trackOutboundLink = function (url) {
+        ga('send', 'event', 'outbound', 'click', url, {
+          transport: 'beacon',
+        })
+      }
+    </script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/fetch/2.0.3/fetch.min.js"></script>
+<script>
+      // Use http or https based on location.protocol
+      var example = document.getElementById('example')
+      example.textContent = example.textContent.replace(
+        'http:',
+        location.protocol,
+      )
+
+      // Highlight result element
+      var result = document.getElementById('result')
+      hljs.highlightBlock(result)
+
+      // Run example
+      var runButton = document.getElementById('run-button')
+      runButton.onclick = function () {
+        var root = location.protocol + '//jsonplaceholder.typicode.com'
+        var runMessage = document.getElementById('run-message')
+
+        // Hide or disable things during API call
+        runButton.disabled = true
+        runMessage.style.opacity = 0
+        result.style.opacity = 0
+
+        fetch('https://jsonplaceholder.typicode.com/todos/1')
+          .then((response) => response.json())
+          .then((json) => {
+            var str = JSON.stringify(json, null, '\t')
+
+            // Format result
+            result.innerHTML = str
+              .replace(/\n/g, '<br/>')
+              .replace(/\\n/g, ' ')
+              .replace(/\t/g, '&nbsp;&nbsp;')
+
+            hljs.highlightBlock(result)
+
+            // Show and enable things after API call
+            runButton.disabled = false
+            runMessage.style.opacity = 1
+            result.style.opacity = 1
+          })
+      }
+    </script>
+</body>
+</html>
+
+

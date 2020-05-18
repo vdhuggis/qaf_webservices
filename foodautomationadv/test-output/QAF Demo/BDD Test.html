@@ -1,0 +1,116 @@
+<html>
+<head>
+<title>TestNG:  BDD Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>BDD Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sun May 17 13:34:02 PDT 2020</td>
+</tr>
+<tr><td>Total time:</td><td>1 seconds (1293 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td>SMOKE </td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.qmetry.qaf.automation.step.client.Scenario.WebServiceTesting()'><b>WebServiceTesting</b><br>Test class: com.qmetry.qaf.automation.step.client.Scenario (WebServiceTesting)<br>Test method: WebServiceTesting Scenario<br/>
+<a href="#Output-90045638" onClick='toggleBox("Output-90045638", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-90045638" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-90045638">
+<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>When user requests ''{'headers':{},'endPoint':'/1','baseUrl':'https://jsonplaceholder.typicode.com','method':'GET','query-parameters':{},'form-parameters':{},'body':''}','endPoint':'/1','baseUrl':'https://jsonplaceholder.typicode.com','method':'GET','query-parameters':{},'form-parameters':{},'body':''}'</div><div  class="teststepfail"><span class="teststepfail-label">T </span>Then response should have status code '200'</div><div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>org.hamcrest.Matcher.describeMismatch(Ljava/lang/Object;Lorg/hamcrest/Description;)V</div></div></div><br/>
+</div>
+</td>
+<td><div><pre>java.lang.NoSuchMethodError: org.hamcrest.Matcher.describeMismatch(Ljava/lang/Object;Lorg/hamcrest/Description;)V
+	at .Then response should have status code &apos;200&apos;(scenarios/suite1.bdd:4)
+	at com.qmetry.qaf.automation.util.Validator.verifyThat(Validator.java:48)
+	at com.qmetry.qaf.automation.util.Validator.assertThat(Validator.java:68)
+	at com.qmetry.qaf.automation.step.WsStep.responseShouldHaveStatusCode_aroundBody2(WsStep.java:130)
+	at com.qmetry.qaf.automation.step.JavaStepReporter.javaTestStep(JavaStepReporter.java:101)
+	at com.qmetry.qaf.automation.step.WsStep.responseShouldHaveStatusCode(WsStep.java:129)
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:153)
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:134)
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:180)
+	at com.qmetry.qaf.automation.step.client.Scenario.scenario(Scenario.java:232)
+</pre></div><a href='#' onClick='toggleBox("stack-trace90045638", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace90045638'><pre>java.lang.NoSuchMethodError: org.hamcrest.Matcher.describeMismatch(Ljava/lang/Object;Lorg/hamcrest/Description;)V
+	at .Then response should have status code &apos;200&apos;(scenarios/suite1.bdd:4)
+	at com.qmetry.qaf.automation.util.Validator.verifyThat(Validator.java:48)
+	at com.qmetry.qaf.automation.util.Validator.assertThat(Validator.java:68)
+	at com.qmetry.qaf.automation.step.WsStep.responseShouldHaveStatusCode_aroundBody2(WsStep.java:130)
+	at com.qmetry.qaf.automation.step.JavaStepReporter.javaTestStep(JavaStepReporter.java:101)
+	at com.qmetry.qaf.automation.step.WsStep.responseShouldHaveStatusCode(WsStep.java:129)
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:153)
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:134)
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:180)
+	at com.qmetry.qaf.automation.step.client.Scenario.scenario(Scenario.java:232)
+</pre></div></td>
+<td>1</td>
+<td>com.qmetry.qaf.automation.step.client.Scenario@3e8</td></tr>
+</table><p>
+</body>
+</html>

@@ -1,0 +1,34 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "POST:https://jsonplaceholder.typicode.com/posts",
+      "args": [
+        "/posts",
+        null
+      ],
+      "result": "POST https://jsonplaceholder.typicode.com/posts returned a response status of 520 null",
+      "subLogs": [
+        {
+          "args": [
+            "Client out-bound request\nPOST https://jsonplaceholder.typicode.com/posts\nContent-type: application/json; charset=UTF-8\n{\"title\":\"QMETRYTester\",\"body\":\"QmetryExample\",\"userId\":\"1001\"}"
+          ],
+          "result": "Client in-bound response\n520\nTransfer-Encoding: chunked\nCF-RAY: 59503316ebd1ed4f-SJC\nServer: cloudflare\nCache-Control: no-store, no-cache\nConnection: keep-alive\nSet-Cookie: __cfduid=de59be4dd36aad76661f2a3eb961041df1589748509; expires=Tue, 16-Jun-20 20:48:29 GMT; path=/; domain=.typicode.com; HttpOnly; SameSite=Lax\nDate: Sun, 17 May 2020 20:49:29 GMT\ncf-request-id: 02c5fe42500000ed4f71a05200000001\nExpect-CT: max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"\nContent-Type: text/html\n\n<html>\n<head><title>520 Origin Error</title></head>\n<body bgcolor=\"white\">\n<center><h1>520 Origin Error</h1></center>\n<hr><center>cloudflare-nginx</center>\n</body>\n</html>\n\n",
+          "subLogs": [],
+          "duration": -1
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "POST https://jsonplaceholder.typicode.com/posts returned a response status of 520 null",
+      "type": "Fail",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": "com.sun.jersey.api.client.UniformInterfaceException: POST https://jsonplaceholder.typicode.com/posts returned a response status of 520 null\r\n\tat com.sun.jersey.api.client.WebResource.voidHandle(WebResource.java:709)\r\n\tat com.sun.jersey.api.client.WebResource.access$400(WebResource.java:74)\r\n\tat com.sun.jersey.api.client.WebResource$Builder.post(WebResource.java:555)\r\n\tat com.qmetry.qaf.example.test.WebServiceTesting.validatePost(WebServiceTesting.java:46)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)\r\n\tat java.lang.reflect.Method.invoke(Unknown Source)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)\r\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:645)\r\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)\r\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)\r\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:781)\r\n\tat org.testng.TestRunner.run(TestRunner.java:635)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:387)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:289)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1218)\r\n\tat org.testng.TestNG.runSuites(TestNG.java:1133)\r\n\tat org.testng.TestNG.run(TestNG.java:1104)\r\n\tat org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)\r\n\tat org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)\r\n\tat org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)\r\n"
+}

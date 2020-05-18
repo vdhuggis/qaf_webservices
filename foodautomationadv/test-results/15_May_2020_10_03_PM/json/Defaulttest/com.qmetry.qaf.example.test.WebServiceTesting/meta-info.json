@@ -1,0 +1,164 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "forbiddenTest",
+        "resultFileName": "ForbiddenTest",
+        "sign": "WebServiceTesting.forbiddenTest()[pri:0, instance:com.qmetry.qaf.example.test.WebServiceTesting@4f83df68]"
+      },
+      "dependsOn": [],
+      "startTime": 1589670287815,
+      "duration": 1275,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "forbiddenTest",
+        "resultFileName": "ForbiddenTestKuhjhLNXaA",
+        "sign": "WebServiceTesting.forbiddenTest()[pri:0, instance:com.qmetry.qaf.example.test.WebServiceTesting@4f83df68]"
+      },
+      "dependsOn": [],
+      "startTime": 1589670391946,
+      "duration": 1090,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "forbiddenTest",
+        "resultFileName": "ForbiddenTestQhvptAZliQ",
+        "sign": "WebServiceTesting.forbiddenTest()[pri:0, instance:com.qmetry.qaf.example.test.WebServiceTesting@4f83df68]"
+      },
+      "dependsOn": [],
+      "startTime": 1589670484348,
+      "duration": 1277,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "forbiddenTest",
+        "resultFileName": "ForbiddenTesthyVjglauLL",
+        "sign": "WebServiceTesting.forbiddenTest()[pri:0, instance:com.qmetry.qaf.example.test.WebServiceTesting@4f83df68]"
+      },
+      "dependsOn": [],
+      "startTime": 1589671986918,
+      "duration": 1214,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "forbiddenTest",
+        "resultFileName": "ForbiddenTestDbAGKAGbvU",
+        "sign": "WebServiceTesting.forbiddenTest()[pri:0, instance:com.qmetry.qaf.example.test.WebServiceTesting@4f83df68]"
+      },
+      "dependsOn": [],
+      "startTime": 1589685282284,
+      "duration": 1269,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "forbiddenTest",
+        "resultFileName": "ForbiddenTestPasicyRFMz",
+        "sign": "WebServiceTesting.forbiddenTest()[pri:0, instance:com.qmetry.qaf.example.test.WebServiceTesting@4c371370]"
+      },
+      "dependsOn": [],
+      "startTime": 1589691998227,
+      "duration": 1265,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "forbiddenTest",
+        "resultFileName": "ForbiddenTestUTnVHHJgIJ",
+        "sign": "WebServiceTesting.forbiddenTest()[pri:0, instance:com.qmetry.qaf.example.test.WebServiceTesting@4c371370]"
+      },
+      "dependsOn": [],
+      "startTime": 1589692134882,
+      "duration": 2415,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "forbiddenTest",
+        "resultFileName": "ForbiddenTestwmUTxcAzGd",
+        "sign": "WebServiceTesting.forbiddenTest()[pri:0, instance:com.qmetry.qaf.example.test.WebServiceTesting@4c371370]"
+      },
+      "dependsOn": [],
+      "startTime": 1589692188544,
+      "duration": 2552,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "forbiddenTest",
+        "resultFileName": "ForbiddenTestTcfhObUXWa",
+        "sign": "WebServiceTesting.forbiddenTest()[pri:0, instance:com.qmetry.qaf.example.test.WebServiceTesting@4c371370]"
+      },
+      "dependsOn": [],
+      "startTime": 1589692345134,
+      "duration": 369,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "forbiddenTest",
+        "resultFileName": "ForbiddenTestslCyiGsSkT",
+        "sign": "WebServiceTesting.forbiddenTest()[pri:0, instance:com.qmetry.qaf.example.test.WebServiceTesting@4c371370]"
+      },
+      "dependsOn": [],
+      "startTime": 1589692728978,
+      "duration": 756,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

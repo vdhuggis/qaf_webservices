@@ -1,0 +1,59 @@
+{
+  "total": 6,
+  "pass": 6,
+  "fail": 0,
+  "skip": 0,
+  "classes": [
+    "com.qmetry.qaf.example.test.FoodTestCasesAdv"
+  ],
+  "envInfo": {
+    "browser-desired-capabilities": {
+      "browserName": "chrome",
+      "cssSelectorsEnabled": true,
+      "javascriptEnabled": true,
+      "platform": "ANY",
+      "takesScreenshot": true,
+      "version": ""
+    },
+    "browser-actual-capabilities": {
+      "networkConnectionEnabled": "false",
+      "chrome": "{chromedriverVersion=81.0.4044.69 (6813546031a4bc83f717a2ef7cd4ac6ec1199132-refs/branch-heads/4044@{#776}), userDataDir=C:\\Users\\vaidh\\AppData\\Local\\Temp\\scoped_dir46756_814596992}",
+      "timeouts": "{implicit=0, pageLoad=300000, script=30000}",
+      "pageLoadStrategy": "normal",
+      "unhandledPromptBehavior": "dismiss and notify",
+      "strictFileInteractability": "false",
+      "platform": "WINDOWS",
+      "proxy": "Proxy()",
+      "goog:chromeOptions": "{debuggerAddress=localhost:62495}",
+      "acceptInsecureCerts": "false",
+      "browserVersion": "81.0.4044.138",
+      "browserName": "chrome",
+      "javascriptEnabled": "true",
+      "platformName": "WINDOWS",
+      "setWindowRect": "true",
+      "webauthn:virtualAuthenticators": "true"
+    },
+    "isfw-build-info": {
+      "qaf-Type": "core",
+      "qaf-Revision": "14",
+      "qaf-Version": "2.1",
+      "qaf-Build-Time": "01-Jan-2019 19:18:14"
+    },
+    "run-parameters": {
+      "baseurl": "https://www.food.com/",
+      "resources": "resources"
+    },
+    "execution-env-info": {
+      "java.arch": "64",
+      "java.vendor": "Oracle Corporation",
+      "java.version": "1.8.0_231",
+      "os.arch": "amd64",
+      "host": "VaidhuSanthu",
+      "os.name": "Windows 10",
+      "user.name": "vaidh",
+      "os.version": "10.0"
+    }
+  },
+  "startTime": 1589062280197,
+  "endTime": 1589072012926
+}

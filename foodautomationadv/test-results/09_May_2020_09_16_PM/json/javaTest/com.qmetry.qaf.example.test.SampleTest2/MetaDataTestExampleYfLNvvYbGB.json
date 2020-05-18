@@ -1,0 +1,14 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "get",
+      "args": [
+        "{url=https://www.food.com}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 1328
+    }
+  ],
+  "checkPoints": []
+}

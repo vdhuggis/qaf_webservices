@@ -1,0 +1,141 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "get",
+      "args": [
+        "[/]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=https://www.food.com/}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 4613
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "click",
+      "args": [
+        "[button.recipe]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=.v-nav-toggle.gk-nav__recipes, using=css selector}"
+          ],
+          "result": "id: 29da85be-1cf5-472a-9497-1621a1461722",
+          "subLogs": [],
+          "duration": 589
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.cssSelector: .v-nav-toggle.gk-nav__recipes",
+            "{\"id\":\"29da85be-1cf5-472a-9497-1621a1461722\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 501
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "verifyText",
+      "args": [
+        "[text.recipe, RECIPES]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=.gk-tile-heading h1, using=css selector}"
+          ],
+          "result": "[id: a5b7768b-8062-4dda-86c8-e9a6040d836d]",
+          "subLogs": [],
+          "duration": 59
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=.gk-tile-heading h1, using=css selector}"
+          ],
+          "result": "id: a5b7768b-8062-4dda-86c8-e9a6040d836d",
+          "subLogs": [],
+          "duration": 12
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.cssSelector: .gk-tile-heading h1",
+            "{\"id\":\"a5b7768b-8062-4dda-86c8-e9a6040d836d\"}"
+          ],
+          "result": "getElementText:RECIPES",
+          "subLogs": [],
+          "duration": 12
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=.gk-tile-heading h1, using=css selector}"
+          ],
+          "result": "id: a5b7768b-8062-4dda-86c8-e9a6040d836d",
+          "subLogs": [],
+          "duration": 8
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.cssSelector: .gk-tile-heading h1",
+            "{\"id\":\"a5b7768b-8062-4dda-86c8-e9a6040d836d\"}"
+          ],
+          "result": "getElementText:RECIPES",
+          "subLogs": [],
+          "duration": 7
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "get '/'",
+      "type": "TestStepPass",
+      "duration": 9007,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "click on 'button.recipe'",
+      "type": "TestStepPass",
+      "duration": 1115,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "verify 'text.recipe' text is 'RECIPES'",
+      "type": "TestStepPass",
+      "duration": 617,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Expected Recipe text should be RECIPES : Actual Recipe text is RECIPES",
+          "type": "Pass",
+          "screenshot": "../img/VerifyTestFoodReceipeTitle_76jwee2ei3ly3444.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    }
+  ]
+}

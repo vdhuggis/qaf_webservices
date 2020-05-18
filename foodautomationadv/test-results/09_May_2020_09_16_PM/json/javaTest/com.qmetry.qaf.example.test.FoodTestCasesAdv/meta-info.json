@@ -1,0 +1,238 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "dataFile": "resources/testdata.csv",
+        "filter": "",
+        "groups": [
+          "key=metadata"
+        ],
+        "hasHeaderRow": false,
+        "key": "",
+        "name": "verifyTestFoodReceipeTitle",
+        "resultFileName": "VerifyTestFoodReceipeTitle",
+        "sheetName": "",
+        "sign": "FoodTestCasesAdv.verifyTestFoodReceipeTitle()[pri:0, instance:com.qmetry.qaf.example.test.FoodTestCasesAdv@281e3708]",
+        "sqlQuery": ""
+      },
+      "dependsOn": [],
+      "startTime": 1589069739443,
+      "duration": 32499,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [
+        {
+          "searchtext": "breakfast pizza",
+          "Reviewcomment": "Good",
+          "searchRecipe": "Biriyani",
+          "Invalidsearch": "Iphone",
+          "recipeTittle": "RECIPES",
+          "username": "vdhuggis@gmail.com",
+          "password": "Arjun@17",
+          "__index": 1.0
+        }
+      ],
+      "metaData": {
+        "dataFile": "resources/testdata.csv",
+        "filter": "",
+        "groups": [
+          "key=metadata"
+        ],
+        "hasHeaderRow": false,
+        "key": "",
+        "name": "verifyTestFoodReceipeTitle",
+        "resultFileName": "VerifyTestFoodReceipeTitlelzFrARrtyt",
+        "sheetName": "",
+        "sign": "FoodTestCasesAdv.verifyTestFoodReceipeTitle(java.util.Map)[pri:0, instance:com.qmetry.qaf.example.test.FoodTestCasesAdv@4ae82894]",
+        "sqlQuery": ""
+      },
+      "dependsOn": [],
+      "startTime": 1589072304543,
+      "duration": 31755,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [
+        {
+          "searchtext": "breakfast pizza",
+          "Reviewcomment": "Good",
+          "searchRecipe": "Biriyani",
+          "Invalidsearch": "Iphone",
+          "recipeTittle": "RECIPES",
+          "username": "vdhuggis@gmail.com",
+          "password": "Arjun@17",
+          "__index": 1.0
+        }
+      ],
+      "metaData": {
+        "dataFile": "resources/testdata.csv",
+        "filter": "",
+        "groups": [
+          "key=metadata"
+        ],
+        "hasHeaderRow": false,
+        "key": "",
+        "name": "verifySearchResults",
+        "resultFileName": "VerifySearchResults",
+        "sheetName": "",
+        "sign": "FoodTestCasesAdv.verifySearchResults(java.util.Map)[pri:1, instance:com.qmetry.qaf.example.test.FoodTestCasesAdv@4ae82894]",
+        "sqlQuery": ""
+      },
+      "dependsOn": [],
+      "startTime": 1589072336356,
+      "duration": 45030,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [
+        {
+          "searchtext": "breakfast pizza",
+          "Reviewcomment": "Good",
+          "searchRecipe": "Biriyani",
+          "Invalidsearch": "Iphone",
+          "recipeTittle": "RECIPES",
+          "username": "vdhuggis@gmail.com",
+          "password": "Arjun@17",
+          "__index": 1.0
+        }
+      ],
+      "metaData": {
+        "dataFile": "resources/testdata.csv",
+        "filter": "",
+        "groups": [
+          "key=metadata"
+        ],
+        "hasHeaderRow": false,
+        "key": "",
+        "name": "verifyInvalidSearch",
+        "resultFileName": "VerifyInvalidSearch",
+        "sheetName": "",
+        "sign": "FoodTestCasesAdv.verifyInvalidSearch(java.util.Map)[pri:2, instance:com.qmetry.qaf.example.test.FoodTestCasesAdv@4ae82894]",
+        "sqlQuery": ""
+      },
+      "dependsOn": [],
+      "startTime": 1589072381511,
+      "duration": 24217,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [
+        {
+          "searchtext": "breakfast pizza",
+          "Reviewcomment": "Good",
+          "searchRecipe": "Biriyani",
+          "Invalidsearch": "Iphone",
+          "recipeTittle": "RECIPES",
+          "username": "vdhuggis@gmail.com",
+          "password": "Arjun@17",
+          "__index": 1.0
+        }
+      ],
+      "metaData": {
+        "dataFile": "resources/testdata.csv",
+        "filter": "",
+        "groups": [
+          "key=metadata"
+        ],
+        "hasHeaderRow": false,
+        "key": "",
+        "name": "verifySaveForGuest",
+        "resultFileName": "VerifySaveForGuest",
+        "sheetName": "",
+        "sign": "FoodTestCasesAdv.verifySaveForGuest(java.util.Map)[pri:3, instance:com.qmetry.qaf.example.test.FoodTestCasesAdv@4ae82894]",
+        "sqlQuery": ""
+      },
+      "dependsOn": [],
+      "startTime": 1589072405814,
+      "duration": 65939,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [
+        {
+          "searchtext": "breakfast pizza",
+          "Reviewcomment": "Good",
+          "searchRecipe": "Biriyani",
+          "Invalidsearch": "Iphone",
+          "recipeTittle": "RECIPES",
+          "username": "vdhuggis@gmail.com",
+          "password": "Arjun@17",
+          "__index": 1.0
+        }
+      ],
+      "metaData": {
+        "dataFile": "resources/testdata.csv",
+        "filter": "",
+        "groups": [
+          "key=metadata"
+        ],
+        "hasHeaderRow": false,
+        "key": "",
+        "name": "verifyReviewForGuest",
+        "resultFileName": "VerifyReviewForGuest",
+        "sheetName": "",
+        "sign": "FoodTestCasesAdv.verifyReviewForGuest(java.util.Map)[pri:4, instance:com.qmetry.qaf.example.test.FoodTestCasesAdv@4ae82894]",
+        "sqlQuery": ""
+      },
+      "dependsOn": [],
+      "startTime": 1589072471795,
+      "duration": 86027,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [
+        {
+          "searchtext": "breakfast pizza",
+          "Reviewcomment": "Good",
+          "searchRecipe": "Biriyani",
+          "Invalidsearch": "Iphone",
+          "recipeTittle": "RECIPES",
+          "username": "vdhuggis@gmail.com",
+          "password": "Arjun@17",
+          "__index": 1
+        }
+      ],
+      "metaData": {
+        "dataFile": "resources/testdata.csv",
+        "filter": "",
+        "groups": [
+          "key=metadata"
+        ],
+        "hasHeaderRow": false,
+        "key": "",
+        "name": "verifySaveForRegUser",
+        "resultFileName": "VerifySaveForRegUser",
+        "sheetName": "",
+        "sign": "FoodTestCasesAdv.verifySaveForRegUser(java.util.Map)[pri:5, instance:com.qmetry.qaf.example.test.FoodTestCasesAdv@4ae82894]",
+        "sqlQuery": ""
+      },
+      "dependsOn": [],
+      "startTime": 1589072557848,
+      "duration": 86994,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

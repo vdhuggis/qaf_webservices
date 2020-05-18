@@ -1,0 +1,61 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "",
+        "groups": [],
+        "lineNo": 1.0,
+        "name": "<scenario name>",
+        "referece": "scenarios/metadataexample.feature",
+        "resultFileName": "ScenarioName",
+        "sign": "scenarios.metadataexample.feature.<scenario name>()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]"
+      },
+      "dependsOn": [],
+      "startTime": 1589692516176,
+      "duration": 258,
+      "result": "skip",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "",
+        "groups": [],
+        "lineNo": 1.0,
+        "name": "<scenario name>",
+        "referece": "scenarios/metadataexample.feature",
+        "resultFileName": "ScenarioNamevFexZBjqze",
+        "sign": "scenarios.metadataexample.feature.<scenario name>()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]"
+      },
+      "dependsOn": [],
+      "startTime": 1589692605777,
+      "duration": 264,
+      "result": "skip",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "",
+        "groups": [],
+        "lineNo": 1,
+        "name": "<scenario name>",
+        "referece": "scenarios/metadataexample.feature",
+        "resultFileName": "ScenarioNamexgSFJAtkOf",
+        "sign": "scenarios.metadataexample.feature.<scenario name>()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]"
+      },
+      "dependsOn": [],
+      "startTime": 1589692621000,
+      "duration": 268,
+      "result": "skip",
+      "passPer": 0.0
+    }
+  ]
+}

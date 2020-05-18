@@ -1,0 +1,455 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "get",
+      "args": [
+        "[/]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=https://www.food.com/}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 812
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "waitForVisible",
+      "args": [
+        "[recipeLink.click]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@href='/recipe?ref=nav'], using=xpath}"
+          ],
+          "result": "[id: 93ec07c2-7def-455e-8237-2f975b277af6]",
+          "subLogs": [],
+          "duration": 329
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@href='/recipe?ref=nav'], using=xpath}"
+          ],
+          "result": "id: 93ec07c2-7def-455e-8237-2f975b277af6",
+          "subLogs": [],
+          "duration": 279
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //*[@href='/recipe?ref=nav']",
+            "{\"id\":\"93ec07c2-7def-455e-8237-2f975b277af6\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 19
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "click",
+      "args": [
+        "[recipeLink.click]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@href='/recipe?ref=nav'], using=xpath}"
+          ],
+          "result": "id: 93ec07c2-7def-455e-8237-2f975b277af6",
+          "subLogs": [],
+          "duration": 9
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@href='/recipe?ref=nav']",
+            "{\"id\":\"93ec07c2-7def-455e-8237-2f975b277af6\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 390
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "waitForVisible",
+      "args": [
+        "[recipe.search]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//span[text()='Search'], using=xpath}"
+          ],
+          "result": "[id: 27244f60-09bc-494a-90df-d41638fa6b38]",
+          "subLogs": [],
+          "duration": 61
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//span[text()='Search'], using=xpath}"
+          ],
+          "result": "id: 27244f60-09bc-494a-90df-d41638fa6b38",
+          "subLogs": [],
+          "duration": 13
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //span[text()='Search']",
+            "{\"id\":\"27244f60-09bc-494a-90df-d41638fa6b38\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 16
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "click",
+      "args": [
+        "[recipe.search]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//span[text()='Search'], using=xpath}"
+          ],
+          "result": "id: 27244f60-09bc-494a-90df-d41638fa6b38",
+          "subLogs": [],
+          "duration": 8
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //span[text()='Search']",
+            "{\"id\":\"27244f60-09bc-494a-90df-d41638fa6b38\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 704
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "waitForVisible",
+      "args": [
+        "[recipetype.search]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@placeholder='I want to make'], using=xpath}"
+          ],
+          "result": "[id: 4c86eda1-e538-46c6-99a7-4a31ae8cab65]",
+          "subLogs": [],
+          "duration": 260
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@placeholder='I want to make'], using=xpath}"
+          ],
+          "result": "id: 4c86eda1-e538-46c6-99a7-4a31ae8cab65",
+          "subLogs": [],
+          "duration": 181
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //*[@placeholder='I want to make']",
+            "{\"id\":\"4c86eda1-e538-46c6-99a7-4a31ae8cab65\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 148
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "waitForVisible",
+      "args": [
+        "[recipetype.search]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@placeholder='I want to make'], using=xpath}"
+          ],
+          "result": "[id: 4c86eda1-e538-46c6-99a7-4a31ae8cab65]",
+          "subLogs": [],
+          "duration": 11
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@placeholder='I want to make'], using=xpath}"
+          ],
+          "result": "id: 4c86eda1-e538-46c6-99a7-4a31ae8cab65",
+          "subLogs": [],
+          "duration": 9
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //*[@placeholder='I want to make']",
+            "{\"id\":\"4c86eda1-e538-46c6-99a7-4a31ae8cab65\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 13
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "click",
+      "args": [
+        "[recipetype.search]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@placeholder='I want to make'], using=xpath}"
+          ],
+          "result": "id: 4c86eda1-e538-46c6-99a7-4a31ae8cab65",
+          "subLogs": [],
+          "duration": 9
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@placeholder='I want to make']",
+            "{\"id\":\"4c86eda1-e538-46c6-99a7-4a31ae8cab65\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 64
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "sendKeys",
+      "args": [
+        "[Iphone, recipetype.search]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@placeholder='I want to make'], using=xpath}"
+          ],
+          "result": "id: 4c86eda1-e538-46c6-99a7-4a31ae8cab65",
+          "subLogs": [],
+          "duration": 13
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.xpath: //*[@placeholder='I want to make']",
+            "{\"value\":[\"Iphone\"],\"id\":\"4c86eda1-e538-46c6-99a7-4a31ae8cab65\"}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 73
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "waitForVisible",
+      "args": [
+        "[noMatchRecipeMsg.verify]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//h2[contains(text(),'No matches.')], using=xpath}"
+          ],
+          "result": "[id: e0f9cd2d-529f-4cfa-9085-f84eeebcffa6]",
+          "subLogs": [],
+          "duration": 48
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//h2[contains(text(),'No matches.')], using=xpath}"
+          ],
+          "result": "id: e0f9cd2d-529f-4cfa-9085-f84eeebcffa6",
+          "subLogs": [],
+          "duration": 11
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //h2[contains(text(),'No matches.')]",
+            "{\"id\":\"e0f9cd2d-529f-4cfa-9085-f84eeebcffa6\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 16
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "assertVisible",
+      "args": [
+        "[noMatchRecipeMsg.verify]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//h2[contains(text(),'No matches.')], using=xpath}"
+          ],
+          "result": "[id: e0f9cd2d-529f-4cfa-9085-f84eeebcffa6]",
+          "subLogs": [],
+          "duration": 10
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//h2[contains(text(),'No matches.')], using=xpath}"
+          ],
+          "result": "id: e0f9cd2d-529f-4cfa-9085-f84eeebcffa6",
+          "subLogs": [],
+          "duration": 9
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //h2[contains(text(),'No matches.')]",
+            "{\"id\":\"e0f9cd2d-529f-4cfa-9085-f84eeebcffa6\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 13
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "get '/'",
+      "type": "TestStepPass",
+      "duration": 813,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "wait until 'recipeLink.click' to be visible",
+      "type": "TestStepPass",
+      "duration": 629,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "click on 'recipeLink.click'",
+      "type": "TestStepPass",
+      "duration": 401,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "wait until 'recipe.search' to be visible",
+      "type": "TestStepPass",
+      "duration": 94,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "click on 'recipe.search'",
+      "type": "TestStepPass",
+      "duration": 713,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "wait until 'recipetype.search' to be visible",
+      "type": "TestStepPass",
+      "duration": 592,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "wait until 'recipetype.search' to be visible",
+      "type": "TestStepPass",
+      "duration": 36,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "click on 'recipetype.search'",
+      "type": "TestStepPass",
+      "duration": 74,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "sendKeys 'Iphone' into 'recipetype.search'",
+      "type": "TestStepPass",
+      "duration": 89,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "wait until 'noMatchRecipeMsg.verify' to be visible",
+      "type": "TestStepPass",
+      "duration": 78,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "assert 'noMatchRecipeMsg.verify' is visible",
+      "type": "TestStepPass",
+      "duration": 562,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Expected No Match Recipe Message visible : Actual No Match Recipe Message visible",
+          "type": "Pass",
+          "screenshot": "../img/VerifyInvalidSearch_7p87ulwe05pn39538.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+get.sample.call={'headers':{},'endPoint':'/1','baseUrl':'${env.baseurl}','method':'GET','query-parameters':{},'form-parameters':{},'body':''}

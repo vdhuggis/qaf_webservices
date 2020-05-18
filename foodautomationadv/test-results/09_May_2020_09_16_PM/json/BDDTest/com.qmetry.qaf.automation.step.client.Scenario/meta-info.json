@@ -1,0 +1,109 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "verify Test Food Receipe Title",
+        "groups": [
+          "SMOKE"
+        ],
+        "lineNo": 45.0,
+        "name": "verify Test Food Receipe Title",
+        "referece": "scenarios/suite1.bdd",
+        "resultFileName": "VerifyTestFoodReceipeTitle",
+        "sign": "scenarios.suite1.bdd.verify Test Food Receipe Title()[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3ef]"
+      },
+      "dependsOn": [],
+      "startTime": 1589061783372,
+      "duration": 13433,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "verify Test Food Receipe Title",
+        "groups": [
+          "SMOKE"
+        ],
+        "lineNo": 45.0,
+        "name": "verify Test Food Receipe Title",
+        "referece": "scenarios/suite1.bdd",
+        "resultFileName": "VerifyTestFoodReceipeTitlexuDXIRUmeB",
+        "sign": "scenarios.suite1.bdd.verify Test Food Receipe Title()[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3ef]"
+      },
+      "dependsOn": [],
+      "startTime": 1589061910350,
+      "duration": 14185,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "verify Search Results -count",
+        "groups": [
+          "SMOKE"
+        ],
+        "lineNo": 53.0,
+        "name": "verify Search Results",
+        "referece": "scenarios/suite1.bdd",
+        "resultFileName": "VerifySearchResults",
+        "sign": "scenarios.suite1.bdd.verify Search Results()[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3f0]"
+      },
+      "dependsOn": [],
+      "startTime": 1589061924679,
+      "duration": 2964,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "verify Test Food Receipe Title",
+        "groups": [
+          "SMOKE"
+        ],
+        "lineNo": 45.0,
+        "name": "verify Test Food Receipe Title",
+        "referece": "scenarios/suite1.bdd",
+        "resultFileName": "VerifyTestFoodReceipeTitlesdoAtFGzPe",
+        "sign": "scenarios.suite1.bdd.verify Test Food Receipe Title()[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3ef]"
+      },
+      "dependsOn": [],
+      "startTime": 1589063340911,
+      "duration": 22668,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "verify Search Results -count",
+        "groups": [
+          "SMOKE"
+        ],
+        "lineNo": 53,
+        "name": "verify Search Results",
+        "referece": "scenarios/suite1.bdd",
+        "resultFileName": "VerifySearchResultsOqiKczLTHb",
+        "sign": "scenarios.suite1.bdd.verify Search Results()[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3f0]"
+      },
+      "dependsOn": [],
+      "startTime": 1589063363641,
+      "duration": 25449,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

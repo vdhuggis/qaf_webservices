@@ -1,0 +1,5 @@
+SCENARIO: WebServiceTesting
+META-DATA: {"description":"WebServiceTesting Scenario","groups":["SMOKE"]}
+  When user requests '${get.sample.call}'
+  Then response should have status code '200'    
+END

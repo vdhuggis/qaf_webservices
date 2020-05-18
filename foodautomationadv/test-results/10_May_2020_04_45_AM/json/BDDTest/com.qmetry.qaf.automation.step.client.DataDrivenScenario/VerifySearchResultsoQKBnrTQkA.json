@@ -1,0 +1,487 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "get",
+      "args": [
+        "[/]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=https://www.food.com/}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 1140
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "navigateToRecipePage",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@href='/recipe?ref=nav'], using=xpath}"
+          ],
+          "result": "[id: 375929de-fdea-4ae3-a8a5-63923ea57ec4]",
+          "subLogs": [],
+          "duration": 499
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@href='/recipe?ref=nav'], using=xpath}"
+          ],
+          "result": "id: 375929de-fdea-4ae3-a8a5-63923ea57ec4",
+          "subLogs": [],
+          "duration": 26
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //*[@href='/recipe?ref=nav']",
+            "{\"id\":\"375929de-fdea-4ae3-a8a5-63923ea57ec4\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 38
+        },
+        {
+          "commandName": "click",
+          "args": [
+            "[recipeLink.click]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=//*[@href='/recipe?ref=nav'], using=xpath}"
+              ],
+              "result": "id: 375929de-fdea-4ae3-a8a5-63923ea57ec4",
+              "subLogs": [],
+              "duration": 15
+            },
+            {
+              "commandName": "clickElement",
+              "args": [
+                "By.xpath: //*[@href='/recipe?ref=nav']",
+                "{\"id\":\"375929de-fdea-4ae3-a8a5-63923ea57ec4\"}"
+              ],
+              "result": "clickElement:null",
+              "subLogs": [],
+              "duration": 2039
+            }
+          ],
+          "duration": -1
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "navigateToSearchPage",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//span[text()='Search'], using=xpath}"
+          ],
+          "result": "[id: 5aab65f9-6f5e-41dc-a769-3f68b089e49a]",
+          "subLogs": [],
+          "duration": 56
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//span[text()='Search'], using=xpath}"
+          ],
+          "result": "id: 5aab65f9-6f5e-41dc-a769-3f68b089e49a",
+          "subLogs": [],
+          "duration": 14
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //span[text()='Search']",
+            "{\"id\":\"5aab65f9-6f5e-41dc-a769-3f68b089e49a\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "click",
+          "args": [
+            "[recipe.search]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=//span[text()='Search'], using=xpath}"
+              ],
+              "result": "id: 5aab65f9-6f5e-41dc-a769-3f68b089e49a",
+              "subLogs": [],
+              "duration": 8
+            },
+            {
+              "commandName": "clickElement",
+              "args": [
+                "By.xpath: //span[text()='Search']",
+                "{\"id\":\"5aab65f9-6f5e-41dc-a769-3f68b089e49a\"}"
+              ],
+              "result": "clickElement:null",
+              "subLogs": [],
+              "duration": 1179
+            }
+          ],
+          "duration": -1
+        },
+        {
+          "commandName": "waitForVisible",
+          "args": [
+            "[recipetype.search]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElements",
+              "args": [
+                "{value=//*[@placeholder='I want to make'], using=xpath}"
+              ],
+              "result": "[id: 9596c7b0-aac3-4261-9fdf-f8a92a9257f4]",
+              "subLogs": [],
+              "duration": 538
+            },
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=//*[@placeholder='I want to make'], using=xpath}"
+              ],
+              "result": "id: 9596c7b0-aac3-4261-9fdf-f8a92a9257f4",
+              "subLogs": [],
+              "duration": 74
+            },
+            {
+              "commandName": "isElementDisplayed",
+              "args": [
+                "By.xpath: //*[@placeholder='I want to make']",
+                "{\"id\":\"9596c7b0-aac3-4261-9fdf-f8a92a9257f4\"}"
+              ],
+              "result": "isElementDisplayed:true",
+              "subLogs": [],
+              "duration": 572
+            }
+          ],
+          "duration": -1
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "searchRecipe",
+      "args": [
+        "[${searchRecipe}]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@placeholder='I want to make'], using=xpath}"
+          ],
+          "result": "[id: 9596c7b0-aac3-4261-9fdf-f8a92a9257f4]",
+          "subLogs": [],
+          "duration": 89
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@placeholder='I want to make'], using=xpath}"
+          ],
+          "result": "id: 9596c7b0-aac3-4261-9fdf-f8a92a9257f4",
+          "subLogs": [],
+          "duration": 29
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //*[@placeholder='I want to make']",
+            "{\"id\":\"9596c7b0-aac3-4261-9fdf-f8a92a9257f4\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 59
+        },
+        {
+          "commandName": "click",
+          "args": [
+            "[recipetype.search]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=//*[@placeholder='I want to make'], using=xpath}"
+              ],
+              "result": "id: 9596c7b0-aac3-4261-9fdf-f8a92a9257f4",
+              "subLogs": [],
+              "duration": 26
+            },
+            {
+              "commandName": "clickElement",
+              "args": [
+                "By.xpath: //*[@placeholder='I want to make']",
+                "{\"id\":\"9596c7b0-aac3-4261-9fdf-f8a92a9257f4\"}"
+              ],
+              "result": "clickElement:null",
+              "subLogs": [],
+              "duration": 120
+            }
+          ],
+          "duration": -1
+        },
+        {
+          "commandName": "sendKeys",
+          "args": [
+            "[Biriyani, recipetype.search]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=//*[@placeholder='I want to make'], using=xpath}"
+              ],
+              "result": "id: 9596c7b0-aac3-4261-9fdf-f8a92a9257f4",
+              "subLogs": [],
+              "duration": 19
+            },
+            {
+              "commandName": "sendKeysToElement",
+              "args": [
+                "By.xpath: //*[@placeholder='I want to make']",
+                "{\"value\":[\"Biriyani\"],\"id\":\"9596c7b0-aac3-4261-9fdf-f8a92a9257f4\"}"
+              ],
+              "result": "sendKeysToElement:null",
+              "subLogs": [],
+              "duration": 209
+            }
+          ],
+          "duration": -1
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "verifyResultCount",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//h1[contains(text(),'Results')], using=xpath}"
+          ],
+          "result": "[id: 85600a80-110f-4444-abb5-505793bdef7c]",
+          "subLogs": [],
+          "duration": 43
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//h1[contains(text(),'Results')], using=xpath}"
+          ],
+          "result": "id: 85600a80-110f-4444-abb5-505793bdef7c",
+          "subLogs": [],
+          "duration": 13
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //h1[contains(text(),'Results')]",
+            "{\"id\":\"85600a80-110f-4444-abb5-505793bdef7c\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 18
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//h2/a[@href[contains(.,'/recipe/')]], using=xpath}"
+          ],
+          "result": "[id: f5f81fbe-a1cc-4a91-b7f4-d037eff9e4fa, id: 80afcc63-505d-4d49-8ae8-51fa68478825, id: 54ed0139-85bc-41c3-8653-db3e3439b8e0, id: 5e633142-594f-438c-a0a0-a99ad073bae1, id: 11eb3c1d-9173-46b1-8357-c5909b60a824, id: 76003192-d066-42ec-997a-9c25f6552875, id: 1f5e60f1-6e9c-42b3-853c-7c7c345f1768, id: 1ee5b55f-4cc0-48bb-86b8-8868ba24c281, id: b3cbaae4-49df-4c99-8afe-a8d9720bd171, id: 0fb9cfdd-f031-4a73-bd24-eeccbd44f107]",
+          "subLogs": [],
+          "duration": 78
+        },
+        {
+          "commandName": "assertText",
+          "args": [
+            "[resultCountText.verify, 10 RESULTS]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElements",
+              "args": [
+                "{value=//h1[contains(text(),'Results')], using=xpath}"
+              ],
+              "result": "[id: 85600a80-110f-4444-abb5-505793bdef7c]",
+              "subLogs": [],
+              "duration": 31
+            },
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=//h1[contains(text(),'Results')], using=xpath}"
+              ],
+              "result": "id: 85600a80-110f-4444-abb5-505793bdef7c",
+              "subLogs": [],
+              "duration": 23
+            },
+            {
+              "commandName": "getElementText",
+              "args": [
+                "By.xpath: //h1[contains(text(),'Results')]",
+                "{\"id\":\"85600a80-110f-4444-abb5-505793bdef7c\"}"
+              ],
+              "result": "getElementText:10 RESULTS",
+              "subLogs": [],
+              "duration": 24
+            },
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=//h1[contains(text(),'Results')], using=xpath}"
+              ],
+              "result": "id: 85600a80-110f-4444-abb5-505793bdef7c",
+              "subLogs": [],
+              "duration": 18
+            },
+            {
+              "commandName": "getElementText",
+              "args": [
+                "By.xpath: //h1[contains(text(),'Results')]",
+                "{\"id\":\"85600a80-110f-4444-abb5-505793bdef7c\"}"
+              ],
+              "result": "getElementText:10 RESULTS",
+              "subLogs": [],
+              "duration": 57
+            }
+          ],
+          "duration": -1
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given get '/'",
+      "type": "TestStepPass",
+      "duration": 1142,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When navigate to recipe page",
+      "type": "TestStepPass",
+      "duration": 2621,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "click on 'recipeLink.click'",
+          "type": "TestStepPass",
+          "duration": 2054,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "When navigate to search page",
+      "type": "TestStepPass",
+      "duration": 12468,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "click on 'recipe.search'",
+          "type": "TestStepPass",
+          "duration": 1187,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "wait until 'recipetype.search' to be visible",
+          "type": "TestStepPass",
+          "duration": 1187,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "Then search recipe 'Biriyani'",
+      "type": "TestStepPass",
+      "duration": 10565,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "click on 'recipetype.search'",
+          "type": "TestStepPass",
+          "duration": 148,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "sendKeys 'Biriyani' into 'recipetype.search'",
+          "type": "TestStepPass",
+          "duration": 230,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "Then verify result count",
+      "type": "TestStepPass",
+      "duration": 774,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "assert 'resultCountText.verify' text is '10 RESULTS'",
+          "type": "TestStepPass",
+          "duration": 598,
+          "threshold": 0,
+          "subCheckPoints": [
+            {
+              "message": "Expected Result Count Text text should be 10 RESULTS : Actual Result Count Text text is 10 RESULTS",
+              "type": "Pass",
+              "screenshot": "../img/VerifySearchResults_uag359m70js045171.png",
+              "duration": 0,
+              "threshold": 0,
+              "subCheckPoints": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

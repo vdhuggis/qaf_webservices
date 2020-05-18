@@ -1,0 +1,222 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "get",
+      "args": [
+        "[/]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=https://www.food.com/}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 4623
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "navigateToRecipePage",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "waitForVisible",
+          "args": [
+            "[recipeLink.click]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElements",
+              "args": [
+                "{value=//*[@href='/recipe?ref=nav'], using=xpath}"
+              ],
+              "result": "[id: a8ad2bc5-bfc0-472c-9bc1-22351e2155e8]",
+              "subLogs": [],
+              "duration": 122
+            },
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=//*[@href='/recipe?ref=nav'], using=xpath}"
+              ],
+              "result": "id: a8ad2bc5-bfc0-472c-9bc1-22351e2155e8",
+              "subLogs": [],
+              "duration": 38
+            },
+            {
+              "commandName": "isElementDisplayed",
+              "args": [
+                "By.xpath: //*[@href='/recipe?ref=nav']",
+                "{\"id\":\"a8ad2bc5-bfc0-472c-9bc1-22351e2155e8\"}"
+              ],
+              "result": "isElementDisplayed:true",
+              "subLogs": [],
+              "duration": 296
+            }
+          ],
+          "duration": -1
+        },
+        {
+          "commandName": "click",
+          "args": [
+            "[recipeLink.click]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=//*[@href='/recipe?ref=nav'], using=xpath}"
+              ],
+              "result": "id: a8ad2bc5-bfc0-472c-9bc1-22351e2155e8",
+              "subLogs": [],
+              "duration": 20
+            },
+            {
+              "commandName": "clickElement",
+              "args": [
+                "By.xpath: //*[@href='/recipe?ref=nav']",
+                "{\"id\":\"a8ad2bc5-bfc0-472c-9bc1-22351e2155e8\"}"
+              ],
+              "result": "clickElement:null",
+              "subLogs": [],
+              "duration": 580
+            }
+          ],
+          "duration": -1
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "verifyTextIsRECIPES",
+      "args": [
+        "[${recipeTittle}]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "verifyText",
+          "args": [
+            "[text.recipe, RECIPES]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElements",
+              "args": [
+                "{value=.gk-tile-heading h1, using=css selector}"
+              ],
+              "result": "[id: e9ac6300-a734-4bab-9791-274bbfe52195]",
+              "subLogs": [],
+              "duration": 334
+            },
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=.gk-tile-heading h1, using=css selector}"
+              ],
+              "result": "id: e9ac6300-a734-4bab-9791-274bbfe52195",
+              "subLogs": [],
+              "duration": 761
+            },
+            {
+              "commandName": "getElementText",
+              "args": [
+                "By.cssSelector: .gk-tile-heading h1",
+                "{\"id\":\"e9ac6300-a734-4bab-9791-274bbfe52195\"}"
+              ],
+              "result": "getElementText:RECIPES",
+              "subLogs": [],
+              "duration": 20
+            },
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=.gk-tile-heading h1, using=css selector}"
+              ],
+              "result": "id: e9ac6300-a734-4bab-9791-274bbfe52195",
+              "subLogs": [],
+              "duration": 10
+            },
+            {
+              "commandName": "getElementText",
+              "args": [
+                "By.cssSelector: .gk-tile-heading h1",
+                "{\"id\":\"e9ac6300-a734-4bab-9791-274bbfe52195\"}"
+              ],
+              "result": "getElementText:RECIPES",
+              "subLogs": [],
+              "duration": 8
+            }
+          ],
+          "duration": -1
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given get '/'",
+      "type": "TestStepPass",
+      "duration": 9585,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When navigate to recipe page",
+      "type": "TestStepPass",
+      "duration": 1107,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "wait until 'recipeLink.click' to be visible",
+          "type": "TestStepPass",
+          "duration": 497,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "click on 'recipeLink.click'",
+          "type": "TestStepPass",
+          "duration": 606,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "Then verify text is RECIPES 'RECIPES'",
+      "type": "TestStepPass",
+      "duration": 2215,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "verify 'text.recipe' text is 'RECIPES'",
+          "type": "TestStepPass",
+          "duration": 2213,
+          "threshold": 0,
+          "subCheckPoints": [
+            {
+              "message": "Expected Recipe text should be RECIPES : Actual Recipe text is RECIPES",
+              "type": "Pass",
+              "screenshot": "../img/VerifyTestFoodReceipeTitle_117i7bwwxgwk420429.png",
+              "duration": 0,
+              "threshold": 0,
+              "subCheckPoints": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

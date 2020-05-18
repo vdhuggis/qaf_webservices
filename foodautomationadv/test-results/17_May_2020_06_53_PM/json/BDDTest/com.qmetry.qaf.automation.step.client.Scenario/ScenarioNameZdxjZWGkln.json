@@ -1,0 +1,55 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "META-DATA: {\"description\":<scenario description>,\"groups\":[\"WEBSERVICE\"]}",
+      "args": [
+        "[]"
+      ],
+      "result": "Error: Step Not Found",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "When user requests 'get.account'",
+      "args": [
+        "[get.account]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "Then response should have status code '404'",
+      "args": [
+        "[404]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "META-DATA: {\"description\":<scenario description>,\"groups\":[\"WEBSERVICE\"]} :: Not Found.",
+      "type": "Warn",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When user requests 'get.account'",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then response should have status code '404'",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": "com.qmetry.qaf.automation.step.StepNotFoundException: META-DATA: {\"description\":<scenario description>,\"groups\":[\"WEBSERVICE\"]}@scenarios/metadataexample.feature#2 TestStep implementation not found. \n Please provide implementation or ensure 'step.provider.pkg' property value includes appropriate package.\r\n\tat .META-DATA: {\"description\":<scenario description>,\"groups\":[\"WEBSERVICE\"]}(scenarios/metadataexample.feature:2)\r\n"
+}

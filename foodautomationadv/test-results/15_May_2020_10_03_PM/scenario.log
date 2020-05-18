@@ -1,0 +1,298 @@
+15:09:26 scenario.file.loc[Ljava.lang.String;@15d236fd
+15:09:26 loading BDD file: C:\Users\vaidh\eclipse-workspace\foodautomationadv\.\scenarios\smoketest.bdd
+15:09:26 Excluded SCENARIO - verify Test Food Receipe Title:null
+15:09:26 Excluded SCENARIO - verify Save Recipe Action for Guest User:null
+15:09:26 Excluded SCENARIO - verify Review Recipe Action for Guest User:null
+15:09:26 Excluded SCENARIO - verify Search Results:null
+15:09:26 Excluded SCENARIO - verify Invalid Search:null
+15:09:26 Excluded SCENARIO - Verify SAVES Button functionality:null
+15:09:26 loading BDD file: C:\Users\vaidh\eclipse-workspace\foodautomationadv\.\scenarios\webservices.bdd
+15:09:26 total test found: 0
+15:10:03 scenario.file.loc[Ljava.lang.String;@704d6e83
+15:10:03 loading BDD file: C:\Users\vaidh\eclipse-workspace\foodautomationadv\.\scenarios\smoketest.bdd
+15:10:03 Excluded SCENARIO - verify Test Food Receipe Title:null
+15:10:03 Excluded SCENARIO - verify Save Recipe Action for Guest User:null
+15:10:03 Excluded SCENARIO - verify Review Recipe Action for Guest User:null
+15:10:03 Excluded SCENARIO - verify Search Results:null
+15:10:03 Excluded SCENARIO - verify Invalid Search:null
+15:10:03 Excluded SCENARIO - Verify SAVES Button functionality:null
+15:10:03 loading BDD file: C:\Users\vaidh\eclipse-workspace\foodautomationadv\.\scenarios\webservices.bdd
+15:10:03 total test found: 0
+16:17:00 scenario.file.loc[Ljava.lang.String;@704d6e83
+16:17:00 loading BDD file: C:\Users\vaidh\eclipse-workspace\foodautomationadv\.\scenarios\smoketest.bdd
+16:17:00 Excluded SCENARIO - verify Test Food Receipe Title:null
+16:17:00 Excluded SCENARIO - verify Save Recipe Action for Guest User:null
+16:17:00 Excluded SCENARIO - verify Review Recipe Action for Guest User:null
+16:17:00 Excluded SCENARIO - verify Search Results:null
+16:17:00 Excluded SCENARIO - verify Invalid Search:null
+16:17:00 Excluded SCENARIO - Verify SAVES Button functionality:null
+16:17:00 loading BDD file: C:\Users\vaidh\eclipse-workspace\foodautomationadv\.\scenarios\webservices.bdd
+16:17:00 total test found: 0
+20:19:25 scenario.file.loc[Ljava.lang.String;@704d6e83
+20:19:25 loading BDD file: C:\Users\vaidh\eclipse-workspace\foodautomationadv\.\scenarios\smoketest.bdd
+20:19:25 Excluded SCENARIO - verify Test Food Receipe Title:null
+20:19:25 Excluded SCENARIO - verify Save Recipe Action for Guest User:null
+20:19:25 Excluded SCENARIO - verify Review Recipe Action for Guest User:null
+20:19:25 Excluded SCENARIO - verify Search Results:null
+20:19:25 Excluded SCENARIO - verify Invalid Search:null
+20:19:25 Excluded SCENARIO - Verify SAVES Button functionality:null
+20:19:25 loading BDD file: C:\Users\vaidh\eclipse-workspace\foodautomationadv\.\scenarios\webservices.bdd
+20:19:25 total test found: 0
+21:10:57 scenario.file.loc[Ljava.lang.String;@64de5c64
+21:10:57 loading BDD file: C:\Users\vaidh\eclipse-workspace\foodautomationadv\.\scenarios\smoketest.bdd
+21:10:57 Excluded SCENARIO - verify Test Food Receipe Title:null
+21:10:57 Excluded SCENARIO - verify Save Recipe Action for Guest User:null
+21:10:57 Excluded SCENARIO - verify Review Recipe Action for Guest User:null
+21:10:57 Excluded SCENARIO - verify Search Results:null
+21:10:57 Excluded SCENARIO - verify Invalid Search:null
+21:10:57 Excluded SCENARIO - Verify SAVES Button functionality:null
+21:10:57 loading BDD file: C:\Users\vaidh\eclipse-workspace\foodautomationadv\.\scenarios\webservices.bdd
+21:10:57 total test found: 0
+21:16:18 scenario.file.loc[Ljava.lang.String;@70091762
+21:16:18 loading BDD file: C:\Users\vaidh\eclipse-workspace\foodautomationadv\.\scenarios\smoketest.bdd
+21:16:18 Excluded SCENARIO - verify Test Food Receipe Title:null
+21:16:18 Excluded SCENARIO - verify Save Recipe Action for Guest User:null
+21:16:18 Excluded SCENARIO - verify Review Recipe Action for Guest User:null
+21:16:18 Excluded SCENARIO - verify Search Results:null
+21:16:18 Excluded SCENARIO - verify Invalid Search:null
+21:16:18 Excluded SCENARIO - Verify SAVES Button functionality:null
+21:16:18 loading BDD file: C:\Users\vaidh\eclipse-workspace\foodautomationadv\.\scenarios\webservices.bdd
+21:16:18 total test found: 0
+21:17:04 scenario.file.loc[Ljava.lang.String;@37d6b129
+21:17:04 loading feature file: C:\Users\vaidh\eclipse-workspace\foodautomationadv\.\scenarios\metadataexample.feature
+21:17:04 Excluded SCENARIO - verify Test Food Receipe Title:null
+21:17:04 Excluded SCENARIO - verify Search Results:null
+21:17:04 Excluded SCENARIO - verify Save Recipe Action for Guest User:null
+21:17:04 Excluded SCENARIO - verify Review Recipe Action for Guest User:null
+21:17:04 Excluded SCENARIO - verify Invalid Search:null
+21:17:04 Excluded SCENARIO - Verify SAVES Button functionality:null
+21:17:04 total test found: 0
+21:19:49 scenario.file.loc[Ljava.lang.String;@64de5c64
+21:19:49 loading feature file: C:\Users\vaidh\eclipse-workspace\foodautomationadv\.\scenarios\metadataexample.feature
+21:19:49 Excluded SCENARIO - verify Test Food Receipe Title:null
+21:19:49 Excluded SCENARIO - verify Search Results:null
+21:19:49 Excluded SCENARIO - verify Save Recipe Action for Guest User:null
+21:19:49 Excluded SCENARIO - verify Review Recipe Action for Guest User:null
+21:19:49 Excluded SCENARIO - verify Invalid Search:null
+21:19:49 Excluded SCENARIO - Verify SAVES Button functionality:null
+21:19:49 total test found: 0
+21:20:28 scenario.file.loc[Ljava.lang.String;@64de5c64
+21:20:28 loading feature file: C:\Users\vaidh\eclipse-workspace\foodautomationadv\.\scenarios\metadataexample.feature
+21:20:28 Excluded SCENARIO - verify Test Food Receipe Title:null
+21:20:28 Excluded SCENARIO - verify Search Results:null
+21:20:28 Excluded SCENARIO - verify Save Recipe Action for Guest User:null
+21:20:28 Excluded SCENARIO - verify Review Recipe Action for Guest User:null
+21:20:28 Excluded SCENARIO - verify Invalid Search:null
+21:20:28 Excluded SCENARIO - Verify SAVES Button functionality:null
+21:20:28 total test found: 0
+21:23:40 scenario.file.loc[Ljava.lang.String;@9e02496
+21:24:37 loading feature file: C:\Users\vaidh\eclipse-workspace\foodautomationadv\.\scenarios\metadataexample.feature
+21:26:35 scenario.file.loc[Ljava.lang.String;@70091762
+21:26:35 loading BDD file: C:\Users\vaidh\eclipse-workspace\foodautomationadv\.\scenarios\smoketest.bdd
+21:26:35 Excluded SCENARIO - verify Test Food Receipe Title:null
+21:26:35 Excluded SCENARIO - verify Save Recipe Action for Guest User:null
+21:26:35 Excluded SCENARIO - verify Review Recipe Action for Guest User:null
+21:26:35 Excluded SCENARIO - verify Search Results:null
+21:26:35 Excluded SCENARIO - verify Invalid Search:null
+21:26:35 Excluded SCENARIO - Verify SAVES Button functionality:null
+21:26:35 loading BDD file: C:\Users\vaidh\eclipse-workspace\foodautomationadv\.\scenarios\webservices.bdd
+21:26:35 total test found: 0
+21:27:20 scenario.file.loc[Ljava.lang.String;@64de5c64
+21:27:20 loading feature file: C:\Users\vaidh\eclipse-workspace\foodautomationadv\.\scenarios\metadataexample.feature
+21:27:20 Excluded SCENARIO - <scenario name>:null
+21:27:20 total test found: 0
+21:27:54 scenario.file.loc[Ljava.lang.String;@2abeb8f0
+21:28:01 loading feature file: C:\Users\vaidh\eclipse-workspace\foodautomationadv\.\scenarios\metadataexample.feature
+21:29:28 Excluded SCENARIO - <scenario name>:null
+21:29:32 total test found: 0
+21:30:55 scenario.file.loc[Ljava.lang.String;@5a2405ac
+21:30:55 loading feature file: C:\Users\vaidh\eclipse-workspace\foodautomationadv\.\scenarios\metadataexample.feature
+21:30:55 total test found: 1
+21:34:12 scenario.file.loc[Ljava.lang.String;@72f08d6f
+21:34:12 loading feature file: C:\Users\vaidh\eclipse-workspace\foodautomationadv\.\scenarios\metadataexample.feature
+21:34:12 total test found: 1
+21:47:27 scenario.file.loc[Ljava.lang.String;@72f08d6f
+21:47:27 loading feature file: C:\Users\vaidh\eclipse-workspace\foodautomationadv\.\scenarios\metadataexample.feature
+21:47:27 total test found: 1
+21:57:52 scenario.file.loc[Ljava.lang.String;@70091762
+21:57:53 loading feature file: C:\Users\vaidh\eclipse-workspace\foodautomationadv\.\scenarios\metadataexample.feature
+21:57:53 total test found: 1
+21:58:17 scenario.file.loc[Ljava.lang.String;@70091762
+21:58:17 total test found: 0
+21:59:25 scenario.file.loc[Ljava.lang.String;@70091762
+21:59:25 loading BDD file: C:\Users\vaidh\eclipse-workspace\foodautomationadv\.\scenarios\metadataexample2.bdd
+21:59:25 total test found: 0
+22:14:53 scenario.file.loc[Ljava.lang.String;@306279ee
+22:14:53 loading BDD file: C:\Users\vaidh\eclipse-workspace\foodautomationadv\.\scenarios\metadataexample2.bdd
+22:14:53 total test found: 0
+22:15:15 scenario.file.loc[Ljava.lang.String;@306279ee
+22:15:16 loading feature file: C:\Users\vaidh\eclipse-workspace\foodautomationadv\.\scenarios\metadataexample.feature
+22:15:16 total test found: 1
+22:15:16 
+
+Executing scenario: <scenario name> - 
+22:15:16 pkg: com.qmetry.qaf.automation.step
+22:15:16 pkg: com.qmetry.qaf.example
+22:15:16 Found duplicate step to load [] with [lower] prority then []
+22:15:16 Found duplicate step to load [] with [higher] prority then []
+22:15:16 Found duplicate step to load [] with [higher] prority then []
+22:15:16 Found duplicate step to load [] with [higher] prority then []
+22:15:16 Found duplicate step to load [] with [higher] prority then []
+22:15:16 Found duplicate step to load [] with [higher] prority then []
+22:15:16 Found duplicate step to load [] with [higher] prority then []
+22:15:16 Found duplicate step to load [] with [higher] prority then []
+22:15:16 Found duplicate step to load [] with [higher] prority then []
+22:15:16 Found duplicate step to load [] with [higher] prority then []
+22:15:16 Found duplicate step to load [] with [higher] prority then []
+22:15:16 Found duplicate step to load [] with [higher] prority then []
+22:15:16 Found duplicate step to load [] with [higher] prority then []
+22:15:16 Found duplicate step to load [] with [higher] prority then []
+22:15:16 Found duplicate step to load [] with [higher] prority then []
+22:15:16 Found duplicate step to load [] with [higher] prority then []
+22:15:16 Found duplicate step to load [] with [higher] prority then []
+22:15:16 Found duplicate step to load [] with [higher] prority then []
+22:15:16 Found duplicate step to load [] with [higher] prority then []
+22:15:16 Found duplicate step to load [] with [higher] prority then []
+22:15:16 Found duplicate step to load [] with [higher] prority then []
+22:15:16 Found duplicate step to load [] with [higher] prority then []
+22:15:16 Found duplicate step to load [] with [higher] prority then []
+22:15:16 Found duplicate step to load [] with [higher] prority then []
+22:15:16 Found duplicate step to load [] with [higher] prority then []
+22:15:16 Found duplicate step to load [] with [higher] prority then []
+22:15:16 Found duplicate step to load [] with [higher] prority then []
+22:15:16 Found duplicate step to load [] with [higher] prority then []
+22:15:16 Found duplicate step to load [] with [higher] prority then []
+22:15:16 Found duplicate step to load [] with [higher] prority then []
+22:15:16 Found duplicate step to load [] with [higher] prority then []
+22:15:16 Found duplicate step to load [] with [higher] prority then []
+22:15:16 Found duplicate step to load [] with [higher] prority then []
+22:15:16 Found duplicate step to load [] with [higher] prority then []
+22:15:16 Found duplicate step to load [] with [higher] prority then []
+22:15:16 Found duplicate step to load [] with [higher] prority then []
+22:15:16 Found duplicate step to load [] with [higher] prority then []
+22:15:16 
+/**
+* Auto-generated code snippet by QMetry Automation Framework.
+*/
+@QAFTestStep(description="META-DATA: {0}")
+public void mETADATA(Map<Object,Object> mapObj0){
+	//TODO: remove NotYetImplementedException and call test steps
+	throw new NotYetImplementedException();
+}
+22:15:16 Competed scenario: <scenario name> with status FAILURE
+22:16:45 scenario.file.loc[Ljava.lang.String;@4cf4d528
+22:16:45 loading feature file: C:\Users\vaidh\eclipse-workspace\foodautomationadv\.\scenarios\metadataexample.feature
+22:16:45 total test found: 1
+22:16:45 
+
+Executing scenario: <scenario name> - 
+22:16:45 pkg: com.qmetry.qaf.automation.step
+22:16:45 pkg: com.qmetry.qaf.example
+22:16:45 Found duplicate step to load [] with [lower] prority then []
+22:16:45 Found duplicate step to load [] with [higher] prority then []
+22:16:45 Found duplicate step to load [] with [higher] prority then []
+22:16:45 Found duplicate step to load [] with [higher] prority then []
+22:16:45 Found duplicate step to load [] with [higher] prority then []
+22:16:45 Found duplicate step to load [] with [higher] prority then []
+22:16:45 Found duplicate step to load [] with [higher] prority then []
+22:16:45 Found duplicate step to load [] with [higher] prority then []
+22:16:45 Found duplicate step to load [] with [higher] prority then []
+22:16:45 Found duplicate step to load [] with [higher] prority then []
+22:16:45 Found duplicate step to load [] with [higher] prority then []
+22:16:45 Found duplicate step to load [] with [higher] prority then []
+22:16:45 Found duplicate step to load [] with [higher] prority then []
+22:16:45 Found duplicate step to load [] with [higher] prority then []
+22:16:45 Found duplicate step to load [] with [higher] prority then []
+22:16:45 Found duplicate step to load [] with [higher] prority then []
+22:16:45 Found duplicate step to load [] with [higher] prority then []
+22:16:45 Found duplicate step to load [] with [higher] prority then []
+22:16:45 Found duplicate step to load [] with [higher] prority then []
+22:16:45 Found duplicate step to load [] with [higher] prority then []
+22:16:45 Found duplicate step to load [] with [higher] prority then []
+22:16:45 Found duplicate step to load [] with [higher] prority then []
+22:16:45 Found duplicate step to load [] with [higher] prority then []
+22:16:45 Found duplicate step to load [] with [higher] prority then []
+22:16:45 Found duplicate step to load [] with [higher] prority then []
+22:16:45 Found duplicate step to load [] with [higher] prority then []
+22:16:45 Found duplicate step to load [] with [higher] prority then []
+22:16:45 Found duplicate step to load [] with [higher] prority then []
+22:16:45 Found duplicate step to load [] with [higher] prority then []
+22:16:45 Found duplicate step to load [] with [higher] prority then []
+22:16:45 Found duplicate step to load [] with [higher] prority then []
+22:16:45 Found duplicate step to load [] with [higher] prority then []
+22:16:45 Found duplicate step to load [] with [higher] prority then []
+22:16:45 Found duplicate step to load [] with [higher] prority then []
+22:16:45 Found duplicate step to load [] with [higher] prority then []
+22:16:45 Found duplicate step to load [] with [higher] prority then []
+22:16:45 Found duplicate step to load [] with [higher] prority then []
+22:16:46 
+/**
+* Auto-generated code snippet by QMetry Automation Framework.
+*/
+@QAFTestStep(description="META-DATA: {0}")
+public void mETADATA(Map<Object,Object> mapObj0){
+	//TODO: remove NotYetImplementedException and call test steps
+	throw new NotYetImplementedException();
+}
+22:16:46 Competed scenario: <scenario name> with status FAILURE
+22:17:00 scenario.file.loc[Ljava.lang.String;@4cf4d528
+22:17:00 loading feature file: C:\Users\vaidh\eclipse-workspace\foodautomationadv\.\scenarios\metadataexample.feature
+22:17:00 total test found: 1
+22:17:01 
+
+Executing scenario: <scenario name> - 
+22:17:01 pkg: com.qmetry.qaf.automation.step
+22:17:01 pkg: com.qmetry.qaf.example
+22:17:01 Found duplicate step to load [] with [lower] prority then []
+22:17:01 Found duplicate step to load [] with [higher] prority then []
+22:17:01 Found duplicate step to load [] with [higher] prority then []
+22:17:01 Found duplicate step to load [] with [higher] prority then []
+22:17:01 Found duplicate step to load [] with [higher] prority then []
+22:17:01 Found duplicate step to load [] with [higher] prority then []
+22:17:01 Found duplicate step to load [] with [higher] prority then []
+22:17:01 Found duplicate step to load [] with [higher] prority then []
+22:17:01 Found duplicate step to load [] with [higher] prority then []
+22:17:01 Found duplicate step to load [] with [higher] prority then []
+22:17:01 Found duplicate step to load [] with [higher] prority then []
+22:17:01 Found duplicate step to load [] with [higher] prority then []
+22:17:01 Found duplicate step to load [] with [higher] prority then []
+22:17:01 Found duplicate step to load [] with [higher] prority then []
+22:17:01 Found duplicate step to load [] with [higher] prority then []
+22:17:01 Found duplicate step to load [] with [higher] prority then []
+22:17:01 Found duplicate step to load [] with [higher] prority then []
+22:17:01 Found duplicate step to load [] with [higher] prority then []
+22:17:01 Found duplicate step to load [] with [higher] prority then []
+22:17:01 Found duplicate step to load [] with [higher] prority then []
+22:17:01 Found duplicate step to load [] with [higher] prority then []
+22:17:01 Found duplicate step to load [] with [higher] prority then []
+22:17:01 Found duplicate step to load [] with [higher] prority then []
+22:17:01 Found duplicate step to load [] with [higher] prority then []
+22:17:01 Found duplicate step to load [] with [higher] prority then []
+22:17:01 Found duplicate step to load [] with [higher] prority then []
+22:17:01 Found duplicate step to load [] with [higher] prority then []
+22:17:01 Found duplicate step to load [] with [higher] prority then []
+22:17:01 Found duplicate step to load [] with [higher] prority then []
+22:17:01 Found duplicate step to load [] with [higher] prority then []
+22:17:01 Found duplicate step to load [] with [higher] prority then []
+22:17:01 Found duplicate step to load [] with [higher] prority then []
+22:17:01 Found duplicate step to load [] with [higher] prority then []
+22:17:01 Found duplicate step to load [] with [higher] prority then []
+22:17:01 Found duplicate step to load [] with [higher] prority then []
+22:17:01 Found duplicate step to load [] with [higher] prority then []
+22:17:01 Found duplicate step to load [] with [higher] prority then []
+22:17:01 
+/**
+* Auto-generated code snippet by QMetry Automation Framework.
+*/
+@QAFTestStep(description="META-DATA: {0}")
+public void mETADATA(Map<Object,Object> mapObj0){
+	//TODO: remove NotYetImplementedException and call test steps
+	throw new NotYetImplementedException();
+}
+22:17:01 Competed scenario: <scenario name> with status FAILURE
+22:17:22 scenario.file.loc[Ljava.lang.String;@4cf4d528
+22:17:22 loading BDD file: C:\Users\vaidh\eclipse-workspace\foodautomationadv\.\scenarios\metadataexample2.bdd
+22:17:22 total test found: 0
+22:18:11 scenario.file.loc[Ljava.lang.String;@4cf4d528
+22:18:12 loading BDD file: C:\Users\vaidh\eclipse-workspace\foodautomationadv\.\scenarios\metadataexample2.bdd
+22:18:12 total test found: 0

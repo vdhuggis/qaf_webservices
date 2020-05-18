@@ -1,0 +1,38 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "Validate Get Result",
+        "groups": [],
+        "name": "getCallTest",
+        "resultFileName": "GetCallTest",
+        "sign": "WebServiceTesting.getCallTest()[pri:0, instance:com.qmetry.qaf.example.test.WebServiceTesting@1ee807c6]"
+      },
+      "dependsOn": [],
+      "startTime": 1589749445967,
+      "duration": 1267,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "Validate Get Result",
+        "groups": [],
+        "name": "getCallTest",
+        "resultFileName": "GetCallTestvbTqZjNdaz",
+        "sign": "WebServiceTesting.getCallTest()[pri:0, instance:com.qmetry.qaf.example.test.WebServiceTesting@1ee807c6]"
+      },
+      "dependsOn": [],
+      "startTime": 1589749466270,
+      "duration": 1027,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

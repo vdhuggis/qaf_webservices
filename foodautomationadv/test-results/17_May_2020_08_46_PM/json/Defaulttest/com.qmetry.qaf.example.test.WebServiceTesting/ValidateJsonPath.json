@@ -1,0 +1,24 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "GET:https://jsonplaceholder.typicode.com/todos/1",
+      "args": [
+        "/todos/1",
+        null
+      ],
+      "result": "GET https://jsonplaceholder.typicode.com/todos/1 returned a response status of 200 OK",
+      "subLogs": [
+        {
+          "args": [
+            "Client out-bound request\nGET https://jsonplaceholder.typicode.com/todos/1\naccept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9\n"
+          ],
+          "result": "Client in-bound response\n200\nCF-RAY: 595031c07a6f9641-SJC\nServer: cloudflare\nX-Content-Type-Options: nosniff\nConnection: keep-alive\nPragma: no-cache\nDate: Sun, 17 May 2020 20:47:34 GMT\nVia: 1.1 vegur\nAccept-Ranges: bytes\nCF-Cache-Status: HIT\nEtag: W/\"53-hfEnumeNh6YirfjyjaujcOPPT+s\"\nCache-Control: max-age=14400\nAccess-Control-Allow-Credentials: true\nVary: Origin, Accept-Encoding\nSet-Cookie: __cfduid=de06aea2028924ebd5d2597b0af0e136f1589748454; expires=Tue, 16-Jun-20 20:47:34 GMT; path=/; domain=.typicode.com; HttpOnly; SameSite=Lax\nExpires: -1\nContent-Length: 83\nAge: 3915\ncf-request-id: 02c5fd6c470000964190bdf200000001\nExpect-CT: max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"\nX-Powered-By: Express\nContent-Type: application/json; charset=utf-8\n\n{\n  \"userId\": 1,\n  \"id\": 1,\n  \"title\": \"delectus aut autem\",\n  \"completed\": false\n}\n",
+          "subLogs": [],
+          "duration": -1
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": []
+}

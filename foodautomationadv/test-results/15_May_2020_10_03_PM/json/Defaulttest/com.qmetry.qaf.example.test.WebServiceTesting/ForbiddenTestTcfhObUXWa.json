@@ -1,0 +1,33 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "GET:https://jsonplaceholder.typicode.com/todos/2073",
+      "args": [
+        "/todos/2073",
+        null
+      ],
+      "result": "GET https://jsonplaceholder.typicode.com/todos/2073 returned a response status of 404 Not Found",
+      "subLogs": [
+        {
+          "args": [
+            "Client out-bound request\nGET https://jsonplaceholder.typicode.com/todos/2073\n"
+          ],
+          "result": "Client in-bound response\n404\nCF-RAY: 594ad7ea2d9802df-SJC\nServer: cloudflare\nX-Content-Type-Options: nosniff\nConnection: keep-alive\nPragma: no-cache\nDate: Sun, 17 May 2020 05:12:25 GMT\nVia: 1.1 vegur\nCF-Cache-Status: HIT\nEtag: W/\"2-vyGp6PvFo4RvsFtPoIWeCReyIC8\"\nCache-Control: max-age=14400\nAccess-Control-Allow-Credentials: true\nVary: Origin, Accept-Encoding\nSet-Cookie: __cfduid=d81e25dc31f866ef4671d29a73e405dce1589692345; expires=Tue, 16-Jun-20 05:12:25 GMT; path=/; domain=.typicode.com; HttpOnly; SameSite=Lax\nExpires: -1\nContent-Length: 2\nAge: 208\ncf-request-id: 02c2a54659000002df48859200000001\nExpect-CT: max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"\nX-Powered-By: Express\nContent-Type: application/json; charset=utf-8\n\n{}\n",
+          "subLogs": [],
+          "duration": -1
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Response Status\nExpected: &lt;Not Found&gt;\n     Actual: was &lt;Not Found&gt;",
+      "type": "Pass",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "Validate Get Result",
+        "groups": [],
+        "name": "getCallTest",
+        "resultFileName": "GetCallTest",
+        "sign": "WsTesting.getCallTest()[pri:0, instance:com.qmetry.qaf.example.test.WsTesting@3754a4bf]"
+      },
+      "dependsOn": [],
+      "startTime": 1589779861076,
+      "duration": 766,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

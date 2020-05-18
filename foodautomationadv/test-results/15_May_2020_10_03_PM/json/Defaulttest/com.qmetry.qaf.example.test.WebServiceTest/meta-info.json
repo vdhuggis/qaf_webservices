@@ -1,0 +1,36 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "createOrder",
+        "resultFileName": "CreateOrder",
+        "sign": "WebServiceTest.createOrder()[pri:0, instance:com.qmetry.qaf.example.test.WebServiceTest@4f83df68]"
+      },
+      "dependsOn": [],
+      "startTime": 1589669709020,
+      "duration": 2163,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "createOrder",
+        "resultFileName": "CreateOrdervYVpsrzvat",
+        "sign": "WebServiceTest.createOrder()[pri:0, instance:com.qmetry.qaf.example.test.WebServiceTest@4f83df68]"
+      },
+      "dependsOn": [],
+      "startTime": 1589670696760,
+      "duration": 1292,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

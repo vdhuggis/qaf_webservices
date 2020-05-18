@@ -1,0 +1,24 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "POST:https://jsonplaceholder.typicode.com/posts",
+      "args": [
+        "/posts",
+        null
+      ],
+      "result": "POST https://jsonplaceholder.typicode.com/posts returned a response status of 201 Created",
+      "subLogs": [
+        {
+          "args": [
+            "Client out-bound request\nPOST https://jsonplaceholder.typicode.com/posts\nContent-type: application/json; charset=UTF-8\n{\"title\":\"QMETRYTester\",\"body\":\"QmetryExample\",\"userId\":\"1001\"}"
+          ],
+          "result": "Client in-bound response\n201\nCF-RAY: 59507ed828b1ed43-SJC\nServer: cloudflare\nX-Content-Type-Options: nosniff\nConnection: keep-alive\nPragma: no-cache\nDate: Sun, 17 May 2020 21:40:30 GMT\nVia: 1.1 vegur\nCF-Cache-Status: DYNAMIC\nAccess-Control-Expose-Headers: Location\nEtag: W/\"59-03C4JZV/KC/As0CurNREPLVlqSk\"\nCache-Control: no-cache\nAccess-Control-Allow-Credentials: true\nVary: Origin, X-HTTP-Method-Override, Accept-Encoding\nSet-Cookie: __cfduid=d4f303fad42c9170b81080b8d0dc16a561589751612; expires=Tue, 16-Jun-20 21:40:12 GMT; path=/; domain=.typicode.com; HttpOnly; SameSite=Lax\nExpires: -1\nContent-Length: 89\ncf-request-id: 02c62d9b140000ed4383084200000001\nExpect-CT: max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"\nLocation: http://jsonplaceholder.typicode.com/posts/101\nX-Powered-By: Express\nContent-Type: application/json; charset=utf-8\n\n{\n  \"title\": \"QMETRYTester\",\n  \"body\": \"QmetryExample\",\n  \"userId\": \"1001\",\n  \"id\": 101\n}\n",
+          "subLogs": [],
+          "duration": -1
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": []
+}

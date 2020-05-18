@@ -1,0 +1,93 @@
+22:33:42 scenario.file.loc[Ljava.lang.String;@382db087
+22:33:42 loading BDD file: C:\Users\vaidh\eclipse-workspace\foodautomationadv\.\scenarios\suite1.bdd
+22:33:42 total test found: 1
+22:33:43 
+
+Executing scenario: WebServiceTesting - WebServiceTesting Scenario
+22:33:43 pkg: com.qmetry.qaf.automation.step
+22:33:43 pkg: com.qmetry.qaf.example
+22:33:43 Found duplicate step to load [] with [lower] prority then []
+22:33:43 Found duplicate step to load [] with [higher] prority then []
+22:33:43 Found duplicate step to load [] with [higher] prority then []
+22:33:43 Found duplicate step to load [] with [higher] prority then []
+22:33:43 Found duplicate step to load [] with [higher] prority then []
+22:33:43 Found duplicate step to load [] with [higher] prority then []
+22:33:43 Found duplicate step to load [] with [higher] prority then []
+22:33:43 Found duplicate step to load [] with [higher] prority then []
+22:33:43 Found duplicate step to load [] with [higher] prority then []
+22:33:43 Found duplicate step to load [] with [higher] prority then []
+22:33:43 Found duplicate step to load [] with [higher] prority then []
+22:33:43 Found duplicate step to load [] with [higher] prority then []
+22:33:43 Found duplicate step to load [] with [higher] prority then []
+22:33:43 Found duplicate step to load [] with [higher] prority then []
+22:33:43 Found duplicate step to load [] with [higher] prority then []
+22:33:43 Found duplicate step to load [] with [higher] prority then []
+22:33:43 Found duplicate step to load [] with [higher] prority then []
+22:33:43 Found duplicate step to load [] with [higher] prority then []
+22:33:43 Found duplicate step to load [] with [higher] prority then []
+22:33:43 Found duplicate step to load [] with [higher] prority then []
+22:33:43 Found duplicate step to load [] with [higher] prority then []
+22:33:43 Found duplicate step to load [] with [higher] prority then []
+22:33:43 Found duplicate step to load [] with [higher] prority then []
+22:33:43 Found duplicate step to load [] with [higher] prority then []
+22:33:43 Found duplicate step to load [] with [higher] prority then []
+22:33:43 Found duplicate step to load [] with [higher] prority then []
+22:33:43 Found duplicate step to load [] with [higher] prority then []
+22:33:43 Found duplicate step to load [] with [higher] prority then []
+22:33:43 Found duplicate step to load [] with [higher] prority then []
+22:33:43 Found duplicate step to load [] with [higher] prority then []
+22:33:43 Found duplicate step to load [] with [higher] prority then []
+22:33:43 Found duplicate step to load [] with [higher] prority then []
+22:33:43 Found duplicate step to load [] with [higher] prority then []
+22:33:43 Found duplicate step to load [] with [higher] prority then []
+22:33:43 Found duplicate step to load [] with [higher] prority then []
+22:33:43 Found duplicate step to load [] with [higher] prority then []
+22:33:43 Found duplicate step to load [] with [higher] prority then []
+22:33:43 Invoking Teststep: When user requests '${get.sample.call}' with arguments: [${get.sample.call}]
+22:33:44 Completed Teststep: When user requests '{'headers':{},'endPoint':'/1','baseUrl':'https://jsonplaceholder.typicode.com/','method':'GET','query-parameters':{},'form-parameters':{},'body':''}' with arguments: [${get.sample.call}]
+22:33:44 Invoking Teststep: Then response should have status code '200' with arguments: [200]
+22:33:44 Failure Teststep: Then response should have status code '200' with arguments: [200]
+java.lang.NoSuchMethodError: org.hamcrest.Matcher.describeMismatch(Ljava/lang/Object;Lorg/hamcrest/Description;)V
+	at com.qmetry.qaf.automation.util.Validator.verifyThat(Validator.java:48)
+	at com.qmetry.qaf.automation.util.Validator.assertThat(Validator.java:68)
+	at com.qmetry.qaf.automation.step.WsStep.responseShouldHaveStatusCode_aroundBody2(WsStep.java:130)
+	at com.qmetry.qaf.automation.step.WsStep$AjcClosure3.run(WsStep.java:1)
+	at org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:149)
+	at com.qmetry.qaf.automation.step.JavaStepReporter.javaTestStep(JavaStepReporter.java:101)
+	at com.qmetry.qaf.automation.step.WsStep.responseShouldHaveStatusCode(WsStep.java:129)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:153)
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:134)
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:180)
+	at com.qmetry.qaf.automation.step.client.Scenario.scenario(Scenario.java:232)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:781)
+	at org.testng.TestRunner.run(TestRunner.java:635)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+22:33:44 Completed Teststep: Then response should have status code '200' with arguments: [200]
+22:33:44 Competed scenario: WebServiceTesting with status FAILURE

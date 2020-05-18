@@ -1,0 +1,148 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [
+          "key=metadata"
+        ],
+        "name": "verifyTestFoodReceipeTitle",
+        "resultFileName": "VerifyTestFoodReceipeTitle",
+        "sign": "SampleTest2.verifyTestFoodReceipeTitle()[pri:0, instance:com.qmetry.qaf.example.test.SampleTest2@6dde5c8c]"
+      },
+      "dependsOn": [],
+      "startTime": 1589068452097,
+      "duration": 31547,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [
+          "key=metadata"
+        ],
+        "name": "metaDataTestExample",
+        "resultFileName": "MetaDataTestExample",
+        "sign": "SampleTest2.metaDataTestExample()[pri:0, instance:com.qmetry.qaf.example.test.SampleTest2@6dde5c8c]"
+      },
+      "dependsOn": [],
+      "startTime": 1589068483666,
+      "duration": 791,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [
+          "key=metadata"
+        ],
+        "name": "verifyTestFoodReceipeTitle",
+        "resultFileName": "VerifyTestFoodReceipeTitlezPkKrnzmoH",
+        "sign": "SampleTest2.verifyTestFoodReceipeTitle()[pri:0, instance:com.qmetry.qaf.example.test.SampleTest2@6dde5c8c]"
+      },
+      "dependsOn": [],
+      "startTime": 1589068638352,
+      "duration": 30868,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [
+          "key=metadata"
+        ],
+        "name": "metaDataTestExample",
+        "resultFileName": "MetaDataTestExampleYuJADMYGqu",
+        "sign": "SampleTest2.metaDataTestExample()[pri:0, instance:com.qmetry.qaf.example.test.SampleTest2@6dde5c8c]"
+      },
+      "dependsOn": [],
+      "startTime": 1589068669263,
+      "duration": 778,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [
+          "key=metadata"
+        ],
+        "name": "verifyTestFoodReceipeTitle",
+        "resultFileName": "VerifyTestFoodReceipeTitledhyYDpnPRZ",
+        "sign": "SampleTest2.verifyTestFoodReceipeTitle()[pri:0, instance:com.qmetry.qaf.example.test.SampleTest2@6dde5c8c]"
+      },
+      "dependsOn": [],
+      "startTime": 1589069142537,
+      "duration": 31424,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [
+          "key=metadata"
+        ],
+        "name": "metaDataTestExample",
+        "resultFileName": "MetaDataTestExamplePqGXlbXlnW",
+        "sign": "SampleTest2.metaDataTestExample()[pri:0, instance:com.qmetry.qaf.example.test.SampleTest2@6dde5c8c]"
+      },
+      "dependsOn": [],
+      "startTime": 1589069174000,
+      "duration": 981,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [
+          "key=metadata"
+        ],
+        "name": "verifyTestFoodReceipeTitle",
+        "resultFileName": "VerifyTestFoodReceipeTitlezrGssYKEXk",
+        "sign": "SampleTest2.verifyTestFoodReceipeTitle()[pri:0, instance:com.qmetry.qaf.example.test.SampleTest2@6dde5c8c]"
+      },
+      "dependsOn": [],
+      "startTime": 1589069355373,
+      "duration": 33756,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [
+          "key=metadata"
+        ],
+        "name": "metaDataTestExample",
+        "resultFileName": "MetaDataTestExampleYfLNvvYbGB",
+        "sign": "SampleTest2.metaDataTestExample()[pri:0, instance:com.qmetry.qaf.example.test.SampleTest2@6dde5c8c]"
+      },
+      "dependsOn": [],
+      "startTime": 1589069389176,
+      "duration": 1330,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

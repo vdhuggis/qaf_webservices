@@ -1,0 +1,34 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "GET:https://jsonplaceholder.typicode.com/todos/1",
+      "args": [
+        "/todos/1",
+        null
+      ],
+      "result": "GET https://jsonplaceholder.typicode.com/todos/1 returned a response status of 200 OK",
+      "subLogs": [
+        {
+          "args": [
+            "Client out-bound request\nGET https://jsonplaceholder.typicode.com/todos/1\naccept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9\n"
+          ],
+          "result": "Client in-bound response\n200\nCF-RAY: 59503f4d19a89684-SJC\nServer: cloudflare\nX-Content-Type-Options: nosniff\nConnection: keep-alive\nPragma: no-cache\nDate: Sun, 17 May 2020 20:56:49 GMT\nVia: 1.1 vegur\nAccept-Ranges: bytes\nCF-Cache-Status: HIT\nEtag: W/\"53-hfEnumeNh6YirfjyjaujcOPPT+s\"\nCache-Control: max-age=14400\nAccess-Control-Allow-Credentials: true\nVary: Origin, Accept-Encoding\nSet-Cookie: __cfduid=d1f6b35c7d4abc4fe80ac8836f3fbfa061589749009; expires=Tue, 16-Jun-20 20:56:49 GMT; path=/; domain=.typicode.com; HttpOnly; SameSite=Lax\nExpires: -1\nContent-Length: 83\nAge: 4470\ncf-request-id: 02c605e42f000096843f15d200000001\nExpect-CT: max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"\nX-Powered-By: Express\nContent-Type: application/json; charset=utf-8\n\n{\n  \"userId\": 1,\n  \"id\": 1,\n  \"title\": \"delectus aut autem\",\n  \"completed\": false\n}\n",
+          "subLogs": [],
+          "duration": -1
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "org/slf4j/LoggerFactory",
+      "type": "Fail",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": "java.lang.NoClassDefFoundError: org/slf4j/LoggerFactory\r\n\tat com.jayway.jsonpath.internal.JsonContext.<clinit>(JsonContext.java:46)\r\n\tat com.jayway.jsonpath.JsonPath.read(JsonPath.java:502)\r\n\tat com.qmetry.qaf.example.test.WebServiceTesting.hasJsonPath(WebServiceTesting.java:55)\r\n\tat com.qmetry.qaf.example.test.WebServiceTesting.validateJsonPath(WebServiceTesting.java:32)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)\r\n\tat java.lang.reflect.Method.invoke(Unknown Source)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)\r\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:645)\r\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)\r\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)\r\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:781)\r\n\tat org.testng.TestRunner.run(TestRunner.java:635)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:387)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:289)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1218)\r\n\tat org.testng.TestNG.runSuites(TestNG.java:1133)\r\n\tat org.testng.TestNG.run(TestNG.java:1104)\r\n\tat org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)\r\n\tat org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)\r\n\tat org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)\r\nCaused by: java.lang.ClassNotFoundException: org.slf4j.LoggerFactory\r\n\tat java.net.URLClassLoader.findClass(Unknown Source)\r\n\tat java.lang.ClassLoader.loadClass(Unknown Source)\r\n\tat sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)\r\n\tat java.lang.ClassLoader.loadClass(Unknown Source)\r\n\t... 29 more\r\n"
+}

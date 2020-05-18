@@ -1,0 +1,151 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "WebServiceTesting Scenario",
+        "groups": [
+          "SMOKE"
+        ],
+        "lineNo": 1.0,
+        "name": "WebServiceTesting",
+        "referece": "scenarios/suite1.bdd",
+        "resultFileName": "WebServiceTesting",
+        "sign": "scenarios.suite1.bdd.WebServiceTesting()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]"
+      },
+      "dependsOn": [],
+      "startTime": 1589749563572,
+      "duration": 1319,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "WebServiceTesting Scenario",
+        "groups": [
+          "SMOKE"
+        ],
+        "lineNo": 1.0,
+        "name": "WebServiceTesting",
+        "referece": "scenarios/suite1.bdd",
+        "resultFileName": "WebServiceTestinguUhJgJzDCP",
+        "sign": "scenarios.suite1.bdd.WebServiceTesting()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]"
+      },
+      "dependsOn": [],
+      "startTime": 1589749624405,
+      "duration": 1215,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "WebServiceTesting Scenario",
+        "groups": [
+          "SMOKE"
+        ],
+        "lineNo": 1.0,
+        "name": "WebServiceTesting",
+        "referece": "scenarios/suite1.bdd",
+        "resultFileName": "WebServiceTestingCckorZQnfs",
+        "sign": "scenarios.suite1.bdd.WebServiceTesting()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]"
+      },
+      "dependsOn": [],
+      "startTime": 1589749658327,
+      "duration": 1272,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "WebServiceTesting Scenario",
+        "groups": [
+          "SMOKE"
+        ],
+        "lineNo": 1.0,
+        "name": "WebServiceTesting",
+        "referece": "scenarios/suite1.bdd",
+        "resultFileName": "WebServiceTestingwmldJChbZk",
+        "sign": "scenarios.suite1.bdd.WebServiceTesting()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]"
+      },
+      "dependsOn": [],
+      "startTime": 1589749673768,
+      "duration": 1174,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "WebServiceTesting Scenario",
+        "groups": [
+          "SMOKE"
+        ],
+        "lineNo": 1.0,
+        "name": "WebServiceTesting",
+        "referece": "scenarios/suite1.bdd",
+        "resultFileName": "WebServiceTestingMMSHMfMFPI",
+        "sign": "scenarios.suite1.bdd.WebServiceTesting()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]"
+      },
+      "dependsOn": [],
+      "startTime": 1589749706260,
+      "duration": 1198,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "WebServiceTesting Scenario",
+        "groups": [
+          "SMOKE"
+        ],
+        "lineNo": 1.0,
+        "name": "WebServiceTesting",
+        "referece": "scenarios/suite1.bdd",
+        "resultFileName": "WebServiceTestingnYhLluRKLC",
+        "sign": "scenarios.suite1.bdd.WebServiceTesting()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]"
+      },
+      "dependsOn": [],
+      "startTime": 1589751258053,
+      "duration": 1611,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "WebServiceTesting Scenario",
+        "groups": [
+          "SMOKE"
+        ],
+        "lineNo": 1,
+        "name": "WebServiceTesting",
+        "referece": "scenarios/suite1.bdd",
+        "resultFileName": "WebServiceTestingchoVMIiRvR",
+        "sign": "scenarios.suite1.bdd.WebServiceTesting()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]"
+      },
+      "dependsOn": [],
+      "startTime": 1589779930662,
+      "duration": 1496,
+      "result": "fail",
+      "passPer": 0.0
+    }
+  ]
+}

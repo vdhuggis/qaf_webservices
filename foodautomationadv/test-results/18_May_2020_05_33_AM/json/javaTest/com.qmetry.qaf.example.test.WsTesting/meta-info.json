@@ -1,0 +1,38 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "Validate Get Result",
+        "groups": [],
+        "name": "getCallTest",
+        "resultFileName": "GetCallTest",
+        "sign": "WsTesting.getCallTest()[pri:0, instance:com.qmetry.qaf.example.test.WsTesting@1ee807c6]"
+      },
+      "dependsOn": [],
+      "startTime": 1589820430951,
+      "duration": 2124,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "Validate Get Result",
+        "groups": [],
+        "name": "getCallTest",
+        "resultFileName": "GetCallTestEDDWhGyxti",
+        "sign": "WsTesting.getCallTest()[pri:0, instance:com.qmetry.qaf.example.test.WsTesting@1ee807c6]"
+      },
+      "dependsOn": [],
+      "startTime": 1589820578043,
+      "duration": 1089,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

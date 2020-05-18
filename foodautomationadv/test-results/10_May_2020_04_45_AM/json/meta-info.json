@@ -1,0 +1,13 @@
+{
+  "name": "Food Recipe Automation",
+  "status": "pass",
+  "tests": [
+    "BDDTest"
+  ],
+  "total": 6,
+  "pass": 6,
+  "fail": 0,
+  "skip": 0,
+  "startTime": 1589148093823,
+  "endTime": 1589148397198
+}
